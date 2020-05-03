@@ -1,0 +1,7 @@
+# Generated files by hugo
+/public/
+/resources/_gen/assets/scss/
+
+# macOS
+.DS_Store
+themes/casper3

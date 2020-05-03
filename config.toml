@@ -1,0 +1,113 @@
+baseURL = ""
+title = "Badminton Club Montigny-le-Bretonneux"
+author = "Thomas M"
+copyright = ""
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+theme = "personal"
+
+[params]
+  facebook = ""
+  description = ""
+  mainSections = ["post"]
+
+[menu]
+  [[menu.main]]
+    identifier = "club"
+    name = "Le club"
+    url = "/club/"
+    weight = 10
+  [[menu.main]]
+    identifier = "presentation"
+    name = "Présentation"
+	parent = "club"
+    url = "/club/presentation"
+    weight = 10
+  [[menu.main]]
+    identifier = "lieux_horaires"
+    name = "Lieux et Horaires"
+	parent = "club"
+    url = "/club/presentation"
+    weight = 10
+  [[menu.main]]
+    identifier = "organigramme"
+    name = "Le bureau"
+	parent = "club"
+    url = "/club/presentation"
+    weight = 10
+  [[menu.main]]
+    identifier = "inscription"
+    name = "Sínscrire"
+	parent = "club"
+    url = "/club/presentation"
+    weight = 10
+  [[menu.main]]
+    identifier = "competiteurs"
+    name = "Compétiteurs"
+    url = "/competiteurs/"
+    weight = 20
+  [[menu.main]]
+    identifier = "interclubs"
+	parent = "competiteurs"
+    name = "Interclubs"
+    url = ""
+    weight = 20	
+  [[menu.main]]
+    identifier = "tournois"
+	parent = "competiteurs"
+    name = "Tournois"
+    url = ""
+    weight = 20	
+	
+  [[menu.main]]
+    identifier = "loisirs"
+    name = "Loisirs"
+    url = "/loisirs/"
+    weight = 30
+  [[menu.main]]
+    identifier = "jeunes"
+    name = "Jeunes"
+    url = ""
+    weight = 40
+
+  [[menu.main]]
+	identifier = "skybad"
+	name = "SkyBad"
+	url = ""
+	weight = 50
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+

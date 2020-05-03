@@ -1,0 +1,34 @@
+<div role="navigation" class="navbar navbar-default">
+	<div class="container">
+			<div class="logo">
+		</div>
+		<div class="navbar-header"><a href="" class="navbar-brand">BCMB</a>
+			<div class="navbar-buttons">
+			<button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
+			</div>
+		</div>
+		<div id="navigation" class="collapse navbar-collapse navbar-right">
+			<ul class="nav navbar-nav">
+
+				{{ range $.Site.Menus.main }}
+					{{ if .HasChildren }}
+							
+						<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">{{ .Name }} <b class="caret"></b></a>
+				  
+							<ul class="dropdown-menu">
+								{{ range .Children }}
+									<li> <a href="{{ .URL }}">{{ .Name }}</a></li>
+								{{ end }}
+							</ul>
+						</li>
+					{{ else }}
+						<li class=""> <a href="{{ .URL }}">{{- .Name -}}</a> </li>
+					{{ end }}
+				{{ end }}
+
+			</ul>
+		</div>
+
+	</div>
+
+</div>

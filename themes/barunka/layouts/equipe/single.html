@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+
+	 <!-- navbar-->
+		<header class="header">
+
+			{{- partial "site-nav.html" . -}}
+
+		</header>
+		<div class="banner">
+			<div class="overlay">
+
+				<h1>{{.Title}}</h1>
+			</div>
+		</div>
+
+		<section>
+		  <div class="container">
+						
+			<p>  {{.Params.text | markdownify}} <p>
+		  </div>
+		</section>
+		<section>
+		  <div class="container">
+			
+			<div class="row">
+			
+				<h2>Joueurs </h2>
+				  {{ range $index, $element := .Params.joueurs }}
+				  
+				  <p>{{ $element.nom }} </p>
+
+				  {{ end }}	
+
+				<h2> Calendrier et Résultats </h2>
+
+					{{ if .Params.iframe }}
+                        <article class="box page-content">
+							<iframe src="{{ .Params.iframe}}" frameborder="0" style="overflow:hidden;width:100%" height="1000" width="100%"></iframe>
+                        </article>    
+					{{ end }}	
+
+
+			</div>
+		  </div>
+		</section>
+
+
+
+	
+{{ end }}

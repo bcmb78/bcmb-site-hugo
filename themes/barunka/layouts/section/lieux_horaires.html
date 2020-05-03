@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+
+	 <!-- navbar-->
+		<header class="header">
+
+			{{- partial "site-nav.html" . -}}
+
+		</header>
+		<div class="banner">
+			<div class="overlay">
+
+				<h1>{{.Title}}</h1>
+			</div>
+		</div>
+
+		<section>
+		  <div class="container">
+						
+			<p>  {{.Params.text | markdownify}} <p>
+		  </div>
+		</section>
+		<section>
+		  <div class="container">
+			
+			<div class="row">
+			
+				<h2> Nos créneaux</h2>
+				{{ range $index, $element := .Params.horaire }}
+				
+				<p> {{ $element.jour }} {{ $element.heure }} {{ $element.lieu }} {{ $element.description }}</p>
+				
+				{{ end }}
+
+				<h2> Nos gynmases </h2>
+
+				{{ range $index, $element := .Params.lieu }}
+							  
+				<p>{{ $element.heading }}  {{ $element.text }} </p>
+
+				{{ end }}
+
+
+			</div>
+		  </div>
+		</section>
+
+
+
+	
+{{ end }}
+
+

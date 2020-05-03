@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+
+<section id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+
+					<!-- Content -->
+
+						<article class="box page-content">
+
+							<header>
+								<h2>{{.Title}} </h2>
+								
+
+
+							</header>
+                            
+                            <div class="row">
+							
+							
+                            {{ range $index, $element := .Params.lien }}
+									<p> {{ .Params.lien.nom}}</p>
+
+							{{ end }}
+							
+
+
+
+							
+						</article>
+                        
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+				
+
+
+{{ end }}

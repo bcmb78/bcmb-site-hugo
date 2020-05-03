@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+		<section id="header">
+			{{- partial "site-nav.html" . -}}
+
+				<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>Bienvenue sur le site du BCMB</h2>
+						<p>Badminton Club Montigny-le-Bretonneux</p>
+					</header>
+				</section>
+
+
+		</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								
+								<header>
+									<h2>{{.Title}}</h2>
+									<p>{{.Description}}</p>
+								</header>
+								<p>
+									{{.Content}}
+								</p>
+
+							</article>
+
+					</div>
+				</section>
+
+{{- partial "site-footer.html" -}}
+
+</div>
+
+
+
+{{ end }}
