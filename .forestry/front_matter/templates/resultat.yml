@@ -45,3 +45,5 @@ fields:
     schema:
       format: markdown
   label: description
+pages:
+- content/resultat/interclubs-départementaux-j6.md
