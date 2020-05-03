@@ -70,13 +70,13 @@ theme = "personal"
   [[menu.main]]
     identifier = "jeunes"
     name = "Jeunes"
-    url = ""
+    url = "/jeunes/"
     weight = 40
 
   [[menu.main]]
 	identifier = "skybad"
 	name = "SkyBad"
-	url = ""
+	url = "/skybad/"
 	weight = 50
 
 [taxonomies]
