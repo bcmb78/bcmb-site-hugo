@@ -15,11 +15,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/skybad
-  label: Skybad
-  create: all
-  match: "**/*"
-- type: directory
   path: content/resultat
   label: Resultat
   create: all
@@ -32,11 +27,6 @@ sections:
 - type: directory
   path: content/loisirs
   label: Loisirs
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/jeunes
-  label: Jeunes
   create: all
   match: "**/*"
 - type: directory
@@ -57,11 +47,6 @@ sections:
 - type: directory
   path: content/documents_liens
   label: Documents liens
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact
   create: all
   match: "**/*"
 - type: directory
