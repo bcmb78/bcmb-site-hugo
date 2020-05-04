@@ -827,6 +827,7 @@ td, th {
 
 .wrapper{
 	flex: 1 0 auto;
+	padding-top: 5em;
 }
 
 /*---------- Start Elements Page -------------*/
@@ -2487,7 +2488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .fullscreen {
-  height: 750px !important;
+  height: 500px !important;
 }
 
 .banner-left h6 {
@@ -2824,6 +2825,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-testimonial {
+
   background-color: #fff;
   padding: 25px 30px 12px 30px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2838,6 +2840,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-testimonial .thumb {
   margin-right: 30px;
+  max-height: 10em;
 }
 
 .single-testimonial h4 {
@@ -3094,7 +3097,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-content {
-  margin-top: 70px;
+  margin-top: 0px;
   padding: 90px 0px;
   text-align: center;
 }
@@ -3409,7 +3412,8 @@ dl.accordion.time-line:before {
 /* =================================== */
 /*============ Start Blog Home Styles  =============*/
 .blog-home-banner {
-  background: url(../../img/banner.png) bottom;
+  background: url(../../img/banner.png) top;
+  height: 20%;
   background-size: cover;
   padding: 130px 0px;
 }

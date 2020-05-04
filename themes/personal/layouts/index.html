@@ -1,20 +1,5 @@
 {{ define "main" }}
-			<!-- start banner Area -->
-			<section class="banner-area relative blog-home-banner" id="home">	
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content blog-header-content col-lg-12">
-							<h1 class="text-white">
-								Badminton Club Montigny-le-Bretonneux		
-							</h1>	
 
-							
-						</div>	
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->
 			
 			
 			<!-- Start recent-blog Area -->
@@ -69,63 +54,36 @@
 			
 
 
-
-
-
-
-
-			<!-- Start portfolio-area Area -->
-            <section class="portfolio-area section-gap" id="portfolio">
-                <div class="container">
+		    <section class="testimonial-area">
+		        <div class="container">
 		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-20 col-lg-8">
+		                <div class="menu-content pb-70 col-lg-8">
 		                    <div class="title text-center">
-		                        <h1 class="mb-10">Résultats</h1>
-		                        
+		                        <h1 class="mb-10">Derniers resultats</h1>		                        
 		                    </div>
 		                </div>
 		            </div>
-                    
-                    <div class="filters">
-                        <ul>
-                            <li class="active" data-filter="*">Tous</li>
-                            <li data-filter=".tournoi">Tournoi</li>
-                            <li data-filter=".jeunes">Jeunes</li>
-                            <li data-filter=".interclub">Interclubs</li>
-
-                        </ul>
-                    </div>
-                    
-                    <div class="filters-content">
-                        <div class="row grid">
-						{{ range first 6 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
-                            <div class="single-portfolio col-sm-4 all {{ .Params.type}}">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src={{ .Params.image }} alt="">
-	                            	</div>
-									<a href="img/p1.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex">
-										<h4> {{ .Title }}</h4>													
-										</div>
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-
-								</div>					                               
-                            </div>
-						{{ end }}
+		            <div class="row">
+		                <div class="active-testimonial">
+						{{ range first 4 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="thumb">
+		                            <img class="img-fluid" src={{ .Params.image }} alt="">
+		                        </div>
+		                        <div class="desc">
+		                            
+		                            <h4>{{ .Title }}</h4>
+		                            <p>{{ .Description }}</p>
+		                        </div>
+		                    </div>
+						{{end}}
+		                </div>
+		            </div>
+		        </div>
+		    </section>
 
 
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-            <!-- End portfolio-area Area -->	
+	
 
 			<!-- Start portfolio-area Area -->
             <section class="portfolio-area section-gap" id="portfolio">
