@@ -1,10 +1,11 @@
 ---
 title: Interclubs départementaux J3
-date: 2019-11-28 12:41:22.979000000 Z
+date: 2019-11-28T12:41:22.979+00:00
 image: "/img/thumb_act1img_70.png"
 type: interclub
----
+description: ''
 
+---
 *  Victoire 7-0 de l'équipe 2 contre Voisins 3
 * Victoire 6-1 de l'équipe 3 contre Villennes 1
 * Défaite 1-6 de l'équipe 4 contre Chatou 1

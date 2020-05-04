@@ -1,10 +1,11 @@
 ---
 title: Interclubs départementaux J6
-date: 2019-12-26 12:41:22.979000000 Z
+date: 2019-12-26T12:41:22.979+00:00
 image: "/img/mascotte1.jpg"
 type: interclub
----
+description: ''
 
+---
 * Équipe 2: Victoire 7-0 contre Maisons-laffitte 4
 * Équipe 3: Victoire 4-3 contre Rambouillet 2
 * Équipe 4: Victoire 4-3 contre Triel 1
