@@ -20,6 +20,23 @@
 			<!-- Start recent-blog Area -->
 			<section class="recent-blog-area section-gap">
 				<div class="container">
+				
+				{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
+					<div class="row align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 home-about-left">
+							<img class="img-fluid" src={{ .Params.image }} alt="">
+						</div>
+						<div class="col-lg-5 col-md-6 home-about-right">
+							<h6>A la une</h6>
+							<h1 class="text-uppercase">{{ .Title }}</h1>
+							<p>
+								{{ .Description }}
+							</p>
+							<a href="#" class="primary-btn text-uppercase">View Full Details</a>
+						</div>
+
+					</div>
+				{{ end }}
 					<div class="row justify-content-center">
 						<div class="col-md-8 pb-30 header-text">
 							<h1>Actualités</h1>
