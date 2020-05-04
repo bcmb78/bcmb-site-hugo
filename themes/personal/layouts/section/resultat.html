@@ -1,16 +1,25 @@
 {{ define "main" }}
 
 
+			<!-- start banner Area -->
+			<section class="relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content blog-header-content col-lg-12">
+							<h1 class="text-white">	Résultats </h1>	
+							
+							
+
+						</div>	                          
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
             <section class="portfolio-area section-gap" id="portfolio">
                 <div class="container">
-		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-20 col-lg-8">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Résultats</h1>
-		                        
-		                    </div>
-		                </div>
-		            </div>
+
                     
                     <div class="filters">
                         <ul>
@@ -24,7 +33,7 @@
                     
                     <div class="filters-content">
                         <div class="row grid">
-						{{ range (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
+						{{ range (where $.Site.RegularPages "Section" "resultat").ByPublishDate.Reverse }}
                             <div class="single-portfolio col-sm-4 all {{ .Params.type}}">
                             	<div class="relative">
 	                            	<div class="thumb">
