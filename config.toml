@@ -27,22 +27,22 @@ theme = "personal"
     url = "/club/presentation"
     weight = 10
   [[menu.main]]
-    identifier = "lieux_horaires"
-    name = "Lieux et Horaires"
-	parent = "club"
-    url = "/club/presentation"
-    weight = 10
-  [[menu.main]]
-    identifier = "organigramme"
+    identifier = "bureau"
     name = "Le bureau"
 	parent = "club"
-    url = "/club/presentation"
+    url = "/club#bureau"
+    weight = 10
+  [[menu.main]]
+    identifier = "lieux_horaires"
+    name = "Créneaux"
+	parent = "club"
+    url = "/club#créneaux"
     weight = 10
   [[menu.main]]
     identifier = "inscription"
     name = "Sínscrire"
 	parent = "club"
-    url = "/club/presentation"
+    url = "/club#inscription"
     weight = 10
   [[menu.main]]
     identifier = "competiteurs"
