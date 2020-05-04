@@ -45,7 +45,7 @@
 					</div>
 					<div class="row">
 					
-							{{ range first 3 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
+							{{ range first 3 (after 1 (where $.Site.Pages "Section" "post")).ByPublishDate.Reverse }}
 
 					
 						<div class="single-recent-blog col-lg-4 col-md-4">
