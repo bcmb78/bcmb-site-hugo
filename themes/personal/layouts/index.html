@@ -21,61 +21,48 @@
 			<section class="recent-blog-area section-gap">
 				<div class="container">
 				
-				{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
+				
 					<div class="row align-items-left justify-content-between">
-						<div class="col-lg-6 col-md-6 home-about-left">
+					{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
+						<div class="col-lg-4 col-md-6 home-about-left">
 							<img class="img-fluid" src={{ .Params.image }} alt="">
 						</div>
-						<div class="col-lg-5 col-md-6 home-about-right">
+						<div class="col-lg-4 col-md-6 home-about-right">
 							<h6>A la une</h6>
 							<h1 class="text-uppercase">{{ .Title }}</h1>
 							<p>
 								{{ .Description }}
 							</p>
-							<a href="#" class="primary-btn text-uppercase">View Full Details</a>
-						</div>
-
-					</div>
-				{{ end }}
-					<div class="row justify-content-center">
-						<div class="col-md-8 pb-30 header-text">
-							<h1>Actualités</h1>
 							
 						</div>
-					</div>
-					<div class="row">
-					
-							{{ range first 3 (after 1 (where $.Site.Pages "Section" "post")).ByPublishDate.Reverse }}
-
-					
-						<div class="single-recent-blog col-lg-4 col-md-4">
-							<div class="thumb">
-								<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
-							</div>
-<!-- 							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-								<div>
-									<img class="img-fluid" src="img/user.png" alt="">
-									<a href="#"><span>Mark Wiens</span></a>
+						{{ end }}
+						<div class="col-lg-4 col-md-6 home-about-right">
+							
+							<div class="single-sidebar-widget popular-post-widget">								
+									
+									<div class="popular-post-list">
+									
+									{{ range first 3 (after 1 (where $.Site.RegularPages "Section" "post")).ByPublishDate.Reverse }}
+										<div class="single-post-list d-flex flex-row align-items-center">
+											<div class="thumb">
+												<img class="img-fluid" src={{ .Params.image }} alt="">
+											</div>
+											<div class="details">
+												<a href=""><h5>{{ .Title }}</h5></a>
+												<p></p>
+											</div>
+										</div>
+									{{ end }}
+														
+									</div>
 								</div>
-								<div class="meta">
-									13th Dec
-									<span class="lnr lnr-heart"></span> 15
-									<span class="lnr lnr-bubble"></span> 04
-								</div>
-							</div> -->							
-							<a href="#">
-								<h4>{{ .Title }}</h4>
-							</a>
-<!-- 							<p>
-								{{ .Description }}
-							</p> -->
+							
 						</div>
-						
-						{{end}}	
-										
-											
-												
+
 					</div>
+				
+
+
 				</div>	
 			</section>
 			<!-- end recent-blog Area -->		
