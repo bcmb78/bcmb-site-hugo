@@ -1,19 +1,35 @@
 {{ define "main" }}
 
-			
+			<!-- <!-- start banner Area -->
+			<section class="banner-area relative blog-home-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+					<div class="container">				
+						<div class="row d-flex align-items-center justify-content-center">
+							<div class="blog-header-content col-lg-12">
+								<h1 class="text-white">	{{.Title}}		</h1>	
+							
+							</div>	
+						</div>
+					</div>
+				
+			</section>
+		
 			
 			<!-- Start recent-blog Area -->
-			<section class="recent-blog-area section-gap">
+			<section class="section-gap">
 				<div class="container">
 				
-				
+					<div class="col-md-8 pb-20">
+						<h1>Actus</h1>
+					</div>
 					<div class="row align-items-left justify-content-between">
-					{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
+						
+						{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
 						<div class="col-lg-4 col-md-6 home-about-left">
 							<img class="img-fluid" src={{ .Params.image }} alt="">
 						</div>
-						<div class="col-lg-4 col-md-6 home-about-right">
-							<h6>A la une</h6>
+						<div class="col-lg-4 col-md-6 home-about-middle">
+							
 							<h1 class="text-uppercase">{{ .Title }}</h1>
 							<p>
 								{{ .Description }}
@@ -29,16 +45,16 @@
 									
 									{{ range first 3 (after 1 (where $.Site.RegularPages "Section" "post")).ByPublishDate.Reverse }}
 										<div class="single-post-list d-flex flex-row align-items-center">
-											<div class="thumb">
+											<div class="col-lg-6">
 												<img class="img-fluid" src={{ .Params.image }} alt="">
 											</div>
-											<div class="details">
+											<div class="col-lg-6">
 												<a href=""><h5>{{ .Title }}</h5></a>
-												<p></p>
+												
 											</div>
 										</div>
 									{{ end }}
-														
+											
 									</div>
 								</div>
 							
@@ -54,55 +70,49 @@
 			
 
 
-		    <section class="testimonial-area">
-		        <div class="container">
-		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-70 col-lg-8">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Derniers resultats</h1>		                        
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="row">
-		                <div class="active-testimonial">
-						{{ range first 4 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
-		                    <div class="single-testimonial item d-flex flex-row">
-		                        <div class="thumb">
-		                            <img class="img-fluid" src={{ .Params.image }} alt="">
-		                        </div>
-		                        <div class="desc">
-		                            
-		                            <h4>{{ .Title }}</h4>
-		                            <p>{{ .Description }}</p>
-		                        </div>
-		                    </div>
-						{{end}}
-		                </div>
-		            </div>
-		        </div>
-		    </section>
 
+			
+			
 
-	
+			<!-- Start recent-blog Area -->	
+			<section class="section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 pb-20">
+							<h1>Résulats</h1>
+								<div class="row ">	
+								{{ range first 2 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
+								<div class="single-recent-blog col-lg-6 col-md-4">
+									<div class="thumb resultats">
+										<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
+									</div>
+								
+									<a href="#">
+										<h4>{{.Title}}</h4>
+									</a>
+									<p>
+										{{ .Description }}
+									</p>
+								</div>
+								{{end}}				
+													
+														
+								</div>
+								</div>
+						<div class="col-md-6 pb-20 header-text">
+							<h1> Evènements </h1>
+						
+						</div>
+						</div>
+						
+				</div>
 
-			<!-- Start portfolio-area Area -->
-            <section class="portfolio-area section-gap" id="portfolio">
-                <div class="container">
-		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-20 col-lg-8">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Calendrier </h1>
-		                        
-		                    </div>
-		                </div>
-		            </div>
-                    
-                    
-                </div>
-            </section>
-            <!-- End Calendar Area -->	
+					
+			</section>
+			<!-- end recent-blog Area -->
 
 	
+
 
 		    <!-- Start brands Area -->
 		    <section class="brands-area">

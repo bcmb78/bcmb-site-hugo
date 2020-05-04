@@ -827,7 +827,8 @@ td, th {
 
 .wrapper{
 	flex: 1 0 auto;
-	padding-top: 5em;
+	padding-top: 6em;
+	padding-bottom: 8em;
 }
 
 /*---------- Start Elements Page -------------*/
@@ -2092,6 +2093,7 @@ margin-left: auto;
 
 #header {
   position: fixed;
+  height: 6em;
   left: 0;
   top: 0;
   right: 0;
@@ -2540,20 +2542,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- End Banner Area ------------*/
 /*-------- Start home-about Area ------------*/
+.home-about-right {
+  max-height: 20rem;
+  overflow: hidden;
+}
+.home-about-right  img{
+  max-height: 6rem;
+  overflow: hidden;
+}
+.home-about-middle {
+   
+  max-height: 20em;
+
+  text-align: justify;
+  overflow: hidden;
+
+}
+
 @media (max-width: 767px) {
   .home-about-right {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 
-.home-about-right h6 {
-  margin-bottom: 30px;
+.home-about-right,.home-about-middle h6 {
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: 400;
 }
 
-.home-about-right h1 {
-  margin-bottom: 40px;
+.home-about-right, .home-about-middle h1 {
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 @media (max-width: 991px) {
@@ -2562,9 +2582,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.home-about-right p {
+.home-about-middle p {
   margin-bottom: 30px;
-  max-width: 445px;
+  max-width: 30em;
+  line-height: 2em;
+  max-height: 12em; 
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+  overflow: hidden;
+  position: relative; 
 }
 
 .home-about-right .primary-btn:hover {
@@ -2963,6 +2990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- start recent-blog Area -------------*/
 .recent-blog-area {
   background: #f9f9ff;
+
 }
 
 .recent-blog-area h1 {
@@ -2977,18 +3005,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+
 .single-recent-blog .thumb {
   overflow: hidden;
+  
 }
 
-.single-recent-blog .thumb img {
-  width: 100%;
+.resultats.thumb img{
+  max-height:10em;  
+  display: block;
 }
+
 
 .single-recent-blog h4 {
+  text-align: center;
+  font-size: 1.1em;
   text-transform: uppercase;
   font-weight: 600;
-  margin-top: 35px;
+  margin-top: 15px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -3006,7 +3040,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-recent-blog p {
   text-align: left;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .single-recent-blog .bottom {
@@ -3059,7 +3093,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- end recent-blog Area -------------*/
 /*--------- start brand Area -------------*/
 .brands-area {
-  padding: 80px 0;
+  padding: 2em;
+
 }
 
 .brands-area .brand-wrap .owl-carousel .owl-item img {
@@ -3413,9 +3448,9 @@ dl.accordion.time-line:before {
 /*============ Start Blog Home Styles  =============*/
 .blog-home-banner {
   background: url(../../img/banner.png) top;
-  height: 20%;
+  height: 30%;
   background-size: cover;
-  padding: 130px 0px;
+  padding: 0px 0px;
 }
 
 .blog-home-banner .primary-btn {
@@ -3445,7 +3480,10 @@ dl.accordion.time-line:before {
 }
 
 .blog-header-content h1 {
-  max-width: 500px;
+  margin-top: 2%;
+  font-size: 6em ;
+  text-align: center;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3455,6 +3493,7 @@ dl.accordion.time-line:before {
     font-size: 30px;
   }
 }
+
 
 .blog-header-content p {
   margin: 20px 0px;
@@ -3800,9 +3839,13 @@ dl.accordion.time-line:before {
 .widget-wrap .popular-post-widget .popular-post-list {
   margin-top: 30px;
 }
-
+.popular-post-list  img {
+  width: 100%;
+  margin-top: 0.5em;
+}
 .widget-wrap .popular-post-widget .popular-post-list .thumb img {
   width: 100%;
+  margin-top: 0.2em;
 }
 
 .widget-wrap .popular-post-widget .single-post-list {
@@ -4374,14 +4417,16 @@ dl.accordion.time-line:before {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
+  height: 10em;
   padding-top: 2em;
   padding-bottom: 0.5em;
   background-color: #04091e;
+  text-align: center;
 }
 
 .single-footer-widget h4 {
   color: #fff !important;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-weight: 500;
 }
 
@@ -4524,7 +4569,7 @@ dl.accordion.time-line:before {
 }
 
 .footer-bottom {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .footer-bottom .footer-social {
@@ -4556,4 +4601,5 @@ flex-shrink: 0;
 }
 
 /*-------- end footer Area -------------*/
+
 .members{margin-top:2em;}

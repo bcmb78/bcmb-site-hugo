@@ -20,53 +20,70 @@ theme = "personal"
     name = "Le club"
     url = "/club/"
     weight = 10
+	
+  [[menu.main]]
+    identifier = "actu"
+    name = "Actualités"
+    url = "/actu/"
+    weight = 20
+	
+  [[menu.main]]
+    identifier = "events"
+    name = "Evènements"
+    url = "/events/"
+    weight = 30
+	
   [[menu.main]]
     identifier = "presentation"
     name = "Présentation"
 	parent = "club"
     url = "/club/presentation"
-    weight = 10
+    weight = 11
   [[menu.main]]
     identifier = "bureau"
     name = "Le bureau"
 	parent = "club"
     url = "/club#bureau"
-    weight = 10
+    weight = 12
   [[menu.main]]
-    identifier = "lieux_horaires"
+    identifier = "lieux"
     name = "Créneaux"
 	parent = "club"
-    url = "/club#créneaux"
-    weight = 10
+    url = "/club#creneaux"
+    weight = 13
+  [[menu.main]]
+    identifier = "horaires"
+    name = "Gymnases"
+	parent = "club"
+    url = "/club#gymnases"
+    weight = 14
   [[menu.main]]
     identifier = "inscription"
-    name = "Sínscrire"
+    name = "S'inscrire"
 	parent = "club"
     url = "/club#inscription"
-    weight = 10
-  [[menu.main]]
-    identifier = "competiteurs"
-    name = "Compétiteurs"
-    url = "/competiteurs/"
-    weight = 20
-  [[menu.main]]
-    identifier = "interclubs"
-	parent = "competiteurs"
-    name = "Interclubs"
-    url = ""
-    weight = 20	
-  [[menu.main]]
-    identifier = "tournois"
-	parent = "competiteurs"
-    name = "Tournois"
-    url = ""
-    weight = 20	
+    weight = 15
 	
   [[menu.main]]
+    identifier = "adultes"
+    name = "Adultes"
+    url = ""
+    weight = 40
+  [[menu.main]]
+    identifier = "interclubs"
+	parent = "adultes"
+    name = "Interclubs"
+    url = ""
+    weight = 41
+
+  [[menu.main]]
     identifier = "loisirs"
+	parent = "adultes"
     name = "Loisirs"
     url = "/loisirs/"
-    weight = 30
+    weight = 42
+	
+
   [[menu.main]]
     identifier = "jeunes"
     name = "Jeunes"
