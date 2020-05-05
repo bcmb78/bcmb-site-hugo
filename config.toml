@@ -6,8 +6,9 @@ languageCode = "fr"
 DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-
+buildFuture = true
 theme = "personal"
+disqusShortname = "bcmb78"
 
 [params]
   facebook = ""

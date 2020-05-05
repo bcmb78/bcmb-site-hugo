@@ -17,9 +17,9 @@
 			
 			<!-- Start recent-blog Area -->
 			<section class="section-gap">
-				<div class="container">
+				<div class="container" style="border:solid 1px;">
 				
-					<div class="col-md-8 pb-20">
+					<div class="col-md-8 pb-20" >
 						<h1>Actus</h1>
 					</div>
 					<div class="row align-items-left justify-content-between">
@@ -76,49 +76,57 @@
 
 			<!-- Start recent-blog Area -->	
 			<section class="section-gap">
-				<div class="container">
+				<div class="container"  >
 					<div class="row">
-						<div class="col-md-6 pb-20">
-							<h1>Résulats</h1>
+						<div class="col-md-4 pb-20" style="border:solid 1px;">
+							<h1 class="pb-20" style="text-align:center">Tournois</h1>
 								<div class="row ">	
 								{{ range first 2 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
-								<div class="single-recent-blog col-lg-6 col-md-4">
-									<div class="thumb resultats">
+								<div class="row single-recent-blog col-lg-12 col-md-6">
+									<div class="col-md-4 thumb resultats">
 										<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
 									</div>
-								
-									<a href="#">
-										<h4>{{.Title}}</h4>
-									</a>
-									<p>
-										{{ .Description }}
-									</p>
+									<div class="col-md-8">
+										<a href="#">
+											<h4>{{.Title}}</h4>
+											
+										</a>
+									</div>
 								</div>
 								{{end}}				
 													
 														
 								</div>
-								</div>
-						<div class="col-md-6 pb-20 header-text">
-							<h1> Evènements </h1>
+						</div>
+								
+						<div class="col-md-4 pb-20" style="border:solid 1px;">
+							<h1 class="pb-20" style="text-align:center">Interclubs</h1>
+						</div>
+						<div class="col-md-4 pb-20 header-text" style="border:solid 1px;">
+							<h1 class="pb-20" style="text-align:center"> Evènements </h1>
+							{{ $mymonths := index $.Site.Data.mois }}
+							<div class="typo-sec">
+								<ul class="event_list">
+									
+
+								
 							
-							<ul class="upcoming-events">
-							{{ range where .RegularPages.ByDate "Section" "event" }}
-								
-									<li>
-									<!-- add span for event type -->
-									  <span>{{ .Type | title }} —</span>
-									  {{ .Title }} on
-									<!-- add span for event date -->
-									  <span>{{ .Date.Format "2 January at 3:04pm" }}</span>
-									  at {{ .Params.place }}
-									</li>
-								
-							{{ end }}
+							{{ $events := where .Site.RegularPages "Section" "event" }}
+							{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+							{{- range $events.Reverse -}}
+								<li> <div class="row list_event">
+										<div class="date_event">
+										{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} 
+										</div> 
+										<h3>{{ .Title }} </h3> 
+									</div> 
+								</li>
+							{{- end -}}
 							</ul>
-						
+							</div>
 						</div>
-						</div>
+
+					</div>
 						
 				</div>
 
@@ -153,7 +161,7 @@
 		    </section>
 		    <!-- End brands Area -->			
 
-
+{{ template "_internal/disqus.html" . }}
 
 			
 {{end}}

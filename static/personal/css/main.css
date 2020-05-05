@@ -1442,6 +1442,12 @@ margin-left: auto;
   color: #777777;
 }
 
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
 .single-input {
   display: block;
   width: 100%;
@@ -4601,5 +4607,28 @@ flex-shrink: 0;
 }
 
 /*-------- end footer Area -------------*/
+.date_event{
+background-color: #69f;
+color: #fff;
+width:3em;
+height: 3em;
+text-align:center;
+border-radius: 20%;
+margin-right: 0.5em;
+padding-top:0.5em;
+font-size: 1.5em
+}
+
+.list_event h3{
+padding-top:1em;
+font-size: 1em;
+width:10em;
+}
+
+
+.list_event{
+  margin-top:1em;
+  width:80%;
+}
 
 .members{margin-top:2em;}
