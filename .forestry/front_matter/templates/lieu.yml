@@ -7,14 +7,30 @@ fields:
   label: lieu
   fields:
   - type: text
-    name: heading
-    label: heading
-  - type: file
-    name: imageUrl
-    label: imageUrl
-  - type: textarea
-    name: map
-    label: map
-  - type: text
-    name: text
-    label: text
+    name: nom
+    label: nom
+  - name: adresse
+    type: text
+    config:
+      required: false
+    label: adresse
+  - name: telephone
+    type: number
+    label: telephone
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: infos
+    type: text
+    config:
+      required: false
+    label: infos
