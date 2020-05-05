@@ -1,0 +1,19 @@
+---
+label: Evenement
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: e_date
+  label: e_date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
