@@ -17,7 +17,7 @@
 			
 			<!-- Start recent-blog Area -->
 			<section class="section-gap">
-				<div class="container" style="border:solid 1px;">
+				<div class="container" >
 				
 					<div class="col-md-8 pb-20" >
 						<h1>Actus</h1>
@@ -78,7 +78,7 @@
 			<section class="section-gap">
 				<div class="container"  >
 					<div class="row">
-						<div class="col-md-4 col-md-12 pb-20" style="border:solid 1px;">
+						<div class="col-md-4 col-md-12 pb-20" >
 							<h1 class="pb-20" style="text-align:center">Tournois</h1>
 								<div class="row ">	
 								{{ range first 2 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
@@ -99,10 +99,10 @@
 								</div>
 						</div>
 								
-						<div class="col-md-4 col-md-12 pb-20" style="border:solid 1px;">
+						<div class="col-md-4 col-md-12 pb-20" >
 							<h1 class="pb-20" style="text-align:center">Interclubs</h1>
 						</div>
-						<div class="col-md-4 col-md-12 pb-20 header-text" style="border:solid 1px;">
+						<div class="col-md-4 col-md-12 pb-20 header-text" >
 							<h1 class="pb-20" style="text-align:center"> Evènements </h1>
 							{{ $mymonths := index $.Site.Data.mois }}
 							<div class="typo-sec">
