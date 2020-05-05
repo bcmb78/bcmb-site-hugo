@@ -1,0 +1,20 @@
+---
+label: Lieu
+hide_body: true
+fields:
+- type: field_group_list
+  name: lieu
+  label: lieu
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: file
+    name: imageUrl
+    label: imageUrl
+  - type: textarea
+    name: map
+    label: map
+  - type: text
+    name: text
+    label: text
