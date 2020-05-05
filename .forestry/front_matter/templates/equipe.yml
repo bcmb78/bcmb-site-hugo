@@ -1,0 +1,32 @@
+---
+label: Equipe
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: division
+  label: division
+- type: text
+  name: iframe
+  label: iframe
+- type: field_group_list
+  name: joueurs
+  label: joueurs
+  fields:
+  - type: text
+    name: nom
+    label: nom
+  - type: text
+    name: rankD
+    label: rankD
+  - type: text
+    name: rankMx
+    label: rankMx
+  - type: text
+    name: rankS
+    label: rankS
