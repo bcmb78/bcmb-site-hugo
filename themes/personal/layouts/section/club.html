@@ -120,7 +120,7 @@
 			{{ end }}
 			
 			</br>
-			{{ with .Site.GetPage "/club/lieux_horaires" }}
+			{{ with .Site.GetPage "/club/horaires" }}
 			
 			<a id="creneaux"></a>
 			<section class="services-area section-gap">
@@ -164,16 +164,18 @@
 							</div>
 						</div>
 					</div>
-
+				{{end}}
 
 					<a id="gymnases"></a>
+					
+					{{ with .Site.GetPage "/club/lieux" }}
 					<div class="row">
 					{{ range .Params.lieu}}
 					
 						<div class="col-md-6">
 							<div class="single-defination">
-								<h4 class="mb-20">{{ .heading}}</h4>
-								<p>{{ .text | markdownify}}</p>
+								<h4 class="mb-20">{{ .nom}}</h4>
+								<p>{{ .adresse }}</p>
 							</div>
 						
 						</div>
