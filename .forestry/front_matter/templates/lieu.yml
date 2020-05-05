@@ -39,3 +39,5 @@ fields:
     config:
       required: false
     label: infos
+pages:
+- content/club/lieux.md
