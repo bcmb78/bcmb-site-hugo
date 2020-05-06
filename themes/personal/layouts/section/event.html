@@ -17,39 +17,32 @@
 			</section>
 			<!-- End banner Area -->
 
-            <section class="portfolio-area section-gap" id="portfolio">
-                <div class="container">
-                    
-                    
-                    <div class="filters-content">
-                        <div class="row grid">
-						{{ range (where $.Site.RegularPages "Section" "event").ByPublishDate.Reverse }}
-                            <div class="single-portfolio col-sm-4 all {{ .Params.type}}">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src={{ .Params.image }} alt="">
-	                            	</div>
-									<a href="img/p1.jpg" class="img-pop-up">	
-									  <div class="middle">
-									    <div class="text align-self-center d-flex">
-										<h4> {{ .Title }}</h4>													
-										</div>
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
+			
+			
+			<section class="timeline pb-120">
+			{{ $events := where .Site.RegularPages "Section" "event" }}
+			{{ $events := $events | intersect (where $events "Date" "ge" now) }}
+			{{ $mymonths := index $.Site.Data.mois }}
+			  <ul>
+			  {{- range $events.Reverse -}}
+			    <li>
+			      <div class="content">
+			        <h4>
+			          <time>{{ .Title}}</time>
+			        </h4>
+			        <p><b>{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year}}</b></p>
+			        
+			      </div>
+			    </li>
+			{{ end}}
+			    
 
-								</div>					                               
-                            </div>
-						{{ end }}
+			  </ul>
+			</section>		
+			
+			
+			
 
-
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
 
 
 			

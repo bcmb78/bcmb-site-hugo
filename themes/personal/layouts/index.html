@@ -79,57 +79,130 @@
 			
 
 			<!-- Start recent-blog Area -->	
-			<section class="section-gap">
+			<section class="section-gap section-top-border">
 				<div class="container"  >
 					<div class="row">
 						<div class="col-md-4 sol-sm-12 pb-20" >
-							<h1 class="pb-20" style="text-align:center"><a href="/resultat">Resulats </a></h1>
-								<div class="row ">	
-								{{ range first 2 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
-								<div class="row single-recent-blog col-lg-12 col-md-6">
-									<div class="col-md-4 thumb resultats">
-										<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
+							<h1 class="pb-20" style="text-align:center"><a href="/resultat">Resultats </a></h1>
+								
+								
+								{{ range first 2 (where (where $.Site.RegularPages "Section" "resultat") ".Params.type" "!=" "interclub").ByPublishDate.Reverse}}
+						
+								<div class="resultat">
+								<a href="{{.Permalink}}">
+									<div class="res_image">
+									<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
 									</div>
-									<div class="col-md-8">
-										<a href="{{.Permalink}}">
+									<div class="res_text">
 											<h4>{{.Title}}</h4>
-											
+											<p> {{.Description}} </p>
 										</a>
 									</div>
 								</div>
+							
 								{{end}}				
 													
 														
-								</div>
+								
 						</div>
 								
 						<div class="col-md-4 col-sm-12 pb-20" >
 							<h1 class="pb-20" style="text-align:center">Interclubs</h1>
+										
+						
+							
+							
+								<div class="interclub-table-wrap">
+									<div class="interclub-table">
+
+										<h4> Résumé J12 </h4>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 2</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF2	</div>
+										</div>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 3</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF3	</div>
+										</div>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 4</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF3	</div>
+										</div>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 5</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF3	</div>
+										</div>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 6</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF3	</div>
+										</div>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 7</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF3	</div>
+										</div>
+										<div class="table-row">
+											<div class="equipe-1">BCMB 8</div>
+											<div class="score-1"> 7</div>
+											<div class="score-2"> 0</div>
+											<div class="equipe-2">ASFF3	</div>
+										</div>
+										
+										
+								
+										
+										
+
+
+									</div>
+								</div>
+							
+							
+
+							
+							
 						</div>
 						<div class="col-md-4 col-sm-12 pb-20 header-text" >
 							<h1 class="pb-20" style="text-align:center"> A venir </h1>
 							{{ $mymonths := index $.Site.Data.mois }}
-							<div class="typo-sec">
+
 								
 									
 
 								
 							
-							{{ $events := where .Site.RegularPages "Section" "event" }}
-							{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
-							{{- range $events.Reverse -}}
-								 <div class="row list_event">
-									<div class="col-sm-6" style="border: solid 1px">
-										<div class="date_event">
-										{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} 
-										</div> 
-										<h3>{{ .Title }} </h3> 
-									</div> 
-								</div>
-							
-							{{- end -}}
+								{{ $events := where .Site.RegularPages "Section" "event" }}
+								{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+								
+									 <div class="row">
+									 {{- range $events.Reverse -}}
+										<div class="col-sm-6">
+											<div class="event">
+											<div class="date">
+											{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} 
+											</div> 
+											<div class="title">
+											<p>{{.Title}}</p>
+											</div>
+											</div>
+										</div>
+									{{- end -}}										
+									</div>
+								
+								
 					
-							</div>
+
 						</div>
 
 					</div>
@@ -143,29 +216,7 @@
 	
 
 
-		    <!-- Start brands Area -->
-		    <section class="brands-area">
-		        <div class="container">
-		            <div class="brand-wrap">
-		                <div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src={{ "img/logo_montigny_white.svg"| relURL}} alt=""></a>
-		                    </div>
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src={{ "img/logo_ffbad_white.svg"| relURL}} alt=""></a>
-		                    </div>
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src={{ "img/comite78_white.svg"| relURL}} alt=""></a>
-		                    </div>
-
-		                    <div class="col single-brand">
-		                        <a href="#"><img class="mx-auto" src={{ "img/larde_white.svg"| relURL}} alt=""></a>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </section>
-		    <!-- End brands Area -->			
+		
 
 
 

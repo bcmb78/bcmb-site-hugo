@@ -9,6 +9,7 @@ footnoteReturnLinkContents = "^"
 buildFuture = true
 theme = "personal"
 disqusShortname = "bcmb78"
+paginate= 3
 
 [params]
   facebook = ""
