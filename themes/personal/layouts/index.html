@@ -110,7 +110,7 @@
 							<h1 class="pb-20" style="text-align:center"> A venir </h1>
 							{{ $mymonths := index $.Site.Data.mois }}
 							<div class="typo-sec">
-								<ul class="event_list">
+								
 									
 
 								
@@ -118,15 +118,17 @@
 							{{ $events := where .Site.RegularPages "Section" "event" }}
 							{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
 							{{- range $events.Reverse -}}
-								<li> <div class="row list_event">
+								 <div class="row list_event">
+									<div class="col-sm-6" style="border: solid 1px">
 										<div class="date_event">
 										{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} 
 										</div> 
 										<h3>{{ .Title }} </h3> 
 									</div> 
-								</li>
+								</div>
+							
 							{{- end -}}
-							</ul>
+					
 							</div>
 						</div>
 
