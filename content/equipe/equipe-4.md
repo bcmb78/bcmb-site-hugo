@@ -1,6 +1,6 @@
 ---
 title: Equipe 4
-image: ''
+image: '/img/equipe_default.PNG'
 division: D2B
 iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6048&print=
 joueurs:

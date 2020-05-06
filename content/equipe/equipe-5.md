@@ -1,6 +1,6 @@
 ---
 title: Equipe 5
-image: ''
+image: '/img/equipe_default.PNG'
 division: D3C
 iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6046&print=
 joueurs:

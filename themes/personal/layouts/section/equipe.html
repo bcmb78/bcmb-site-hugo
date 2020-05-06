@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+
+			<!-- start banner Area -->
+			<section class="relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content blog-header-content col-lg-12">
+							<h1 class="text-white">	Interclubs </h1>	
+							
+							
+
+						</div>	                          
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
+            <section class="portfolio-area section-gap" id="portfolio">
+                <div class="container">
+
+                    
+                    <div class="filters">
+                        
+                    </div>
+                    
+                    <div class="filters-content">
+                        <div class="row grid">
+						{{ range (where $.Site.RegularPages "Section" "equipe").ByPublishDate}}
+                            <div class="single-portfolio col-sm-4 all {{ .Params.type}}">
+                            	<a href="{{ .Permalink }}">	
+								<div class="relative">
+	                            	<div class="thumb">
+	                            		<div class="overlay overlay-bg"></div>
+	                            		 <img class="image img-fluid" src={{ .Params.image }} alt="">
+	                            	</div>
+									
+									  <div class="middle">
+									    <div class="text align-self-center d-flex">
+										<h4> {{ .Title }}</h4>													
+										</div>
+									  </div>
+								</a>                              		
+                            	</div>
+								<div class="p-inner">
+
+								</div>					                               
+                            </div>
+						{{ end }}
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+			
+{{end}}					  
+			
+		

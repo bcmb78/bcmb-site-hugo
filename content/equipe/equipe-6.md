@@ -1,6 +1,6 @@
 ---
 title: Equipe 6
-image: "/img/614226-firewatch-wallpaper.png"
+image: '/img/equipe_default.PNG'
 division: D3A
 iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6049&print=
 joueurs:

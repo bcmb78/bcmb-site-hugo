@@ -25,7 +25,7 @@ disqusShortname = "bcmb78"
   [[menu.main]]
     identifier = "actu"
     name = "Actualités"
-    url = "/actu/"
+    url = "/post/"
     weight = 20
 	
   [[menu.main]]
