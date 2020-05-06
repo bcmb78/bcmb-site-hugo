@@ -31,6 +31,7 @@ fields:
     maxSize: 64
   label: image
 pages:
+- content/club/presentation.md
 - content/post/nouvel-article.md
 - content/post/vacances-toussaint.md
 - content/resultat/interclub-départementaux-j11.md

@@ -22,5 +22,7 @@ text: "Le Badminton Club de Montigny le Bretonneux (BCMB) a été créé en 1983
   et parfois aussi en province.\n\nDans le courant de la saison, plusieurs tournois
   amicaux sont organisés de façon à privilégier la convivialité à l'intérieur de notre
   club."
----
+description: ''
+date: 
 
+---
