@@ -22,6 +22,8 @@
 			
 			<p> {{ .Content }}
 			<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
+			
+			{{ template "_internal/disqus.html" . }}
 		</div>
 	</section>
 

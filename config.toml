@@ -31,7 +31,7 @@ disqusShortname = "bcmb78"
   [[menu.main]]
     identifier = "events"
     name = "Evènements"
-    url = "/events/"
+    url = "/event/"
     weight = 30
 	
   [[menu.main]]
@@ -74,7 +74,7 @@ disqusShortname = "bcmb78"
     identifier = "interclubs"
 	parent = "adultes"
     name = "Interclubs"
-    url = ""
+    url = "/equipe/"
     weight = 41
 
   [[menu.main]]

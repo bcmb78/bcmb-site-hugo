@@ -83,7 +83,7 @@
 				<div class="container"  >
 					<div class="row">
 						<div class="col-md-4 sol-sm-12 pb-20" >
-							<h1 class="pb-20" style="text-align:center"><a href="/resultat">Tournois</a></h1>
+							<h1 class="pb-20" style="text-align:center"><a href="/resultat">Resulats </a></h1>
 								<div class="row ">	
 								{{ range first 2 (where $.Site.Pages "Section" "resultat").ByPublishDate.Reverse }}
 								<div class="row single-recent-blog col-lg-12 col-md-6">
@@ -107,7 +107,7 @@
 							<h1 class="pb-20" style="text-align:center">Interclubs</h1>
 						</div>
 						<div class="col-md-4 col-sm-12 pb-20 header-text" >
-							<h1 class="pb-20" style="text-align:center"> Evènements </h1>
+							<h1 class="pb-20" style="text-align:center"> A venir </h1>
 							{{ $mymonths := index $.Site.Data.mois }}
 							<div class="typo-sec">
 								<ul class="event_list">
