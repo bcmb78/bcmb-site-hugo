@@ -1,4 +1,47 @@
 ---
 label: Résumé interclubs
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: score
+  type: field_group_list
+  fields:
+  - name: equipe-1
+    type: text
+    config:
+      required: false
+    label: equipe-1
+  - name: equipe-2
+    type: text
+    config:
+      required: false
+    label: equipe-2
+  - name: score-1
+    type: number
+    label: score-1
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 0
+      max: 7
+      step: 
+  - name: score-2
+    type: number
+    label: score-2
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 0
+      max: 7
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: score
