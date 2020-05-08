@@ -45,3 +45,17 @@ fields:
     max: 
     labelField: 
   label: score
+- name: type
+  type: select
+  default: interclub
+  config:
+    required: false
+    options:
+    - interclub
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+  hidden: true
