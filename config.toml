@@ -7,7 +7,7 @@ DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 buildFuture = true
-theme = "personal"
+theme = "ponigym"
 disqusShortname = "bcmb78"
 paginate= 3
 

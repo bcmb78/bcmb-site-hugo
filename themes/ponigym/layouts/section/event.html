@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+
+			<!-- start banner Area -->
+			<section class="relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content blog-header-content col-lg-12">
+							<h1 class="text-white">	Evenements </h1>	
+							
+							
+
+						</div>	                          
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
+			
+			
+			<section class="timeline pb-120">
+			{{ $events := where .Site.RegularPages "Section" "event" }}
+			{{ $events := $events | intersect (where $events "Date" "ge" now) }}
+			{{ $mymonths := index $.Site.Data.mois }}
+			  <ul>
+			  {{- range $events.Reverse -}}
+			    <li>
+			      <div class="content">
+			        <h4>
+			          <time>{{ .Title}}</time>
+			        </h4>
+			        <p><b>{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year}}</b></p>
+			        
+			      </div>
+			    </li>
+			{{ end}}
+			    
+
+			  </ul>
+			</section>		
+			
+			
+			
+
+
+
+			
+{{end}}					  
+			
+		

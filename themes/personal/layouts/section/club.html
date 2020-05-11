@@ -123,12 +123,12 @@
 			{{ with .Site.GetPage "/club/horaires" }}
 			
 			<a id="creneaux"></a>
-			<section class="services-area section-gap">
+			<section class="section-gap contact-page-area">
 				<div class="container">
-		            <div class="row d-flex justify-content-center">
+		            <div class="row d-flex justify-content-center pb-20">
 		                <div class="menu-content  col-lg-7">
 		                    <div class="title text-center">
-		                        <h1 class="mb-10">{{ .Title }}</h1>
+		                        <h1 class="mb-10"> Créneaux</h1>
 		                        
 		                    </div>
 		                </div>
@@ -136,7 +136,7 @@
 
 
 
-					<div class="section">
+					<div class="">
 						
 						<div class="progress-table-wrap">
 							<div class="progress-table">
@@ -165,20 +165,57 @@
 						</div>
 					</div>
 				{{end}}
-
+				</section>
+		<section class="section-gap contact-page-area">
 					<a id="gymnases"></a>
-					
+							            <div class="row d-flex justify-content-center pt-20 pb-20">
+		                <div class="menu-content  col-lg-7">
+		                    <div class="title text-center">
+		                        <h1 class="mb-10"> Gymnases </h1>
+		                        
+		                    </div>
+		                </div>
+		            </div>
 					{{ with .Site.GetPage "/club/lieux" }}
 					<div class="row">
 					{{ range .Params.lieu}}
 					
-						<div class="col-md-6">
-							<div class="single-defination">
-								<h4 class="mb-20">{{ .nom}}</h4>
-								<p>{{ .adresse }}</p>
+						<div class="col-md-6 d-flex flex-column address-wrap">
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-home"></span>
+								</div>
+								<div class="contact-details">
+									<h5>{{.nom}}</h5>
+									<p>
+										{{.adresse}}
+									</p>
+								</div>
 							</div>
-						
+
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-phone-handset"></span>
+								</div>
+								<div class="contact-details">
+									<p>{{ .telephone}}</p>
+									
+								</div>
+							</div>
+							
+							<div class="single-contact-address d-flex flex-row">
+								<div class="icon">
+									<span class="lnr lnr-star"></span>
+								</div>
+								<div class="contact-details">
+									<p>{{ .infos}}</p>
+									
+								</div>
+							</div>
+																					
 						</div>
+					
+
 
 					{{end}}
 

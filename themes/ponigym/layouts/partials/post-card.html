@@ -1,0 +1,20 @@
+<div class="col-3 col-6-medium col-12-small">
+	<section class="box">
+		{{ if not (.Params.image "feature_image") }}
+		
+		<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+		{{ else }}
+		
+		<a href="#" class="image featured"><img src="{{ .Params.image }}" alt="" /></a>
+		{{end}}
+		
+		<header>
+			<h3> {{ .Params.Title }}</h3>
+		</header>
+		<p> {{ .Summary }} </p>
+
+	</section>
+</div>
+
+
+    

@@ -3105,16 +3105,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .brands-area .brand-wrap .single-brand {
   text-align: center;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
+
+  filter: brightness(0) invert(1);
   opacity: .5;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0. */3s ease 0s;
 }
 
 .brands-area .brand-wrap .single-brand:hover {
@@ -4678,7 +4675,7 @@ font-size: 1.5em
 
 .paginator{
 
-width: 20%;
+display: inline-block;
 margin-left:auto;
 margin-right:auto;
 margin-top:1em;}
