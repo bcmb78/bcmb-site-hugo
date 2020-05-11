@@ -1,18 +1,6 @@
 {{ define "main" }}
 
-    <!-- Site Breadcrumb Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg={{ "img/about-breadcrumb-bg.jpg" | relURL}}>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-text">
-                        <h2>{{.Title}}</h2>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <!-- Class Section Begin-->
@@ -46,7 +34,7 @@
                                                     <div class="class-text">
                                                         <h3>{{ .Title }}</h3>
                                                         <p>{{ .Description}}</p>
-                                                        <a href="#" class="schedule-btn">View Schedule <i
+                                                        <a href="#" class="schedule-btn">Voir toutes les actus <i
                                                                 class="fa fa-long-arrow-right"></i></a>
                                                     </div>
                                                 </div>
@@ -60,29 +48,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="class-author">
-                                <ul class="nav" role="tablist">
-									{{ $.Scratch.Set "counter" 0 }}
-									{{ range first 4 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
-									{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-                                    <li>
-                                        <a data-toggle="tab" {{if eq ($.Scratch.Get "counter") 1}}class="active"{{end}} href='#class-{{$.Scratch.Get "counter"}}' role="tab">
-                                            <div class="author-text">
-                                                <img src={{ .Params.image}} alt="">
-                                                <h5>{{.Title}}</h5>
-                                            </div>
-                                        </a>
-                                    </li>
-									{{end}}
+                    
 
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -134,30 +102,21 @@
                         <p>Retrouvez ici les prochains évènement du club </p>
                     </div>
                     <div class="services-items">
-                        <div class="single-service-item">
+					{{ $mymonths := index $.Site.Data.mois }}
+						{{ $events := where .Site.RegularPages "Section" "event" }}
+						{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
+						{{ $.Scratch.Set "counter" 0 }}
+						{{ range $events }}
+						{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+						
+						
+                        <div class='single-service-item color-{{$.Scratch.Get "counter"}}'>
                             <img src="img/icon-1.png" alt="">
-                            <h5>Weight Lifting</h5>
-                            <p>We have a wide choice of classes that are a great complement to any training programme.
-                            </p>
+                            <h5>{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} </h5>
+                            <p>{{.Title}}        </p>
                         </div>
-                        <div class="single-service-item color-1">
-                            <img src="img/icon-2.png" alt="">
-                            <h5>Body Building</h5>
-                            <p>We have a wide choice of classes that are a great complement to any training programme.
-                            </p>
-                        </div>
-                        <div class="single-service-item color-2">
-                            <img src="img/icon-3.png" alt="">
-                            <h5>Healthy</h5>
-                            <p>We have a wide choice of classes that are a great complement to any training programme.
-                            </p>
-                        </div>
-                        <div class="single-service-item color-3">
-                            <img src="img/icon-4.png" alt="">
-                            <h5>Yoga</h5>
-                            <p>We have a wide choice of classes that are a great complement to any training programme.
-                            </p>
-                        </div>
+						{{end}}
+
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
