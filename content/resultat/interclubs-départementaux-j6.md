@@ -1,9 +1,19 @@
 ---
 title: Interclubs départementaux J6
-date: 2019-12-26T12:41:22.979+00:00
+date: '2019-12-26T12:41:22.979+00:00'
 image: "/img/mascotte1.jpg"
 type: interclub
 description: ''
+res: []
+score:
+- score-1: 7
+  score-2: 
+  equipe-1: BCMB 2
+  equipe-2: Maison-Laffite
+- equipe-1: BCMB3
+  equipe-2: ARB2
+  score-1: 4
+  score-2: 3
 
 ---
 * Équipe 2: Victoire 7-0 contre Maisons-laffitte 4

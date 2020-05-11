@@ -23,7 +23,6 @@ fields:
     required: false
     options:
     - jeunes
-    - interclub
     - tournoi
     source:
       type: simple
@@ -45,6 +44,38 @@ fields:
     schema:
       format: markdown
   label: description
+- name: res
+  type: field_group_list
+  fields:
+  - name: photo
+    type: file
+    config:
+      maxSize: 64
+    label: photo
+  - name: caption
+    type: text
+    config:
+      required: false
+    label: caption
+  - name: podium
+    type: select
+    default: autre
+    config:
+      required: false
+      options:
+      - vainqueur
+      - finaliste
+      - autre
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: podium
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: res
 pages:
 - content/resultat/interclubs-départementaux-j3.md
-- content/resultat/interclubs-départementaux-j6.md

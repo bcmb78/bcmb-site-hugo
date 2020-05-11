@@ -1,0 +1,63 @@
+---
+label: Résumé interclubs
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: score
+  type: field_group_list
+  fields:
+  - name: equipe-1
+    type: text
+    config:
+      required: false
+    label: equipe-1
+  - name: score-1
+    type: number
+    label: score-1
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 0
+      max: 7
+      step: 
+  - name: equipe-2
+    type: text
+    config:
+      required: false
+    label: equipe-2
+  - name: score-2
+    type: number
+    label: score-2
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 0
+      max: 7
+      step: 
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: score
+- name: type
+  type: select
+  default: interclub
+  config:
+    required: false
+    options:
+    - interclub
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+  hidden: true
+pages:
+- content/resultat/interclubs-départementaux-j6.md
