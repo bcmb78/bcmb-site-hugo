@@ -47,12 +47,9 @@
 								<div class="tag-details">
 									<a href="#" class="tag-event">
 										<i class="fa fa-tag"></i>
-										Cycling
+										Vie du Club
 									</a>
-									<a href="#" class="tag-comments">
-										<i class="fa fa-comments-o"></i>
-										5 Comments
-									</a>
+									
 								</div>
 							</div>
 						    </div> 
@@ -192,6 +189,8 @@
                             
 								{{ range $events }}								
 								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+								
+								
 								<div class="row event">
 									<div class="date">
 										<div class="day">{{.Date.Format "02"}}</div>

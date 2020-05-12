@@ -115,7 +115,7 @@ ol {
 .content{flex: 1 0 auto;}
 
 .section-title {
-  margin-bottom: 45px;
+  margin-bottom: 15px;
 }
 
 .section-title h2 {
@@ -2496,11 +2496,12 @@ margin-left: auto;
 
 
 .event{
-height: 4rem;
+height: 5rem;
 background: #eee;
 
 margin-top:0.5em;
 
+margin-left:0.5em;
 box-shadow: 2px 2px 2px #aaa;
 }
 
@@ -2508,13 +2509,13 @@ box-shadow: 2px 2px 2px #aaa;
 margin:0;
 padding:0;
 float: left;
-width:4rem;
-height:100%;
+width:5rem;
 
+border:solid 1px;
 text-transform: uppercase;
 text-align:center;
 color: #fff;
-background: #f34e3a
+background: #f34e3a;
 }
 
 .event .date .day{
@@ -2536,13 +2537,15 @@ font-weight:500;
 }
 
 .event .infos{
-width:calc(100% - 5em);
+width:calc(100% - 5rem);
 padding:0.5rem;
+
 }
 
 .event .infos h4{
 font-size: 1em;
 line-height:1em;
+
 margin:0;
 }
 

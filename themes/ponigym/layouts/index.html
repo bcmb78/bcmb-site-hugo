@@ -102,20 +102,31 @@
                         <p>Retrouvez ici les prochains évènement du club </p>
                     </div>
                     <div class="services-items">
-					{{ $mymonths := index $.Site.Data.mois }}
+					{{ $mymonths := index $.Site.Data.mois_short }}
 						{{ $events := where .Site.RegularPages "Section" "event" }}
 						{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
 						{{ $.Scratch.Set "counter" 0 }}
-						{{ range $events }}
-						{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-						
-						
-                        <div class='single-service-item color-{{$.Scratch.Get "counter"}}'>
-                            <img src="img/icon-1.png" alt="">
-                            <h5>{{.Date.Format "2"}} {{ index $mymonths (printf "%d" .Date.Month) }} </h5>
-                            <p>{{.Title}}        </p>
-                        </div>
-						{{end}}
+						<div class="row">
+						{{ range $events }}					
+								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+								
+								<div class="col-lg-6">
+								<div class="row event">
+								
+									<div class="date">
+										<div class="day">{{.Date.Format "02"}}</div>
+										<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
+									</div>
+									<div class="infos">
+										<h4>{{.Title}}</h4>
+										<p> Général</p>
+									</div>
+									
+								</div>
+								</div>
+								
+                                {{end}}
+						</div>
 
                     </div>
                 </div>
