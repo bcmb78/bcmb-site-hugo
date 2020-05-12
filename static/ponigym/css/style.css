@@ -979,7 +979,7 @@ ol {
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
-  padding: 25px 30px 25px 30px;
+  padding: 5px;
 }
 .latest-items .latest-text .latest-tag {
   overflow: hidden;
@@ -2490,3 +2490,65 @@ margin-left: auto;
 }
 
 /*--------- end brand Area -------------*/
+
+
+/*------Events list--------- */
+
+
+.event{
+height: 4rem;
+background: #eee;
+
+margin-top:0.5em;
+
+box-shadow: 2px 2px 2px #aaa;
+}
+
+.event .date{
+margin:0;
+padding:0;
+float: left;
+width:4rem;
+height:100%;
+
+text-transform: uppercase;
+text-align:center;
+color: #fff;
+background: #f34e3a
+}
+
+.event .date .day{
+font-size: 2rem;
+height:60%;
+
+padding:0;
+font-weight:500;
+
+}
+
+.event .date .month{
+
+font-size: 1em;
+height:40%;
+padding:0;
+font-weight:500;
+
+}
+
+.event .infos{
+width:calc(100% - 5em);
+padding:0.5rem;
+}
+
+.event .infos h4{
+font-size: 1em;
+line-height:1em;
+margin:0;
+}
+
+.event .infos p{
+font-size: 0.8em;
+line-height:0.8em;
+margin:0;
+margin-top:10px;
+}
