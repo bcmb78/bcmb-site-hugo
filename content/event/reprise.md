@@ -1,7 +1,7 @@
 +++
-date = 2020-06-01T22:00:00Z
+date = 2020-09-02T22:00:00Z
 description = ""
 image = ""
-title = "Reprise"
+title = "Assemblée Générale"
 
 +++
