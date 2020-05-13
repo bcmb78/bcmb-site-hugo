@@ -180,7 +180,7 @@
                         </div>
 
 						{{ $mymonths := index $.Site.Data.mois_short }}
-						{{ $events := where .Site.RegularPages "Section" "event" }}
+						{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
 						{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
 						{{ $.Scratch.Set "counter" 0 }}
 						
