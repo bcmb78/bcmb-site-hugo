@@ -1408,7 +1408,7 @@ ol {
 .gallery-item .gi-text {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 20%;
   text-align: center;
   width: 100%;
   -webkit-transform: translateY(-43px);

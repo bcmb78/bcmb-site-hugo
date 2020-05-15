@@ -102,6 +102,7 @@ paginate= 3
 category = "categories"
 tag = "tags"
 series = "series"
+archive = "archive"
 
 [privacy]
 
