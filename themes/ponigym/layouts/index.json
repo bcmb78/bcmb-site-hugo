@@ -1,5 +1,5 @@
 {{- $.Scratch.Add "index" slice -}}
-{{$content := .Site.RegularPages (where .Site.RegularPages "Type" "event")}}
+{{$content := range .Site.RegularPages (where .Site.RegularPages "Type" "event")}}
 {{- range $content -}}
   {{- $.Scratch.Add "index" (dict "title" .Title "date" .Date) -}}
 {{- end -}}
