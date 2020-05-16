@@ -11,6 +11,9 @@ theme = "ponigym"
 disqusShortname = "bcmb78"
 paginate= 3
 
+[outputs]
+    home = ["HTML", "CSS", "RSS", "JSON"]
+
 [params]
   facebook = ""
   description = ""

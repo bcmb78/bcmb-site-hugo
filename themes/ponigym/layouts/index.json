@@ -1,0 +1,6 @@
+{{- $.Scratch.Add "index" slice -}}
+{{$content := .Site.RegularPages}}
+{{- range $content -}}
+  {{- $.Scratch.Add "index" (dict "foo" .Title ) -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}
