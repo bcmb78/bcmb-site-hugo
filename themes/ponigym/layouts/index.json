@@ -1,6 +1,6 @@
 {{- $.Scratch.Add "index" slice -}}
-{{$content := .Site.RegularPages}}
+{{$content := .Site.RegularPages (where .Site.RegularPages "Type" "event")}}
 {{- range $content -}}
-  {{- $.Scratch.Add "index" (dict "foo" .Title ) -}}
+  {{- $.Scratch.Add "index" (dict "title" .Title "date" .Date) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
