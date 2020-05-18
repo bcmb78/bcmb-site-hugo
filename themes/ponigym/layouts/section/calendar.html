@@ -78,10 +78,10 @@
 		}
 
 </style>
-    <script src='{{ .Site.BaseURL }}/js/moment.min.js'></script>
-    <script src='{{ .Site.BaseURL }}/js/jquery.min.js'></script>
-    <script src='{{ .Site.BaseURL }}/js/jquery-ui.custom.min.js'></script>
-    <script src='{{ .Site.BaseURL }}/js/fullcalendar.min.js'></script>
+    <script src='/js/moment.min.js'></script>
+    <script src='/js/jquery.min.js'></script>
+    <script src='/js/jquery-ui.custom.min.js'></script>
+    <script src='/js/fullcalendar.min.js'></script>
 
     <script>
         $(document).ready(function () {
@@ -89,6 +89,7 @@
             console.log("Ready...");
 
             $('#calendar').fullCalendar({
+
 				buttonText: {today: "Aujourd'hui", month:    'mois',  week:     'semaine',  day:      'jour',  list:     'liste'},
 				monthNames: ['Janvier','Févier','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre'],
 				monthNamesShort: ['Jan','Fev','Mar','Avr','Mai','Jun','Jul','Aou','Sep','Oct','Nov','Dec'],
