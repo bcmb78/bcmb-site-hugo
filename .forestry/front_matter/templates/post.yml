@@ -32,6 +32,7 @@ fields:
   label: image
 pages:
 - content/club/presentation.md
+- content/post/fin-de-saison.md
 - content/post/nouvel-article.md
 - content/post/remboursement-tournoi-2019-2020.md
 - content/post/vacances-toussaint.md
