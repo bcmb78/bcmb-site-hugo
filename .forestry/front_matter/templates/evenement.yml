@@ -5,15 +5,92 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
-- type: file
-  name: image
-  label: image
+  config:
+    required: true
+- name: lieu
+  type: text
+  config:
+    required: false
+  label: lieu
 - type: text
   name: description
   label: description
+- type: file
+  name: image
+  label: image
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - tournoi
+    - club
+    - exterieur
+    - autre
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+- name: categorie
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - trophée_jeune
+    - tournoi_jeune
+    - tournoi_adulte
+    - tournoi_interne
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categorie
+  showOnly:
+    field: type
+    value: tournoi
+- name: date_inscription
+  type: datetime
+  label: date_inscription
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: date_tirage
+  type: datetime
+  label: date_tirage
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: poster
+  type: file
+  config:
+    maxSize: 64
+  label: poster
+- name: fiche_inscription
+  type: file
+  config:
+    maxSize: 64
+  label: fiche_inscription
+- name: convocation
+  type: file
+  config:
+    maxSize: 64
+  label: convocation
 pages:
 - content/event/rentrée.md
 - content/event/reprise.md
