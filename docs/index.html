@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.65.3" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bienvenue sur le site du BCMB</title>
+    <link rel='stylesheet' href='https://bcmb78.github.iocss/fullcalendar.min.css' />
+
+</head>
+
+<body>
+
+    <div id="calendar"></div>
+
+    <script src='https://bcmb78.github.iojs/moment.min.js'></script>
+    <script src='https://bcmb78.github.io/js/jquery.min.js'></script>
+    <script src='https://bcmb78.github.io/js/jquery-ui.custom.min.js'></script>
+    <script src='https://bcmb78.github.io/js/fullcalendar.min.js'></script>
+
+    <script>
+        $(document).ready(function () {
+
+            console.log("Ready...");
+
+            $('#calendar').fullCalendar({
+                events: 'https:\/\/bcmb78.github.ioevent/index.json'
+            })
+
+        });
+    </script>
+
+</body>
+
+</html>

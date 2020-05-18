@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="PONIGYM Template">
-    <meta name="keywords" content="PONIGYM, unica, creative, html">
+    <meta name="description" content="Badminton Club Montigny-le-Bretonneux">
+    <meta name="keywords" content="BCMB, badminton, montigny">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{ $title := print .Title " · " .Site.Title }}
@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-	<link rel="stylesheet" href={{ "personal/css/bootstrap.css" | relURL}}>
+
     <link rel="stylesheet" href={{ "ponigym/css/bootstrap.min.css" | relURL}}>
     <link rel="stylesheet" href={{ "ponigym/css/font-awesome.min.css" | relURL}}>
     <link rel="stylesheet" href={{ "ponigym/css/themify-icons.css" | relURL}}>
@@ -25,7 +25,7 @@
     <link rel="stylesheet" href={{ "ponigym/css/slicknav.min.css" | relURL}}>
     <link rel="stylesheet" href={{ "ponigym/css/style.css" | relURL}}>
 	<link rel="stylesheet" href={{ "personal/css/linearicons.css"| relURL}}>
-	
+	<!-- <link rel='stylesheet' href="{{ .Site.BaseURL }}css/fullcalendar.min.css" /> -->
 	
 	
 </head>
@@ -125,7 +125,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	
 	<script src={{ "personal/js/vendor/jquery-2.2.4.min.js" | relURL}}></script>
 	<script src={{ "personal/js/popper.min.js"| relURL}}></script>
-	<script src={{ "personal/js/vendor/bootstrap.min.js"| relURL}}></script>			
+		
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
 	<script src={{ "personal/js/easing.min.js"| relURL}}></script>			
 	<script src={{ "personal/js/hoverIntent.js"| relURL}}></script>
@@ -141,6 +141,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src={{ "personal/js/owl.carousel.min.js"| relURL}}></script>							
 	<script src={{ "personal/js/mail-script.js"| relURL}}></script>	
 	<script src={{ "personal/js/main.js"| relURL}}></script>
+	
+	
+	
+    <script src='{{ .Site.BaseURL }}js/moment.min.js'></script>
+    <script src='{{ .Site.BaseURL }}js/jquery.min.js'></script>
+    <script src='{{ .Site.BaseURL }}js/jquery-ui.custom.min.js'></script>
+    <script src='{{ .Site.BaseURL }}js/fullcalendar.min.js'></script>
+	
+	
 </body>
 
 </html>

@@ -2480,6 +2480,10 @@ margin-left: auto;
   transition: all 0. */3s ease 0s;
 }
 
+.brands-area .brand-wrap .single-brand img {
+  height: 5em;
+}
+
 .brands-area .brand-wrap .single-brand:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);

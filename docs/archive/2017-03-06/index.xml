@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017-03-06 on Badminton Club Montigny-le-Bretonneux</title>
+    <link>https://bcmb78.github.io/archive/2017-03-06/</link>
+    <description>Recent content in 2017-03-06 on Badminton Club Montigny-le-Bretonneux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 06 Mar 2017 21:27:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://bcmb78.github.io/archive/2017-03-06/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://bcmb78.github.io/test-calendar/</link>
+      <pubDate>Mon, 06 Mar 2017 21:27:05 +0000</pubDate>
+      
+      <guid>https://bcmb78.github.io/test-calendar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
