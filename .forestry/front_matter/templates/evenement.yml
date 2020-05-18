@@ -2,6 +2,22 @@
 label: Evenement
 hide_body: false
 fields:
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - tournoi
+    - club
+    - exterieur
+    - autre
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
 - type: text
   name: title
   label: title
@@ -23,22 +39,6 @@ fields:
 - type: file
   name: image
   label: image
-- name: type
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - tournoi
-    - club
-    - exterieur
-    - autre
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: type
 - name: categorie
   type: select
   default: []
