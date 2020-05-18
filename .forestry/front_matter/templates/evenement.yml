@@ -67,6 +67,9 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  showOnly:
+    field: type
+    value: tournoi
 - name: date_tirage
   type: datetime
   label: date_tirage
@@ -76,21 +79,33 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  showOnly:
+    field: type
+    value: tournoi
 - name: poster
   type: file
   config:
     maxSize: 64
   label: poster
+  showOnly:
+    field: type
+    value: tournoi
 - name: fiche_inscription
   type: file
   config:
     maxSize: 64
   label: fiche_inscription
+  showOnly:
+    field: type
+    value: tournoi
 - name: convocation
   type: file
   config:
     maxSize: 64
   label: convocation
+  showOnly:
+    field: type
+    value: tournoi
 pages:
 - content/event/rentrée.md
 - content/event/reprise.md
