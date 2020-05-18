@@ -12,8 +12,6 @@ disqusShortname = "bcmb78"
 paginate= 3
 
 
-publishDir = "docs"
-
 [outputs]
     section = ["HTML", "JSON"]
 
