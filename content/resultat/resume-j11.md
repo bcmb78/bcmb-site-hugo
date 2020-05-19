@@ -1,4 +1,5 @@
 +++
+date = 2020-03-01T23:00:00Z
 title = "Résumé J11"
 type = "interclub"
 [[score]]
