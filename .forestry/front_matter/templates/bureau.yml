@@ -1,0 +1,20 @@
+---
+label: Bureau
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: membre
+  label: membre
+  fields:
+  - type: text
+    name: nom
+    label: nom
+  - type: text
+    name: fonction
+    label: fonction
+  - type: file
+    name: image
+    label: image
