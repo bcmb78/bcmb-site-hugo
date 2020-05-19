@@ -18,12 +18,12 @@ membre:
   image: "/img/bureau/loic.jpg"
 - nom: Nzambé
   fonction: Responsable Jeunes
-  image: "/img/avatar_homme.svg"
+  image: "/img/bureau/nz.jpg"
 - nom: Marta
   fonction: Responsable Volants
   image: "/img/bureau/marta.png"
 - nom: Thomas
   fonction: Communication
-  image: "/img/avatar_homme.svg"
+  image: "/img/bureau/thomas.jpg"
 
 ---
