@@ -106,55 +106,22 @@
                         <h2>Interclubs</h2>
 						
 					</div>
-					<p> Résumé J12 </p>
+					{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.type" "=" "interclub").ByPublishDate.Reverse}}
+					<p> {{ .Title }} </p>
 					<div class="interclub-table-wrap">
 						<div class="interclub-table">
 
-							
+							{{ range .Params.score}}
 							<div class="table-row">
-								<div class="equipe-1">BCMB 2</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF2	</div>
+								<div class="equipe-1">{{.equipe1}}</div>
+								<div class="score-1"> {{.score1}}</div>
+								<div class="score-2"> {{.score2}}</div>
+								<div class="equipe-2">{{.equipe2}}	</div>
 							</div>
-							<div class="table-row">
-								<div class="equipe-1">BCMB 3</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF3	</div>
-							</div>
-							<div class="table-row">
-								<div class="equipe-1">BCMB 4</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF3	</div>
-							</div>
-							<div class="table-row">
-								<div class="equipe-1">BCMB 5</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF3	</div>
-							</div>
-							<div class="table-row">
-								<div class="equipe-1">BCMB 6</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF3	</div>
-							</div>
-							<div class="table-row">
-								<div class="equipe-1">BCMB 7</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF3	</div>
-							</div>
-							<div class="table-row">
-								<div class="equipe-1">BCMB 8</div>
-								<div class="score-1"> 7</div>
-								<div class="score-2"> 0</div>
-								<div class="equipe-2">ASFF3	</div>
-							</div>							
+							{{end}}
 						</div>
 					</div>
+					{{end}}
 				
 				</div>
 			</div>

@@ -20,14 +20,14 @@ fields:
 - name: score
   type: field_group_list
   fields:
-  - name: equipe-1
+  - name: equipe1
     type: text
     config:
       required: false
-    label: equipe-1
-  - name: score-1
+    label: equipe1
+  - name: score1
     type: number
-    label: score-1
+    label: score1
     description: ''
     default: 0
     required: true
@@ -35,14 +35,14 @@ fields:
       min: 0
       max: 7
       step: 
-  - name: equipe-2
+  - name: equipe2
     type: text
     config:
       required: false
-    label: equipe-2
-  - name: score-2
+    label: equipe2
+  - name: score2
     type: number
-    label: score-2
+    label: score2
     description: ''
     default: 0
     required: true
