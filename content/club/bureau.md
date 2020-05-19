@@ -6,7 +6,7 @@ membre:
   image: "/img/bureau/colette.png"
 - nom: Cathy
   fonction: Secrétaire
-  image: "/img/avatar_femme.svg"
+  image: "/img/burau/cathy.jpg"
 - nom: Patrice
   fonction: Trésorier
   image: "/img/avatar_homme.svg"
