@@ -7,6 +7,16 @@ fields:
   config:
     required: false
   label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - name: score
   type: field_group_list
   fields:
