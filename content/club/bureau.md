@@ -3,7 +3,7 @@ title: Le bureau
 membre:
 - nom: Colette
   fonction: Présidente
-  image: "/img/avatar_femme.svg"
+  image: "/img/bureau/colette.png"
 - nom: Cathy
   fonction: Secrétaire
   image: "/img/avatar_femme.svg"
