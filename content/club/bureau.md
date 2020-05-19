@@ -12,7 +12,7 @@ membre:
   image: "/img/bureau/pat.jpg"
 - nom: Christine
   fonction: Inscriptions/ Tournois
-  image: "/img/avatar_femme.svg"
+  image: "/img/bureau/christine.png"
 - nom: Loic
   fonction: Responsable Loisirs
   image: "/img/bureau/loic.jpg"
