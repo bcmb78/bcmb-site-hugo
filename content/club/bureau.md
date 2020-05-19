@@ -1,9 +1,6 @@
 ---
 title: Le bureau
 membre:
-- nom: ''
-  fonction: ''
-  image: ''
 - nom: Colette
   fonction: Présidente
   image: "/img/avatar_femme.svg"
