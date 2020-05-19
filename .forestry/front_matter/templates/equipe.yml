@@ -37,3 +37,5 @@ fields:
     config:
       maxSize: 64
     label: photo
+pages:
+- content/equipe/equipe-1.md
