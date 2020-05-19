@@ -6,16 +6,16 @@ membre:
   image: "/img/bureau/colette.png"
 - nom: Cathy
   fonction: Secrétaire
-  image: "/img/burau/cathy.jpg"
+  image: "/img/bureau/cathy.jpg"
 - nom: Patrice
   fonction: Trésorier
-  image: "/img/avatar_homme.svg"
+  image: "/img/bureau/pat.jpg"
 - nom: Christine
   fonction: Inscriptions/ Tournois
   image: "/img/avatar_femme.svg"
 - nom: Loic
   fonction: Responsable Loisirs
-  image: "/img/avatar_homme.svg"
+  image: "/img/bureau/loic.jpg"
 - nom: Nzambé
   fonction: Responsable Jeunes
   image: "/img/avatar_homme.svg"
