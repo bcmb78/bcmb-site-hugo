@@ -20,11 +20,6 @@ sections:
   create: all
   match: "*"
 - type: directory
-  path: content/tournois
-  label: Tournois
-  create: all
-  match: "**/*"
-- type: directory
   path: content/resultat
   label: Resultat
   create: all
