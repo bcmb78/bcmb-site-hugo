@@ -831,21 +831,19 @@ ol {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
 }
-.schedule-table table tbody tr td.gym h6, .schedule-table table tbody tr td.crossfit h6, .schedule-table table tbody tr td.running h6 {
+.schedule-table table tbody tr td.jeunes h6, .schedule-table table tbody tr td.crossfit h6, .schedule-table table tbody tr td.running h6 {
   color: #f34e3a;
 }
-.schedule-table table tbody tr td.yoga h6 {
+.schedule-table table tbody tr td.compet h6 {
   color: #247cc6;
 }
-.schedule-table table tbody tr td.body h6, .schedule-table table tbody tr td.box h6 {
+.schedule-table table tbody tr td.compet2 h6, .schedule-table table tbody tr td.box h6 {
   color: #6dcff6;
 }
-.schedule-table table tbody tr td.cardio h6 {
+.schedule-table table tbody tr td.loisirs h6 {
   color: #4cbcc3;
 }
-.schedule-table table tbody tr td.box.g h6 {
-  color: #00a651;
-}
+
 .schedule-table table tbody tr td h6 {
   font-weight: 500;
   text-transform: uppercase;
@@ -2558,4 +2556,17 @@ font-size: 0.8em;
 line-height:0.8em;
 margin:0;
 margin-top:10px;
+}
+
+.members{margin: 1em 0;
+vertical-align: center;
+
+}
+
+.text_members{ padding: 10% 0;
+
+}
+
+.text_members p{ padding: 0; margin: 0;
+
 }

@@ -83,11 +83,16 @@
 										<img class="img-fluid pics" src={{ .image}} alt="">
 									</div>
 									<div class="col-8">
-									<h4> {{ .nom}}</h4>
-									<p>
-										{{.fonction}}
-									</p>
-									
+										<div class="text_members">
+										<h4> {{ .nom}}</h4>
+										<p>
+											{{.fonction}}
+										</p>
+										
+										<p>
+											{{.mail |markdownify}}
+										</p>
+										</div>
 									</div>
 								</div>
 							</div>
