@@ -1,4 +1,73 @@
 ---
 label: Inscription
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+- name: document
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: file
+    type: file
+    config:
+      maxSize: 64
+    label: file
+  - name: icon
+    type: file
+    config:
+      maxSize: 64
+    label: icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: document
+- name: tarif
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: price
+    type: number
+    label: price
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: avantage
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: avantage
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: tarif
