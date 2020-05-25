@@ -5,13 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: content/inscription
-  label: Inscription
+  path: content/club
+  label: Club
   create: all
   match: "**/*"
 - type: directory
-  path: content/club
-  label: Club
+  path: content/inscription
+  label: Inscription
   create: all
   match: "**/*"
 - type: directory

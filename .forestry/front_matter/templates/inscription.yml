@@ -76,5 +76,3 @@ fields:
     max: 
     labelField: 
   label: tarif
-pages:
-- content/inscription/_index.md
