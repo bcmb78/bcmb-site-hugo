@@ -76,3 +76,5 @@ fields:
     max: 
     labelField: 
   label: tarif
+pages:
+- content/inscription/aaa.md
