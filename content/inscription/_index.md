@@ -1,51 +1,51 @@
 ---
 title: Inscription
-image: "/img/about-shade-grown.jpg"
-layout: "inscription"
+image: ''
+layout: inscription
 document:
-- name: "Fiche d'inscription"
-  url: ""
-- name: "Certificat de non-contre-indication"
-  url: ""
-  
-  
+- name: Fiche d'inscription adulte
+  file: img/bcmb_inscriptions_adulte_19_20.pdf
+  icon: ''
 tarif:
-- name: "Adulte"
-  sub: "Loisir"
+- name: ''
+  price: 
+  avantage: []
+- name: Adulte
+  sub: Loisir
   price: 120
   size: 4
   avantage:
-  - name: "Licence pour compétition individuelle et/ou loisir"
-  - name: "Accès créneaux loisir"
-  - name: "Volants plastique"
-  - name: "3 tournois offerts"
- 
-- name: "Adulte"
-  sub: "Compétiteurs"
+  - name: Licence pour compétition individuelle et/ou loisir
+  - name: Accès créneaux loisir
+  - name: Volants plastique
+  - name: 3 tournois offerts
+- name: Adulte
+  sub: Compétiteurs
   price: 180
   size: 4
   avantage:
-  - name: "Licence pour championnat et compétitions individuelles"
-  - name: "Accès créneaux compétiteur"
-  - name: "Volants plumes"
-  - name: "6 tournois offerts"
-- name: "Jeune"
+  - name: Licence pour championnat et compétitions individuelles
+  - name: Accès créneaux compétiteur
+  - name: Volants plumes
+  - name: 6 tournois offerts
+- name: Jeune
   sub: "  -  "
   price: 120
   size: 4
   avantage:
-  - name: "Licence pour compétition individuelle et/ou loisir"
-  - name: "Accès créneaux jeunes"
-  - name: "Volants plumes"
-- name: "Adulte"
-  sub: "Nouvel adhérent (Loisir ou Compétiteur)"
+  - name: Licence pour compétition individuelle et/ou loisir
+  - name: Accès créneaux jeunes
+  - name: Volants plumes
+- name: Adulte
+  sub: Nouvel adhérent (Loisir ou Compétiteur)
   price: 180
   size: 6
-- name: "Jeune"
-  sub: "Nouvel adhérent"
+  avantage: []
+- name: Jeune
+  sub: Nouvel adhérent
   price: 130
   size: 6
-
+  avantage: []
 text: |-
   Les inscriptions se font chaque année lors du forum des sport de Montigny-le-Bretonneux.
 
