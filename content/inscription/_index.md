@@ -3,6 +3,9 @@ title: Inscription
 image: ''
 layout: inscription
 document:
+- name: Fiche d'inscription jeune
+  file: img/bcmb_inscriptions_jeune_19_20.pdf
+  icon: ''
 - name: Fiche d'inscription adulte
   file: img/bcmb_inscriptions_adulte_19_20.pdf
   icon: ''
