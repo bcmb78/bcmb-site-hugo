@@ -3,12 +3,26 @@ title: Inscription
 image: ''
 layout: inscription
 document:
-- name: Fiche d'inscription jeune
-  file: img/bcmb_inscriptions_jeune_19_20.pdf
-  icon: ''
 - name: Fiche d'inscription adulte
   file: img/bcmb_inscriptions_adulte_19_20.pdf
   icon: ''
+  description: ''
+- name: Fiche d'inscription jeune
+  file: img/bcmb_inscriptions_jeune_19_20.pdf
+  icon: ''
+  description: ''
+- name: Certificat médical
+  file: img/ffbad_certificatmedical.pdf
+  icon: ''
+  description: ''
+- file: img/questionnaire-attestation.pdf
+  icon: ''
+  description: ''
+  name: Questionnaire santé
+- name: Fiche sanitaire de liaision (jeune)
+  file: img/bcmb_fiche_sanitaire_1920.pdf
+  icon: ''
+  description: ''
 tarif:
 - name: Adulte
   sub: Loisir
