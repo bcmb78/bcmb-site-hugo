@@ -15,33 +15,45 @@
     </section>
 
 
-    <!-- Gallery Section Begin -->
-    <section class="gallery-section spad">
-        <div class="container">
+	
+				<section class="price-area section-gap">
+				<div class="container">
+					
+					<div class="row">
+					
+						{{ range (where $.Site.RegularPages "Section" "equipe").ByPublishDate}}
+						
+						
+						<div class="col-lg-3 single-price">
+							<div class="top-part" >
+								<h2 class="package-no set-bg" data-setbg={{ .Params.image | relURL}}></h2>
+								<h4>{{.Title}}</h4>
+								<p class="mt-10">{{.Params.division}} </p>
+							</div>
+							<div class="package-list">
+								<ul>
+								
+								{{ range .Params.joueurs}}
+              
+									<li>{{.nom}}</li>
 
-            <div class="row gallery-filter">
-				{{ range (where $.Site.RegularPages "Section" "equipe").ByPublishDate}}
-                <div class="col-md-4 mix all fitness">
-                    <div class="gallery-item">
-                        <div class="gi-img">
-                            <img src={{ .Params.image}} alt="">
-                        </div>
-                        <div class="gi-text">
-                            <h5>{{ .Title }}</h5>
-							{{ range .Params.joueurs}}
-                            <span>{{.nom}}</span></br>
-							
-							{{end}}
-                        </div>
-                    </div>
-                </div>
-				{{ end }}
+									
+								{{end}}
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h2> </h2>
+								<a class="price-btn text-uppercase" href={{.Params.iframe}}>Voir les résulats</a>
+							</div>
+						</div>
+						
+						{{end}}
+						
 
-
-            </div>
-        </div>
-    </section>
-    <!-- Gallery Section End -->
+																	
+					</div>
+				</div>	
+			</section>
 
 	
 {{ end }}

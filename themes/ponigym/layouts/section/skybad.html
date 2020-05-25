@@ -1,14 +1,31 @@
 {{ define "main" }}
-	<section class="sample-text-area">
-		<div class="container">
-			<h3 class="text-heading">Présentation</h3>
-			<p class="sample-text">
-				{{ .Params.text | markdownify}}
 
-			</p>
+    <!-- Site Breadcrumb Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg={{ "img/about-breadcrumb-bg.jpg" | relURL}}>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="site-text">
+                        <h2>Sky'Bad </h2>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section class="blog-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<p>{{.Params.text | markdownify}}</p>
+				</div>
+				<div class="col-6">
+					<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">
+				</div>
+				
 		</div>
 	</section>
-
 
 			
 {{end}}					  
