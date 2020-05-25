@@ -2570,3 +2570,124 @@ vertical-align: center;
 .text_members p{ padding: 0; margin: 0;
 
 }
+
+/*--------- Start price  Area -------------*/
+.price-area .single-price {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+}
+
+
+.price-area .single-price p  {
+  text-align: center;
+}
+.price-area .single-price .package-no {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(132, 144, 255, 0.1);
+  border-radius: 100px;
+  align-items: center;
+  display: grid;
+  border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.price-area .single-price .top-part h4 {
+  margin-top: 20px;
+}
+
+.price-area .single-price .package-list {
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.price-area .single-price .package-list ul li {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.price-area .single-price .package-list ul li:last-child {
+  border-bottom: 1px solid #eee;
+}
+
+.price-area .single-price .bottom-part {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.price-area .single-price .bottom-part .price-btn {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  color: #222;
+  padding: 10px 50px;
+  font-weight: 600;
+  display: inline-block;
+  display: none;
+}
+
+.price-area .single-price:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.price-area .single-price:hover h1, .price-area .single-price:hover h4 .price-area .single-price:hover h2{
+  color: #fff;
+}
+
+.price-area .single-price:hover .package-no {
+  border-color: rgba(255, 255, 255, 0.21);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.price-area .single-price:hover .bottom-part  h2 {
+  display: none;
+}
+
+.price-area .single-price:hover .bottom-part .price-btn {
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .price-area .single-price {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 736px) {
+  .price-area .single-price {
+    margin: 10px;
+  }
+}
+
+
+.p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
+  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*--------- end price  Area -------------*/

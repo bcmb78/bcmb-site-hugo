@@ -21,16 +21,66 @@
         <div class="container">
  
 					
+						
+						<p> Les réinscriptions se font par courrier avant la date limite fixée au 08 Juillet 2020. Merci d'envoyer votre dossier complet à Christine.</p>
+						
+						
+						<p>Après cette date, les inscriptions se feront au forum comme pour les nouveaux adhérents.</p>
+						
+						
+						<h2> Formules </h2>
+						<p> Les tarifs pour la saison 2020-2021 sont les suivants</p>
+						
+						
+									<!-- Start price Area -->
+			<section class="price-area section-gap">
+				<div class="container">
+					
+					<div class="row">
+					
+						{{range .Params.tarif}}
+						
+						
+						<div class="col-lg-{{.size}} single-price">
+							<div class="top-part">
+								<h2 class="package-no">{{.price}}€/an</h2>
+								<h4>{{.name}}</h4>
+								<p class="mt-10">{{.sub}} </p>
+							</div>
+							<div class="package-list">
+								<ul>
+								
+								{{range .avantage}}
+									<li>{{.name}}</li>
 
+									
+								{{end}}
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h2> </h2>
+								
+							</div>
+						</div>
 						
-						<p>{{.Params.text | markdownify}}</p>
+						{{end}}
 						
-						<h2> Tarifs </h2>
+
+																	
+					</div>
+				</div>	
+			</section>
+			<!-- End price Area -->
+						
+
 						
 						<h2> Documents à fournir </h2>
+						
+						{{range .Params.document}}
+						<p>{{.name}}</p>
+						
+						{{end}}
 
-
-				
 
 				
 					    <!-- Latest News Section Begin -->
