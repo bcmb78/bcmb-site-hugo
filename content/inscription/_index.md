@@ -7,9 +7,6 @@ document:
   file: img/bcmb_inscriptions_adulte_19_20.pdf
   icon: ''
 tarif:
-- name: ''
-  price: 
-  avantage: []
 - name: Adulte
   sub: Loisir
   price: 120
