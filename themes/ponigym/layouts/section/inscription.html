@@ -75,13 +75,23 @@
 
 						
 						<h2> Documents à fournir </h2>
+						<div class="row">
 						
 						{{range .Params.document}}
-						<p>{{.name}}</p>
-						<i class="fa fa-download" aria-hidden="true"></i>
-
-						{{end}}
-
+							<div class="col-lg-6">
+								<div class="row">
+									<div class="col-lg-8">
+										<p>{{.name}}</p>
+									</div>
+									<div class="col-lg-4">
+										<i class="fa fa-download" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+							{{end}}
+							
+						</div>
+						
 
 				
 					    <!-- Latest News Section Begin -->
