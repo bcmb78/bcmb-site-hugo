@@ -1186,9 +1186,20 @@ ol {
   Breadcrumb Section
 -----------------------*/
 .breadcrumb-section {
-  height: 200px;
-  padding-top: 55px;
+  height: 20rem;
+  
+  
+
 }
+
+.overlaybcs{
+  padding-top:7rem;
+  width:100%;
+  height: 100%;
+  background: linear-gradient(40deg, rgba(109,34,100,0.8), rgba(248,51,81,0.8));
+
+}
+
 
 .site-text {
   text-align: center;
@@ -1197,11 +1208,12 @@ ol {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  font-size: 4em;
+  opacity:1;
 }
 .site-text .site-breadcrumb .sb-item {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 3zm;
   margin-right: 20px;
   position: relative;
 }
@@ -2429,10 +2441,12 @@ margin-left: auto;
 /*# sourceMappingURL=style.css.map */
 /*--------- Start Facts Area -------------*/
 
-.facts-area ,.brands-area{
-  background: -moz-linear-gradient(0deg, #f34e3a 0%, #f6cdcd 100%);
-  background: -webkit-linear-gradient(0deg, #f34e3a 0%, #f6cdcd 100%);
-  background: -ms-linear-gradient(0deg, #f34e3a 0%, #f6cdcd 100%);
+.facts-area ,.brands-area,.p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .thumb .overlay-bg, .price-area .single-price:hover, .about-banner, .sb_bar{
+  background: linear-gradient(40deg, #6d2264, #f83351);
+}
+
+.facts-area {
+  padding:1em 0;
 }
 
 .single-fact {
@@ -2678,11 +2692,6 @@ vertical-align: center;
 }
 
 
-.p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .about-banner, .sb_bar {
-  background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-}
 
 ol, ul {
     margin: 0;
