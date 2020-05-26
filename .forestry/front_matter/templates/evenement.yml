@@ -106,6 +106,14 @@ fields:
   showOnly:
     field: type
     value: tournoi
+- name: reglement
+  type: file
+  config:
+    maxSize: 64
+  label: reglement
+  showOnly:
+    field: type
+    value: tournoi
 pages:
 - content/event/rentrée.md
 - content/event/reprise.md
