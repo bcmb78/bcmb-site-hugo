@@ -34,6 +34,7 @@ joueurs:
   rankMx: R5
   rankS: R5
   photo: ''
+  is_captain: true
 - nom: RIEHL Vincent
   rankD: R6
   rankMx: D7

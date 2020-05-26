@@ -16,6 +16,7 @@ joueurs:
   rankD: P12
   rankMx: P11
   rankS: D8
+  is_captain: true
 - nom: Patrice VAN LOOY
   rankD: P11
   rankMx: D8

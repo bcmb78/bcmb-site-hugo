@@ -20,6 +20,7 @@ joueurs:
   rankD: D7
   rankMx: R6
   rankS: R6
+  is_captain: true
 - nom: Cédric Aubert
   rankD: D7
   rankMx: R6

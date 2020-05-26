@@ -20,6 +20,7 @@ joueurs:
   rankD: D7
   rankMx: R6
   rankS: D7
+  is_captain: true
 - nom: Cristophe DEHILOTTE
   rankD: D7
   rankMx: R6

@@ -8,11 +8,12 @@ joueurs:
   rankD: R5
   rankMx: R4
   rankS: R5
+  is_captain: true
 - nom: Gurvan LECHANTOUX
   rankD: R4
   rankMx: R5
   rankS: R5
-- nom: 'Sylvain Cordiez '
+- nom: Sylvain CORDIEZ
   rankD: R5
   rankMx: R4
   rankS: R5
@@ -20,7 +21,7 @@ joueurs:
   rankD: D7
   rankMx: D7
   rankS: R6
-- nom: " Lisa SEGUIN-CADICHE"
+- nom: Lisa SEGUIN-CADICHE
   rankD: R5
   rankMx: R6
   rankS: R5

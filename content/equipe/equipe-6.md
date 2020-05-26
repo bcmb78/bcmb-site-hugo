@@ -20,6 +20,7 @@ joueurs:
   rankD: D7
   rankMx: D9
   rankS: D7
+  is_captain: true
 - nom: Albert GARDOLL
   rankD: D7
   rankMx: D8

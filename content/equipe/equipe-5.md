@@ -12,6 +12,7 @@ joueurs:
   rankD: P10
   rankMx: D8
   rankS: D9
+  is_captain: true
 - nom: Lucie CLABEAUT
   rankD: P10
   rankMx: P10
