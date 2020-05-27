@@ -49,7 +49,7 @@
 	
 	<div class="content">
 	{{- partial "site-nav.html" . -}}
-	
+	{{- partial "site-header.html" . -}}
 	
     {{- block "main" . }}{{- end }}
 	
@@ -104,9 +104,9 @@
 
                         <div class="footer-widget">
                             <ul>
-                                <li>Privacy Policy</li>
-                                <li>Metions légales</li>
-                                <li>Se connecter</li>
+                                <li>Nous contacter </li>
+                                <li><a href={{"about" | relURL}}>Mentions légales</a></li>
+                                <li><a href="https://app.forestry.io/sites/aebp2kycerm0ug/#/" target="_blank">Se connecter</a></li>
                             </ul>
                         </div>
 						<div class="copyright">

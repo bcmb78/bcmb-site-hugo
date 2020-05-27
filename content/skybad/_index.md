@@ -1,9 +1,9 @@
 ---
 layout: skybad
-title: SkyBad
+title: Sky'Bad
 image: "/img/skybad.jpg"
 text: |
-  ## 11ème Sky'Bad de Montigny le Bretonneux
+  ## 11ème Sky'Bad
 
   Les 9 et 10 Novembre 2019
   Tournoi de Doubles : S1-S2-S3-S4 - Classement R4 maximum

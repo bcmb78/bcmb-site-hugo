@@ -1,6 +1,7 @@
 +++
 aliases = ["posts","articles","blog","showcase","docs"]
-title = "Posts"
+title = "Actualité"
 author = "Hugo Authors"
 tags = ["index"]
+banner= "img/banner-news.jpg"
 +++

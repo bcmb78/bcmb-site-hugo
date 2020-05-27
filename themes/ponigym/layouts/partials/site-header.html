@@ -1,5 +1,23 @@
-<div class="outer site-nav-main">
-    <div class="inner">
-        {{- partial "site-nav.html" . -}}
-    </div>
-</div>
+	
+	{{ $bag := "img/guenange-badminton.jpg"}}
+	{{if .Params.banner}}
+
+		{{ $bag = .Params.banner}}
+
+	{{end}}
+	
+	
+    <section class="breadcrumb-section set-bg" data-setbg={{$bag|relURL}}>
+	 <div class="overlaybcs">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="site-text">
+                        <h2>{{.Title}}</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+    </section>
