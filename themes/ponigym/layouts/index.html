@@ -54,9 +54,9 @@
 						{{ range $events }}								
 						{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 						
-						
+						<a href={{.Permalink}}>
 						<div class="row event">
-							<div class="date">
+							<div class="date {{.Params.type}}">
 								<div class="day">{{.Date.Format "02"}}</div>
 								<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
 							</div>
@@ -67,6 +67,7 @@
 							
 						
 						</div>
+						</a>
 						{{end}}
 						
 					

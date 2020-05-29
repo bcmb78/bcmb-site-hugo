@@ -43,7 +43,7 @@
 								{{ .Params.categorie }}
 							</a>
 							
-						</div>
+						</div>	
 					</div>
 				</div> 
 				
@@ -53,8 +53,8 @@
 	{{end}}
 	</div>
 
-	<div class="col-lg-3 offset-lg-1" style="padding-top: 1rem">
-		<div class="blog-sidebar" >
+	<div class="col-lg-4" style="padding-top: 1rem">
+		<div class="blog-sidebar" style="padding-left:1rem;">
 			<div class="sidebar-recent">			
 				{{ range after 1 (first 5 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse) }}
 				<div class="sr-item">

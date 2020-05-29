@@ -36,7 +36,7 @@ paginate= 3
   [[menu.main]]
     identifier = "events"
     name = "Evènements"
-    url = "/calendar/"
+    url = "/event/"
     weight = 30
 	
   [[menu.main]]
@@ -102,36 +102,7 @@ paginate= 3
 	url = "/skybad/"
 	weight = 50
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-archive = "archive"
 
-[privacy]
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
 
