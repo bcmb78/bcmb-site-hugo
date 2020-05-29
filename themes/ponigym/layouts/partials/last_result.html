@@ -1,0 +1,29 @@
+
+
+
+	<div class="section-title">
+		<h2>Derniers résultats</h2>
+		
+	</div>
+
+
+
+
+{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.type" "!=" "interclub").ByPublishDate.Reverse}}
+	
+		<div class="latest-items">
+			<div class="latest-pic">
+				<img src={{.Params.image}} alt="">
+			</div>
+			<div class="latest-text">
+				
+				<h5><a href={{.Permalink}}>{{.Title}}</a></h5>
+				<p> {{ .Description }} 
+				<!-- <div class="latest-tag">
+					<p> {{ .Description }} </p>
+				</div> -->
+			</div>
+		</div>
+	
+{{end}}
+
