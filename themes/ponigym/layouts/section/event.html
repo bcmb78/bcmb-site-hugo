@@ -20,7 +20,7 @@
 								
 								<div class="col-lg-6">
 								<div class="row event ">
-									<div class="date {{.Params.type}}">
+									<div class="date {{.Params.event_type}}">
 										<div class="day">{{.Date.Format "02"}}</div>
 										<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
 									</div>
