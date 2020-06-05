@@ -3,11 +3,11 @@ title: Présentation
 image: "/img/about-shade-grown.jpg"
 text: "Le Badminton Club de Montigny le Bretonneux (BCMB) a été créé en 1983 et comptait
   alors 40 adhérents ainsi qu'une équipe en championnat interclubs. Au fil des ans
-  les effectifs ont grimpés et atteignent désormais les 250 joueurs. Tous les pratiquants
+  les effectifs ont grimpé et atteignent désormais les 260 joueurs. Tous les pratiquants
   sont les bienvenus et les créneaux adaptés selon le profil des joueurs, jeunes,
   adultes loisirs ou compétiteurs.  \n\nA force de progression dans le championnat
   interclub, le BCMB a été le premier club des Yvelines à évoluer en championnat National
-  à partir de 2000. Maintenant il compte 8 équipes évoluants en interclubs. L'équipe
+  à partir de 2000. Maintenant il compte 8 équipes évoluant en interclubs. L'équipe
   1 qui évoluait en Régionale 3 en 2017/2018 joue maintenant en Régionale 2, et nos
   équipes 2 et 3 évoluent toutes les 2 en Départementale 1 pour la saison 2018/2019.
   \ \n\n\nDepuis 2009, une équipe de bénévoles se met à la tâche afin d'organiser
