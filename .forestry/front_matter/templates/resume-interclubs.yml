@@ -70,4 +70,5 @@ fields:
   label: type
   hidden: true
 pages:
+- content/resultat/departementaux-j10.md
 - content/resultat/resume-j11.md
