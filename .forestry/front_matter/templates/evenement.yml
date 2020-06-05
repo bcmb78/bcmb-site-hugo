@@ -2,7 +2,7 @@
 label: Evenement
 hide_body: false
 fields:
-- name: type
+- name: event_type
   type: select
   default: []
   config:
@@ -17,7 +17,7 @@ fields:
       section: 
       file: 
       path: 
-  label: type
+  label: event_type
 - type: text
   name: title
   label: title
