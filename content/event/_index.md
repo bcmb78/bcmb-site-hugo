@@ -1,5 +1,5 @@
 +++
-title = "Actualité"
+title = "Evènements"
 tags = ["index"]
-banner= "img/banner-news.jpg"
+banner= "img/calendar-banner.jpg"
 +++

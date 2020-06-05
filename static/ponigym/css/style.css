@@ -2509,6 +2509,64 @@ margin-left: auto;
 
 
 /*------Events list--------- */
+.single-event{
+border: solid 4px; 
+margin-top: 20%;
+background: #e5e;
+display: flex;
+
+}
+
+.single-event .image{
+background: #66e;
+}
+
+
+.single-event .date{
+
+margin: auto;
+
+background: #e66;
+width:100%;
+height:100%;
+text-transform: uppercase;
+text-align:center;
+color: #fff;
+
+
+}
+
+.single-event .date .day{
+line-height: 100%;
+float: left;
+width: 100%;
+height: 70%;
+padding-top:10%;
+vertical-align: middle;
+border: solid 1px;
+color: #fff;
+font-size: 10em;
+}
+
+.single-event .date .month{
+line-height: 100%;
+float: center;
+width: 100%;
+
+padding-top:10%;
+vertical-align: middle;
+border: solid 1px;
+color: #fff;
+font-size: 2.8em;
+}
+
+
+.single-event .infos{
+
+padding: 2em;
+
+
+}
 
 
 .event{

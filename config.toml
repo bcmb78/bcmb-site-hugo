@@ -18,7 +18,7 @@ paginate= 3
 [params]
   facebook = ""
   description = ""
-  mainSections = ["post"]
+  mainSections = ["post", "equipe", "resultat", "event"]
 
 [menu]
   [[menu.main]]

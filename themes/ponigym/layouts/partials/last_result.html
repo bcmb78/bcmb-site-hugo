@@ -9,7 +9,7 @@
 
 
 
-{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.type" "!=" "interclub").ByPublishDate.Reverse}}
+{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "!=" "interclub").ByPublishDate.Reverse}}
 	
 		<div class="latest-items">
 			<div class="latest-pic">

@@ -18,7 +18,7 @@
 					<h2>Interclubs</h2>
 					
 				</div>
-				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.type" "=" "interclub").ByPublishDate.Reverse}}
+				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "interclub").ByPublishDate.Reverse}}
 				<p> {{ .Title }} </p>
 				<div class="interclub-table-wrap">
 					<div class="interclub-table">
@@ -56,7 +56,7 @@
 						
 						<a href={{.Permalink}}>
 						<div class="row event">
-							<div class="date {{.Params.type}}">
+							<div class="date {{.Params.event_type}}">
 								<div class="day">{{.Date.Format "02"}}</div>
 								<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
 							</div>

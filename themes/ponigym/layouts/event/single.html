@@ -1,10 +1,46 @@
 {{ define "main" }}
 
+{{ $mymonths := index $.Site.Data.mois }}
+
 
 	<section class="">
 		<div class="container">
 
-<p> EVNETSHGFKJSHFKJSHFLKJ </p>
+			<div class="row single-event">
+				
+				
+				
+				<div class="col-lg-3 date">
+				
+					<div class="day">
+					
+						{{.Date.Format "02"}}
+						
+					</div>
+					
+					<div class="month">
+					
+						{{ index $mymonths (printf "%d" .Date.Month) }}
+
+					</div>
+
+				</div>
+				
+				<div class="col-lg-3 image">
+				{{.Params.image}}
+				</div>
+				<div class="col-lg-6 infos">
+				
+				<h2> {{ .Title}} </h2>
+				<p> {{.Params.lieu}} </p>
+				<p> {{ .Description}} </p>
+				</div>
+				
+
+				
+			
+			
+			</div>
 		</div>
 	</section>
 
