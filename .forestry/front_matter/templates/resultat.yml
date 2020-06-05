@@ -16,7 +16,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: type
+- name: res_type
   type: select
   default: []
   config:
@@ -29,7 +29,7 @@ fields:
       section: 
       file: 
       path: 
-  label: type
+  label: res_type
 - name: image
   type: file
   config:
@@ -78,4 +78,4 @@ fields:
     labelField: 
   label: res
 pages:
-- content/resultat/interclubs-départementaux-j3.md
+- content/resultat/tournoi-de-bar-le-duc.md

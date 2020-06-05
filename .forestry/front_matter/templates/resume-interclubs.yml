@@ -70,5 +70,6 @@ fields:
   label: type
   hidden: true
 pages:
-- content/resultat/interclubs-départementaux-j6.md
+- content/resultat/departementaux-j10.md
+- content/resultat/departementaux-j9.md
 - content/resultat/resume-j11.md
