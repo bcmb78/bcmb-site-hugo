@@ -21,7 +21,7 @@ score2 = 4
 equipe1 = "BCMB 5"
 equipe2 = "ASMC 3"
 score1 = 0
-score2 = nil
+score2 = 0
 [[score]]
 equipe1 = "BCMB 6"
 equipe2 = "CBM4"
