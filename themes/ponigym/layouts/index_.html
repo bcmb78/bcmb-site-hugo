@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+<!-- Blog Section Begin -->
+<section class="blog-section spad">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				{{ partial "last_actu.html" . }}
+			</div>
+								
+		
+			<div class="col-lg-4">			
+				{{ partial "last_result.html" . }}
+		
+			</div>
+			<div class="col-lg-4">
+				<div class="section-title">
+					<h2>Interclubs</h2>
+					
+				</div>
+				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "interclub").ByPublishDate.Reverse}}
+				<p> {{ .Title }} </p>
+				<div class="interclub-table-wrap">
+					<div class="interclub-table">
+
+						{{ range .Params.score}}
+						<div class="table-row">
+							<div class="equipe-1">{{.equipe1}}</div>
+							<div class="score-1"> {{.score1}}</div>
+							<div class="score-2"> {{.score2}}</div>
+							<div class="equipe-2">{{.equipe2}}	</div>
+						</div>
+						{{end}}
+					</div>
+				</div>
+				{{end}}
+			
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="section-title">
+					<h2>A venir</h2>
+					
+				</div>
+
+					{{ $mymonths := index $.Site.Data.mois_short }}
+					{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
+					{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
+					{{ $.Scratch.Set "counter" 0 }}
+					
+					
+					
+						
+						{{ range $events }}								
+						{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+						
+						<a href={{.Permalink}}>
+						<div class="row event">
+							<div class="date {{.Params.event_type}}">
+								<div class="day">{{.Date.Format "02"}}</div>
+								<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
+							</div>
+							<div class="infos">
+								<h4>{{.Title}}</h4>
+								<p> Général</p>
+							</div>
+							
+						
+						</div>
+						</a>
+						{{end}}
+						
+					
+
+			</div>
+			
+		</div>	
+			
+	</div>
+
+</section>
+
+	
+{{ end }}
