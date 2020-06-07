@@ -19,6 +19,7 @@
 								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 								
 								<div class="col-lg-6">
+								<a href={{.Permalink}}>
 								<div class="row event ">
 									<div class="date {{.Params.event_type}}">
 										<div class="day">{{.Date.Format "02"}}</div>
@@ -32,6 +33,7 @@
                              
 								
 								</div>
+								</a>
 								</div>
                                 {{end}}
                             

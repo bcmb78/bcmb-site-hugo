@@ -25,15 +25,42 @@
 					</div>
 
 				</div>
+					{{ $bag := "img/guenange-badminton.jpg"}}
+						{{if .Params.image}}
+
+							{{ $bag = .Params.image}}
+							{{end}}
+							<div class="col-lg-3 image set-bg" data-setbg={{$bag|relURL}}>
+							
+							</div>
 				
-				<div class="col-lg-3 image">
-				{{.Params.image}}
-				</div>
+				
 				<div class="col-lg-6 infos">
 				
 				<h2> {{ .Title}} </h2>
 				<p> {{.Params.lieu}} </p>
 				<p> {{ .Description}} </p>
+				
+				{{if eq .Params.event_type "tournoi"}}
+				<div class="row" style="width:90%; position: absolute; bottom: 0.5rem;">
+				<div class="col-lg-4">
+				<button class="docs" type="button">
+					Fiche d'inscription
+				</button>
+				</div>
+				
+				<div class="col-lg-4">
+				<button class="docs" type="button">
+					Règlement
+				</button>
+				</div>
+				<div class="col-lg-4">
+				<button class="docs" type="button" disabled>
+					Convocations
+				</button>
+				</div>
+				</div>
+				{{end}}
 				</div>
 				
 

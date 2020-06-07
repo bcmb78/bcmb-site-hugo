@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Badminton Club Montigny-le-Bretonneux">
-    <meta name="keywords" content="BCMB, badminton, montigny">
+
+    <meta name="keywords" content="BCMB, badminton, montigny, skybaD">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {{ $title := print .Title " · " .Site.Title }}
@@ -105,7 +105,7 @@
 
                         <div class="footer-widget">
                             <ul>
-                                <li>Nous contacter </li>
+                                <li><a href="{{.Site.BaseURL}}/club#bureau">Nous contacter </a></li>
                                 <li><a href={{"about" | relURL}}>Mentions légales</a></li>
                                 <li><a href="https://app.forestry.io/sites/aebp2kycerm0ug/#/" target="_blank">Se connecter</a></li>
                             </ul>
