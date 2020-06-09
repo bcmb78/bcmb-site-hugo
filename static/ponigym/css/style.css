@@ -2784,19 +2784,58 @@ background: #fff;
 	width: 100%;
 	border: solid 1px;
     border-radius: 1.5rem;
+	margin-top: 0.5rem;
 
 
+}
+
+.docs.yellow {
+color: #f4e700;;
+}
+
+.docs.yellow:hover {
+background: #f4e700;;
+}
+
+
+
+.docs.cyan {
+color: #4cd3e3;
+}
+
+.docs.cyan:hover {
+background: #4cd3e3;
+}
+
+.docs.blue {
+color: #38a4ff;
+}
+
+.docs.blue:hover {
+background: #38a4ff;
+}
+
+.docs.red {
+color: #e45447;
+}
+
+.docs.red:hover {
+background: #e45447;
 }
 
 .docs:hover {
-    background-color: rgba(255, 0, 0, 1);
+    color: #fff;
 }
 
-.docs:disabled {
-    background-color: #eee;
+.docs.disabled {
+    background: #f9f9ff;
+	color: #aaa;
+	cursor: not-allowed;
 }
 
-.docs:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+.docs.disabled:hover {
+    background: #f9f9ff;
+	color: #aaa;
+	cursor: not-allowed;
 }
+

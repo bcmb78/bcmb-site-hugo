@@ -9,37 +9,38 @@
 				<h2>{{.Title}}</h2>
 				
 					<p> {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}} </p>
-					<p>{{.Description | markdownify}}</p>
+					<p>{{.Content }}</p>
 					
 					
 								{{if eq .Params.event_type "tournoi"}}
 				<div class="row" style="width:100%">
 					<div class="col-lg-4">
-					<button class="docs" type="button">
+					<button class="docs red" type="button">
 						Fiche d'inscription
 					</button>
 					</div>
 					
 					<div class="col-lg-4">
-					<button class="docs" type="button">
+					<button class="docs cyan" type="button">
 						Règlement
 					</button>
 					</div>
 					<div class="col-lg-4">
-					<button class="docs" type="button" disabled>
+					<button class="docs disabled" type="button" disabled>
 						Convocations
 					</button>
 				</div>
 				</div>
 				{{end}}
 				</div>
-				<div class="col-6">
+				
+				<div class="col-6" style="text-align: center"	>
 				
 					{{ $image := "img/mascotte1.jpg"}}
-					{{if .Params.image}}
-						{{ $image = .Params.image}}
+					{{if .Params.poster}}
+						{{ $image = .Params.poster}}
 					{{end}}
-					<img class="f-img img-fluid mx-auto" src={{ $image | relURL}} alt="">
+					<img class="f-img img-fluid mx-auto" src={{ $image | relURL}} alt="" style="max-height:70vh; align: center">
 				</div>
 				
 			
