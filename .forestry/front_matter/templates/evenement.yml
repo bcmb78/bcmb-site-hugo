@@ -56,7 +56,7 @@ fields:
       path: 
   label: categorie
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 - name: date_inscription
   type: datetime
@@ -68,7 +68,7 @@ fields:
     time_format: 
     display_utc: false
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 - name: date_tirage
   type: datetime
@@ -80,7 +80,7 @@ fields:
     time_format: 
     display_utc: false
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 - name: poster
   type: file
@@ -88,7 +88,7 @@ fields:
     maxSize: 64
   label: poster
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 - name: fiche_inscription
   type: file
@@ -96,7 +96,7 @@ fields:
     maxSize: 64
   label: fiche_inscription
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 - name: convocation
   type: file
@@ -104,7 +104,7 @@ fields:
     maxSize: 64
   label: convocation
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 - name: reglement
   type: file
@@ -112,7 +112,7 @@ fields:
     maxSize: 64
   label: reglement
   showOnly:
-    field: type
+    field: event_type
     value: tournoi
 pages:
 - content/event/29-eme-tournoi-du-forez.md
