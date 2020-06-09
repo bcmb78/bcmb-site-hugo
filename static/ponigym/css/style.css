@@ -2775,14 +2775,15 @@ ol, ul {
 
 
 .docs {
+background: #fff;
     border: 0;
-	height: 4rem;
+	height: 3rem;
     padding: 0 10px;
     font-size: 1rem;
     text-align: center;
 	width: 100%;
 	border: solid 1px;
-    border-radius: 10px;
+    border-radius: 1.5rem;
 
 
 }
