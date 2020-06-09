@@ -9,7 +9,7 @@
 				<h2>{{.Title}}</h2>
 				
 					<p> {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}} </p>
-					<p>{{.Content | markdownify}}</p>
+					<p>{{.Description | markdownify}}</p>
 					
 					
 								{{if eq .Params.event_type "tournoi"}}
