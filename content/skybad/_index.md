@@ -1,29 +1,31 @@
----
-layout: skybad
-title: Sky'Bad
-image: "/img/skybad.jpg"
-text: |
-  ## 11ème Sky'Bad
++++
+categorie = "tournoi_adulte"
+convocation = ""
+date = 2019-11-09T22:00:00Z
+date_inscription = 2019-10-25T22:00:00Z
+date_tirage = ""
+description = ""
+event_type = "tournoi"
+fiche_inscription = ""
+image = ""
+lieu = "Gymnase Pierre de Coubertin - Montigny-le-Bretonneux"
+poster = ""
+reglement = ""
+title = "Sky'Bad 11"
 
-  Les 9 et 10 Novembre 2019
-  Tournoi de Doubles : S1-S2-S3-S4 - Classement R4 maximum
++++
+Nous gardons notre formule qui a fait son succès par le passé avec un super gymnase de 7 terrains, une salle d'échauffement pour être au top avant vos matchs, une belle buvette pour vous rassasier, un stand Larde pour vous équiper comme il se doit et d'autres surprises encore !
 
-  Les doubles dames et doubles hommes se dérouleront en intégralité le samedi et les mixtes le dimanche.
-  Tous les tableaux se joueront en poule, avec 2 sortants par poule dans la mesure du possible.
-  Un lot d’accueil par joueur.
+Suite au succès des éditions précédentes, nous vous conseillons de vous inscrire le plus tôt possible, les premiers inscrits seront les premiers servis !
 
-  Nous gardons notre formule qui a fait son succès par le passé avec un super gymnase de 7 terrains, une salle d'échauffement pour être au top avant vos matchs, une belle buvette pour vous rassasier, un stand Larde pour vous équiper comme il se doit et d'autres surprises encore !
+4 séries : S1-S2-S3-S4 - Classement R4 au maximum.
 
-  Suite au succès des éditions précédentes, nous vous conseillons de vous inscrire le plus tôt possible, les premiers inscrits seront les premiers servis !
+Les Tableaux : DH, DD et DM
 
-  Vous trouverez ci dessous les documents nécessaires pour l'inscription:
-  * Fiche d'inscription
-  * Règlement particulier
-  * Plaquette
+Les doubles dames et doubles hommes se dérouleront en intégralité le samedi, mixtes le dimanche.
 
-  Le tirage au sort aura lieu le Vendredi 25 Octobre 2019.
+Tous les tableaux se joueront en poule, avec 2 sortants par poule dans la mesure du possible
 
+Un lot d’accueil par joueur, 2000€ de lots
 
-  * Convocations
----
-
+Date limite d'inscription = JEUDI 10 OCTOBRE 2019

@@ -18,7 +18,7 @@
 								{{ range $events }}								
 								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 								
-								<div class="col-lg-6">
+								<div class="col-lg-4">
 								<a href={{.Permalink}}>
 								<div class="row event ">
 									<div class="date {{.Params.event_type}}">
@@ -27,7 +27,7 @@
 									</div>
 									<div class="infos">
 										<h4>{{.Title}}</h4>
-										<p> Général</p>
+										
 									</div>
 									
                              
@@ -125,7 +125,30 @@
 				monthNamesShort: ['Jan','Fev','Mar','Avr','Mai','Jun','Jul','Aou','Sep','Oct','Nov','Dec'],
 				dayNames: ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'],
 				dayNamesShort: ['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'],
-                events: '{{ .Site.BaseURL }}/event/index.json'
+                events: '{{ .Site.BaseURL }}/event/index.json',
+				eventColor:'#ff6699',
+				nextDayThreshold: "00:00:00",
+				
+				eventDataTransform: function (eventData) {
+
+					var dur = eventData.end - eventData.start; //total event duration
+
+
+							//eventData.end needs ammending to 00:00:00 of the next morning
+							if (dur > 86400000) {
+								var m = moment(eventData.end);
+								var roundDown = m.startOf('day');
+								var day2 = moment(roundDown).add(1, 'days')
+
+								eventData.end = day2.toString();
+
+							}
+
+
+
+					return(eventData);
+			    },
+				
             })
 
         });

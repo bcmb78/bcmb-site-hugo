@@ -3,9 +3,22 @@
     {{ if $index }}, {{ end }}
     {
         "title": "{{ .Title }}",
-        "start": "{{ dateFormat "2006-01-02" .Date }}",
-        "allDay": true,
+        "start": "{{ dateFormat "2006-01-02T15:04:05" .Date }}",
+		{{if .Params.end_date}}
+		"end": "{{ dateFormat "2006-01-02T15:04:05" .Params.end_date }}",		
+		{{end}}
+		
+		"allDay": true,
+		
+        
+		"color": {{if eq .Params.event_type "tournoi"}} "#28b463" 
+		{{else if eq .Params.event_type "exterieur"}}  "#d68910" 
+		{{else if eq .Params.event_type "club"}} "#cb4335"	
+		{{else}} "#000000" 
+		{{end}},
         "url": "{{ .Permalink | absURL }}"
+
+
     }
     {{ end }}
 ]

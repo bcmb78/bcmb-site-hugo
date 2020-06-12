@@ -12,26 +12,34 @@
 					<p>{{.Content }}</p>
 					
 					
-								{{if eq .Params.event_type "tournoi"}}
-				<div class="row" style="width:100%">
-					<div class="col-lg-4">
-					<button class="docs red" type="button">
-						Fiche d'inscription
-					</button>
-					</div>
-					
-					<div class="col-lg-4">
-					<button class="docs cyan" type="button">
-						Règlement
-					</button>
-					</div>
-					<div class="col-lg-4">
-					<button class="docs disabled" type="button" disabled>
-						Convocations
-					</button>
-				</div>
-				</div>
-				{{end}}
+					{{if eq .Params.event_type "tournoi"}}
+						
+						<div class="row" style="width:100%">
+							
+							<div class="col-lg-4">
+							{{if .Params.fiche_inscription}}
+							<button class="docs red" type="button" onclick="window.open({{.Params.fiche_inscription | relURL}})">
+								Fiche d'inscription
+							</button>
+							
+							{{else}}
+							
+							{{end}}
+							</div>
+							
+							
+							<div class="col-lg-4">
+							<button class="docs cyan" type="button">
+								Règlement
+							</button>
+							</div>
+							<div class="col-lg-4">
+								<button class="docs disabled" type="button" disabled>
+									Convocations
+								</button>
+							</div>
+						</div>
+					{{end}}
 				</div>
 				
 				<div class="col-6" style="text-align: center"	>
