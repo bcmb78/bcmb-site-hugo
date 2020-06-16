@@ -4,6 +4,11 @@ image: "/img/equipe1_1920.jpg"
 division: Régional 3
 iframe: https://lifb.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=10307&roundId=469768
 joueurs:
+- nom: Cathy Bognon
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+  photo: ''
 - nom: Sophie MAS
   rankD: R5
   rankMx: N3
