@@ -5,11 +5,11 @@
 
     {	"url": "{{.Permalink}}",
         "name": "{{ .Title }}",
-        "startDate": "{{ dateFormat "2006-01-02T15:04:05" .Date }}",
+        "startDate": "{{.Date }}",
 		{{if .Params.end_date}}
-			"endDate": "{{ dateFormat "2006-01-02T15:04:05" .Params.end_date }}"
+			"endDate": "{{ .Params.end_date }}"
 		{{else}}
-			"endDate": "{{ dateFormat "2006-01-02T15:04:05" .Date }}"
+			"endDate": "{{ .Date }}"
 		
 		{{end}},	
 		"location": "",
