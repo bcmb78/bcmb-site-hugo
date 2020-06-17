@@ -5,12 +5,13 @@
 
     {	"url": "{{.Permalink}}",
         "name": "{{ .Title }}",
-        "startDate": "new Date({{.Date.Year}}, {{(printf "%d-1" .Date.Month)}}, {{.Date.Day}})",
+        "startDate": "{{ dateFormat "2006-01-02T15:04:05" .Date }}",
 		{{if .Params.end_date}}
+			"endDate": "{{ dateFormat "2006-01-02T15:04:05" .Params.end_date }}"
+		{{else}}
+			"endDate": "{{ dateFormat "2006-01-02T15:04:05" .Date }}"
 		
-		"endDate": "{{if .Params.end_date}} new Date({{.Params.end_date.Year}}, {{(printf "%d-1" .Params.end_date.Month)}}, {{.Params.end_date.Day}})
-		{{else}} new Date({{.Date.Year}}, {{(printf "%d-1" .Date.Month)}}, {{.Date.Day}})
-		{{end}}",	
+		{{end}},	
 		"location": "",
 		"color": {{if eq .Params.event_type "tournoi"}} "#28b463" 
 		{{else if eq .Params.event_type "exterieur"}}  "#d68910" 
@@ -19,7 +20,7 @@
 		{{else}} "#000000" 
 		{{end}},
 		
-		{{end}}
+
 		
 		
 
