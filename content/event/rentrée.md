@@ -1,7 +1,8 @@
 +++
-date = 2020-09-06T22:00:00Z
+date = 2020-09-07T22:00:00Z
+end_date = 2020-09-07T22:00:00Z
 description = ""
 image = "img/tournoi_double.PNG"
-title = "Rentrée"
+title = "Reprise Adultes"
 event_type= "club"
 +++

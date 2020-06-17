@@ -2,7 +2,7 @@
 
 
 
-    <section style="margin-top:2em">
+ <!--    <section style="margin-top:2em">
         <div class="container">
 					<div class="section-title">
 						<h2>Prochains évènements</h2>                                
@@ -44,115 +44,17 @@
 					
 
 		</div>
-	</section>
-	<section style="margin-top:2em">
-		<div class="container">
-			<div class="section-title">
-				<h2>Calendrier</h2>                                
-			</div>
-			<div id="calendar"></div>
-		</div>
-	</section>
-<style>
+	</section> -->
+	
+		<section style="margin-top:2em">
+		
 
-
+		{{- partial "year_calendar.html" . -}}
+		
+	</section>
 	
 	
-	#wrap {
-		width: 1100px;
-		margin: 0 auto;
-		}
 
-	#external-events {
-		float: left;
-		width: 150px;
-		padding: 0 10px;
-		text-align: left;
-		}
-
-	#external-events h4 {
-		font-size: 16px;
-		margin-top: 0;
-		padding-top: 1em;
-		}
-
-	.external-event { /* try to mimick the look of a real event */
-		margin: 10px 0;
-		padding: 2px 4px;
-		background: #3366CC;
-		color: #fff;
-		font-size: .85em;
-		cursor: pointer;
-		}
-
-	#external-events p {
-		margin: 1.5em 0;
-		font-size: 11px;
-		color: #666;
-		}
-
-	#external-events p input {
-		margin: 0;
-		vertical-align: middle;
-		}
-
-	#calendar {
-/* 		float: right; */
-		
-        margin: 2em auto;
-		
-		
-		background-color: #FFFFFF;
-		border-radius: 6px;
-        box-shadow: 0 1px 2px #C3C3C3;
-		}
-
-</style>
-    <script src='/js/moment.min.js'></script>
-    <script src='/js/jquery.min.js'></script>
-    <script src='/js/jquery-ui.custom.min.js'></script>
-    <script src='/js/fullcalendar.min.js'></script>
-
-    <script>
-        $(document).ready(function () {
-
-            console.log("Ready...");
-
-            $('#calendar').fullCalendar({
-
-				buttonText: {today: "Aujourd'hui", month:    'mois',  week:     'semaine',  day:      'jour',  list:     'liste'},
-				monthNames: ['Janvier','Févier','Mars','Avril','Mai','Juin','Juillet','Aout','Septembre','Octobre','Novembre','Décembre'],
-				monthNamesShort: ['Jan','Fev','Mar','Avr','Mai','Jun','Jul','Aou','Sep','Oct','Nov','Dec'],
-				dayNames: ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'],
-				dayNamesShort: ['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'],
-                events: '{{ .Site.BaseURL }}/event/index.json',
-				eventColor:'#ff6699',
-				nextDayThreshold: "00:00:00",
-				
-				eventDataTransform: function (eventData) {
-
-					var dur = eventData.end - eventData.start; //total event duration
-
-
-							//eventData.end needs ammending to 00:00:00 of the next morning
-							if (dur > 86400000) {
-								var m = moment(eventData.end);
-								var roundDown = m.startOf('day');
-								var day2 = moment(roundDown).add(1, 'days')
-
-								eventData.end = day2.toString();
-
-							}
-
-
-
-					return(eventData);
-			    },
-				
-            })
-
-        });
-    </script>
 
 
 	
