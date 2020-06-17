@@ -11,7 +11,9 @@ data = [
 		"location": "",
 		"color": {{if eq .Params.event_type "tournoi"}} "#28b463" 
 		{{else if eq .Params.event_type "exterieur"}}  "#d68910" 
-		{{else if eq .Params.event_type "club"}} "#cb4335"	
+		{{else if eq .Params.event_type "stage_jeunes"}}  "#8910d6" 
+		{{else if eq .Params.event_type "club"}} "#cb4335"
+		{{else if eq .Params.event_type "interclub_regional"}} "#89d610"	
 		{{else}} "#000000" 
 		{{end}},
 		
