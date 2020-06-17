@@ -1,5 +1,5 @@
 ---
-title: Jeunes
+title: Ecole de Bad
 layout: "section/jeunes.html"
 text: |-
   ##### RESPONSABLE
