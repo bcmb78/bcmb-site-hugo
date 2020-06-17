@@ -78,4 +78,5 @@ fields:
     labelField: 
   label: res
 pages:
+- content/resultat/journee-jeune.md
 - content/resultat/tournoi-de-bar-le-duc.md
