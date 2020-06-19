@@ -9,10 +9,26 @@
  
 					
 						
-						<p> Les réinscriptions se font par courrier avant la date limite fixée au 08 Juillet 2020. Merci d'envoyer votre dossier complet à Christine.</p>
+						<p> Les réinscriptions se font par courrier avant la date limite fixée au 31 Juillet 2020. Merci d'envoyer votre dossier complet à Christine 50 Grande Rue, 78910 Tacoignieres)</p>
 						
 						
-						<p>Après cette date, les inscriptions se feront au forum comme pour les nouveaux adhérents.</p>
+						<h2> Documents à fournir </h2>
+						<div class="row">
+						
+						{{range .Params.document}}
+							<div class="col-lg-6">
+								<div class="row">
+									<div class="col-lg-8">
+										<p>{{.name}}</p>
+									</div>
+									<div class="col-lg-4">
+										<a href={{.file | relURL}}><i class="fa fa-download" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+							{{end}}
+							
+						</div>
 						
 						
 						<h2> Formules </h2>
@@ -61,23 +77,7 @@
 						
 
 						
-						<h2> Documents à fournir </h2>
-						<div class="row">
-						
-						{{range .Params.document}}
-							<div class="col-lg-6">
-								<div class="row">
-									<div class="col-lg-8">
-										<p>{{.name}}</p>
-									</div>
-									<div class="col-lg-4">
-										<a href={{.file | relURL}}><i class="fa fa-download" aria-hidden="true"></i></a>
-									</div>
-								</div>
-							</div>
-							{{end}}
-							
-						</div>
+
 						
 
 				
