@@ -25,7 +25,7 @@ document:
   description: ''
 tarif:
 - name: Adulte
-  sub: Loisir
+  sub: Réinscription - Loisir
   price: "120"
   size: "4"
   avantage:
@@ -34,7 +34,7 @@ tarif:
   - name: Volants plastique
   - name: 3 tournois offerts
 - name: Adulte
-  sub: Compétiteurs
+  sub: Réinscription - Compétiteur
   price: "180"
   size: "4"
   avantage:
@@ -42,7 +42,7 @@ tarif:
   - name: Accès créneaux compétiteur
   - name: Volants plumes
   - name: 6 tournois offerts
-- name: Jeune
+- name: Réinscription - Jeune
   sub: "  -  "
   price: "120"
   size: "4"
