@@ -9,7 +9,7 @@ footnoteReturnLinkContents = "^"
 buildFuture = true
 theme = "ponigym"
 disqusShortname = "bcmb78"
-paginate= 3
+paginate= 6
 
 [sitemap]
   changefreq = "monthly"
