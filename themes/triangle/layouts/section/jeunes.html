@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+
+
+
+
+	<section class="sample-text-area">
+		<div class="container">
+
+			<p class="sample-text">
+				{{ .Params.text | markdownify}}
+
+			</p>
+			
+			
+			<h4> Créneaux</h4>
+			
+			{{- partial "schedule_jeune.html" . -}}
+			
+			<h4> Catégories</h4>
+			
+			<div class="row">
+			{{ with .Site.GetPage "/jeunes/categories" }}	
+				{{ range .Params.categorie}}
+					<div class="col-lg-2 members">
+						
+						
+							<div class="col-12">
+								<img class="img-fluid pics" src={{ .image}} alt="">
+							</div>
+							<div class="col-12">
+								<div class="text_members">
+								<h4> {{ .nom}}</h4>
+								<p>
+									{{.annee}}
+								</p>
+								
+								</div>
+							</div>
+						
+					</div>
+				{{ end}}
+			{{end}}	
+			</div>
+			
+			<div class="section-title" style="margin-top:2em">
+						<h2>Prochains évènements</h2>  
+
+						<div style="height:5rem"> A venir</div>
+			</div>
+			
+			<div class="section-title" style="margin-top:2em">
+						<h2>Stages</h2>   
+
+						<div style="height:5rem"> A venir</div>						
+			</div>
+			
+			 
+		</div>
+	</section>
+
+
+			
+{{end}}					  
+			
+		

@@ -1,0 +1,21 @@
+
+{{ define "main" }}
+
+
+	<section class="">
+		<div class="container">
+
+			
+			<p> {{ .Description }}
+			{{if .Params.image}}
+			<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
+			{{end}}
+			{{ template "_internal/disqus.html" . }}
+		</div>
+	</section>
+
+
+			
+{{end}}					  
+			
+	

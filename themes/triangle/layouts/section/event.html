@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+
+
+ <!--    <section style="margin-top:2em">
+        <div class="container">
+					<div class="section-title">
+						<h2>Prochains évènements</h2>                                
+					</div>
+						{{ $mymonths := index $.Site.Data.mois_short }}
+						{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
+						{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
+						{{ $.Scratch.Set "counter" 0 }}
+						
+                        <div class="row">
+                            
+                            
+								{{ range $events }}								
+								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+								
+								<div class="col-lg-4">
+								<a href={{.Permalink}}>
+								<div class="row event ">
+									<div class="date {{.Params.event_type}}">
+										<div class="day">{{.Date.Format "02"}}</div>
+										<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
+									</div>
+									<div class="infos">
+										<h4>{{.Title}}</h4>
+										
+									</div>
+									
+                             
+								
+								</div>
+								</a>
+								</div>
+                                {{end}}
+                            
+                        </div>
+					
+					
+					
+					
+
+		</div>
+	</section> -->
+	
+		<section style="margin-top:2em">
+		
+
+		{{- partial "year_calendar.html" . -}}
+		
+	</section>
+	
+	
+
+
+
+	
+	
+    <!-- Blog Section End -->
+	
+{{ end }}
+
+

@@ -1,0 +1,84 @@
+{{ define "main" }}
+
+
+
+<!-- Blog Section Begin -->
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+			{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post").ByPublishDate.Reverse }}
+                {{ range $paginator.Pages }}
+				<div class="col-lg-6">
+				
+					
+					
+						
+					
+						<div class="blog-items">
+						
+						<div class="single-blog-item" style="padding: 1rem;border: dotted 1px; border-radius: 1rem; margin: 1rem;">
+						
+						<h2>{{.Title}}</h2>
+							<div class="blog-text"> 
+								<div class="row"> 
+									{{if .Params.image}}
+									<div class="col-lg-8">
+										
+										<p>{{.Description| markdownify}}</p>
+									</div>
+									<div class="col-lg-4">
+										<img src="/{{.Params.image}}" alt="" style="width: 100%; height: 100%;  object-fit: cover;">
+									</div>
+									{{else}}
+									<div class="col-lg-12">
+										
+										<p>{{.Description | markdownify}}</p>
+									</div>
+									
+									{{end}}
+									
+								</div>
+								<div class="blog-tag">
+									<div class="post-info">
+										{{.Date.Format "02 - 01 - 2006"}}
+									</div>
+									<div class="tag-details">
+										<a href="#" class="tag-event">
+											<i class="fa fa-tag"></i>
+											Vie du Club
+										</a>
+										
+									</div>
+								</div>
+							</div> 
+							
+							
+						</div>
+						
+
+
+                    </div>
+					
+					
+		
+				
+                </div>
+				{{end}}
+			
+					    <!-- Latest News Section Begin -->
+
+
+
+    <!-- Latest News Section End -->
+				
+				
+
+            </div>
+			{{ template "_internal/pagination.html" . }}
+        </div>
+    </section>
+    <!-- Blog Section End -->
+	
+{{ end }}
+
+
