@@ -42,6 +42,7 @@ tarif:
   - name: Accès créneaux compétiteur
   - name: Volants plumes
   - name: 6 tournois offerts
+  - name: Entrainement Mardi (+50€) ou Vendredi (+20€)
 - name: Réinscription - Jeune
   sub: "  -  "
   price: "120"
