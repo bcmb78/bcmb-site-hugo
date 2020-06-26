@@ -35,7 +35,7 @@ tarif:
   - name: 3 tournois offerts
 - name: Adulte
   sub: Réinscription - Compétiteur
-  price: "180"
+  price: "160"
   size: "4"
   avantage:
   - name: Licence pour championnat et compétitions individuelles
