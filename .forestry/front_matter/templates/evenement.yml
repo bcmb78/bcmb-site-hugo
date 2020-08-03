@@ -115,5 +115,6 @@ fields:
     field: event_type
     value: tournoi
 pages:
+- content/event/championnat-regional-veteran.md
 - content/event/forum-des-associations.md
 - content/event/rentrée.md
