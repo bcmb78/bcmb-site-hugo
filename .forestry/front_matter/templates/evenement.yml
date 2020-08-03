@@ -115,6 +115,7 @@ fields:
     field: event_type
     value: tournoi
 pages:
+- content/event/championnat-regional-seniors.md
 - content/event/championnat-regional-veteran.md
 - content/event/crj-n-3.md
 - content/event/forum-des-associations.md
