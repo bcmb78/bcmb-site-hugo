@@ -49,6 +49,7 @@ fields:
   label: description
 pages:
 - content/club/presentation.md
+- content/post/creneaux-exceptionnel.md
 - content/post/fin-de-saison.md
 - content/post/nouveau-site.md
 - content/post/nouvel-article.md
