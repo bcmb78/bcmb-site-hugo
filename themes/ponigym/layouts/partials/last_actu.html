@@ -1,6 +1,6 @@
 {{ $mymonths := index $.Site.Data.mois }}
 
-<div class="last_actu row" style="padding-top: 1rem">
+<div class="last_actu row" style="padding-top: 1rem; padding-bottom: 1rem">
 	<div class="col-lg-12" >
 	{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
 		<div class="section-title">
@@ -32,19 +32,7 @@
 						{{end}}
 						
 					</div>
-<!-- 					<div class="blog-tag" >
-						<div class="post-info">
-							
-							Publié le {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}}
-						</div>
-						<div class="tag-details">
-							<a href="#" class="tag-event">
-								<i class="fa fa-tag"></i>
-								{{ .Params.categorie }}
-							</a>
-							
-						</div>	
-					</div> -->
+
 				</div> 
 				
 				
