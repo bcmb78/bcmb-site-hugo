@@ -10,9 +10,7 @@ buildFuture = true
 theme = "ponigym"
 disqusShortname = "bcmb78"
 paginate= 6
-uglyurls = true
-[permalinks]
-  post = ":filename"
+
 
 [sitemap]
   changefreq = "monthly"
