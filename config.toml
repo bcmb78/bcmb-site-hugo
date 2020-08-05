@@ -72,7 +72,7 @@ paginate= 6
     identifier = "inscription"
     name = "S'inscrire"
 	parent = "club"
-    url = "/club#inscription"
+    url = "/inscription"
     weight = 15
 	
   [[menu.main]]
