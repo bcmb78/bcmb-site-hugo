@@ -18,7 +18,11 @@
 						
 						<div class="single-blog-item" style="padding: 1rem;border: dotted 1px; border-radius: 1rem; margin: 1rem;">
 						
-						<h2>{{.Title}}</h2>
+						<h2><a href={{.Permalink}}>{{.Title}}</a></h2>
+						
+						<div class="comment-count">
+						<a href="{{ .Permalink }}#disqus_thread">Comments</a>
+						</div>
 							<div class="blog-text"> 
 								<div class="row"> 
 									{{if .Params.image}}
