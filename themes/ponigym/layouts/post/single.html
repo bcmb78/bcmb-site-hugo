@@ -5,12 +5,18 @@
 	<section class="">
 		<div class="container">
 
+			<div style="padding:5rem; margin-bottom: 5rem;" >
+			<p style="font-size: 18px; line-height:26px"> {{ .Description }} </p>
 			
-			<p> {{ .Description }}
+			
 			{{if .Params.image}}
 			<img class="f-img img-fluid mx-auto" src={{ .Params.image }} alt="">	
 			{{end}}
+			
+			</div>
+			<div style="padding:5rem; margin-bottom: 2rem;" >
 			{{ template "_internal/disqus.html" . }}
+			</div>
 		</div>
 	</section>
 
