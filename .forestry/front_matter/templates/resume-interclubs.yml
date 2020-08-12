@@ -50,6 +50,11 @@ fields:
       min: 0
       max: 7
       step: 
+  - name: link
+    type: text
+    config:
+      required: false
+    label: link
   config:
     min: 
     max: 
