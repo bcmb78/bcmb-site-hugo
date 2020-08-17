@@ -13,6 +13,7 @@ data = [
 		{{else if eq .Params.event_type "exterieur"}}  "#d68910" 
 		{{else if eq .Params.event_type "stage_jeunes"}}  "#8910d6" 
 		{{else if eq .Params.event_type "club"}} "#cb4335"
+		{{else if eq .Params.event_type "creneau"}} "#2b1899"
 		{{else if eq .Params.event_type "interclub_regional"}} "#89d610"	
 		{{else}} "#000000" 
 		{{end}},

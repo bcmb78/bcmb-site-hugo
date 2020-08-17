@@ -1,11 +1,12 @@
 +++
 categorie = []
 convocation = ""
-date = 2020-08-20T17:00:00Z
+date = 2020-08-20T19:00:00Z
+end_date = 2020-08-20T22:00:00Z
 date_inscription = ""
 date_tirage = ""
 description = ""
-event_type = "club"
+event_type = "creneau"
 fiche_inscription = ""
 image = ""
 lieu = "Gymnase Jean Maréchal"
