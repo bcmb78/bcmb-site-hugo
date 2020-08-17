@@ -2600,11 +2600,6 @@ font-weight:500;
 
 }
 
-.creneau{
-background-color:  #2b1899 ;
-
-}
-
 .tournoi{
 background-color:  #28b463 ;
 
@@ -2617,6 +2612,11 @@ background-color:  #d68910 ;
 
 .club{
 background-color:  #cb4335 ;
+
+}
+
+.creneau{
+background-color:  #2b1899 ;
 
 }
 
