@@ -12,6 +12,7 @@ fields:
     - club
     - exterieur
     - autre
+    - creneau
     source:
       type: simple
       section: 
