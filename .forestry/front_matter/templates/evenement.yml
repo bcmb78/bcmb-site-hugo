@@ -28,6 +28,15 @@ fields:
   label: date
   config:
     required: true
+- name: end_date
+  type: datetime
+  label: end_date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: lieu
   type: text
   config:
