@@ -23,20 +23,37 @@
 							</button>
 							
 							{{else}}
-							
+							<button class="docs disabled" type="button" disabled>
+								Fiche d'inscription
+							</button>
 							{{end}}
 							</div>
 							
 							
 							<div class="col-lg-4">
-							<button class="docs cyan" type="button">
+							{{if .Params.reglement}}
+							<button class="docs cyan" type="button" onclick="window.open({{.Params.reglement | relURL}})">
 								Règlement
 							</button>
+							{{else}}
+							
+							<button class="docs disabled" type="button" disabled>
+								Règlement
+							</button>
+							
+							{{end}}
+							
 							</div>
 							<div class="col-lg-4">
+							{{if .Params.convocation}}
+								<button class="docs yellow" type="button" onclick="window.open({{.Params.reglement | relURL}})">
+									Convocations
+								</button>
+							{{else}}
 								<button class="docs disabled" type="button" disabled>
 									Convocations
 								</button>
+							{{end}}
 							</div>
 						</div>
 					{{end}}
