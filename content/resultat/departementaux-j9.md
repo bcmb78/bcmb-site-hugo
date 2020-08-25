@@ -1,7 +1,8 @@
 +++
 date = 2020-01-27T10:45:18Z
 title = "Départementaux J9"
-res_type = "interclub"
+res_type =  "interclub"
+categorie = "departementale"
 [[score]]
 equipe1 = "BCMB 2"
 equipe2 = "ASMC 1"
