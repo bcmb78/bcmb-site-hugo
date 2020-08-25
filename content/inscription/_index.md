@@ -62,8 +62,21 @@ tarif:
   size: "6"
   avantage: []
 text: |-
-  Les inscriptions se font chaque année lors du forum des sport de Montigny-le-Bretonneux.
-
-  Toutefois, il arrive que nous puissions inscrire de nouveaux joueurs en cours d'année si des places se libèrent.
-
+    ## Réinscriptions	
+    Les réinscriptions se font par courrier avant la date limite fixée au 31 Juillet 2020. Merci d'envoyer votre dossier complet à Christine 50 Grande Rue, 78910 Tacoignieres)
+    
+    Les inscriptions se font chaque année lors du forum des sport de Montigny-le-Bretonneux.
+    	
+    Toutefois, il arrive que nous puissions inscrire de nouveaux joueurs en cours d'année si des places se libèrent.
+  
+    ## Rappel sur le certificat médical
+  
+    Il Doit obligatoirement être fourni pour une première inscription au BCMB.
+    	
+    Il est exigé tous les trois ans, la date de votre dernier certificat.
+    	
+    Il doit de nouveau être fourni lors d’un renouvellement de licence en cas de réponse positive à une ou plusieurs questions du questionnaire de santé dans l’intervalle des 3 ans.
+    
+    ## Recommandations
+    Seules les personnes possédant une licence ou dont la demande de licence est effective pourront jouer pendant les créneaux.
 ---
