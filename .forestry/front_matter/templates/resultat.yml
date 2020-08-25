@@ -16,19 +16,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: res_type
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - tournoi
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: res_type
 - name: image
   type: file
   config:
@@ -76,6 +63,34 @@ fields:
     max: 
     labelField: 
   label: res
+- name: res_type
+  type: select
+  default: tournoi
+  config:
+    required: false
+    options:
+    - tournoi
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: res_type
+  hidden: true
+- name: categorie
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - jeune
+    - adulte
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categorie
 pages:
 - content/resultat/journee-jeune.md
 - content/resultat/tournoi-de-bar-le-duc.md
