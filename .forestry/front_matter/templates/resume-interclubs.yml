@@ -72,7 +72,7 @@ fields:
       section: 
       file: 
       path: 
-  label: type
+  label: res_type
   hidden: true
 pages:
 - content/resultat/departementaux-j9.md
