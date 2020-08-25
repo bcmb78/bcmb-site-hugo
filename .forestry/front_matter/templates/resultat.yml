@@ -22,7 +22,6 @@ fields:
   config:
     required: false
     options:
-    - jeunes
     - tournoi
     source:
       type: simple
