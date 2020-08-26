@@ -12,6 +12,6 @@ image = ""
 lieu = ""
 poster = ""
 reglement = ""
-title = "Interclub régional J3"
+title = "Interclub Régionale J3"
 
 +++
