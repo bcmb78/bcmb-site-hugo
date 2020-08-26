@@ -13,6 +13,7 @@ fields:
     - exterieur
     - autre
     - creneau
+    - interclub_regional
     source:
       type: simple
       section: 
