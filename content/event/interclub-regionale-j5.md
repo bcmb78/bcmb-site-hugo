@@ -12,6 +12,6 @@ image = ""
 lieu = ""
 poster = ""
 reglement = ""
-title = "Interclub Régionale J5"
+title = "Interclub Régional J5"
 
 +++
