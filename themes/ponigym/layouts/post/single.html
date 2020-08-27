@@ -6,7 +6,7 @@
 		<div class="container">
 
 			<div style="padding:5rem" >
-			<p style="font-size: 18px; line-height:26px"> {{ .Description }} </p>
+			<p style="font-size: 18px; line-height:26px"> {{ .Description | markdownify}} </p>
 			
 			
 			{{if .Params.image}}
