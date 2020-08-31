@@ -1,11 +1,11 @@
 +++
 categorie = ""
 convocation = ""
-date = 2020-10-30T23:00:00Z
+date = 2020-10-31T00:00:00Z
 date_inscription = 2020-09-30T22:00:00Z
 date_tirage = 2020-10-15T22:00:00Z
 description = ""
-end_date = 2020-10-31T23:00:00Z
+end_date = 2020-11-01T00:00:00Z
 event_type = "tournoi"
 fiche_inscription = "img/skybad12-feuille-d-inscription-v1.xlsx"
 image = "img/presentation_skybad.png"
