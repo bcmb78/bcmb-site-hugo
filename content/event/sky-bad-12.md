@@ -17,14 +17,6 @@ title = "Sky'Bad 12"
 +++
 Le BCMB organise la 12ème édition de son tournoi du Sky'Bad le 31 octobre et 1er novembre 2020. 
 
-* 4 séries : S1-S2-S3-S4 - Classement CPPH 1500 au maximum
-* Les Tableaux : DH, DD et DM 
-* Les doubles dames et doubles hommes se dérouleront en intégralité le samedi.
-*  Les mixtes le dimanche. 
-* Tous les tableaux se joueront en poule, avec 2 sortants par poule dans la mesure du possible. 
-* Un lot d’accueil par joueur 
-* 2000€ de lots  
-
 Nous gardons notre formule qui a fait son succès par le passé avec un super gymnase de 7 terrains, une salle d'échauffement pour être au top avant vos matchs, une belle buvette pour vous rassasier, un stand Larde pour vous équiper comme il se doit et d'autres surprises encore !  
 
 Suite au succès des éditions précédentes, nous vous conseillons de vous inscrire le plus tôt possible, les premiers inscrits seront les premiers servis !
