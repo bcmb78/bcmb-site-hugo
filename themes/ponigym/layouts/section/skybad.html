@@ -3,9 +3,11 @@
 
 	
 	<section class="blog-section spad">
+	{{ with .Site.GetPage "/event/sky-bad-12" }}
 		<div class="container">
 			<div class="row">
 				<div class="col-6" style="min-height:10rem">
+				
 				<h2>{{.Title}}</h2>
 				
 					<p> {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}} </p>
@@ -58,22 +60,24 @@
 							</div>
 						</div>
 					{{end}}
+					
+				
 				</div>
 				
 				<div class="col-6" style="text-align: center"	>
 				
-					{{ $image := "img/mascotte1.jpg"}}
-					{{if .Params.poster}}
-						{{ $image = .Params.poster}}
-					{{end}}
-					<img class="f-img img-fluid mx-auto" src={{ $image | relURL}} alt="" style="max-height:70vh; align: center">
+	
+					
+					<img class="f-img img-fluid mx-auto" src={{.Params.image | relURL}} alt="" style="max-height:70vh; align: center">
+
 				</div>
 				
 			
 				
 		</div>
+
 	</section>
-	
+		{{end}}	
 	<section style="margin-top:2em">
 		<div class="container">
 				<div class="section-title">
