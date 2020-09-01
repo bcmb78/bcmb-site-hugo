@@ -1,8 +1,8 @@
 ---
-title: Mesure CoVid
+title: Mesures CoVid
 image: img/covid.jpg
 text: "\n"
-date: 2020-09-01T14:08:15+02:00
+date: 2020-09-01T14:08:15.000+02:00
 description: |-
   La FFBAD et la mairie de Montigny le Bretonneux nous imposent un protocole sanitaire afin de pouvoir pratiquer sereinement notre activité sportive :
 
