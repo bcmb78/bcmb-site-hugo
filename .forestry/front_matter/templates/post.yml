@@ -49,6 +49,7 @@ fields:
   label: description
 pages:
 - content/club/presentation.md
+- content/covid.md
 - content/post/annulation-des-yonex-ifb-2020.md
 - content/post/creneau-supplementaire.md
 - content/post/creneaux-exceptionnel.md
