@@ -107,11 +107,6 @@ a:focus {
   color: #eeeeee;
 }
 
-ul,
-ol {
-  padding: 0;
-  margin: 0;
-}
 
 /*---------------------
   Helper CSS
@@ -2716,6 +2711,9 @@ vertical-align: center;
 .price-area .single-price .package-list ul li {
   padding: 10px 0;
   border-top: 1px solid #eee;
+  list-style: none;
+
+  margin: 0;
 }
 
 .price-area .single-price .package-list ul li:last-child {
@@ -2776,14 +2774,6 @@ vertical-align: center;
   .price-area .single-price {
     margin: 10px;
   }
-}
-
-
-
-ol, ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 /*--------- end price  Area -------------*/
