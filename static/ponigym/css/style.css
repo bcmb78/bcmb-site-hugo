@@ -2183,6 +2183,8 @@ a:focus {
 
   .header-section.header-normal .nav-menu .mainmenu ul li {
     margin-right: 20px;
+	margin: 0;
+    padding: 0;
   }
 }
 /* Wide Mobile = 480px */
@@ -2777,11 +2779,6 @@ vertical-align: center;
 
 
 
-ol, ul {
-    margin: 0;
-    padding: 0;
-
-}
 
 /*--------- end price  Area -------------*/
 
