@@ -15,7 +15,7 @@ description: |-
 
   ### Devoirs du club :
 
-  1. Désigner un référent COVID: Marta AZCARTE
+  1. Désigner un référent COVID: Marta AZCARATE RODRIGUEZ
   2. Prévoir du gel hydro-alcoolique : des flacons seront à disposition dans les gymnases
   3. Prévoir du produit désinfectant: des flacons seront disponibles dans les gymnases
   4. Lister les présents à chaque séance: une liste pour noter les présents sera disponible à chaque séance
