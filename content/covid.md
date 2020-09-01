@@ -1,6 +1,6 @@
 ---
 title: Mesures CoVid
-image: img/covid.jpg
+banner: img/covid.jpg
 text: "\n"
 date: 2020-09-01T14:08:15.000+02:00
 description: |-
