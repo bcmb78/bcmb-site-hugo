@@ -334,6 +334,7 @@ a:focus {
 }
 .header-section.header-normal .nav-menu .mainmenu ul li {
   margin-right: 45px;
+  padding:0;
 }
 .header-section.header-normal .nav-menu .mainmenu ul li.active a {
   color: #f34e3a;
@@ -344,7 +345,9 @@ a:focus {
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+
 }
+
 .header-section.header-normal .nav-menu .mainmenu ul li:hover .dropdown {
   top: 94px;
 }
@@ -377,10 +380,17 @@ a:focus {
 
 .nav-menu {
   text-align: right;
+
 }
 .nav-menu .mainmenu {
   display: inline-block;
 }
+
+.nav-menu .mainmenu ul, li{
+
+  padding: 0;
+}
+
 .nav-menu .mainmenu ul li {
   display: inline-block;
   list-style: none;
