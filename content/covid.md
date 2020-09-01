@@ -24,7 +24,7 @@ description: |-
 
   ### Devoirs des adhérents
 
-  1. Les joueurs devront arriver en tenue et porter un masque à l’entrée du gymnase
+  1. Les joueurs devront arriver en tenue et porter un masque à l'abord du gymnase
   2. Les joueurs devront porter un masque entre chaque match et en repartant du gymnase. Pendant les matchs, le masque devra être déposé dans une boîte/pochette hermétique, qui dans rester dans le sac de chacun. Il ne doit surtout ne pas être accroché aux poteaux ou mis à côté des terrains.
   3. Les joueurs devront se nettoyer les mains avec du gel hydro-alcoolique en entrant dans le gymnase et entre chaque match.
   4. Chaque terrain sera monté et démonté par 2 volontaires qui se nettoieront les mains avant et passeront du désinfectant sur les poteaux et les filets.
