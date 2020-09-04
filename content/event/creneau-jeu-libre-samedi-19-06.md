@@ -1,11 +1,11 @@
 +++
 categorie = []
 convocation = ""
-date = 2020-09-13T07:00:00Z
+date = 2021-06-19T14:00:00Z
 date_inscription = ""
 date_tirage = ""
 description = ""
-end_date = 2020-09-13T10:00:00Z
+end_date = 2021-06-19T17:00:00Z
 event_type = "creneau"
 fiche_inscription = ""
 image = ""
