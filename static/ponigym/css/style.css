@@ -2596,7 +2596,7 @@ box-shadow: 2px 2px 2px #aaa;
 margin:0;
 padding:0;
 float: left;
-width:5rem;
+width:4rem;
 height:5rem;
 
 text-transform: uppercase;
@@ -2607,9 +2607,25 @@ color: #fff;
 
 .event .date .day{
 font-size: 2rem;
-height:60%;
+height:50%;
 padding:0;
 font-weight:500;
+
+}
+.event .date .day_str{
+font-size: 1rem;
+height:20%;
+padding:0;
+font-weight:500;
+
+}
+
+.event .date .month{
+
+font-size: 1em;
+height:20%;
+padding:0;
+font-weight:400;
 
 }
 
@@ -2639,14 +2655,7 @@ background-color:  #f1c40f;
 }
 
 
-.event .date .month{
 
-font-size: 1em;
-height:40%;
-padding:0;
-font-weight:500;
-
-}
 
 .event .infos{
 width:calc(100% - 5rem);
