@@ -2582,6 +2582,19 @@ padding: 2em;
 }
 
 
+.event_dev{
+
+border: solid 1px #ddd; 
+margin: 1rem 0rem 0rem 0rem;
+padding: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.event_dev .day_str{
+
+color: #bbb;
+text-transform: uppercase;
+}
+
 .event{
 height: 5rem;
 background: #eee;
@@ -2645,7 +2658,7 @@ background-color:  #cb4335 ;
 }
 
 .creneau{
-background-color:  #2b1899 ;
+background-color:  #2b18f9;
 
 }
 
@@ -2654,7 +2667,10 @@ background-color:  #f1c40f;
 
 }
 
+.stage_jeunes{
+background-color:  #6699ff;
 
+}
 
 
 .event .infos{

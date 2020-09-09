@@ -30,7 +30,7 @@
 						<a href={{.Permalink}}>
 						<div class="row event">
 							<div class="date {{.Params.event_type}}">
-								<div class="day_str">{{ index $mydays (printf "%d" .Date.Day) }}</div>
+								<div class="day_str">{{ index $mydays (printf "%d" .Date.Weekday) }}</div>
 								<div class="day">{{.Date.Format "02"}}</div>
 								<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
 							</div>

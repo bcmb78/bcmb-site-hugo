@@ -1,61 +1,57 @@
 {{ define "main" }}
 
 
-
- <!--    <section style="margin-top:2em">
-        <div class="container">
-					<div class="section-title">
-						<h2>Prochains évènements</h2>                                
-					</div>
-						{{ $mymonths := index $.Site.Data.mois_short }}
-						{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
-						{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
-						{{ $.Scratch.Set "counter" 0 }}
-						
-                        <div class="row">
-                            
-                            
-								{{ range $events }}								
-								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-								
-								<div class="col-lg-4">
-								<a href={{.Permalink}}>
-								<div class="row event ">
-									<div class="date {{.Params.event_type}}">
-										<div class="day">{{.Date.Format "02"}}</div>
-										<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
-									</div>
-									<div class="infos">
-										<h4>{{.Title}}</h4>
-										
-									</div>
-									
-                             
-								
-								</div>
-								</a>
-								</div>
-                                {{end}}
-                            
-                        </div>
-					
-					
-					
-					
-
-		</div>
-	</section> -->
+<section class="blog-section spad">
+	<div class="container">
 	
-		<section style="margin-top:2em">
+	<section style="margin-top:2em">
+	<div class="section-title">
+		<h2>Les prochains évènements</h2>
 		
+		
+				{{ $mymonths := index $.Site.Data.mois }}
+				{{ $mydays := index $.Site.Data.jour }}
+				{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
+				{{ $events := $events | intersect (where $events "Date" "ge" now) | first 9 }}
+				{{ $.Scratch.Set "counter" 0 }}
+				
+				
+				
+				<div class="row">
+				{{ range $events }}								
+				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+				<div class="col-lg-4">
+					<div class="event_dev">
+					<div class="day_str">{{ index $mydays (printf "%d" .Date.Weekday) }}  </div>
+						
+							
+							{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}
+						
+						<div class="infos">
+							<h4>{{.Title}}</h4>
+							<p> {{.Params.lieu}} </p>
+						</div>
+						
+				
+					</div>
+				</div>
+				{{end}}
+				</div>
+					
+	</div>
+	
+	<div class="section-title">
+		<h2>Le calendrier de l'année </h2>
+					
+	</div>
 
 		{{- partial "year_calendar.html" . -}}
 		
 	</section>
 	
 	
-
-
+</div>
+</section>
 
 	
 	
