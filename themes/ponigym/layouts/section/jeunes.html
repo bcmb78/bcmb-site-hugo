@@ -10,19 +10,19 @@
 			</p>
 			
 			<div class="row">
-				<div class="col-lg-7">
+				<div class="col-sm-12 col-lg-7">
 					<h4> Créneaux</h4>
 					
 					{{- partial "schedule_jeune.html" . -}}
 				
 				</div>
-				<div class="col-lg-5">
+				<div class="col-sm-12 col-lg-5">
 					<h4> Catégories</h4>
 					
 					<div class="row">
 						{{ with .Site.GetPage "/jeunes/categories" }}	
 							{{ range .Params.categorie}}
-								<div class="col-lg-4 members">
+								<div class="sol-sm-6 col-lg-4 members">
 									
 									
 										<div class="col-12">
@@ -60,7 +60,7 @@
 					<div class="event_dev">
 					<div class="day_str">
 						
-						{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{if .Params.end_date}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}}
+						{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}   {{if ne .Params.date.Day .Params.end_date.Day}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}}
 						</div>
 						<div class="infos">
 							<h4>{{.Title}}</h4>
@@ -70,7 +70,7 @@
 						
 							
 							
-								<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription%20{.Title}}&body=Je%20souhaite%20m'inscrire%20%20';">
+								<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription%20{.Title}}';">
 									Demande d'inscription
 								</button>
 														
@@ -104,7 +104,7 @@
 					<div class="event_dev">
 					<div class="day_str">
 						
-						 {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}  -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }}
+						 {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}   {{if ne .Params.date.Day .Params.end_date.Day}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}}
 						</div>
 						<div class="infos">
 							<h4>{{.Title}}</h4>
@@ -126,7 +126,7 @@
 									</button>
 								{{end}}
 								
-								<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription%20{.Title}}&body=Je%20souhaite%20m'inscrire%20%20';">
+								<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription%20{{.Title}}&body=Bonjour,%0D%0AJe%20souhaite%20m`inscrire';">
 									Demande d'inscription
 								</button>
 								
