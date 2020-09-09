@@ -69,9 +69,9 @@
 						</div>
 							
 							
-									<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription_{{.Title}}';">
-										Demande d'inscription
-									</button>
+								<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription%20{.Title}}&body=Je%20souhaite%20m'inscrire%20%20';">
+									Demande d'inscription
+								</button>
 														
 								{{if .Params.convocation}}
 									<button class="docs yellow" type="button" onclick="window.open({{.Params.convocation | relURL}})">
