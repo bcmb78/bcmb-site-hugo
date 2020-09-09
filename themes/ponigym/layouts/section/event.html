@@ -9,8 +9,8 @@
 		<h2>Les prochains évènements</h2>
 		
 		
-				{{ $mymonths := index $.Site.Data.mois }}
-				{{ $mydays := index $.Site.Data.jour }}
+				{{ $mymonths := index $.Site.Data.mois_short }}
+				{{ $mydays := index $.Site.Data.jour_short }}
 				{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
 				{{ $events := $events | intersect (where $events "Date" "ge" now) | first 9 }}
 				{{ $.Scratch.Set "counter" 0 }}
@@ -20,20 +20,20 @@
 				<div class="row">
 				{{ range $events }}								
 				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-				<div class="col-lg-4">
-					<div class="event_dev">
-					<div class="day_str">{{ index $mydays (printf "%d" .Date.Weekday) }}  </div>
-						
-							
-							{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}
-						
+				<div class="col-lg-4 event_dev">
+
+						<div class="row date {{.Params.event_type}}">
+							<div class="day_str">{{ index $mydays (printf "%d" .Date.Weekday) }}  </div>
+							<div class="day">{{.Date.Format "02"}}</div>
+							<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
+						</div>
 						<div class="infos">
 							<h4>{{.Title}}</h4>
 							<p> {{.Params.lieu}} </p>
 						</div>
 						
 				
-					</div>
+
 				</div>
 				{{end}}
 				</div>

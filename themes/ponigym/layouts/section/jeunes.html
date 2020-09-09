@@ -46,8 +46,50 @@
 			</div>
 			<div class="section-title" style="margin-top:2em">
 						<h2>Prochains évènements</h2>  
+						
+				{{ $mymonths := index $.Site.Data.mois }}
+				{{ $mydays := index $.Site.Data.jour }}
 
-						<div style="height:5rem"> A venir</div>
+				
+				
+				{{ $events := (where (where $.Site.RegularPages "Section" "event") ".Params.categorie" "=" "trophée_jeune").Reverse }}
+				{{ $events := $events | intersect (where $events "Date" "ge" now) | first 9 }}
+				<div class="row">
+				{{ range $events}}
+				<div class="col-lg-4">
+					<div class="event_dev">
+						<div class="infos">
+							<h4>{{.Title}}</h4>
+							<p> {{.Params.lieu}} </p>
+						</div>
+						
+						<div class="day_str">
+						
+						{{ index $mydays (printf "%d" .Date.Weekday) }}  {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}
+						</div>
+							
+							
+									<button class="docs red" type="button" onclick="location.href='mailto: bcmb.jeunes@gmail.com?subject=Inscription_{{.Title}}';">
+										Demande d'inscription
+									</button>
+														
+								{{if .Params.convocation}}
+									<button class="docs yellow" type="button" onclick="window.open({{.Params.convocation | relURL}})">
+										Convocations
+									</button>
+								{{else}}
+									<button class="docs disabled" type="button" disabled>
+										Convocations
+									</button>
+								{{end}}
+								
+				
+					</div>
+				</div>
+				{{end}}
+				</div>
+
+					
 			</div>
 			
 			<div class="section-title" style="margin-top:2em">
