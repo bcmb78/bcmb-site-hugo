@@ -2584,14 +2584,14 @@ padding: 2em;
 
 .event_dev{
 
-border: solid 1px #ddd; 
+border: solid 1px #f34e3a; 
 margin: 1rem 0rem 0rem 0rem;
 padding: 1rem 1rem 0.5rem 0.5rem;
 }
 
 .event_dev .day_str{
 
-color: #bbb;
+color: #f34e3a;
 text-transform: uppercase;
 }
 

@@ -15,44 +15,45 @@
 					
 				</div>
 
-					{{ $mymonths := index $.Site.Data.mois_short }}
-					{{ $mydays := index $.Site.Data.jour_short }}
+					{{ $mymonths := index $.Site.Data.mois}}
+					{{ $mydays := index $.Site.Data.jour }}
 					{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
 					{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
 					{{ $.Scratch.Set "counter" 0 }}
 					
 					
 					
-						
+					<div class="row">
 						{{ range $events }}								
 						{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 						
-						<a href={{.Permalink}}>
-						<div class="row event">
-							<div class="date {{.Params.event_type}}">
-								<div class="day_str">{{ index $mydays (printf "%d" .Date.Weekday) }}</div>
-								<div class="day">{{.Date.Format "02"}}</div>
-								<div class="month">{{ index $mymonths (printf "%d" .Date.Month) }}</div>
+						
+						<div class="col-lg-12">
+							<div class="event_dev" style="text-align: center; margin-right: 2em;margin-left: 2em;">
+								<div class="day_str">
+									{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}   {{if ne .Params.date.Day .Params.end_date.Day}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}} 
+								</div>							
+															
+								<div class="infos">
+									<h4>{{.Title}}</h4>
+									{{.Params.lieu}} 
+								</div>
 							</div>
-							<div class="infos">
-								<h4>{{.Title}}</h4>
-								<p> {{.Params.lieu}} </p>
-							</div>
-							
 						
 						</div>
-						</a>
+						
 						{{end}}
 						
-								
+					</div>
+					
 				<div class="section-title" style="padding-top: 1rem">
-					<h2>Interclubs</h2>
+					<h2 >Interclubs</h2>
 					
 				</div>
 				
 								
 				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "regionale").ByPublishDate.Reverse}}
-				<p> {{ .Title }} </p>
+				<p style="text-align:center" > {{ .Title }} </p>
 				<div class="interclub-table-wrap">
 					<div class="interclub-table">
 
@@ -71,7 +72,7 @@
 				{{end}}
 				
 				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "departementale").ByPublishDate.Reverse}}
-				<p> {{ .Title }} </p>
+				<p style="text-align:center" > {{ .Title }} </p>
 				<div class="interclub-table-wrap">
 					<div class="interclub-table">
 
