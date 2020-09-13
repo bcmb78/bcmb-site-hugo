@@ -12,6 +12,6 @@ image = ""
 lieu = ""
 poster = ""
 reglement = ""
-title = "Journée 1 (D1-D2)"
+title = "Jeunes Journée 1 (D1-D2)"
 
 +++
