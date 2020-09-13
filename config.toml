@@ -40,7 +40,7 @@ paginate= 6
 	
   [[menu.main]]
     identifier = "events"
-    name = "Evènements"
+    name = "Agenda"
     url = "/event/"
     weight = 30
 	
