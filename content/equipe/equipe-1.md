@@ -2,7 +2,7 @@
 title: Equipe 1
 image: "/img/equipe1_1920.jpg"
 division: Régional 3
-iframe: https://lifb.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=10307&roundId=469768
+iframe: https://www.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=11887&roundId=523629
 joueurs:
 - nom: Sophie MAS
   rankD: R5
