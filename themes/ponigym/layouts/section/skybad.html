@@ -81,12 +81,12 @@
 	<section style="margin-top:2em">
 		<div class="container">
 				<div class="section-title">
-					<h2>Palmarès des éditions précédentes</h2>                                
+					<h2> Résultats</h2>                                
 				</div>
 				<div class="row" style="margin-bottom:1em">
 					{{range .Params.palmares}}
 						<div class="col-lg-3">
-						<a href={{.link}}>
+						<a href={{.link}} target="_blank">
 							<div class="palmares">
 								<img class="image_palmares" src={{ "img/icon-podium.png"| relURL}} alt="" >
 								<div class="overlay_palmares">
@@ -100,12 +100,12 @@
 		
 		
 				<div class="section-title">
-					<h2>Photos des éditions précédentes</h2>                                
+					<h2>Photos </h2>                                
 				</div>
 				<div class="row" style="margin-bottom:1em">
 					{{range .Params.albums}}
 						<div class="col-lg-3">
-						<a href={{.link}}>
+						<a href={{.link}} target="_blank">
 							<div class="album_thumb">
 								<img class="image_thumb" src={{.thumbnail | relURL}} alt="" >
 								<div class="overlay_thumb">
