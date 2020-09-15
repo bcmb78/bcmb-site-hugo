@@ -9,6 +9,9 @@ link = "https://photos.app.goo.gl/uVvQEqvS4c8S6MYz5"
 thumbnail = "img/20181118_175739.jpg"
 title = "Skybad 10"
 [[palmares]]
+link = "https://myffbad.fr/tournoi/resultats/1600077684"
+title = "Skybad 10"
+[[palmares]]
 link = "https://myffbad.fr/tournoi/resultats/1700081690"
 title = "Skybad 11"
 
