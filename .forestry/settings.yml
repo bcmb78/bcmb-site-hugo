@@ -10,8 +10,18 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
   path: content/inscription
   label: Inscription
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/skybad
+  label: Skybad
   create: all
   match: "**/*"
 - type: directory
@@ -19,11 +29,6 @@ sections:
   label: Equipe
   create: all
   match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 - type: directory
   path: content/resultat
   label: Resultat
