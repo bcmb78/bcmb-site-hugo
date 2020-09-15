@@ -2883,47 +2883,99 @@ background: #e45447;
 	cursor: not-allowed;
 }
 
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+.album_thumb {
+  position: relative;
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-	}
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-	}
-	
-	/*
-	Label the data
-	*/
-	td:nth-of-type(1):before { content: "Lundi"; }
-	td:nth-of-type(3):before { content: "Mardi"; }
+}
 
+.image_thumb{
+  display: block;
+  object-fit: cover;
+  width:100%; 
+  height: 10em; align: center
+}
+
+.overlay_thumb{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #eee;
+}
+
+.album_thumb:hover .overlay_thumb {
+  opacity: 0.8;
+}
+
+.text_thumb {
+  color: #f34e3a;
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.palmares {
+  position: relative;
+  border: 1px solid #f34e3a;
+
+}
+
+.image_palmares{
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(100%);
+  opacity: 0.4;
+  height: 8em;
+
+  
+
+}
+
+.overlay_palmares{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: #eee;
+  opacity: 0.5;
+}
+
+.palmares:hover .overlay_palmares {
+  opacity: 1;
+}
+
+
+
+.text_palmares {
+  color: #f34e3a;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
