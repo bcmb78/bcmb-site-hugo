@@ -1,0 +1,94 @@
+{{ define "main" }}
+
+
+
+
+<!-- Blog Section Begin -->
+    <section class="blog-section spad">
+        <div class="container">
+ 
+
+						
+						<p> {{.Params.text | markdownify}}</p>
+						
+						
+						<h2> Documents à fournir </h2>
+						<div class="row">
+						
+						{{range .Params.document}}
+							<div class="col-lg-6">
+								<div class="row">
+									<div class="col-lg-8">
+										<p>{{.name}}</p>
+									</div>
+									<div class="col-lg-4">
+										<a href={{.file | relURL}}><i class="fa fa-download" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</div>
+							{{end}}
+							
+						</div>
+						
+						
+						<h2> Formules </h2>
+						<p> Les tarifs pour la saison 2020-2021 sont les suivants</p>
+						
+						
+									<!-- Start price Area -->
+			<section class="price-area section-gap">
+				<div class="container">
+					
+					<div class="row">
+					
+						{{range .Params.tarif}}
+						
+						
+						<div class="col-lg-{{.size}} single-price">
+							<div class="top-part">
+								<h2 class="package-no">{{.price}}€/an</h2>
+								<h4>{{.name}}</h4>
+								<p class="mt-10">{{.sub}} </p>
+							</div>
+							<div class="package-list">
+								<ul>
+								
+								{{range .avantage}}
+									<li>{{.name}}</li>
+
+									
+								{{end}}
+								</ul>
+							</div>
+							<div class="bottom-part">
+								<h2> </h2>
+								
+							</div>
+						</div>
+						
+						{{end}}
+						
+
+																	
+					</div>
+				</div>	
+			</section>
+			<!-- End price Area -->
+						
+
+						
+
+						
+
+				
+					    <!-- Latest News Section Begin -->
+
+
+ </div>
+
+    </section>
+    <!-- Blog Section End -->
+	
+{{ end }}
+
+

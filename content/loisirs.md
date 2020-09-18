@@ -1,7 +1,7 @@
 ---
 title: Loisirs
 image: ''
-text: |-
+description: |-
   ## Responsable
 
   Loic LE GAL -  bcmb.loisir@gmail.com

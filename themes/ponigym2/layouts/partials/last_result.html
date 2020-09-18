@@ -1,0 +1,62 @@
+
+
+
+<div class="row">
+{{ range first 2 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "tournoi").ByPublishDate.Reverse}}
+	<div class="col-lg-4">
+		<div class="latest-items">
+			<div class="latest-pic">
+				<img src={{.Params.image}} alt="">
+			</div>
+			<div class="latest-text">
+				
+				<h5><a href={{.Permalink}}>{{.Title}}</a></h5>
+				<p> {{ .Description }} 
+				<!-- <div class="latest-tag">
+					<p> {{ .Description }} </p>
+				</div> -->
+			</div>
+		</div>
+	</div>
+{{end}}
+
+		<div class="col-lg-4">
+					{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "departementale").ByPublishDate.Reverse}}
+					<div style="text-align:center"> {{ .Title }} </div>
+					<div class="interclub-table-wrap">
+						<div class="interclub-table">
+
+							{{ range .Params.score}}
+							<a href={{.link}}>
+							<div class="table-row">
+								<div class="equipe-1">{{.equipe1}}</div>
+								<div class="score-1"> {{.score1}}</div>
+								<div class="score-2"> {{.score2}}</div>
+								<div class="equipe-2">{{.equipe2}}	</div>
+							</div>
+							</a>
+							{{end}}
+						</div>
+					</div>
+					{{end}}
+
+					{{ range first 2 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "regionale").ByPublishDate.Reverse}}
+					<div style="text-align:center" > {{ .Title }} </div>
+					<div class="interclub-table-wrap">
+						<div class="interclub-table">
+
+							{{ range .Params.score}}
+							<a href={{.link}}>
+							<div class="table-row">
+								<div class="equipe-1">{{.equipe1}}</div>
+								<div class="score-1"> {{.score1}}</div>
+								<div class="score-2"> {{.score2}}</div>
+								<div class="equipe-2">{{.equipe2}}	</div>
+							</div>
+							</a>
+							{{end}}
+						</div>
+					</div>
+					{{end}}
+		</div>
+</div>

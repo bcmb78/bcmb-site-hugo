@@ -7,7 +7,7 @@ DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 buildFuture = true
-theme = "ponigym"
+theme = "ponigym2"
 disqusShortname = "bcmb78"
 paginate= 6
 
@@ -16,14 +16,11 @@ paginate= 6
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
-  
+
+
 [outputs]
     section = ["HTML", "JSON"]
 
-[params]
-  facebook = ""
-  description = ""
-  mainSections = ["post", "equipe", "resultat", "event"]
 
 [menu]
   [[menu.main]]
