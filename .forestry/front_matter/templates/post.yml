@@ -14,7 +14,7 @@ fields:
   label: image
 - name: categorie
   type: select
-  default: []
+  default: General
   config:
     required: false
     options:
