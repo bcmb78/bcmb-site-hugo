@@ -14,7 +14,7 @@ fields:
   label: image
 - name: categorie
   type: select
-  default: []
+  default: General
   config:
     required: false
     options:
@@ -22,6 +22,7 @@ fields:
     - Interclubs
     - Annonce
     - Tournoi
+    - General
     source:
       type: simple
       section: 
