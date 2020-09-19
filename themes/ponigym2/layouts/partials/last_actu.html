@@ -12,7 +12,7 @@
 		
 		
 	</div>
-	<div style="position: absolute; right:0; top:20px; text-transform: uppercase"> <a href="/post">Toutes les actus</a></div>
+	
 	
 	<div class="col-lg-8">
 	{{ range first 1 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse }}
@@ -65,6 +65,7 @@
 	{{end}}
 	</div>
 	
+	
 	<div class="col-lg-4 ">
 	
 	{{ range after 1 (first 8 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse) }}
@@ -74,7 +75,9 @@
 		</div>
 	{{ end}}
 	</div>
-	</div>
+	
+	<div class="more_link" style="position: absolute; right:0; top:20px; text-transform: uppercase"> <a href="/post">Toutes les actus</a></div>
+</div>
 
 
 	

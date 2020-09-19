@@ -2982,7 +2982,6 @@ background: #e45447;
 }
 
 
-
 .text_palmares {
   color: #f34e3a;
   text-transform: uppercase;
@@ -2997,3 +2996,20 @@ background: #e45447;
 }
 
 
+.more_link {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 0.8em;
+	display: none; 
+}
+
+@media screen and (max-width: 567px) {
+.more_link {
+    position: relative;
+    text-align: right;
+    clear: both;
+    top: auto;
+    right: auto;
+}
+}

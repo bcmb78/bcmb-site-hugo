@@ -6,6 +6,10 @@
         "start": "{{ dateFormat "2006-01-02" .Date }}T00:00:00",
 		"end": "{{ dateFormat "2006-01-02" .Params.end_date }}T08:00:00",
         "url": "{{ .Permalink | absURL }}",
+		{{if eq .Params.date.Day .Params.end_date.Day}}
+		"allDay": "true",
+		{{end}}
+
 		"color": {{if eq .Params.event_type "tournoi"}} "#28b463" 
 		{{else if eq .Params.event_type "exterieur"}}  "#d68910" 
 		{{else if eq .Params.event_type "stage_jeunes"}}  "#8910d6" 

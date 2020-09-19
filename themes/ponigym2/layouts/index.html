@@ -1,81 +1,93 @@
 {{ define "main" }}
 
+	<link rel="stylesheet" href={{"fullcalendar/main.css" |relURL}} rel="stylesheet" />
+	<script src={{"fullcalendar/main.js" |relURL}}></script>
+<script>
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+	  firstDay: 1,
+	  displayEventTime: false, 
+	  locale: 'fr',
+
+      events: {{"event/index.json"| relURL}},	  
+	  headerToolbar: {
+		  start: 'title', // will normally be on the left. if RTL, will be on the right
+		  center: '',
+		  end: 'prev,next' // will normally be on the right. if RTL, will be on the left
+		}
+    });
+
+    calendar.render();
+  });
+
+</script>
 
 <!-- Blog Section Begin -->
 <section class="blog-section">
 	<div class="container">
 		<div class="col-lg-12">
-		{{ partial "last_actu.html" . }}
-		</div>
+			{{ partial "last_actu.html" . }}
+		</div> 
 		
-		
-		<div class="col-lg-12" >
-		<div class="row">
-		<div style="position: absolute; right:0; top:20px; text-transform: uppercase"> <a href="/event"> Tous les évenements </a> </div>
-		<div class="col-lg-12" >
-				<div style="border-bottom: 1px solid #f34e3a; margin-bottom: 10px">
-					<h3 style="font-weight: 400; font-size: 36px; text-transform: uppercase">Calendrier</h3> 
-				</div>
-				</div>
-			<div class="col-lg-9" >
-			<div id="calendar"></div>
-
-
-<script>
-	$(document).ready(function () {
-
-		console.log("Ready...");
-
-		$('#calendar').fullCalendar({
-			lang: 'fr',
-			displayEventTime: false,
-			nextDayThreshold: "00:00:00",
+			<div class="row">
 			
-			events: {{"event/index.json"| relURL}}
-		})
+				<div class="col-lg-12" >
+						<div style="border-bottom: 1px solid #f34e3a; margin-bottom: 10px">
+							<h3 style="font-weight: 400; font-size: 36px; text-transform: uppercase">Calendrier</h3> 
+						</div>
+				</div>
+				<!-- <div class="more_link" style="position: absolute; right:0; top:20px; text-transform: uppercase"> <a href="/event"> Tous les évenements </a> </div> -->
 
-	});
-</script>
+			
+				<div class="col-sm-12">
+					
+						<div id='calendar'></div>
+					
+					
 
-			</div>
-			<div class="col-lg-3" >
-				
-						{{ $mymonths := index $.Site.Data.mois}}
-						{{ $mydays := index $.Site.Data.jour }}
-						{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
-						{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
-						{{ $.Scratch.Set "counter" 0 }}
-						
-						
-						
-					<div class="row">
-							{{ range $events }}								
-							{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+
+				</div>
+						<!-- 	<div class="col-sm-12 col-lg-3" >
+					
+							{{ $mymonths := index $.Site.Data.mois}}
+							{{ $mydays := index $.Site.Data.jour }}
+							{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
+							{{ $events := $events | intersect (where $events "Date" "ge" now) | first 4 }}
+							{{ $.Scratch.Set "counter" 0 }}
 							
 							
-							<div class="col-lg-12">
-								<div class="event_dev" style="text-align: center;">
-									<div class="day_str">
-										{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}   {{if ne .Params.date.Day .Params.end_date.Day}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}} 
-									</div>							
-																
-									<div class="infos">
-										<h4>{{.Title}}</h4>
-										{{.Params.lieu}} 
+							
+						<div class="row">
+								{{ range $events }}								
+								{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+								
+								
+								<div class="col-lg-12">
+									<div class="event_dev" style="text-align: center;">
+										<div class="day_str">
+											{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}   {{if ne .Params.date.Day .Params.end_date.Day}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}} 
+										</div>							
+																	
+										<div class="infos">
+											<h4>{{.Title}}</h4>
+											{{.Params.lieu}} 
+										</div>
 									</div>
+								
 								</div>
-							
-							</div>
-							
-							{{end}}
-							
-					</div>
-					
-					
-			</div>
-		</div></div>
-		<div class="row">
+								
+								{{end}}
+								
+						</div>
+						
+						
+					</div> -->
+		
+
 				<div class="col-lg-12">	
 				<div style="border-bottom: 1px solid #f34e3a; margin-bottom: 10px">
 					<h3 style="font-weight: 400; font-size: 36px; text-transform: uppercase">Derniers résultats</h3> 
@@ -83,7 +95,6 @@
 				{{ partial "last_result.html" . }}
 				</div>	
 
-		</div>
 
 
 		
@@ -95,7 +106,7 @@
 	</div>
 
 			
-
+</div>
 			
 
 			
