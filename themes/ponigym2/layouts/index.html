@@ -56,7 +56,7 @@
 							{{ $mymonths := index $.Site.Data.mois}}
 							{{ $mydays := index $.Site.Data.jour }}
 							{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
-							{{ $events := $events | intersect (where $events "Date" "ge" now) | first 7 }}
+							{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
 							{{ $.Scratch.Set "counter" 0 }}
 							
 							
