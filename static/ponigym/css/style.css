@@ -2612,13 +2612,14 @@ padding: 2em;
 
 border: 1px dotted #f34e3a; 
 margin: 1rem 0rem 0rem 0rem;
-padding: 1rem 1rem 0.5rem 0.5rem;
+padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .event_dev .day_str{
 
 color: #f34e3a;
 text-transform: uppercase;
+font-size: 14px;
 }
 
 .event{
