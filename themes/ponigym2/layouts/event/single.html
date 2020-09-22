@@ -1,14 +1,13 @@
 {{ define "main" }}
 {{ $mymonths := index $.Site.Data.mois }}
 
-	
-	<section class="blog-section spad">
+	<section class="blog-section">
 		<div class="container">
-			<div class="row">
-				<div class="col-6" style="min-height:10rem">
-				<h2>{{.Title}}</h2>
+			<div class="row" style="padding-top:2em; padding-bottom:2em;">
+				<div class="col-6">
 				
-					<p> {{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}} </p>
+				
+					
 					<p>{{.Content }}</p>
 					
 					
@@ -64,6 +63,10 @@
 					{{ $image := "img/mascotte1.jpg"}}
 					{{if .Params.poster}}
 						{{ $image = .Params.poster}}
+					{{end}}
+					
+					{{if .Params.image}}
+						{{ $image = .Params.image}}
 					{{end}}
 					<img class="f-img img-fluid mx-auto" src={{ $image | relURL}} alt="" style="max-height:70vh; align: center">
 				</div>
