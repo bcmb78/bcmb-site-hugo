@@ -1,6 +1,6 @@
 +++
 categorie = "trophée_jeune"
-convocation = ""
+convocation = "img/d1-j1.pdf"
 date = 2020-09-26T08:00:00Z
 date_inscription = ""
 date_tirage = ""
