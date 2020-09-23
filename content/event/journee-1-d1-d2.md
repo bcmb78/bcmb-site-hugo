@@ -12,6 +12,6 @@ image = ""
 lieu = "Voisins-le-Bretonneux"
 poster = ""
 reglement = ""
-title = "Jeunes Journée 1 (D1-D2)"
+title = "Trophée Jeunes J1"
 
 +++
