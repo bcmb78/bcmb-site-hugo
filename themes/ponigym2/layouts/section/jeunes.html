@@ -48,7 +48,9 @@
 				</div>
 			</div>
 			<div class="section-title" style="margin-top:2em">
-				<h2>Prochains évènements</h2>  
+			
+
+				<h2>Trophée Jeunes</h2>  
 						
 				{{ $mymonths := index $.Site.Data.mois }}
 				{{ $mydays := index $.Site.Data.jour }}
@@ -57,6 +59,105 @@
 				
 				{{ $events := (where (where $.Site.RegularPages "Section" "event") ".Params.categorie" "=" "trophée_jeune").Reverse }}
 				{{ $events := $events | intersect (where $events "Date" "ge" now) | first 9 }}
+
+				
+				{{ with .Site.GetPage "/jeunes/groupes" }}
+				<div class="row" style="padding-top:1em">
+					<div class="col-lg-12">
+					
+						<h3 style="text-align: center; padding-bottom: 1em">Groupe D1</h3>
+						
+						
+						<div class="row">
+						{{range .Params.joueurs_D1}}
+								
+								
+								<div class="col-lg-3">
+									<div class="row">
+									<div class="col-2">
+										<img style="width: 3em" class="img-fluid pics" src={{ .image}} alt="">
+									</div>
+									<div class="col-10">
+										<div>
+										<p> {{ .nom}}</p>
+										
+										
+										</div>
+									</div>
+									</div>
+								</div>
+								
+							
+								
+						{{end}}
+						</div>
+						
+					</div>
+					
+					<div class="col-lg-12">
+					
+						<h3 style="text-align: center; padding-bottom: 1em">Groupe D2</h3>
+						
+						<div class="row" style="height: 5em">
+						<p style="text-align: center"> A venir </p>
+<!-- 						{{range .Params.joueurs_D2}}
+								
+								
+								<div class="col-lg-3">
+									<div class="row">
+									<div class="col-2">
+										<img style="height: 2em" class="img-fluid pics" src={{ .image}} alt="">
+									</div>
+									<div class="col-10">
+										<div>
+										<p> {{ .nom}}</p>
+										
+										
+										</div>
+									</div>
+									</div>
+								</div>
+								
+							
+								
+						{{end}} -->
+						</div>
+						
+					</div>
+					
+					<div class="col-lg-12">
+					
+						<h3 style="text-align: center; padding-bottom: 1em">Groupe D3</h3>
+						<div class="row" style="height: 5em">
+						<p style="text-align: center"> A venir </p>
+						
+						<!-- {{range .Params.joueurs_D3}}
+								
+								
+								<div class="col-lg-3">
+									<div class="row">
+									<div class="col-2">
+										<img style="height: 2em" class="img-fluid pics" src={{ .image}} alt="">
+									</div>
+									<div class="col-10">
+										<div>
+										<p> {{ .nom}}</p>
+										
+										
+										</div>
+									</div>
+									</div>
+								</div>
+								
+							
+								
+						{{end}} -->
+						</div>
+					</div>
+					
+				</div>
+				{{end}}
+				
 				<div class="row">
 				{{ range $events}}
 				<div class="col-lg-4">
@@ -92,7 +193,6 @@
 				</div>
 				{{end}}
 				</div>
-
 					
 			</div>
 			
