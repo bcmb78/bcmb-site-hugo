@@ -12,6 +12,6 @@ image = ""
 lieu = "Rambouillet"
 poster = ""
 reglement = ""
-title = "Division 1 - J2"
+title = "Trophée Jeunes D1 - J2"
 
 +++
