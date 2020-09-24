@@ -12,6 +12,6 @@ image = ""
 lieu = ""
 poster = ""
 reglement = ""
-title = "Division 2 - J2"
+title = "Trophée Jeunes D2 - J2"
 
 +++
