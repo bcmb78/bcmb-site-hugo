@@ -4,10 +4,15 @@
 
 
 <!-- Blog Section Begin -->
-    <section class="blog-section spad">
-        <div class="container">
+    <section class="blog-section">
+        <div class="container" style="padding-top:1em">
  
-
+		<div class="alert alert-info alert-dismissible fade show" role="alert" >
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close" >
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		  <strong>Complets!</strong> L'ensemble de nos créneaux sont complets, nous n'acceptons donc plus aucune inscription. Merci de votre compréhension.
+		</div>
 						
 						<p> {{.Params.text | markdownify}}</p>
 						
