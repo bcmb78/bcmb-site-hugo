@@ -15,3 +15,21 @@ fields:
   - type: text
     name: nom
     label: nom
+- name: docs
+  type: field_group_list
+  fields:
+  - name: nom
+    type: text
+    config:
+      required: false
+    label: nom
+  - name: fichier
+    type: file
+    config:
+      maxSize: 64
+    label: fichier
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: docs
