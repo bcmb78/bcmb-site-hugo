@@ -1,0 +1,17 @@
+---
+label: Docs et liens
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: lien
+  label: lien
+  fields:
+  - type: text
+    name: lienUrl
+    label: lienUrl
+  - type: text
+    name: nom
+    label: nom
