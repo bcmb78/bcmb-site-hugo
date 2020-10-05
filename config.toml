@@ -76,7 +76,7 @@ paginate= 6
     name = "Covid-19"
 	parent = "club"
     url = "/covid"
-    weight = 11
+    weight = 16
   [[menu.main]]
     identifier = "adultes"
     name = "Adultes"
