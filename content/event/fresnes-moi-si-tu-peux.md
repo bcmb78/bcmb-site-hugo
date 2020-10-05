@@ -2,10 +2,11 @@
 categorie = "tournoi_adulte"
 convocation = ""
 date = 2020-10-17T08:00:00Z
-end_date = 2020-10-18T08:00:00Z
-date_inscription = "2020-09-19T22:00:00Z"
+date_inscription = 2020-09-19T22:00:00Z
 date_tirage = 2020-10-07T22:00:00Z
 description = ""
+draft = true
+end_date = 2020-10-18T08:00:00Z
 event_type = "tournoi"
 fiche_inscription = ""
 image = ""
