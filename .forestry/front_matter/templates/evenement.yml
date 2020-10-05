@@ -45,8 +45,14 @@ fields:
   config:
     required: false
   label: lieu
-- type: text
-  name: description
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: description
 - type: file
   name: image
