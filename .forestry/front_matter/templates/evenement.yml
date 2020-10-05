@@ -45,8 +45,14 @@ fields:
   config:
     required: false
   label: lieu
-- type: text
-  name: description
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: description
 - type: file
   name: image
@@ -127,6 +133,7 @@ fields:
     field: event_type
     value: tournoi
 pages:
+- content/event/20eme-tournoi-d-elancourt.md
 - content/event/championnat-regional-seniors.md
 - content/event/championnat-regional-veteran.md
 - content/event/creneau-jeu-libre-dimanche-13-09.md
@@ -141,7 +148,6 @@ pages:
 - content/event/division-2-j2.md
 - content/event/forum-des-associations-1.md
 - content/event/forum-des-associations.md
-- content/event/fresnes-moi-si-tu-peux.md
 - content/event/interclub-regional-j1.md
 - content/event/interclub-regional-j2.md
 - content/event/interclub-regional-j3.md

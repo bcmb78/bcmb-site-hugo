@@ -1,0 +1,37 @@
+---
+label: Docs et liens
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: lien
+  label: lien
+  fields:
+  - type: text
+    name: lienUrl
+    label: lienUrl
+  - type: text
+    name: nom
+    label: nom
+- name: docs
+  type: field_group_list
+  fields:
+  - name: nom
+    type: text
+    config:
+      required: false
+    label: nom
+  - name: fichier
+    type: file
+    config:
+      maxSize: 64
+    label: fichier
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: docs
+pages:
+- content/documents_liens.md
