@@ -71,7 +71,12 @@ paginate= 6
 	parent = "club"
     url = "/inscription"
     weight = 15
-	
+  [[menu.main]]
+    identifier = "covid"
+    name = "Covid-19"
+	parent = "club"
+    url = "/covid"
+    weight = 11
   [[menu.main]]
     identifier = "adultes"
     name = "Adultes"
