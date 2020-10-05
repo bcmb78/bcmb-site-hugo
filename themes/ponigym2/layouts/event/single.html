@@ -8,7 +8,7 @@
 				
 				
 					
-					<p>{{.Params.description}}</p>
+					<p>{{.Params.description | markdownify}}</p>
 					
 					
 					{{if eq .Params.event_type "tournoi"}}
