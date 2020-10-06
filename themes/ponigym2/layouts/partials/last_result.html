@@ -1,24 +1,62 @@
 
 
-
+<script src={{ "js/cssslidy.js" | relURL}}></script>
 <div class="row">
-	{{ range first 2 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "tournoi").ByPublishDate.Reverse}}
+
+ 	
+	{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "tournoi").ByPublishDate.Reverse}}
+		{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} 
 		<div class="col-lg-4">
 			<div class="latest-items">
-				<div class="latest-pic">
-					<img src={{.Params.image}} alt="">
-				</div>
-				<div class="latest-text">
-					
+
+				
+				
+				
+					<div id="slidy-container">
+					  <figure id='slidy'>
+					  {{ range .Params.res }}
+						<img src={{.photo | relURL}} alt data-caption={{.caption}}>
+						{{end}}
+					  </figure>
+					</div>
+				<div class="latest-text">	
 					<h5><a href={{.Permalink}}>{{.Title}}</a></h5>
-					<p> {{ .Description }} 
+					<p> {{ .Description }} </p>
 					<!-- <div class="latest-tag">
 						<p> {{ .Description }} </p>
 					</div> -->
 				</div>
 			</div>
 		</div>
+	<script> cssSlidy(); </script>
 	{{end}}
+
+	{{ range after 1 (first 2 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "tournoi").ByPublishDate.Reverse)}}
+		{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} 
+		<div class="col-lg-4">
+			<div class="latest-items">
+
+				
+				
+				
+					<div id="slidy-container">
+					  <figure id="slidy-2">
+					  {{ range .Params.res }}
+						<img src={{.photo | relURL}} alt data-caption={{.caption}}>
+						{{end}}
+					  </figure>
+					</div>
+				<div class="latest-text">	
+					<h5><a href={{.Permalink}}>{{.Title}}</a></h5>
+					<p> {{ .Description }} </p>
+					<!-- <div class="latest-tag">
+						<p> {{ .Description }} </p>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	<script> cssSlidy({slidySelector: "slidy-2";}); </script>
+	{{end}}	
 
 	<div class="col-lg-4">
 				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "departementale").ByPublishDate.Reverse}}

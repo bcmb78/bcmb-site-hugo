@@ -4,46 +4,51 @@ image: "/img/equipe1_1920.jpg"
 division: Régional 3
 iframe: https://www.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=11887&roundId=523629
 joueurs:
-- nom: Sophie MAS
-  rankD: R5
-  rankMx: N3
-  rankS: R4
-  photo: ''
-- nom: Cathy BOGNON
+- nom: Juliette GOdART
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
 - nom: Virginy OULES-PILLOUD
-  rankD: R5
-  rankMx: R4
-  rankS: R5
+  rankD: ''
+  rankMx: ''
+  rankS: ''
   photo: ''
-- nom: Juliette GODART
-  rankD: R5
-  rankMx: R5
-  rankS: R6
+- nom: Marie LEGER
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+  photo: ''
+- nom: Marine LE COQ
+  rankD: ''
+  rankMx: ''
+  rankS: ''
   photo: ''
 - nom: Mathieu LAMOLIE
-  rankD: R4
-  rankMx: R4
-  rankS: R4
+  rankD: ''
+  rankMx: ''
+  rankS: ''
   photo: ''
-- nom: Damien SOUDET
-  rankD: R4
-  rankMx: R5
-  rankS: R4
-  photo: ''
+- nom: Sylvain CORDIEZ
+  rankD: ''
+  rankMx: ''
+  rankS: ''
 - nom: Frederic BELLATO
-  rankD: R5
-  rankMx: R5
-  rankS: R5
+  rankD: ''
+  rankMx: ''
+  rankS: ''
   photo: ''
   is_captain: true
-- nom: RIEHL Vincent
-  rankD: R6
-  rankMx: D7
-  rankS: D7
+- nom: Nzambé VANHOUTTE
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+  photo: ''
+
+- nom: Maxime LE GUERN
+  rankD: ''
+  rankMx: ''
+  rankS: ''
   photo: ''
 
 ---
