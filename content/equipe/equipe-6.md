@@ -1,38 +1,39 @@
 ---
 title: Equipe 6
+saison: 2020_2021
 image: '/img/equipe_default.PNG'
 division: D3A
 iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6049&print=
 joueurs:
-- nom: Florence GURNOT
-  rankD: P10
-  rankMx: D9
-  rankS: D9
-- nom: Elodie LEFEVRE
-  rankD: P10
-  rankMx: D8
-  rankS: P10
-- nom: Marie LOHIER
-  rankD: P10
-  rankMx: D9
-  rankS: P11
+- nom: Albert GARDOLL	
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+- nom: Thibault LEBRETON
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+- nom: Gaël PESCHET
+  rankD: ''
+  rankMx: ''
+  rankS: ''
 - nom: Rémi BOUTEMY
-  rankD: D7
-  rankMx: D9
-  rankS: D7
+  rankD: ''
+  rankMx: ''
+  rankS: ''
   is_captain: true
-- nom: Albert GARDOLL
-  rankD: D7
-  rankMx: D8
-  rankS: D8
-- nom: Sebastien BUCZYNSKI
-  rankD: P10
-  rankMx: D9
-  rankS: P10
-- nom: Dimitri LUCET
-  rankD: P10
-  rankMx: D9
-  rankS: P10
+- nom: Florence GURNOT
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+- nom: Elodie LEFEVRE
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+- nom: Hélène BALANDREAU
+  rankD: ''
+  rankMx: ''
+  rankS: ''
 ---
 
 Description possible

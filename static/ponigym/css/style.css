@@ -2772,11 +2772,17 @@ vertical-align: center;
 .price-area .single-price .package-list {
   padding-bottom: 30px;
   padding-top: 15px;
+  list-style: none;
 }
 
 .price-area .single-price .package-list ul li {
   padding: 10px 0;
   border-top: 1px solid #eee;
+  list-style: none;
+}
+
+.package-list ul {
+  list-style: none;
 }
 
 .price-area .single-price .package-list ul li:last-child {

@@ -1,5 +1,6 @@
 ---
 title: Equipe 2
+saison: 2020_2021
 image: "/img/equipe2_1920.jpg"
 division: D1B
 iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6046&print=

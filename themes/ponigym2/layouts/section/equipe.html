@@ -9,14 +9,14 @@
 					
 						{{ range (where $.Site.RegularPages "Section" "equipe").ByPublishDate}}
 						
-						
+						{{if eq .Params.saison 2020_2021}}
 						<div class="col-lg-3 single-price">
 							<div class="top-part" >
 								<h2 class="package-no set-bg" data-setbg={{ .Params.image | relURL}}></h2>
 								<h4>{{.Title}}</h4>
 								<p class="mt-10">{{.Params.division}} </p>
 							</div>
-							<div class="package-list">
+							<!-- <div class="package-list">
 								<ul>
 								
 								{{ range .Params.joueurs}}
@@ -26,13 +26,13 @@
 									
 								{{end}}
 								</ul>
-							</div>
+							</div> -->
 							<div class="bottom-part">
 								<h2> </h2>
 								<a class="price-btn text-uppercase" href={{.Params.iframe}}>Voir les résulats</a>
 							</div>
 						</div>
-						
+						{{end}}
 						{{end}}
 						
 
