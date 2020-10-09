@@ -76,6 +76,12 @@ paginate= 6
     name = "Covid-19"
 	parent = "club"
     url = "/covid"
+    weight = 17
+  [[menu.main]]
+    identifier = "devdur"
+    name = "Développement Durable"
+	parent = "club"
+    url = "/developpement_durable"
     weight = 16
   [[menu.main]]
     identifier = "adultes"
