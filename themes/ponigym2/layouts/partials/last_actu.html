@@ -7,9 +7,9 @@
 
 		
 		
-		<h3 style="font-weight: 400; font-size: 36px; text-transform: uppercase">Actualités</h3> 
+		<h3 style="font-family: Pacifico; text-transform: none;font-weight: 400; font-size: 36px;">Actualités</h3> 
 		
-		
+
 		
 	</div>
 	
@@ -24,26 +24,26 @@
 					 
 						{{if .Params.image}}
 						<div class="row" >
-						<div class="col-lg-4">
-							<img src="/{{.Params.image}}" alt="" style=" height: 100%;  object-fit: cover;">
-						</div>
-						<div class="col-lg-8" style="max-height: 24rem; overflow: hidden; text-overflow: ellipsis; ">
-													
-							<a href={{.Permalink}}> <h3 style="font-size: 20px; text-transform: uppercase;"> {{.Title }} </h3> </a>
-							
-												<div class="row" style="padding-left:1em;font-size: 14px; text-transform: uppercase;"> 
-						{{.Date.Format "02"}}  {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}}  | 
-						
-						<div class="comment-count">
-						<a href="{{ .Permalink }}#disqus_thread"> # Comments</a>
-						</div> 
-						
-						|  {{.Params.categorie}}
-					
-					</div>
+							<div class="col-lg-4">
+								<img src="/{{.Params.image}}" alt="" style=" height: 100%;  object-fit: cover;">
+							</div>
+							<div class="col-lg-8" style="max-height: 24rem; overflow: hidden; text-overflow: ellipsis; ">
+														
+								<a href={{.Permalink}}> <h3 style="font-size: 20px; text-transform: uppercase;"> {{.Title }} </h3> </a>
 								
-							{{.Description | markdownify}}
-						</div>	
+									<div class="row" style="padding-left:17px;font-size: 10px; text-transform: uppercase;"> 
+										{{.Date.Format "02"}}  {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}}  | 
+							
+										<div class="comment-count">
+											<a href="{{ .Permalink }}#disqus_thread"> # Comments</a>
+										</div> 
+							
+										|  {{.Params.categorie}}
+						
+									</div>
+									
+								{{.Description | markdownify}}
+							</div>	
 						</div>
 						{{else}}
 						<div class="col-lg-12">

@@ -1,0 +1,36 @@
+
+
+{{ define "main" }}
+
+	
+<section class="blog-section">
+
+	<div class="container">
+
+	<h2> Documents </h2>
+	
+	{{range .Params.docs}}
+	
+	{{.nom}}
+	
+	{{end}}
+	
+	<h2 style="font-family: Pacifico"> Documents </h2>
+	
+	{{range .Params.lien}}
+	
+	{{.nom}}
+	
+	{{end}}
+	
+	
+	</div>
+	
+	
+
+</section>
+		
+
+			
+{{end}}			
+

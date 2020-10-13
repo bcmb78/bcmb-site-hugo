@@ -4,9 +4,14 @@
 
 		{{ $bag = .Params.banner}}
 		
-	{{end}}
 		
-	<section class="breadcrumb-section set-bg" data-setbg={{$bag|relURL}}>
+
+	
+	{{else}}
+		
+	{{end}}
+	
+				<section class="breadcrumb-section set-bg" data-setbg={{$bag|relURL}}>
 		<div class="overlaybcs">
 			<div class="container">
 				<div class="row">
@@ -20,6 +25,8 @@
 			</div>
 		</div>
     </section>
+		
+
 
 	
 	

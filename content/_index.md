@@ -1,7 +1,7 @@
 ---
-title: Bienvenue sur le site du BCMB
+title: "Bienvenue sur le site du BCMB"
 
-image: "/img/banner.jpg"
+banner: "/img/banner.jpg"
 
 ---
 
