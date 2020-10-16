@@ -33,5 +33,3 @@ fields:
     max: 
     labelField: 
   label: docs
-pages:
-- content/documents_liens.md
