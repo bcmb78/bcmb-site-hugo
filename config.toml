@@ -72,18 +72,6 @@ paginate= 6
     url = "/inscription"
     weight = 15
   [[menu.main]]
-    identifier = "covid"
-    name = "Covid-19"
-	parent = "club"
-    url = "/covid"
-    weight = 17
-  [[menu.main]]
-    identifier = "devdur"
-    name = "Développement Durable"
-	parent = "club"
-    url = "/developpement_durable"
-    weight = 16
-  [[menu.main]]
     identifier = "adultes"
     name = "Adultes"
     url = ""
@@ -94,28 +82,46 @@ paginate= 6
     name = "Interclubs"
     url = "/equipe/"
     weight = 41
-
   [[menu.main]]
     identifier = "loisirs"
 	parent = "adultes"
     name = "Loisirs"
     url = "/loisirs/"
     weight = 42
-	
-
   [[menu.main]]
     identifier = "jeunes"
     name = "Jeunes"
     url = "/jeunes/"
     weight = 40
-
   [[menu.main]]
 	identifier = "skybad"
 	name = "SkyBad"
 	url = "/skybad/"
 	weight = 50
+  [[menu.main]]
+    identifier = "infos"
+    name = "Infos"
+    url = ""
+    weight = 60
+  [[menu.main]]
+    identifier = "doc"
+    name = "Documents"
+	parent = "infos"
+	url = "/documents_liens"
+    weight = 61	
 
-
+  [[menu.main]]
+    identifier = "devdur"
+    name = "Développement Durable"
+	parent = "infos"
+    url = "/developpement_durable"
+    weight = 62
+  [[menu.main]]
+    identifier = "covid"
+    name = "Covid-19"
+	parent = "infos"
+    url = "/covid"
+    weight = 63		
 
 
 

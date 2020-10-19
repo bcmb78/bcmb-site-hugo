@@ -880,6 +880,11 @@ a:focus {
   font-weight: 500;
 }
 
+table td.crossed
+{
+   background-image: linear-gradient(to top right,  transparent calc(50% - 1px), red, transparent calc(50% + 1px)), linear-gradient(to bottom right,  transparent calc(50% - 1px), red, transparent calc(50% + 1px)); 
+}
+
 /*---------------------
   Team Member
 -----------------------*/
