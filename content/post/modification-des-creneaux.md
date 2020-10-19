@@ -1,9 +1,8 @@
 +++
 categorie = "General"
 date = 2020-10-16T06:30:35Z
-description = "Suite à la mise en place d'un couvre feu de 21h à 6h par le gouvernement à partir du samedi 17 octobre et pour au moins quatre semaines. Ainsi durant cette période les installations sportives de Montigny fermeront à 20h30 et les créneaux du club évoluent. \n\n![](img/schedule_temp.PNG)"
-draft = true
-image = "img/96818113-gestion-del-tiempo-planificacion-de-eventos-diseno-de-ilustracion-plana-para-moviles-y-graficos-web.jpg"
-title = "Modification des créneaux"
+description = "Les mauvaises nouvelles se succèdent. En effet ,voici les dernières directives de la Mairie: \"Les activités sportives en intérieur pour les personnes de plus de 18 ans ne peuvent plus avoir lieu dans les équipements municipaux, \\[...\\] Les activités organisées pour les enfants de moins de 18 ans, ainsi que le sport scolaire, peuvent être maintenues à l'intérieur des équipements municipaux  dans le strict respect des protocoles sanitaires mis en place selon les lieux de pratique.\"\n\nBref vous l'aurez compris: pas de créneau jeu libre ce week-end, pas de créneau pendant les vacances, pas de Sky'Bad, pas de créneau adultes à la rentrée.\n\nOn espère revenir le plus vite possible, on vous tiens au courant. Prenez soin de vous."
+image = "img/nadine-shaabana-drzymtae-va-unsplash-1072x568.jpg"
+title = "On arrête tout !"
 
 +++
