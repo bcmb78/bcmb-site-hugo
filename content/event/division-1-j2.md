@@ -13,5 +13,5 @@ lieu = "Rambouillet"
 poster = ""
 reglement = ""
 title = "Trophée Jeunes D1 - J2"
-
+draft = true
 +++

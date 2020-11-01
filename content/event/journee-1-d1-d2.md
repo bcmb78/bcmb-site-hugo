@@ -13,5 +13,5 @@ lieu = "Voisins-le-Bretonneux"
 poster = ""
 reglement = ""
 title = "Trophée Jeunes J1"
-
+draft = true
 +++
