@@ -5,6 +5,7 @@ date = 2021-01-30T00:00:00Z
 date_inscription = ""
 date_tirage = ""
 description = ""
+draft = true
 end_date = 2021-01-31T00:00:00Z
 event_type = "interclub_regional"
 fiche_inscription = ""
