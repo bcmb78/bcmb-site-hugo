@@ -13,5 +13,5 @@ lieu = "Gif - Complexe sportif des Goussons"
 poster = ""
 reglement = ""
 title = "Interclub Régional J4"
-
+draft = true
 +++
