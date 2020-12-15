@@ -59,7 +59,9 @@
 	{{end}}	
 
 	<div class="col-lg-4">
-				{{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "departementale").ByPublishDate.Reverse}}
+	<img src={{"wait_for.png" | relURL}} alt data-caption={{.caption}}>
+	
+				<!-- {{ range first 1 (where (where $.Site.RegularPages "Section" "resultat") ".Params.categorie" "=" "departementale").ByPublishDate.Reverse}}
 				<div style="text-align:center"> {{ .Title }} </div>
 				<div class="interclub-table-wrap">
 					<div class="interclub-table">
@@ -95,6 +97,6 @@
 						{{end}}
 					</div>
 				</div>
-				{{end}}
+				{{end}} -->
 	</div>
 </div>
