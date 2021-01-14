@@ -710,11 +710,16 @@ a:focus {
 .class-item .single-class-item .class-text h3 {
   color: #191919;
   font-weight: 500;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 .class-item .single-class-item .class-text p {
   color: #6e6e6e;
-  margin-bottom: 45px;
+  margin-bottom: 10px;
+}
+
+.class-item .single-class-item .class-text li {
+  color: #6e6e6e;
+
 }
 .class-item .single-class-item .class-text .schedule-btn {
   color: #f34e3a;
@@ -729,8 +734,8 @@ a:focus {
 }
 
 .class-author ul li {
-  width: 160px;
-  margin-right: 30px;
+  width: 100%;
+
 }
 .class-author ul li a.active .author-text h5 {
   color: #f34e3a;
@@ -743,7 +748,7 @@ a:focus {
 }
 .class-author .author-text img {
   min-width: 100%;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 .class-author .author-text h5 {
   color: #191919;
