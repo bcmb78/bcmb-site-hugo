@@ -1224,6 +1224,7 @@ table td.crossed
 
 .site-text {
   text-align: center;
+  margin-top: 5rem;
 }
 .site-text h2 {
   color: #ffffff;
@@ -2150,10 +2151,8 @@ table td.crossed
 
 }
 
-.overlaybcs{
-	padding-top: 4em;
-
-}}
+
+}
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .latest-items .latest-text .latest-tag .tag-comments {
