@@ -53,6 +53,14 @@
 		</ul>
 		
 		<p>Pour plus d'informations vous pouvez consultez l' <a style="color:#f96" href="https://support.strava.com/hc/fr/articles/223297187#app"> aide Strava </a></p>
+		
+		
+		<h2>Les résultats en direct </h2>
+		<p> Retrouvez ici les performances des équipes </p>
+		<iframe style="overflow:hidden;height:500px;width:100%" height="500px" width="100%"
+    src={{"html/file.html" | relURL}}>
+</iframe>
+		
 		<!-- 
 		<h2> Les résultats en direct </h2>
 		<p> Vous pouvez suivre ici les performance de chaque équipes mises à jour chaque dimanche. 
@@ -86,8 +94,12 @@
 			
 		</br>
 		</br>
-		
+		<h2> Vos réactions  </h2>
+		</br>
 		{{ template "_internal/disqus.html" . }}
+		
+		</br>
+		</br>
 	</div>
 	
 	
