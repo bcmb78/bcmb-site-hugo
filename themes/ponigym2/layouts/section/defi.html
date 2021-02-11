@@ -13,23 +13,28 @@
 		<p> Tu coures, tu gagnes des points. Tu marches, tu gagnes des points. Tu pédales, tu gagnes des points. Tu fais des abdos, tu gagnes des points.</p>
 		<p> Les points de chaque participant sont ajoutés à son équipe. L'équipe qui a le plus de points gagne ... rien du tout. </p>
 		
-		<div class="row" style="padding-bottom:1em">
+		<div style="padding-bottom:1em; display: flex; flex-wrap: wrap;">
 		
 		{{ with .Site.GetPage "/defi/sports" }}	
 			{{ range .Params.sport}}
-			<div class="col-lg-3 col-6" style="height:5em; padding:0.5em;"> 
-				<div class="row" style="border-radius: 0.5em;padding-top:0.5em;padding-bottom:0.5em; background-color:{{.couleur}}; text-align: center; font-size: 0.6em;">
-					<div class="col-4" >{{ .nom}}  </div>
-					
-					<div class="col-8" >{{ .point}}  </div>
-					<div class="col-12" style="text-align: center "><img src={{.image}} alt="">  </div>
-				</div>
+			<div class="col-lg-3 col-6" style="height:5em; position: relative; padding:0;"> 
+				
+					<div style="height:100%; border-radius: 0.7em; text-align: center; font-size: 0.6em;  position: absolute; width:95%;  bottom: 0;   color: #f1f1f1; text-align: center; background: {{.couleur}}; background-image: url({{.image}}); background-repeat: no-repeat; background-size: 50%; background-position: center; opacity:0.2;">
+
+					</div>
+					<div style="text-transform: uppercase;text-align: center;  color: #000; margin-top: 20%; opacity:1 ;">
+						<p style="font-weight: 900;font-size: 2.5rem">{{ .nom}}  </p>
+						
+						<p style="font-weight: 900;font-size: 15px;">{{ .point}}  </p>
+					</div>
+				
 			</div>
 			{{end}}
 		{{end}}
 		</div>
 		<h2> Comment participer ? </h2>
 		
+		<p> Le défi à déjà commencer mais vous pouvez vous inscire à tout moment! N'hésitez pas ! </p>
 		<p> Afin de faciliter le compte des points de tout le monde, chaque participants devra enregistrer ses diverses activités sur Strava. </p>
 		
 		<p> Pour cela voici quelques étapes simples à suivre: </p>
@@ -54,13 +59,38 @@
 		
 		<p>Pour plus d'informations vous pouvez consultez l' <a style="color:#f96" href="https://support.strava.com/hc/fr/articles/223297187#app"> aide Strava </a></p>
 		
+		<h2>Les équipes </h2>
+
+		<div class="row" style="text-align: center; margin-top:2em; margin-bottom: 2em">
+			{{ with .Site.GetPage "/defi/equipes" }}	
+				
+				{{ range .Params.equipes}}
+				<div class="col-lg-4">
+					<h3> {{.nom}} </h3>
+					{{ range .membre}}
+				
+						<p> {{ .nom}} </p>
+					
+					{{end}}
+				</div>
+				{{ end}}
+			{{end}}
 		
-		<h2>Les résultats en direct </h2>
+			
+		</div>
+		
+		<h2>Les résultats </h2>
 		<p> Retrouvez ici les performances des équipes </p>
 		<iframe style="overflow:hidden;height:500px;width:100%" height="500px" width="100%"
-    src={{"html/file.html" | relURL}}>
-</iframe>
+			src={{"html/res_equipe.html" | relURL}}>
+		</iframe>
 		
+		<!-- <p> Et les résultats de chacuns</p>
+		
+		<iframe style="overflow:hidden;height:500px;width:100%" height="500px" width="100%"
+			src={{"html/res_indiv.html" | relURL}}>
+		</iframe>
+		 -->
 		<!-- 
 		<h2> Les résultats en direct </h2>
 		<p> Vous pouvez suivre ici les performance de chaque équipes mises à jour chaque dimanche. 

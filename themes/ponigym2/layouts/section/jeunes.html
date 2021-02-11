@@ -4,6 +4,9 @@
 	<section class="blog-section">
 		<div class="container" style="padding-top:2em; padding-bottom: 2em">
 			<div class="section-title" >
+			
+
+						
 					<h2> Présentation </h2></div>
 
 				{{ .Params.text | markdownify}}
@@ -23,6 +26,8 @@
 					<h2> Catégories</h2>
 					</div>
 					<div class="row">
+					
+	
 						{{ with .Site.GetPage "/jeunes/categories" }}	
 							{{ range .Params.categorie}}
 								<div class="col-sm-6 col-lg-4 members">
