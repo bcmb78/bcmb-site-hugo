@@ -10,6 +10,7 @@ equipes:
   - nom: Alain Seguy
   - nom: Mari On
   - nom: Nicolas Cognet
+  - nom: Florence Gurnot
   nom: Equipe 1
 - membre:
   - nom: "S\xE9bastien Buczynski"
@@ -21,8 +22,10 @@ equipes:
   - nom: Trang Tran
   - nom: emmanuelle brouder
   - nom: Nz Van
+  - nom: Laurent Dupuis
   nom: Equipe 2
 - membre:
+  - nom: PAT Le Belge
   - nom: Bryan Simpson
   - nom: Colette VAUCHEL
   - nom: Sylvain Wiplier
@@ -33,6 +36,7 @@ equipes:
   - nom: Julie Leger
   - nom: Sophie Rollin
   - nom: Timothee Delauriere
+  - nom: Tchiipolote Bzh
   nom: Equipe 3
 title: Equipes
 ---
