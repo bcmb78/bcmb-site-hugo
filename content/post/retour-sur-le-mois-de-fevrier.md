@@ -1,9 +1,8 @@
 +++
 categorie = "General"
 date = 2021-03-01T23:00:00Z
-description = ""
-draft = true
-image = ""
+description = "Le badminton est toujours à l'arrêt mais les compétitions internationales ont repris. Et ça réussit plutôt bien aux Français qui s’inclinent en finale des Championnats d’Europe par équipe mixte 0/3 face au triple tenant du titre, le Danemark 🇩🇰. Ils repartent de Vantaa avec une très belle médaille d’argent, la première médaille tricolore dans cette compétition.\n\nDu côté du club, 32 motivés se sont inscrits challenge sportif mis en place. Vous pouvez toujours vous inscrire et suivre les résultats des 3 équipes sur [cette page.](/defi)\n\nEn attendant la reprise, bougez et prenez soin de vous !"
+image = "img/equipedefrance.jpg"
 title = "Retour sur le mois de Février"
 
 +++
