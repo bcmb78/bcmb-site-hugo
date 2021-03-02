@@ -37,6 +37,7 @@ equipes:
   - nom: Sophie Rollin
   - nom: Timothee Delauriere
   - nom: Tchiipolote Bzh
+  - nom: Pascal Lenormand
   nom: Equipe 3
 title: Equipes
 ---
