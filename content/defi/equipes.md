@@ -11,6 +11,7 @@ equipes:
   - nom: Mari On
   - nom: Nicolas Cognet
   - nom: Florence Gurnot
+  - nom: Loic Lenormand
   nom: Equipe 1
 - membre:
   - nom: "S\xE9bastien Buczynski"
