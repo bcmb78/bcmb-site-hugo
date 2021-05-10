@@ -45,7 +45,7 @@ paginate= 6
     identifier = "presentation"
     name = "Présentation"
 	parent = "club"
-    url = "/club/presentation"
+    url = "/club#presentation"
     weight = 11
   [[menu.main]]
     identifier = "bureau"
