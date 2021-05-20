@@ -1201,6 +1201,18 @@ table td.crossed
   color: #6e6e6e;
 }
 
+.footer-widget  a {
+  color: #6e6e6e;
+}
+
+.copyright  a {
+  color: #6e6e6e;
+}
+
+.register a:hover {
+  color: #f34e3a;
+}
+  
 /*----------------------------- Other Pages Styles -------------------------*/
 /*---------------------
   Breadcrumb Section
