@@ -1,100 +1,81 @@
 {{ define "main" }}
 
 
+{{ with .Site.GetPage "/club/presentation" }}
+
+	<section id="histoire">
+		<div class="container">
+			<div class="row">
+				<h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms"> Histoire </h1>
+		</div>
+
+		<p class="sample-text">
+			{{ .Params.text | markdownify}}
+		</p>
+	</section>
+
+{{ end }}
 
 
-
-			
-			{{ with .Site.GetPage "/club/presentation" }}
-			<a id="histoire"></a>
-			<section class="services-area section-gap">
-				<div class="container">
-						
-					<p class="sample-text">
-						{{ .Params.text | markdownify}}
-
-					</p>
-				</div>	
-			</section>
-			
-
-
-			
-			
-			{{ end }}
-			
-			
-			<!-- Start fact Area -->
-			<section class="facts-area section-gap" id="facts-area">
-				<div class="container">				
-					<div class="row">
-						<div class="col-lg-3 col-md-6 single-fact">
-							<h1 class="counter">260</h1>
-							<p>Membres</p>
-						</div>
-						<div class="col-lg-3 col-md-6 single-fact">
-							<h1 class="counter">8 </h1>
-							<p>Equipes d'Interclubs</p>
-						</div>
-						<div class="col-lg-3 col-md-6 single-fact">
-							<h1 class="counter">2</h1>
-							<p>Gymnases</p>
-						</div>	
-						<div class="col-lg-3 col-md-6 single-fact">
-							<h1 class="counter">1</h1>
-							<p>Tournoi</p>
-						</div>												
+<section id="action">
+	<div class="vertical-center">
+		 <div class="container">
+			<div class="row">
+				<div class="action count">
+					<div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h1 class="timer bold" data-to="260" data-speed="1000" data-from="0"></h1>   
+						<h3>Membres</h3>
 					</div>
-				</div>	
-			</section>
-			<!-- end fact Area -->	
-			
-
-			{{ with .Site.GetPage "/club/bureau" }}
-
-			<a id="bureau"></a>
-			<section class="trainer-schedule class-timetable" style="margin-top:2em">
-				
-				<div class="container">
-					<div class="section-title">
-						<h2>{{.Title}}</h2>                                
+					<div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h1 class="timer bold" data-to="8" data-speed="1000" data-from="0"></h1>   
+						<h3>Equipes d'Interclubs</h3> 
 					</div>
-					
-					<div class="row">
-						{{ range .Params.membre}}
-							<div class="col-sm-6 col-md-4 col-lg-4 members">
-								<div class="row">
-								
-									<div class="col-4">
-										<img class="img-fluid pics" src={{ .image}} alt="">
+					<div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h1 class="timer bold" data-to="2" data-speed="1000" data-from="0"></h1> 
+						<h3>Gymnases</h3>
+					</div>
+					<div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h1 class="timer bold" data-to="2" data-speed="1000" data-from="0"></h1> 
+						<h3>Etoiles EFB</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ with .Site.GetPage "/club/bureau" }}
+
+	<section id="team">
+        <div class="container">
+ 
+			<h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">{{.Title}} </h1>
+
+			<div class="row">
+
+					{{ range .Params.membre}}
+						<div class="col-sm-3 col-xs-6">
+							<div class="team-single-wrapper">
+								<div class="team-single">
+									<div class="person-thumb">
+										<img src=""  class="img-responsive" alt="">
 									</div>
-									<div class="col-8">
-										<div class="text_members">
-										<h4> {{ .nom}}</h4>
-										<p>
-											{{.fonction}}
-										</p>
-										
-										<p>
-											{{.mail |markdownify}}
-										</p>
-										</div>
-									</div>
+
+								</div>
+								<div class="person-info">
+									<h2>{{ .nom}}</h2>
+									<p>{{ .fonction}}</p>
 								</div>
 							</div>
-						{{ end}}
-						
-																			
-					</div>
-				</div>	
-			</section>
-			<!-- End services Area -->	
-			
-			
-			
+						</div>
+					{{end}}
+			</div>
+		</div>
 
-			
-			{{ end }}
+
+    </section>
+
+{{ end }}
 			
 			</br>
 			{{ with .Site.GetPage "/club/horaires" }}
