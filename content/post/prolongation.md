@@ -27,4 +27,10 @@ Le créneau du vendredi 20h30-22h30 au gymnase Jean Maréchal est ouvert à tous
 **Semaine du 5 au 11 juillet**  
 Les créneaux jeunes s'arrêtent.
 
-Les créneaux sont communs à tous les adultes. Les horaires des créneaux seront communiquées ultérieurement (attente de confirmation par la mairie)
+Les créneaux sont communs à tous les adultes. Les horaires des créneaux sont les suivants:
+
+* Lundi 19h30 à 22h30 au gymnase Jean Maréchal
+* Mardi 19h30 à 22h30 au gymnase Roger Rivière
+* Mercredi 19h à 21h au gymnase Jean Maréchal
+* Jeudi 19h30 à 22h30 au gymnase Roger Rivière
+* Vendredi 19h 30à 22h30 au gymnase Jean Maréchal
