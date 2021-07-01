@@ -4,23 +4,23 @@ image: ''
 layout: inscription
 document:
 - name: Fiche d'inscription adulte
-  file: img/docs/bcmb_inscriptions_Adulte_21_22.pdf
+  file: docs/bcmb_inscriptions_Adulte_21_22.pdf
   icon: ''
   description: ''
 - name: Fiche d'inscription jeune
-  file: img/docs/bcmb_inscriptions_Jeune_21_22.pdf
+  file: docs/bcmb_inscriptions_Jeune_21_22.pdf
   icon: ''
   description: ''
 - name: Certificat médical
-  file: img/docs/ffbad_certificatmedical.pdf
+  file: docs/ffbad_certificatmedical.pdf
   icon: ''
   description: ''
-- file: img/docs/ffbad_questionnaire_sante.pdf
+- file: docs/ffbad_questionnaire_sante.pdf
   icon: ''
   description: ''
   name: Questionnaire santé
 - name: Fiche sanitaire de liaision (jeune)
-  file: img/docs/bcmb_fiche_sanitaire_21_22.pdf
+  file: docs/bcmb_fiche_sanitaire_21_22.pdf
   icon: ''
   description: ''
 tarif:
