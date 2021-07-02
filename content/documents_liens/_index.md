@@ -1,7 +1,9 @@
 ---
 title: Documents et Liens
-banner: "img/documents_bg.jpg"
+banner: img/documents_bg.jpg
 lien:
+- lienUrl: http://badiste.fr/
+  nom: Badiste
 - lienUrl: https://www.facebook.com/Badminton-Club-Montigny-Le-Bretonneux-BCMB-1401352533418811/?ref=bookmarks
   nom: Facebook
 docs:

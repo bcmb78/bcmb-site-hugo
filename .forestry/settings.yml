@@ -30,6 +30,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: content/documents_liens
+  label: Docs_Liens
+  create: all
+  match: "**/*"
+- type: directory
   path: content/skybad
   label: Skybad
   create: all
