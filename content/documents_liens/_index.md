@@ -2,6 +2,8 @@
 title: Documents et Liens
 banner: img/documents_bg.jpg
 lien:
+- lienUrl: http://www.ffbad.org/
+  nom: Fédération Française de Badminton
 - lienUrl: https://www.badminton78.fr/
   nom: Comité Départementale des Yvelines de Badminton
 - lienUrl: https://www.facebook.com/Badminton-Club-Montigny-Le-Bretonneux-BCMB-1401352533418811/?ref=bookmarks
