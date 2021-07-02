@@ -6,3 +6,4 @@ image = "img/dammn.PNG"
 title = "Et ça recommence ..."
 
 +++
+Malheureusement les nouvelles mesures annoncées par le gouvernement ne permettent pas de maintenir les créneaux pour les jeunes. Tous les créneaux sont suspendus jusqu'à nouvel ordre.
