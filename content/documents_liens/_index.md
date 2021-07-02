@@ -2,10 +2,14 @@
 title: Documents et Liens
 banner: img/documents_bg.jpg
 lien:
-- lienUrl: http://badiste.fr/
-  nom: Badiste
 - lienUrl: https://www.facebook.com/Badminton-Club-Montigny-Le-Bretonneux-BCMB-1401352533418811/?ref=bookmarks
   nom: Facebook
+- lienUrl: https://www.lardesports.com/badminton.html
+  nom: Larde Sports
+- lienUrl: http://badiste.fr/
+  nom: Badiste
+- lienUrl: https://www.myffbad.fr/
+  nom: MyFFBaD
 docs:
 - nom: Compte rendu AG 2021
   fichier: docs/PV_AG_BCMB_2020_2021_définitif.pdf
