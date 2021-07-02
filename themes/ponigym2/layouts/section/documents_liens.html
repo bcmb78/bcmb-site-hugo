@@ -7,18 +7,6 @@
 
 	<div class="container">
 
-	<h2 style="font-family: Pacifico"> Documents </h2>
-	
-	<ul>
-	{{range .Params.docs}}
-	<li>
-	
-	
-	<a href={{.fichier}}>{{.nom}}</a>
-	
-	</li>
-	{{end}}
-	</ul>
 	<h2 style="font-family: Pacifico"> Liens </h2>
 	
 	{{range .Params.lien}}
@@ -30,6 +18,19 @@
 	
 	</div>
 	
+    
+    	<h2 style="font-family: Pacifico"> Documents </h2>
+	
+	<ul>
+	{{range .Params.docs}}
+	<li>
+	
+	
+	<a href={{.fichier}}>{{.nom}}</a>
+	
+	</li>
+	{{end}}
+	</ul>
 	
 
 </section>
