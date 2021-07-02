@@ -1,5 +1,5 @@
 +++
-categorie = "General"
+categorie = "Vie du club"
 date = 2021-05-12T08:47:33Z
 description = "Bonne nouvelle! Les jeunes pourront reprendre, avec les précautions sanitaires d'usage, à partir du 19 mai."
 image = "img/pexels-photo-2202685.jpeg"
