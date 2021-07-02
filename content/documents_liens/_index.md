@@ -2,6 +2,8 @@
 title: Documents et Liens
 banner: img/documents_bg.jpg
 lien:
+- lienUrl: https://www.badminton78.fr/
+  nom: Comité Départementale des Yvelines de Badminton
 - lienUrl: https://www.facebook.com/Badminton-Club-Montigny-Le-Bretonneux-BCMB-1401352533418811/?ref=bookmarks
   nom: Facebook
 - lienUrl: https://www.lardesports.com/badminton.html
