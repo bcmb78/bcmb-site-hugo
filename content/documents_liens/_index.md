@@ -3,7 +3,7 @@ title: Documents et Liens
 banner: img/documents_bg.jpg
 lien:
 - lienUrl: https://www.facebook.com/Badminton-Club-Montigny-Le-Bretonneux-BCMB-1401352533418811/?ref=bookmarks
-  nom: Facebook
+  nom: Page Facebook du club
 - lienUrl: http://www.ffbad.org/
   nom: Fédération Française de Badminton
 - lienUrl: https://www.lifb.org/
