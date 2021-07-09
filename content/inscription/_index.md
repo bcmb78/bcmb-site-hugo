@@ -26,7 +26,7 @@ document:
 tarif:
 - name: Adulte
   sub: Réinscription - Loisir
-  price: "120"
+  price: "125"
   size: "4"
   avantage:
   - name: Licence pour compétition individuelle et/ou loisir
@@ -58,11 +58,11 @@ tarif:
   avantage: []
 - name: Jeune
   sub: Nouvel adhérent
-  price: "130"
+  price: "140"
   size: "6"
   avantage: []
 text: "## Réinscriptions\t\nLes réinscriptions se font par courrier avant la date
-  limite fixée au 31 Juillet 2020. Merci d'envoyer votre dossier complet à Christine
+  limite fixée au 31 Juillet 2021. Merci d'envoyer votre dossier complet à Christine
   50 Grande Rue, 78910 Tacoignieres)\n\nLes inscriptions se font chaque année lors
   du forum des sport de Montigny-le-Bretonneux.\n\t\nToutefois, il arrive que nous
   puissions inscrire de nouveaux joueurs en cours d'année si des places se libèrent.\n\n##
