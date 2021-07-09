@@ -24,8 +24,8 @@ document:
   icon: ''
   description: ''
 tarif:
-- name: Adulte
-  sub: Réinscription - Loisir
+- name: Réinscription - Adulte Loisir
+  sub: ''
   price: "125"
   size: "4"
   avantage:
@@ -33,8 +33,8 @@ tarif:
   - name: Accès créneaux loisir
   - name: Volants plastique
   - name: 3 tournois offerts
-- name: Adulte
-  sub: Réinscription - Compétiteur
+- name: Réinscription - Adulte Compétiteur
+  sub: ''
   price: "160"
   size: "4"
   avantage:
@@ -51,13 +51,13 @@ tarif:
   - name: Licence pour compétition individuelle et/ou loisir
   - name: Accès créneaux jeunes
   - name: Volants plumes
-- name: Adulte
-  sub: Nouvel adhérent (Loisir ou Compétiteur)
+- name: Nouvel adhérent - Adulte
+  sub: Loisir ou Compétiteur
   price: "180"
   size: "6"
   avantage: []
-- name: Jeune
-  sub: Nouvel adhérent
+- name: Nouvel adhérent - Jeune
+  sub: ''
   price: "140"
   size: "6"
   avantage: []
