@@ -2,7 +2,7 @@
 categorie = "General"
 date = 2021-07-25T09:18:36Z
 description = "Le Pass Sanitaire est requis dans les équipements dont **la capacité d'accueil** est de 50 personnes et plus, et non lié au nombre de personnes accueillies à un instant t."
-image = ""
+image = "img/pass_sanitaire.png"
 title = "Le Pass Sanitaire dans le sport"
 
 +++
