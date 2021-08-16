@@ -12,6 +12,6 @@ image = ""
 lieu = "Gymnase Jean Maréchal"
 poster = ""
 reglement = ""
-title = "Jeu libre-1808"
+title = "Jeu libre"
 
 +++
