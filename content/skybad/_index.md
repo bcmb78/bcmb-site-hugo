@@ -1,5 +1,5 @@
 +++
-title = "Sky'Bad 12"
+title = "Sky'Bad"
 [[albums]]
 link = "https://photos.app.goo.gl/QJQmQRqTqc7XxzAj8"
 thumbnail = "img/img_1754_dpp4_ld.jpg"
