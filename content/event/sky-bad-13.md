@@ -8,11 +8,11 @@ description = ""
 draft = false
 end_date = 2021-11-07T00:00:00Z
 event_type = "tournoi"
-fiche_inscription = ""
+fiche_inscription = "docs/SkyBad13 - Feuille d'inscription V1.xlsx"
 image = ""
 lieu = "Centre Sportif Pierre de Coubertin"
 poster = ""
-reglement = ""
+reglement = "docs/SkyBad13_Reglement_particulierV1.pdf"
 title = "Sky'Bad 13"
 
 +++
