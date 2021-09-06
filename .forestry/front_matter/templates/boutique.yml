@@ -1,0 +1,20 @@
+---
+label: Boutique
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: article
+  label: article
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: thumbnail
+    label: thumbnail
