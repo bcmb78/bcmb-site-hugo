@@ -1234,7 +1234,8 @@ table td.crossed
 
 .site-text {
   text-align: center;
-  margin-top: 5rem;
+  line-height: 15rem;
+  height:15em;
 }
 .site-text h2 {
   color: #ffffff;
