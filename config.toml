@@ -105,7 +105,7 @@ paginate= 6
     weight = 60
   [[menu.main]]
     identifier = "doc"
-    name = "Documents"
+    name = "Documents utiles"
 	parent = "infos"
 	url = "/documents_liens"
     weight = 61	
@@ -118,7 +118,7 @@ paginate= 6
     weight = 62
   [[menu.main]]
     identifier = "covid"
-    name = "Covid-19"
+    name = "Mesures Sanitaires"
 	parent = "infos"
     url = "/covid"
     weight = 63		

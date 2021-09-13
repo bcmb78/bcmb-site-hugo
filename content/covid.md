@@ -1,6 +1,6 @@
 ---
-title: Mesures CoVid
-banner: img/covid.jpg
+title: Mesures Sanitaires
+banner: img/mesures_sanitaires.jpg
 text: "\n"
 date: 2020-09-01T14:08:15.000+02:00
 description: |-
