@@ -17,6 +17,12 @@ lien:
 - lienUrl: https://www.myffbad.fr/
   nom: MyFFBaD
 docs:
+- nom: Règlement Intérieur
+  fichier: docs/bcmb_reglementinterieur_21_22.pdf
+- nom: Charte capitaine
+  fichier: docs/bcmb_chartecapitaine_21_22.pdf
+- nom: Charte compétiteurs
+  fichier: docs/bcmb_chartecompétiteur_21_22.pdf
 - nom: Compte rendu AG 2021
   fichier: docs/PV_AG_BCMB_2020_2021_définitif.pdf
 - nom: Notice assurance FFBad
@@ -41,4 +47,5 @@ docs:
   fichier: docs/bcmb_fiche_sanitaire_21_22.pdf
   icon: ''
   description: ''
+
 ---
