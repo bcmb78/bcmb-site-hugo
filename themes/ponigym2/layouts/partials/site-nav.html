@@ -10,13 +10,16 @@
 				<ul>
 					{{ range $.Site.Menus.main }}
 					<li><a href={{ .URL }}>{{- .Name -}}</a>
-						<ul class="dropdown">
+						
 						{{ if .HasChildren }}
+                        <ul class="dropdown">
 							{{ range .Children }}
 								<li> <a href="{{ .URL }}">{{ .Name }}</a></li>
 							{{ end }}
+                        </ul>
 						{{end}}
-						</ul>
+                        
+						
 					</li>
 					{{end}}
 
