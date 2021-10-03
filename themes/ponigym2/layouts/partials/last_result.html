@@ -15,7 +15,7 @@
 					<div id="slidy-container">
 					  <figure id='slidy'>
 					  {{ range .Params.res }}
-						<img src={{.photo | relURL}} alt data-caption={{.caption}}>
+						<img src={{.photo | relURL}} >
 						{{end}}
 					  </figure>
 					</div>
@@ -28,8 +28,11 @@
 				</div>
 			</div>
 		</div>
-	<script> cssSlidy(); </script>
+	
 	{{end}}
+    <script> cssSlidy(); </script>
+    
+    
 
 	{{ range after 1 (first 2 (where (where $.Site.RegularPages "Section" "resultat") ".Params.res_type" "=" "tournoi").ByPublishDate.Reverse)}}
 		{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }} 
@@ -55,8 +58,9 @@
 				</div>
 			</div>
 		</div>
-	<script> cssSlidy({slidySelector: "slidy-2";}); </script>
-	{{end}}	
+	
+	{{end}}
+    <script> cssSlidy({slidySelector: "slidy-2";}); </script>
 
 	<div class="col-lg-4">
 	<img src={{"img/wait_for.png" | relURL}}>
