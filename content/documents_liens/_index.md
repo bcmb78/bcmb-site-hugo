@@ -17,6 +17,8 @@ lien:
 - lienUrl: https://www.myffbad.fr/
   nom: MyFFBaD
 docs:
+- nom: Règlement Tournois
+  fichier: docs/reglement_tournois_21_22.pdf
 - nom: Règlement Intérieur
   fichier: docs/bcmb_reglementinterieur_21_22.pdf
 - nom: Charte capitaine
