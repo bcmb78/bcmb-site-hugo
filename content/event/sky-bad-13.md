@@ -1,6 +1,6 @@
 +++
 categorie = ""
-convocation = "img/reglement_tournoi_de_double_elancourt_2021_def.pdf"
+convocation = "img/convoc_skybad13.pdf"
 date = 2021-11-06T00:00:00Z
 date_inscription = 2021-10-06T22:00:00Z
 date_tirage = 2021-10-22T22:00:00Z
