@@ -1,18 +1,20 @@
 ---
-title: Mesures Sanitaires
-banner: img/mesures_sanitaires.jpg
+title: Développement durable
+banner: img/dev_durable.png
 text: "\n"
 date: 2020-09-01T14:08:15.000+02:00
 description: |-
   
-  Afin de pouvoir continuer sereinement la pratique du badminton, les mesures suivantes sont appliquées :
-
-  1. Pass sanitaire obligatoire pour accéder aux installations sportives
+  ## Recyclage des volants
   
-  2. Port du masques en dehors des matchs
+  Chaque année nous consommons beaucoup de volants qui finissent la plupart du temps à la poubelle. Dans une démarche eco-responsable nous avons décidé de mettre en place le recyclage des volants en participant à l'opération Ramasse ton Volant lancée par Alionax.
+
+Comment ça marche ? C'est très simple. Au lieu de jeter les boites vides et les volants usagés à la poubelle, nous les récupérons et les stockons dans un carton dédié (déjà en place à Maréchal). Tous les volants sont concernés (plumes, hybrides, plastiques), l'idéal étant de trier les volants par types en les replaçant dans leur boite d'origine.
+
+Les volants ainsi récoltés seront ensuite transmis à Alionax qui se charge du recyclage. Pour plus d’informations je vous invite à consulter leur site:
+https://www.alionax.com/fr/rtv
 
 
-  **_Nota_** _: Le club se réserve le droit d'exlure du gymnase tout joueur qui ne respecterait pas ces consignes_.
 categorie: ''
 image: ''
 
