@@ -36,6 +36,11 @@ joueurs:
   rankMx: ''
   rankS: ''
   photo: ''
+- nom: Virginie CHAILLOT
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+  photo: ''
 
 ---
 Description possible
