@@ -1,16 +1,16 @@
 ---
 title: Equipe 6
 saison: 20202021
-image: img/hands-up_worship-lights-1080x675.jpg
+image: img/bcmb_equipe6.jpg
 division: D3A
-iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6049&print=
+iframe: https://icbad.ffbad.org/competition/2101306/tableau/583
 joueurs:
 - nom: Albert GARDOLL
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
-- nom: Thibault LEBRETON
+- nom: Frederic ZAUGG
   rankD: ''
   rankMx: ''
   rankS: ''
@@ -20,23 +20,18 @@ joueurs:
   rankMx: ''
   rankS: ''
   photo: ''
-- nom: Rémi BOUTEMY
+- nom: Pascal LENORMAND
   rankD: ''
   rankMx: ''
   rankS: ''
   is_captain: true
   photo: ''
-- nom: Florence GURNOT
+- nom: Aurore MERESSE
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
 - nom: Elodie LEFEVRE
-  rankD: ''
-  rankMx: ''
-  rankS: ''
-  photo: ''
-- nom: Hélène BALANDREAU
   rankD: ''
   rankMx: ''
   rankS: ''
