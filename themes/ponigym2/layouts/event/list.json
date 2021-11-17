@@ -15,6 +15,7 @@
 		{{else if eq .Params.event_type "stage_jeunes"}}  "#8910d6" 
 		{{else if eq .Params.event_type "club"}} "#cb4335"
 		{{else if eq .Params.event_type "creneau"}} "#2b1899"
+        {{else if eq .Params.event_type "journee_jeunes"}} "#6699ff"
 		{{else if eq .Params.event_type "interclub_regional"}} "#f1c40f"	
 		{{else}} "#000000" 
 		{{end}}
