@@ -15,6 +15,7 @@ fields:
     - creneau
     - interclub_regional
     - stage_jeunes
+    - journee_jeunes
     source:
       type: simple
       section: 
