@@ -15,6 +15,7 @@ fields:
     - creneau
     - interclub_regional
     - stage_jeunes
+    - journee_jeunes
     source:
       type: simple
       section: 
@@ -187,4 +188,5 @@ pages:
 - content/event/stage_jeune_2.md
 - content/event/tournee-des-drapeaux-paris-2024.md
 - content/event/trophee-jeunes-d3-j2.md
+- content/event/trophee-jeunes.md
 - content/event/vacances.md
