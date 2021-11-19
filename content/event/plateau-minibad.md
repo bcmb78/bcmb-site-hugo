@@ -1,12 +1,11 @@
 +++
 categorie = []
 convocation = ""
-date = 2021-11-28T07:00:00Z
+date = 2021-11-27T07:00:00Z
 date_inscription = ""
 date_tirage = ""
 description = ""
-draft = true
-end_date = 2021-11-28T16:00:00Z
+end_date = 2021-11-27T16:00:00Z
 event_type = "club"
 fiche_inscription = ""
 image = ""
