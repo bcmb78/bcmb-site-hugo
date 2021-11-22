@@ -8,11 +8,11 @@
                 <p style="font-size: 18px; line-height:26px"> {{ .Content }} </p>
 			
 			</div>
-            <div class="col-lg-4>
-			{{if .Params.image}}
+            <div class="col-lg-4">
+                {{if .Params.image}}
 
-			<img class="f-img img-fluid mx-auto" src={{ .Params.image | relURL}} alt="">	
-			{{end}}
+                <img class="f-img img-fluid mx-auto" src={{ .Params.image | relURL}} alt="">	
+                {{end}}
 			
 			</div>
             </div>
