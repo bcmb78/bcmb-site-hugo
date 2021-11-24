@@ -1,7 +1,7 @@
 ---
 title: Equipe 1
 saison: 20202021
-image: img/youth-sports-hands-in.jpg
+image: img/img-20211121-wa0008.jpg
 division: Régional 3
 iframe: https://www.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=11887&roundId=523629
 joueurs:
