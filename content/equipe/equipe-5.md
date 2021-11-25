@@ -2,8 +2,8 @@
 title: Equipe 5
 saison: 20202021
 image: img/screen-shot-2019-04-01-at-7-54-01-am.png
-division: D3C
-iframe: https://icbad.ffbad.org/index.php/competition/2101306/tableau/583
+division: D3B
+iframe: https://icbad.ffbad.org/competition/2101306/tableau/582
 joueurs:
 - nom: Frédéric ZAUGG
   rankD: ''
