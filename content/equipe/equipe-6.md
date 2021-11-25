@@ -2,7 +2,7 @@
 title: Equipe 6
 saison: 20202021
 image: img/bcmb_equipe6.jpg
-division: D3A
+division: D3C
 iframe: https://icbad.ffbad.org/competition/2101306/tableau/583
 joueurs:
 - nom: Albert GARDOLL
