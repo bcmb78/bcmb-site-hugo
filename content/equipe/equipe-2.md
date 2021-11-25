@@ -2,8 +2,8 @@
 title: Equipe 2
 saison: 20202021
 image: img/img-20211121-wa0005.jpg
-division: Régional 3
-iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6046&print=
+division: Régional 3 - Poule B
+iframe: https://www.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=12620&roundId=537609
 joueurs:
 - nom: Gurvan LECHANTOUX
   rankD: ''
