@@ -2,8 +2,8 @@
 title: Equipe 7
 saison: 20202021
 image: img/4856d2e2199907b153ba78abe5e0fc13.jpg
-division: D4B
-iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6056&print=
+division: D3A
+iframe: https://icbad.ffbad.org/competition/2101306/tableau/581
 joueurs:
 - nom: Pascal LENORMAND
   rankD: ''
