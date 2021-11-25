@@ -2,7 +2,7 @@
 title: Equipe 2
 saison: 20202021
 image: img/img-20211121-wa0005.jpg
-division: D1B
+division: Régional 3
 iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6046&print=
 joueurs:
 - nom: Gurvan LECHANTOUX
