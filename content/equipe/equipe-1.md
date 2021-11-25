@@ -2,8 +2,8 @@
 title: Equipe 1
 saison: 20202021
 image: img/img-20211121-wa0008.jpg
-division: Régional 3
-iframe: https://www.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=11887&roundId=523629
+division: Régional 3 - Poule A
+iframe: https://www.badnet.org/Src/index.php?ic_a=656388&ic_t=bp_ic_body&eventId=12620&teamId=310998
 joueurs:
 - nom: Juliette GODART
   rankD: ''
