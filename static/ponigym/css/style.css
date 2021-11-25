@@ -2487,11 +2487,26 @@ margin-left: auto;
   border:solid 1px;
   border-radius:0px;
   width: 15%;
-  color:  #f34e3a ;
+  color: #f44336;
   font-weight:700;
   font-size: 1.3em;
   text-align: center;
 }
+
+
+.interclub-table .victory  {
+  line-height:1.3rem;
+  vertical-align: middle;
+  border:solid 1px;
+  border-radius:0px;
+  width: 15%;
+  color:  #8fce00 ;
+  font-weight:700;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+
 .interclub-table .score-1{margin-right: 10px}
 .interclub-table .score-2{margin-left: 10px}
 
