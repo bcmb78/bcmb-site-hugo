@@ -9,13 +9,12 @@
 	<section class="sample-text-area">
 		<div class="container">
 			
-			<div class="row">
+			<div class="row" style="padding-top: 1em">
 				<div class="col-sm-6 pb-20" >
-								  {{ range $index, $element := .Params.joueurs }}
+								 
 					  
-					  <p>{{ $element.nom }} </p>
+					  <p>{{ .Params.Description }} </p>
 
-					  {{ end }}	
 				</div>
 				<div class="col-md-6 pb-20" >	  
 					  <img class="f-img img-fluid mx-auto" src={{ .Params.image | relURL}} alt="">	
