@@ -16,27 +16,6 @@ fields:
 - type: text
   name: iframe
   label: iframe
-- type: field_group_list
-  name: joueurs
-  label: joueurs
-  fields:
-  - type: text
-    name: nom
-    label: nom
-  - type: text
-    name: rankD
-    label: rankD
-  - type: text
-    name: rankMx
-    label: rankMx
-  - type: text
-    name: rankS
-    label: rankS
-  - name: photo
-    type: file
-    config:
-      maxSize: 64
-    label: photo
 pages:
 - content/equipe/equipe-1.md
 - content/equipe/equipe-2.md
