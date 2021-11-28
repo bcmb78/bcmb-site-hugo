@@ -48,4 +48,20 @@ joueurs:
   photo: ''
 
 ---
-Description possible
+### Titulaires:
+
+Colette VAUCHEL  
+Pauline DUPUIS LESGUER  
+Thi Thu Trang TRAN  
+Guillaume SURMONT  
+Rémi BOUTEMY  
+Patrice VAN LOOY  
+Sébastien BUCZYNSKI
+
+### Remplaçants:
+
+Céline SENERAY  
+Christine CORDIEZ  
+Akina TAKAHASHI  
+Laurent DUPUIS   
+Nicolas BOSSER
