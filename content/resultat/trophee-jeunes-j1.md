@@ -1,7 +1,7 @@
 +++
 categorie = "jeune"
 date = 2021-10-02T22:00:00Z
-description = "Bravo à Nicolas qui finit sur la plus haut marche du podium en Junior A"
+description = "Ce week-end se jouait la première journée du Trophée Jeunes. Bravo à Nicolas qui monte sur la plus haute marche du podium en Junior A. Félicitations aussi à Guillaume qui finit 3ème en Minime A."
 image = "img/img_20211003_161012.jpg"
 res_type = "tournoi"
 title = "Trophée Jeunes J1"
