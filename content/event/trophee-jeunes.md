@@ -12,6 +12,6 @@ image = ""
 lieu = "Carrières sur Seine"
 poster = ""
 reglement = ""
-title = "Trophée  Jeunes"
+title = "Trophée  Jeunes D1-D2 J2"
 
 +++
