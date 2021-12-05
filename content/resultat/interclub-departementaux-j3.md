@@ -12,7 +12,7 @@ score1 = "6"
 score2 = "1"
 [[score]]
 equipe1 = "BCMB 4"
-equipe2 = "Vilennes/seine 1"
+equipe2 = "Villennes/seine 1"
 link = "https://icbad.ffbad.org/competition/2101305/tableau/579/rencontre/21456"
 score1 = "3"
 score2 = "4"
