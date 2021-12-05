@@ -6,7 +6,7 @@ res_type = "interclub"
 title = "Interclub Departementaux J3"
 [[score]]
 equipe1 = "BCMB 3"
-equipe2 = "Chambourby 2"
+equipe2 = "Chambourcy 2"
 link = "https://icbad.ffbad.org/competition/2101305/tableau/580/rencontre/21512"
 score1 = "6"
 score2 = "1"
