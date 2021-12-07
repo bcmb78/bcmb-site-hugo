@@ -43,4 +43,18 @@ joueurs:
   photo: ''
 
 ---
-Description possible
+### Titulaires:
+
+Emmanuelle BROUDER
+
+Thomas MARTIN
+
+Camille LE GAL
+
+Stéphane LE COQ
+
+Céline PIERRE
+
+David JEDAT
+
+François DUCHATEL
