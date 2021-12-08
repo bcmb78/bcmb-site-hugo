@@ -1,9 +1,33 @@
-
-
-
 {{ define "main" }}
 
 {{ $mymonths := index $.Site.Data.mois }}
+
+
+	<link rel="stylesheet" href={{"fullcalendar/main.css" |relURL}} rel="stylesheet" />
+	<script src={{"fullcalendar/main.js" |relURL}}></script>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+	  firstDay: 1,
+	  displayEventTime: false, 
+	  locale: 'fr',
+	  height: 'auto',
+      events: {{"event/index.json"| relURL}},	  
+	  headerToolbar: {
+		  start: 'title', // will normally be on the left. if RTL, will be on the right
+		  center: '',
+		  end: 'prev,next' // will normally be on the right. if RTL, will be on the left
+		}
+    });
+
+    calendar.render();
+  });
+
+</script>
 
 
     <section id="home-slider">
@@ -28,39 +52,7 @@
     </section>
     <!--/#home-slider-->
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="img/icones/strategie.png" alt="">
-                        </div>
-                        <h2>Jeunes</h2>
-                        <p>L’École de Badminton du BCMB est labellisée 2 étoiles par la FFBAD. Les créneaux pour jeunes sont répartis par classe. Consultez la partie jeune pour en savoir plus sur les compétitions et les évènements.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="img/icones/gagner.png" alt="">
-                        </div>
-                        <h2>Compétition</h2>
-                        <p>HChaque semaine les compétiteurs ont un entrainement par équipe d’Interclub ainsi que des créneaux communs de jeu libre ; ils s’investissent durablement pendant la saison pour représenter les couleurs du club tant à domicile ou qu’en extérieur.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="img/icones/equipe.png" alt="">
-                        </div>
-                        <h2>Loisirs </h2>
-                        <p>Chaque semaine, plusieurs créneaux de jeu libre sont disponibles ; un encadrement est possible chaque début de saison</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!--/#services-->
 
     <section id="action" class="responsive">
@@ -85,40 +77,9 @@
     <!--/#action-->
 
 
+			{{ partial "last_actu.html" . }}
      
-    <section id="blog" class="padding-top">
-        <div class="container">
 
-                    <div class="row">
-                    {{ range (first 3 (where $.Site.Pages "Section" "post").ByPublishDate.Reverse) }}
-                         <div class="col-md-4 col-sm-12 blog-padding-right">
-                         
-                            <div class="single-blog two-column">
-                                <div class="post-thumb">
-                                    <a href="blogdetails.html"><img src={{.Params.image}} class="img-responsive" alt=""></a>
-                                    <div class="post-overlay">
-                                        <span class="uppercase"><a href="#">{{.Date.Format "02"}} <br><small> {{ index $mymonths (printf "%d" .Date.Month) }}</small></a></span>
-                                    </div>
-                                </div>
-                                <div class="post-content overflow">
-                                    <h2 class="post-title bold"><a href="blogdetails.html"> {{.Title}} </a></h2>
-                                    <!-- <h3 class="post-author"><a href="#">Posted by micron News</a></h3> -->
-                                    <p>{{.Description | markdownify}}</p>
-                                    <a href={{.Permalink}} class="read-more">Voir plus</a>
-                                    <div class="post-bottom overflow">
-                                        <ul class="nav nav-justified post-nav">
-                                            <li><a href="#"><i class="fa fa-tag"></i>{{ .Params.categorie }}</a></li>
-                                            <li><div class="comment-count"> <a href="{{ .Permalink }}#disqus_thread"><i class="fa fa-comments"></i> # Comments   </a></div></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                     {{ end }}                  
-                    
-            </div>
-        </div>
-    </section>
     
     <section id="action" class="responsive">
         <div class="vertical-center">
@@ -131,15 +92,33 @@
                         </div>
                         <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div class="">
+                            
+                            
+                            
+                            
                                 <a href="#" class="btn btn-common">Voir le calendrier</a>
                              </div>
                         </div>
+                        
+                        
+              
+                        
                     </div>
                 </div>
             </div>
         </div>
    </section>
     <!--/#action-->
+    
+<section id="blog" class="padding-top">
+    <div class="container">
+    
+              <div class="col-sm-12 col-lg-12">
+                                <div id='calendar'></div>
+                            </div> 
+                            
+                            </div>
+                            </section>
 
     <section id="clients">
         <div class="container">

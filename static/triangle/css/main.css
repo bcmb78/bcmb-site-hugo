@@ -2683,3 +2683,68 @@ span.stButton_gradient,
   border-radius: 100%;
   margin: 10px 0;
 }
+
+
+
+.interclub-table-wrap {
+
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+padding-right: 0.5em;
+padding-left: 0.5em;
+  }
+ 
+.interclub-table {
+margin-right: auto;
+margin-left: auto;
+  background: #fff;
+
+  width: 100%;
+  
+}
+
+.interclub-table .equipe-1, .interclub-table .equipe-2 {
+  line-height:2.5rem;
+  width: 35%;
+  font-weight:500;
+  font-size: 1.2em;
+  text-align: center;
+  line-height:1.3rem;
+  vertical-align: middle;
+}
+
+.interclub-table .score-1, .interclub-table .score-2  {
+  line-height:2.5rem;
+  vertical-align: middle;
+  border:solid 1px;
+  border-radius:0px;
+  width: 12%;
+  color: #f44336;
+  font-weight:700;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+
+.interclub-table .victory  {
+
+  vertical-align: middle;
+  border:solid 1px;
+  border-radius:0px;
+  color:  #8fce00 ;
+  font-weight:700;
+  text-align: center;
+}
+
+
+.interclub-table .score-1{margin-right: 10px}
+.interclub-table .score-2{margin-left: 10px}
+
+.interclub-table .table-row {
+  
+  padding: 0.5em 0;
+  border-top: 1px dotted #f34e3a;
+  
+  display: flex;
+}
