@@ -1,7 +1,7 @@
 +++
 categorie = "departementale"
 date = 2021-12-12T00:00:00Z
-image = "img/20211126_224202_2.jpg"
+image = "img/img-20211207-wa0000.jpg"
 res_type = "interclub"
 title = "Interclub Departementaux J4"
 [[score]]
