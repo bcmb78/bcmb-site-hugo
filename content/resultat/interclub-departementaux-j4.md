@@ -38,7 +38,7 @@ score2 = "4"
 equipe1 = "BCMB 8"
 equipe2 = "Voisins 6"
 link = "https://icbad.ffbad.org/competition/2101309/rencontre/21117"
-score1 = "2"
+score1 = "4"
 score2 = "2"
 
 +++
