@@ -1,9 +1,9 @@
 ---
 title: Equipe 8
 saison: 20202021
-image: img/group-hands-nice-france-1024x682.jpg
-division: D3C
-iframe: https://icmanager.ffbad.org/index.php?Page=division&Action=view&ID_Division=6065&print=
+image: img/img-20211215-wa0001.jpg
+division: D5B
+iframe: https://icbad.ffbad.org/competition/2101309/tableau/650
 joueurs:
 - nom: Laurent DUPUIS
   rankD: ''
