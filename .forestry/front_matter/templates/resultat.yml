@@ -93,6 +93,7 @@ fields:
   label: categorie
 pages:
 - content/resultat/interclubs-regionaux-j2.md
+- content/resultat/interclubs-regionaux-j3.md
 - content/resultat/journee-jeune.md
 - content/resultat/tournoi-de-bar-le-duc.md
 - content/resultat/trophee-jeune-j1.md
