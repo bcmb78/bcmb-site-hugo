@@ -1,9 +1,8 @@
 +++
 categorie = ""
-date = 2021-12-12T00:01:00Z
-description = "Week-end compliqué en interclubs régionaux. \n\nL'équipe 1 perds ses deux rencontres, 2-6 contre Villeparisis-1 et 3-5 contre Issy-les-Moulineaux. \n\nL'équipe 2 ne fait pas mieux, défaites 2-6 contre Noisiel et 0-8 contre Longjumeau\nRendez-vous en janvier pour essayer d'inverser la vapeur!"
-draft = true
-image = "img/img_20211212_151230.jpg"
+date = 2022-01-09T00:01:00Z
+description = "L'année commence un peu mieux qu'elle a fini pour les équipes d'interclub régionales.\n\nL'équipe 1 fait match nul (4-4) sur ses deux rencontres contre Choisy et Gif.\n\nL'équipe 2 va chercher deux bonus défensif (3-5) contre Rueil et Noisiel."
+image = "img/img_20220109_103952.jpg"
 res = []
 res_type = "tournoi"
 title = "Interclubs régionaux J3"
