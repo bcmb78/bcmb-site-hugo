@@ -6,12 +6,12 @@ date_inscription = ""
 date_tirage = ""
 description = ""
 end_date = 2022-01-15T18:00:00Z
-event_type = "club"
+event_type = "creneau"
 fiche_inscription = ""
 image = "img/galette.jpg"
 lieu = "Gymnase Jean Maréchal"
 poster = ""
 reglement = ""
-title = "Tournoi de la galette"
+title = "Jeu libre"
 
 +++
