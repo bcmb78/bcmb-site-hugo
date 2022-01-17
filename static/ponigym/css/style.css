@@ -2154,6 +2154,7 @@ table td.crossed
 }
 	
 @media only screen and (min-width: 1200px) {
+.schedule-vert{display: none}
   .container {
 
     max-width: 1170px;
@@ -2173,6 +2174,8 @@ table td.crossed
 }
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+.schedule-vert{display: none}
+
   .latest-items .latest-text .latest-tag .tag-comments {
     margin-left: 15px;
   }
@@ -2232,8 +2235,12 @@ table td.crossed
     margin-bottom: 20px;
   }
 }
+
+
 /* Tablet Device = 768px */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+.schedule-vert{display: none}
+
   .nav-menu .mainmenu ul li {
     margin-right: 25px;
   }
@@ -2250,6 +2257,8 @@ table td.crossed
 }
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
+.schedule-horiz{display: none}
+
   .slicknav_menu {
     display: block;
     background: transparent;
