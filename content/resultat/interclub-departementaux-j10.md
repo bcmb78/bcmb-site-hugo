@@ -1,6 +1,6 @@
 +++
 categorie = "departementale"
-date = 2022-02-013T00:00:00Z
+date = 2022-02-13T00:00:00Z
 image = "img/2volants.png"
 res_type = "interclub"
 title = "Interclub Departementaux J10"
