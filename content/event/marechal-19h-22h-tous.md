@@ -12,6 +12,6 @@ image = ""
 lieu = "Gymnase Jean Maréchal"
 poster = ""
 reglement = ""
-title = "Maréchal -  19h / 22h - Tous les adultes"
+title = "Maréchal 19h / 22h Tous les adultes"
 
 +++
