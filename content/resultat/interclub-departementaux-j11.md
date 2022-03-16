@@ -1,9 +1,9 @@
 +++
 categorie = "departementale"
-date = 2022-02-13T00:00:00Z
+date = 2022-03-13T00:00:00Z
 image = "img/2volants.png"
 res_type = "interclub"
-title = "Interclub Departementaux J10"
+title = "Interclub Departementaux J11"
 [[score]]
 equipe1 = "BCMB 3"
 equipe2 = "Bad-en-Seine 4"
