@@ -11,12 +11,6 @@ link = "https://icbad.ffbad.org/competition/2101305/rencontre/21542"
 score1 = "4"
 score2 = "3"
 [[score]]
-equipe1 = "BCMB 4"
-equipe2 = "Voisins 4"
-link = ""
-score1 = ""
-score2 = ""
-[[score]]
 equipe1 = "BCMB 5"
 equipe2 = "Voisins 5"
 link = "https://icbad.ffbad.org/competition/2101306/rencontre/21656"
