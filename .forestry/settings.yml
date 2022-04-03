@@ -10,10 +10,10 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: ''
+  path: content/newsletter
   label: Newsletter
   create: all
-  match: content/newsletter/**/*
+  match: "**/*"
 - type: directory
   path: content/event
   label: Event
