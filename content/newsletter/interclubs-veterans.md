@@ -6,11 +6,11 @@ title = "Interclubs vétérans"
 +++
 Bonjour à tous,
 
-Les interclubs séniors se sont achevés cette semaine et laisse place aux interclubs vétérans. 
+Les interclubs séniors se sont achevés la semaine dernière et laissent place aux interclubs vétérans (3 équipes engagées) à partir la semaine prochaine.
 
-Vendredi 8 avril: Jeu libre ouvert de 20h30 à 22h30 à tous les adultes sur 4 terrains, les autres terrains sont réservés à l'entrainement.
+Par conséquent, le vendredi 8 avril le créneau de 20h30 à 22h30 est ouvert en jeu libre à tous les adultes sur 4 terrains. Les autres terrains sont réservés à l’entrainement.
 
-Les vendredis suivants: Jeu libre ouvert de 20h30 à 22h30 à tous les adultes sur 2 terrains, les autres terrains sont réservés à l'entrainement et aux interclubs vétérans.
+Les vendredis suivants le créneau de 20h30 à 22h30 est ouvert en jeu libre à tous les adultes sur 2 terrains. Les autres terrains sont réservés à l’entrainement et aux interclubs vétérans.
 
 Sportivement,
 
