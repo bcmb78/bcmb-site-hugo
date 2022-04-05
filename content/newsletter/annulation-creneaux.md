@@ -6,13 +6,14 @@ title = "Annulation créneaux"
 +++
 Bonjour à tous,
 
-Les créneaux suivants sont annulés:
+Au vu de la fréquentation des créneaux week-end précédents et parce qu'un grand nombre d'entre vous participe à des tournois les week-end concernés, les créneaux jeu libre suivants sont annulés
 
-**Samedi 9 Avril 2022**
+<p style="text-align: center;"> Samedi 9 Avril 2022</p>
 
-**Dimanche 17 Avril 2022**
+<p style="text-align: center;"> Dimanche 17 Avril 2022</p>
 
-**Samedi 11 Juin 2022**
+<p style="text-align: center;"> Samedi 11 Juin 2022</p>
+
 
 Sportivement,
 

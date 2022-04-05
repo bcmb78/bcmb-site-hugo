@@ -12,6 +12,12 @@ disqusShortname = "bcmb78"
 paginate= 6
 
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
