@@ -22,4 +22,5 @@ fields:
     maxSize: 64
   label: image
 pages:
+- content/newsletter/annulation-creneaux.md
 - content/newsletter/interclubs-veterans.md
