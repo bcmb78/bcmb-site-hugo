@@ -14,6 +14,7 @@ Au vu de la fréquentation des créneaux week-end précédents et parce qu'un gr
 
 <p style="text-align: center;"> Samedi 11 Juin 2022</p>
 
+![](img/cancelled.PNG)
 
 Sportivement,
 
