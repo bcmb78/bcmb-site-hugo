@@ -1,6 +1,6 @@
 +++
 date = 2022-04-02T23:00:00Z
-image = ""
+image = "img/2volants.png"
 title = "Interclubs vétérans"
 
 +++
@@ -11,8 +11,6 @@ Les interclubs séniors se sont achevés la semaine dernière et laissent place 
 Par conséquent, le vendredi 8 avril le créneau de 20h30 à 22h30 est ouvert en jeu libre à tous les adultes sur 4 terrains. Les autres terrains sont réservés à l’entrainement.
 
 Les vendredis suivants le créneau de 20h30 à 22h30 est ouvert en jeu libre à tous les adultes sur 2 terrains. Les autres terrains sont réservés à l’entrainement et aux interclubs vétérans.
-
-![](img/2volants.png)
 
 Sportivement,
 
