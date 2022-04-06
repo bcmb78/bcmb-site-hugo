@@ -1,7 +1,7 @@
 +++
 date = 2022-04-05T23:00:00Z
 formule = "Sportivement,"
-image = ""
+image = "img/cancelled.PNG"
 signature = "Thomas pour le BCMB"
 title = "Annulation créneaux"
 
