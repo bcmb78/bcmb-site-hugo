@@ -12,6 +12,8 @@ Par conséquent, le vendredi 8 avril le créneau de 20h30 à 22h30 est ouvert en
 
 Les vendredis suivants le créneau de 20h30 à 22h30 est ouvert en jeu libre à tous les adultes sur 2 terrains. Les autres terrains sont réservés à l’entrainement et aux interclubs vétérans.
 
+![](img/2volants.png)
+
 Sportivement,
 
 Thomas pour le BCMB
