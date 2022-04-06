@@ -1,6 +1,8 @@
 +++
 date = 2022-04-05T23:00:00Z
+formule = "Sportivement,"
 image = ""
+signature = "Thomas pour le BCMB"
 title = "Annulation créneaux"
 
 +++
@@ -13,9 +15,3 @@ Au vu de la fréquentation des créneaux week-end précédents et parce qu'un gr
 <p style="text-align: center;"> Dimanche 17 Avril 2022</p>
 
 <p style="text-align: center;"> Samedi 11 Juin 2022</p>
-
-![](img/cancelled.PNG)
-
-Sportivement,
-
-Thomas pour le BCMB
