@@ -64,7 +64,7 @@
 
 				<!-- LIST ITEM TEXT -->
 				<!-- Set text color and font family ("sans-serif" or "Georgia, serif"). Duplicate all text styles in links, including line-height -->
-				<td align="justify" valign="top" style="-webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 17px; font-weight: 400; line-height: 160%; border-spacing: 0; margin: 0; padding: 0; padding-top: 25px; color: #000000; text-align: justify; font-family: sans-serif; border-collapse: collapse;" class="paragraph">
+				<td align="justify" valign="top" style="-webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 17px; font-weight: 400; line-height: 160%; border-spacing: 0; margin: 0; padding: 0; padding-top: 25px; padding-bottom: 25px;color: #000000; text-align: justify; font-family: sans-serif; border-collapse: collapse;" class="paragraph">
 
                         
                         
@@ -72,6 +72,12 @@
                         <p style="-webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%;text-align: justify;"> 
                         {{ .Content }}
                         </p>
+                        
+                        <img style="width: 100%" src={{.Params.image | relURL}} >
+                        
+                        <p style="-webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%;"> {{ .Params.formule }}  </p>
+						
+						<p style="-webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%;"><em>{{ .Params.signature }}</em></p>
                         
                         <br/>
 				</td>
