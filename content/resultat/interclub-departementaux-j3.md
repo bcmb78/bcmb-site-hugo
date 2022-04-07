@@ -1,5 +1,6 @@
 +++
 categorie = "departementale"
+type= "interclub_departemental"
 date = 2021-12-04T00:00:00Z
 image = "img/20211126_224202_2.jpg"
 res_type = "interclub"

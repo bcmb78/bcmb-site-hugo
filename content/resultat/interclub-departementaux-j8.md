@@ -1,5 +1,6 @@
 +++
 categorie = "departementale"
+type= "interclub_departemental"
 date = 2022-01-30T00:00:00Z
 image = "img/2volants.png"
 res_type = "interclub"

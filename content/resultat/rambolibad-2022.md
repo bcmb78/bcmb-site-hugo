@@ -5,6 +5,7 @@ description = "Le BCMB était bien présent ce week-end au tournoi de Rambouille
 image = "img/img_20220123_184156.jpg"
 res = []
 res_type = "tournoi"
+type="tournoi"
 title = "Rambolibad 2022"
 
 +++

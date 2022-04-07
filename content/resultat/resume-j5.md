@@ -2,6 +2,7 @@
 date = 2020-02-24T00:00:00Z
 title = "Régionale J5"
 res_type =  "interclub"
+type= "interclub_regional"
 categorie = "regionale"
 [[score]] 
 equipe1 = 'BCMB 1' 

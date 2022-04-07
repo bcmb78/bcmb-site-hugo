@@ -1,6 +1,7 @@
 +++
 date = 2020-02-24T00:00:00Z
 title = "Departementaux J11"
+type= "interclub_departemental"
 res_type = "interclub"
 [[score]] 
 equipe1 = 'BCMB 2' 

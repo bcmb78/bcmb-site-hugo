@@ -3,6 +3,7 @@ categorie = "departementale"
 date = 2022-03-28T00:00:00Z
 image = "img/2volants.png"
 res_type = "interclub"
+type= "interclub_departemental"
 title = "Interclub Departementaux J13"
 [[score]]
 equipe1 = "BCMB 3"
