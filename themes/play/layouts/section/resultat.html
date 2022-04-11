@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+
+<!-- ALL RESULTS TEMPLATE -->
+            <section class="portfolio-area section-gap" id="portfolio">
+                <div class="container">
+
+                    <div class="filters-content">
+                        <div class="row grid">
+						{{ range (where $.Site.RegularPages "Section" "resultat").ByPublishDate.Reverse }}
+                            <div class="single-portfolio col-sm-4 all {{ .Params.type}}">
+                            	<div class="relative">
+
+									<a href={{.Permalink}} class="img-pop-up">	
+									  <div class="middle">
+									    <div class="text align-self-center d-flex">
+										<h4> {{ .Title }}</h4>													
+										</div>
+									  </div>
+								</a>                              		
+                            	</div>
+								<div class="p-inner">
+
+								</div>					                               
+                            </div>
+						{{ end }}
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+			
+{{end}}					  
+			
+		

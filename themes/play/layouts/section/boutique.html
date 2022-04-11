@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+
+	
+<section class="blog-section">
+
+	<div class="container">
+        </br>
+		{{range .Params.article}}
+        
+        <div class="row">
+        <div class="col-4">
+        <img class="img-fluid pics" src={{ .thumbnail | relURL}} alt="">
+        </div>
+        <div class="col-4">
+		<h3>{{ .title}} </h3>
+        {{ .description}}
+        </div>
+       </div>
+		{{end}}
+	</div>
+	
+	
+
+</section>
+		
+
+			
+{{end}}			
+

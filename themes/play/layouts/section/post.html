@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ $mymonths := index $.Site.Data.mois }}
+
+<!-- Blog Section Begin -->
+<section style="padding-top:1em">
+	<div class="container">
+		<div class="row">
+		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post").ByPublishDate.Reverse }}
+			{{ range $paginator.Pages }}
+<div class="tab-pane fade-in active" id="class-1" role="tabpanel">
+                                        <div class="single-class-item" style="padding-top:0.5em;padding-bottom:0.5em; border-bottom: 1px dashed #6e6e6e">
+                                            <div class="row">
+                                                <div class="col-lg-5">
+                                                    <img src="/{{.Params.image}}" alt="" style=" height: 100%;  object-fit: cover;">
+                                                </div>
+                                                <div class="col-lg-7">
+                                                    <div class="class-text">
+														<a href={{.Permalink}}> <h3 style="font-size: 20px; text-transform: uppercase;"> {{.Title }} </h3> </a>
+								
+													<div class="row" style="padding-left:17px;font-size: 10px; text-transform: uppercase;"> 
+													{{.Date.Format "02"}}  {{ index $mymonths (printf "%d" .Date.Month) }} {{.Date.Format "2006"}}  <!-- | 
+							
+													<div class="comment-count">
+														<a href="{{ .Permalink }}#disqus_thread"> # Comments</a>
+													</div>  -->
+							
+														|  {{.Params.categorie}}
+						
+													</div>
+                                                        <p>{{.Content}}</p>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+			{{end}}
+		
+					<!-- Latest News Section Begin -->
+
+
+
+<!-- Latest News Section End -->
+			
+			
+
+		</div>
+		<div style="margin: 0 auto; width: 100px; ">{{ template "_internal/pagination.html" . }}</div>
+	</div>
+</section>
+    <!-- Blog Section End -->
+	
+{{ end }}
+
+

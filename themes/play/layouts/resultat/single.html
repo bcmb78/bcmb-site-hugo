@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+
+	<section class="">
+		<div class="container" style="padding-top: 1em; padding-bottom: 1em">
+
+
+				<div class="interclub-table-wrap">
+					<div class="interclub-table">
+
+						{{ range .Params.score}}
+						<a href={{.link}}>
+						<div class="table-row">
+							<div class="equipe-1">{{.equipe1}}</div>
+                            {{ if ge .score1 .score2 }}
+                            
+							<div class="victory score-1"> {{.score1}}</div>
+							<div class="victory score-2"> {{.score2}}</div>
+                            
+                            {{else}}
+                            <div class="score-1"> {{.score1}}</div>
+							<div class="score-2"> {{.score2}}</div>
+                            
+                            {{ end }}
+							<div class="equipe-2">{{.equipe2}}	</div>
+						</div>
+						</a>
+						{{end}}
+					</div>
+				</div>
+
+		</div>
+	</section>
+
+
+			
+{{end}}					  

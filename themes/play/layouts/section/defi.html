@@ -1,0 +1,147 @@
+{{ define "main" }}
+
+
+	
+<section class="blog-section">
+
+	<div class="container">
+	
+		<p> Faute de pouvoir jouer au badminton, nous vous proposons de relever un challenge sportif par équipe afin de vous stimuler un peu. </p>
+		
+		<h2> Le principe </p>
+		
+		<p> Tu coures, tu gagnes des points. Tu marches, tu gagnes des points. Tu pédales, tu gagnes des points. Tu fais des abdos, tu gagnes des points.</p>
+		<p> Les points de chaque participant sont ajoutés à son équipe. L'équipe qui a le plus de points gagne ... rien du tout. </p>
+		
+		<div style="padding-bottom:1em; display: flex; flex-wrap: wrap;">
+		
+		{{ with .Site.GetPage "/defi/sports" }}	
+			{{ range .Params.sport}}
+			<div class="col-lg-3 col-6" style="height:5em; position: relative; padding:0;"> 
+				
+					<div style="height:100%; border-radius: 0.7em; text-align: center; font-size: 0.6em;  position: absolute; width:95%;  bottom: 0;   color: #f1f1f1; text-align: center; background: {{.couleur}}; background-image: url({{.image}}); background-repeat: no-repeat; background-size: 50%; background-position: center; opacity:0.2;">
+
+					</div>
+					<div style="text-transform: uppercase;text-align: center;  color: #000; margin-top: 20%; opacity:1 ;">
+						<p style="font-weight: 900;font-size: 2.5rem">{{ .nom}}  </p>
+						
+						<p style="font-weight: 900;font-size: 15px;">{{ .point}}  </p>
+					</div>
+				
+			</div>
+			{{end}}
+		{{end}}
+		</div>
+<!-- 		<h2> Comment participer ? </h2>
+		
+		<p> Le défi à déjà commencer mais vous pouvez vous inscire à tout moment! N'hésitez pas ! </p>
+		<p> Afin de faciliter le compte des points de tout le monde, chaque participants devra enregistrer ses diverses activités sur Strava. </p>
+		
+		<p> Pour cela voici quelques étapes simples à suivre: </p>
+		<ul>
+		<li> Créez un compte  <a style="color:#f96" href="https://www.strava.com/">Strava </a> </li>
+		<li> Se connecter à son compte </li>
+		<li> Rejoindre le club BCMB en vous rendant à <a style="color:#69f" href="https://www.strava.com/clubs/bcmb">  ce lien </a> et cliquer sur Demander à rejoindre le club</li>
+		<li> Commencer à ajoutez des activités. </br>
+			Pour cela plusieurs possibilités s'offre à vous:
+			<ul>
+				
+				<li> Synchroniser les données d'autres sites de fitness vers Strava (Garmin, Runtatstic, Runkeeper,...) </li>
+				<li> Enregistrer une activité à partir de l'application Strava </li>
+				<li> Ajouter une activité manuellement </li>
+				
+				
+			</ul>
+			
+		</li>
+		
+		</ul>
+		
+		<p>Pour plus d'informations vous pouvez consultez l' <a style="color:#f96" href="https://support.strava.com/hc/fr/articles/223297187#app"> aide Strava </a></p> -->
+		
+	<h2>Les équipes </h2>
+
+		<div class="row" style="text-align: center; margin-top:2em; margin-bottom: 2em">
+			{{ with .Site.GetPage "/defi/equipes" }}	
+				
+				{{ range .Params.equipes}}
+				<div class="col-lg-4">
+					<h3> {{.nom}} </h3>
+					{{ range .membre}}
+				
+						<p> {{ .nom}} </p>
+					
+					{{end}}
+				</div>
+				{{ end}}
+			{{end}}
+		
+			
+		</div>
+		
+		<h2>Les résultats </h2>
+		<p> Retrouvez ici les performances des équipes </p>
+		<iframe style="overflow:hidden;height:500px;width:100%" height="500px" width="100%"
+			src={{"html/res_equipe.html" | relURL}}>
+		</iframe> 
+		
+		<iframe style="overflow:hidden;height:500px;width:100%" height="500px" width="100%"
+			src={{"html/evol_equipes.html" | relURL}}>
+		</iframe> 
+		
+		
+		<!-- <p> Et les résultats de chacuns</p>
+		
+		<iframe style="overflow:hidden;height:500px;width:100%" height="500px" width="100%"
+			src={{"html/res_indiv.html" | relURL}}>
+		</iframe>
+		 -->
+		<!-- 
+		<h2> Les résultats en direct </h2>
+		<p> Vous pouvez suivre ici les performance de chaque équipes mises à jour chaque dimanche. 
+		
+			<table style="text-align:center; width:100%; border-collapse: collapse; ">
+			  <tr>
+				<th>Equipe</th>
+				<th>Course (km)</th>
+				<th>Marche (km)</th>
+				<th>Vélo (km)</th>
+				<th>Cardio (min)</th>
+				<th>Points</th>
+			  </tr>
+			  <tr>
+				<td> Equipe 1</td>
+				<td>10</td>
+				<td>20</td>
+				<td>5</td>
+				<td>40</td>
+				<td>250</td>
+			  </tr>
+			  <tr>
+				<td> Equipe 2</td>
+				<td>10</td>
+				<td>20</td>
+				<td>5</td>
+				<td>40</td>
+				<td>250</td>
+			  </tr>
+			</table> -->
+			
+		</br>
+		</br>
+		<h2> Vos réactions </h2>
+		</br>
+		{{ template "_internal/disqus.html" . }}
+		
+		</br>
+		</br>
+	</div>
+	
+	
+
+</section>
+		
+
+			
+{{end}}			
+

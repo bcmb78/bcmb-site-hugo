@@ -1,0 +1,24 @@
+[
+    {{ range $index, $e := (where .Data.Pages "Type" "event" ) }}
+    {{ if $index }}, {{ end }}
+    {
+        "title": "{{ .Title }}",
+        "start": "{{ dateFormat "2006-01-02" .Date }}T00:00:00",
+		"end": "{{ dateFormat "2006-01-02" .Params.end_date }}T08:00:00",
+        "url": "{{ .Permalink | absURL }}",
+		{{if eq .Params.date.Day .Params.end_date.Day}}
+		"allDay": "true",
+		{{end}}
+
+		"color": {{if eq .Params.event_type "tournoi"}} "#28b463" 
+		{{else if eq .Params.event_type "exterieur"}}  "#d68910" 
+		{{else if eq .Params.event_type "stage_jeunes"}}  "#8910d6" 
+		{{else if eq .Params.event_type "club"}} "#cb4335"
+		{{else if eq .Params.event_type "creneau"}} "#2b1899"
+        {{else if eq .Params.event_type "journee_jeunes"}} "#6699ff"
+		{{else if eq .Params.event_type "interclub_regional"}} "#f1c40f"	
+		{{else}} "#000000" 
+		{{end}}
+    }
+    {{ end }}
+]

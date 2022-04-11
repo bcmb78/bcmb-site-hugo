@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+	<link rel="stylesheet" href={{"fullcalendar/main.css" |relURL}} rel="stylesheet" />
+	<script src={{"fullcalendar/main.js" |relURL}}></script>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+	  firstDay: 1,
+	  displayEventTime: false, 
+	  locale: 'fr',
+	  height: 'auto',
+      events: {{"event/index.json"| relURL}},	  
+	  headerToolbar: {
+		  start: 'title', // will normally be on the left. if RTL, will be on the right
+		  center: '',
+		  end: 'prev,next' // will normally be on the right. if RTL, will be on the left
+		}
+    });
+
+    calendar.render();
+  });
+
+</script>
+
+{{ partial "last_actu.html" . }} 
+  
+
+
+
+	
+{{ end }}

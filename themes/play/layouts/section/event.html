@@ -1,0 +1,89 @@
+{{ define "main" }}
+
+
+	<link rel="stylesheet" href={{"fullcalendar/main.css" |relURL}} rel="stylesheet" />
+	<script src={{"fullcalendar/main.js" |relURL}}></script>
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+	  firstDay: 1,
+	  displayEventTime: false, 
+	  locale: 'fr',
+	  height: 'auto',
+      events: {{"event/index.json"| relURL}},	  
+	  headerToolbar: {
+		  start: 'title', // will normally be on the left. if RTL, will be on the right
+		  center: '',
+		  end: 'prev,next' // will normally be on the right. if RTL, will be on the left
+		}
+    });
+
+    calendar.render();
+  });
+
+</script>
+
+<section class="blog-section ">
+	<div class="container">
+	
+		<section style="padding-bottom:1em; padding-top:2em">
+	<!-- 	<div class="section-title">
+			<h2>Les prochains évènements</h2>
+			
+			
+					{{ $mymonths := index $.Site.Data.mois }}
+					{{ $mydays := index $.Site.Data.jour }}
+					{{ $events := (where .Site.RegularPages "Section" "event").Reverse }}
+					{{ $events := $events | intersect (where $events "Date" "ge" now) | first 9 }}
+					{{ $.Scratch.Set "counter" 0 }}
+					
+					
+					
+					<div class="row">
+					{{ range $events }}								
+					{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+					<div class="col-lg-4">
+						<div class="event_dev">
+							<div class="day_str">{{ index $mydays (printf "%d" .Date.Weekday) }}  </div>
+							
+								
+							{{.Date.Format "02"}} {{ index $mymonths (printf "%d" .Date.Month) }}   {{if ne .Params.date.Day .Params.end_date.Day}} -  {{.Params.end_date.Format "02"}} {{ index $mymonths (printf "%d" .Params.end_date.Month) }} {{end}}
+							
+							<div class="infos">
+								<h4>{{.Title}}</h4>
+								<p> {{.Params.lieu}} </p>
+							</div>
+							
+					
+						</div>
+					</div>
+					{{end}}
+					</div>
+						
+		</div> -->
+		
+			<div class="section-title">
+				<h2>Le calendrier de l'année </h2>
+							
+			</div>
+
+			<div id='calendar'></div>
+					
+			
+		</section>
+	
+	
+	</div>
+</section>
+
+	
+	
+    <!-- Blog Section End -->
+	
+{{ end }}
+
+
