@@ -1,16 +1,16 @@
 +++
 categorie = []
 convocation = ""
-date = 2022-04-02T00:00:00Z
+date = 2022-04-24T08:00:00Z
 description = ""
-end_date = 2022-04-03T00:00:00Z
+end_date = 2022-04-24T18:00:00Z
 event_type = "interclub_regional"
 fiche_inscription = ""
 image = ""
-lieu = ""
+lieu = "Gymnase Pierre de Coubertin"
 poster = ""
 reglement = ""
-title = "ICR"
+title = "ICR - Phases finales"
 
 +++
         
