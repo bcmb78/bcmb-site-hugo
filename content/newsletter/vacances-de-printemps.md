@@ -16,6 +16,6 @@ A la demande de la mairie, nous vous rappelons que 22h00 est l’heure de sortie
 
 #### Interclubs régionaux - Play-offs
 
-Le dimanche 24 avril, l'équipe 1 joue une journée de phases finales à domicile. L'équipe jouera deux rencontres (la première contre Sénart 2) pour se classer au mieux en vue du tirage des poules de la saison prochaine.
+Le dimanche 24 avril, l'équipe 1 joue une journée de phases finales à domicile. L'équipe jouera deux rencontres: la première à 10h contre Sénart 2, la deuxième vers 15h contre contre Levallois 1 ou Fresnes 1
 
 Rendez-vous à partir de 10h au gymnase Pierre de Coubertin pour les encourager.
