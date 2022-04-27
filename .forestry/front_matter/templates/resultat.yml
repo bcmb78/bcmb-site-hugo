@@ -93,6 +93,7 @@ fields:
   label: categorie
 pages:
 - content/resultat/departementaux-de-doubles.md
+- content/resultat/icr-play-offs.md
 - content/resultat/interclubs-regionaux-j2.md
 - content/resultat/interclubs-regionaux-j3.md
 - content/resultat/interclubs-regionaux-j4.md
