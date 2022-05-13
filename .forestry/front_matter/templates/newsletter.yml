@@ -35,6 +35,7 @@ fields:
   default: Thomas pour le BCMB
 pages:
 - content/newsletter/annulation-creneaux.md
+- content/newsletter/creneau-jeu-libre.md
 - content/newsletter/interclubs-veterans.md
 - content/newsletter/lundi-de-paques.md
 - content/newsletter/vacances-de-printemps.md
