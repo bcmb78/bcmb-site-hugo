@@ -60,7 +60,19 @@
                                             <div class="single-class-item" style="padding-top:0.5em;padding-bottom:0.5em; border-bottom: 1px dashed #6e6e6e">
                                                 <div class="row">
                                                     <div class="col-lg-5">
-                                                        <img src="/{{.Params.image}}" alt="" style=" height: 100%;  object-fit: cover;">
+                                                    
+                                                    {{if .Params.photos}}
+                                                    {{range first 1 .Params.photos }}
+                                                        
+                                                        
+                                                        <img src="/{{ . }}" alt="" style=" height: 100%;  object-fit: cover;">
+                                                       {{ end }}
+                                                       
+                                                     {{else}}
+                                                     
+                                                      <img src="/{{.Params.image}}" alt="" style=" height: 100%;  object-fit: cover;">
+                                                      
+                                                     {{ end }}
                                                     </div>
                                                     <div class="col-lg-7">
                                                         <div class="class-text">
@@ -77,6 +89,8 @@
                                                         <!-- <div class="comment-count">
                                                             <a href="{{ .Permalink }}#disqus_thread"> # Comments</a>
                                                         </div>   -->
+                                                        
+                                               
                                                         
                                                         </div>
                                                         {{ if eq .Params.categorie "departementale"}}
