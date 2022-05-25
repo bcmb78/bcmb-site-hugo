@@ -1,7 +1,7 @@
 {{ $mymonths := index $.Site.Data.mois }}
 
     <!-- ====== About Section Start -->
-    <section
+<!--     <section
       id="about"
       class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-[#f3f4fe]"
     >
@@ -105,12 +105,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== About Section End -->
 
 
   <!-- ====== Blog Section Start -->
-    <section class="pb-10 lg:pb-20">
+    <section class="pb-4">
       <div class="container">
       
       
@@ -124,7 +124,7 @@
             <h2
               class="
                 font-semibold
-                text-dark text-2xl
+                text-white text-2xl
                 sm:text-[28px]
                 pb-5
                 relative
@@ -144,7 +144,7 @@
       
         <div class="flex flex-wrap -mx-4">
         
-        {{ range first 5 (where $.Site.Pages "Section" "in" (slice "post" "resultat")).ByPublishDate.Reverse }}
+        {{ range first 3 (where $.Site.Pages "Section" "in" (slice "post" "resultat")).ByPublishDate.Reverse }}
 
           <div class="w-full md:w-1/2 lg:w-1/3 px-4">
             <div class="mb-10 group wow fadeInUp" data-wow-delay=".1s">
@@ -190,17 +190,16 @@
                       xl:text-2xl
                       mb-4
                       inline-block
-                      text-dark
+                      text-light
                       hover:text-primary
                     "
                   >
                     {{.Title }}
                   </a>
                 </h3>
-                <p class="text-base text-body-color">
-                  {{ .Description | markdownify}}
-
-                </p>
+               <div class="text-base text-white">
+                <p >{{ .Description | markdownify}}</p>
+                </div>
               </div>
             </div>
           </div>
