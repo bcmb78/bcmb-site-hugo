@@ -17,6 +17,8 @@ lien:
 - lienUrl: https://www.myffbad.fr/
   nom: MyFFBaD
 docs:
+- nom: Convocation AG
+  fichier: convocation-ag-bcmb-16-juin-2022.pdf
 - nom: Règlement Tournois
   fichier: docs/reglement_tournois_21_22.pdf
 - nom: Règlement Intérieur
