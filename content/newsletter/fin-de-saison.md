@@ -8,6 +8,6 @@ title = "Fin de saison"
 +++
 Bonjour à tous,
 
-Pour information la fin de la saison est fixée au dimanche 26 juin. La semaine prochaine sera donc la dernière de la saison.
+Pour information la fin de la saison est fixée au dimanche 26 juin. Les derniers créneaux officiels auront donc lieu le semaine prochaine. Une demande de créneau exceptionnels pour début juillet a été effectué auprès de la mairie. Nous reviendrons vers vous quand ceux-ci auront été validé
 
 Pour rappel il y a un créneau jeu libre le **dimanche 26 juin de 9h à 12h** au gymnase Jean Maréchal. Les conditions sont toujours les mêmes: seuls peuvent participer à ces créneaux les adultes adhérents au club et les jeunes adhérents au club accompagnés de leurs parents si ils sont aussi adhérents au club.
