@@ -58,6 +58,7 @@ fields:
       path: 
   label: categorie
 pages:
+- content/resultat/coupe-des-yvelines-jeunes.md
 - content/resultat/coupe-des-yvelines.md
 - content/resultat/departementaux-de-doubles.md
 - content/resultat/icr-play-offs.md
