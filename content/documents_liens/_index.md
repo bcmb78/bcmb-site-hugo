@@ -40,13 +40,17 @@ docs:
   icon: ''
   description: ''
 - nom: Certificat médical
-  fichier: https://bad-montigny.fr/docs/ffbad_certificatmedical.pdf
+  fichier: https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer
   icon: ''
   description: ''
-- fichier: https://bad-montigny.fr/docs/ffbad_questionnaire_sante.pdf
+- fichier: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
   icon: ''
   description: ''
-  nom: Questionnaire santé
+  nom: Questionnaire santé ADULTES
+- fichier: https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer
+  icon: ''
+  description: ''
+  nom: Questionnaire santé MINEURS
 - nom: Fiche sanitaire de liaision (jeune)
   fichier: https://bad-montigny.fr/docs/bcmb_fiche_sanitaire_21_22.pdf
   icon: ''
