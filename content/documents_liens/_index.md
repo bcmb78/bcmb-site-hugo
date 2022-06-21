@@ -30,7 +30,7 @@ docs:
 - nom: Compte rendu AG 2021
   fichier: docs/PV_AG_BCMB_2020_2021_définitif.pdf
 - nom: Notice assurance FFBad
-  fichier: http://www.ffbad.org/data/Files/Accueil/La_FFBaD/Assurance/FFBAD_-_Notice_Information_-_Options_IA_-_2020-2021.pdf
+  fichier: http://www.ffbad.org/data/Files/Accueil/La_FFBaD/Assurance/FFBAD_-_Individuelle_Accident_2021-2022_-_Garanties_de_base_-_Options_IA.pdf
 - nom: Fiche d'inscription adulte
   fichier: docs/bcmb_inscriptions_Adulte_21_22.pdf
   icon: ''
