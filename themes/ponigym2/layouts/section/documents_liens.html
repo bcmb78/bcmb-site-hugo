@@ -27,7 +27,7 @@
         
         {{ if .fichier }}
         <a style="color: #ff9966" href={{.fichier}}>{{.nom}} </a>
-        {{ elif .lien_externe }}
+        {{ else .lien_externe }}
         <a style="color: #99ff66" href={{.lien_externe}}>{{.nom}} </a>
         
         {{end}}
