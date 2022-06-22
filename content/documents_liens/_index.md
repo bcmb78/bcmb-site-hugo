@@ -26,14 +26,14 @@ docs:
 - nom: Charte capitaine
   fichier: https://bad-montigny.fr/docs/bcmb_chartecapitaine_21_22.pdf
   lien_externe: ''
+- nom: Charte compétiteurs
+  fichier: https://bad-montigny.fr/docs/bcmb_chartecompétiteur_21_22.pdf
+  lien_externe: ''
 - nom: Fiche d'inscription 2022-2023
   fichier: img/bcmb_inscriptions_adulte_22_23.pdf
   lien_externe: ''
 - nom: Convocation AG
   fichier: https://bad-montigny.fr/img/convocation-ag-bcmb-16-juin-2022.pdf
-  lien_externe: ''
-- nom: Charte compétiteurs
-  fichier: https://bad-montigny.fr/docs/bcmb_chartecompétiteur_21_22.pdf
   lien_externe: ''
 - nom: Compte rendu AG 2021
   fichier: https://bad-montigny.fr/docs/PV_AG_BCMB_2020_2021_définitif.pdf
@@ -43,21 +43,21 @@ docs:
   icon: ''
   description: ''
   lien_externe: ''
-- nom: Fiche d'inscription jeune
-  fichier: https://bad-montigny.fr/docs/bcmb_inscriptions_Jeune_21_22.pdf
-  icon: ''
-  description: ''
-  lien_externe: ''
-- nom: Certificat médical
-  fichier: https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer
-  icon: ''
-  description: ''
-  lien_externe: ''
 - fichier: ''
   icon: ''
   description: ''
   nom: Questionnaire santé ADULTES
   lien_externe: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
+- nom: Certificat médical
+  fichier: https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer
+  icon: ''
+  description: ''
+  lien_externe: ''
+- nom: Fiche d'inscription jeune
+  fichier: https://bad-montigny.fr/docs/bcmb_inscriptions_Jeune_21_22.pdf
+  icon: ''
+  description: ''
+  lien_externe: ''
 - fichier: ''
   icon: ''
   description: ''
