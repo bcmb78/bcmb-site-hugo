@@ -51,10 +51,10 @@ docs:
   nom: Questionnaire santé ADULTES
   lien_externe: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
 - nom: Certificat médical
-  fichier: https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer
+  fichier: ''
   icon: ''
   description: ''
-  lien_externe: ''
+  lien_externe: https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer
 - nom: Fiche d'inscription jeune
   fichier: https://bad-montigny.fr/docs/bcmb_inscriptions_Jeune_21_22.pdf
   icon: ''
