@@ -25,8 +25,12 @@
 	{{range .Params.docs}}
         <li>
         
-        
+        {{ if .fichier }}
         <a href={{.fichier}}>{{.nom}} </a>
+        {{ elif .lien_externe }}
+        <a href={{.lien_externe}}>{{.nom}} </a>
+        
+        {{end}}
         
         </li>
 	{{end}}
