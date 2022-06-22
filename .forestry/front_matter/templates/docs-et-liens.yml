@@ -38,3 +38,5 @@ fields:
     max: 
     labelField: 
   label: docs
+pages:
+- content/documents_liens/_index.md
