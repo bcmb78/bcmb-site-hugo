@@ -56,16 +56,16 @@ docs:
   icon: ''
   description: ''
   lien_externe: ''
-- fichier: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
+- fichier: ''
   icon: ''
   description: ''
   nom: Questionnaire santé ADULTES
-  lien_externe: ''
-- fichier: https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer
+  lien_externe: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
+- fichier: ''
   icon: ''
   description: ''
   nom: Questionnaire santé MINEURS
-  lien_externe: ''
+  lien_externe: https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer
 - nom: Fiche sanitaire de liaision (jeune)
   fichier: https://bad-montigny.fr/docs/bcmb_fiche_sanitaire_21_22.pdf
   icon: ''
