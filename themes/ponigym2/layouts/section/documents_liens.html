@@ -25,12 +25,9 @@
 	{{range .Params.docs}}
         <li>
         
-        {{ if .fichier }}
-        <a style="color: #ff9966" href={{.fichier}}>{{.nom}} </a>
-        {{ else .lien_externe }}
-        <a style="color: #99ff66" href={{.lien_externe}}>{{.nom}} </a>
         
-        {{end}}
+          <a {{ with .fichier }} style="color: #000" href="{{.}}"  {{end}} {{ with .lien_externe }} style="color: #aaa" href="{{.}}"  {{end}} >  {{.nom}} </a>
+          
         
         </li>
 	{{end}}
