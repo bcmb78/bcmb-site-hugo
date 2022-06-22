@@ -17,29 +17,26 @@ lien:
 - lienUrl: https://www.myffbad.fr/
   nom: MyFFBaD
 docs:
+- nom: Règlement Intérieur
+  fichier: https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf
+  lien_externe: ''
+- nom: Règlement Tournois
+  fichier: https://bad-montigny.fr/docs/reglement_tournois_21_22.pdf
+  lien_externe: ''
+- nom: Charte capitaine
+  fichier: https://bad-montigny.fr/docs/bcmb_chartecapitaine_21_22.pdf
+  lien_externe: ''
 - nom: Fiche d'inscription 2022-2023
   fichier: img/bcmb_inscriptions_adulte_22_23.pdf
   lien_externe: ''
 - nom: Convocation AG
   fichier: https://bad-montigny.fr/img/convocation-ag-bcmb-16-juin-2022.pdf
   lien_externe: ''
-- nom: Règlement Tournois
-  fichier: https://bad-montigny.fr/docs/reglement_tournois_21_22.pdf
-  lien_externe: ''
-- nom: Règlement Intérieur
-  fichier: https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf
-  lien_externe: ''
-- nom: Charte capitaine
-  fichier: https://bad-montigny.fr/docs/bcmb_chartecapitaine_21_22.pdf
-  lien_externe: ''
 - nom: Charte compétiteurs
   fichier: https://bad-montigny.fr/docs/bcmb_chartecompétiteur_21_22.pdf
   lien_externe: ''
 - nom: Compte rendu AG 2021
   fichier: https://bad-montigny.fr/docs/PV_AG_BCMB_2020_2021_définitif.pdf
-  lien_externe: ''
-- nom: Notice assurance FFBad
-  fichier: http://www.ffbad.org/data/Files/Accueil/La_FFBaD/Assurance/FFBAD_-_Individuelle_Accident_2021-2022_-_Garanties_de_base_-_Options_IA.pdf
   lien_externe: ''
 - nom: Fiche d'inscription adulte
   fichier: https://bad-montigny.fr/docs/bcmb_inscriptions_Adulte_21_22.pdf
@@ -71,5 +68,8 @@ docs:
   icon: ''
   description: ''
   lien_externe: ''
+- nom: Notice assurance FFBad
+  fichier: ''
+  lien_externe: http://www.ffbad.org/data/Files/Accueil/La_FFBaD/Assurance/FFBAD_-_Individuelle_Accident_2021-2022_-_Garanties_de_base_-_Options_IA.pdf
 
 ---
