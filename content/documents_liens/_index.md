@@ -19,6 +19,9 @@ lien:
 - lienUrl: https://www.myffbad.fr/
   nom: MyFFBaD
 docs:
+- nom: Compte-rendu AG 2022
+  fichier: img/pv-ag-bcmb_2021-2022_v2.pdf
+  lien_externe: ''
 - nom: Règlement Intérieur
   fichier: https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf
   lien_externe: ''
