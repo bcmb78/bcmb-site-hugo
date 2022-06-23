@@ -2,8 +2,6 @@
 title: Documents et Liens
 banner: img/documents_bg.jpg
 lien:
-- lienUrl: https://www.badnet.org/
-  nom: BadNet
 - lienUrl: https://www.facebook.com/Badminton-Club-Montigny-Le-Bretonneux-BCMB-1401352533418811/?ref=bookmarks
   nom: Page Facebook du club
 - lienUrl: http://www.ffbad.org/
@@ -12,12 +10,14 @@ lien:
   nom: Ligue Ile-de-France de Badminton
 - lienUrl: https://www.badminton78.fr/
   nom: Comité Départementale des Yvelines de Badminton
-- lienUrl: https://www.lardesports.com/badminton.html
-  nom: Larde Sports
-- lienUrl: http://badiste.fr/
-  nom: Badiste
 - lienUrl: https://www.myffbad.fr/
   nom: MyFFBaD
+- lienUrl: http://badiste.fr/
+  nom: Badiste
+- lienUrl: https://www.badnet.org/
+  nom: BadNet
+- lienUrl: https://www.lardesports.com/badminton.html
+  nom: Larde Sports
 docs:
 - nom: Compte-rendu AG 2022
   fichier: img/pv-ag-bcmb_2021-2022_v2.pdf
