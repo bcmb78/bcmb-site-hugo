@@ -10,11 +10,11 @@ fields:
   label: lien
   fields:
   - type: text
-    name: lienUrl
-    label: lienUrl
-  - type: text
     name: nom
     label: nom
+  - type: text
+    name: lienUrl
+    label: lienUrl
 - name: docs
   type: field_group_list
   fields:
