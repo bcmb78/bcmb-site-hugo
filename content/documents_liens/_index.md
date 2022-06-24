@@ -34,7 +34,7 @@ docs:
 - nom: Charte compétiteurs
   fichier: https://bad-montigny.fr/docs/bcmb_chartecompétiteur_21_22.pdf
   lien_externe: ''
-- nom: Fiche d'inscription 2022-2023
+- nom: Fiche d'inscription 2022-2023 (ADULTE)
   fichier: img/bcmb_inscriptions_adulte_22_23.pdf
   lien_externe: ''
 - nom: Convocation AG
