@@ -19,6 +19,9 @@ lien:
 - lienUrl: https://www.lardesports.com/badminton.html
   nom: Larde Sports
 docs:
+- nom: Compte-rendu AG 2022
+  fichier: img/pv-ag-bcmb_2021-2022_v2.pdf
+  lien_externe: ''
 - nom: Règlement Intérieur
   fichier: https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf
   lien_externe: ''
@@ -61,9 +64,6 @@ docs:
   lien_externe: ''
 - nom: Compte rendu AG 2021
   fichier: https://bad-montigny.fr/docs/PV_AG_BCMB_2020_2021_définitif.pdf
-  lien_externe: ''
-- nom: Compte-rendu AG 2022
-  fichier: img/pv-ag-bcmb_2021-2022_v2.pdf
   lien_externe: ''
 - nom: Notice assurance FFBad
   fichier: ''
