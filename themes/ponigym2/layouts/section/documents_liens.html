@@ -26,7 +26,7 @@
         <li>
         
         
-          <a {{ with .fichier }} style="color: #000" href="{{.}}"  {{end}} {{ with .lien_externe }} style="color: #aaa" href="{{.}}"  {{end}} >  {{.nom}} </a>
+          <a {{ with .fichier }} style="color: #000" href="{{.  | relURL}}"  {{end}} {{ with .lien_externe }} style="color: #aaa" href="{{.}}"  {{end}} >  {{.nom}} </a>
           
         
         </li>
