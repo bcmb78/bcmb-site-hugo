@@ -62,7 +62,7 @@ tarif:
   size: "6"
   avantage: []
 text: "## Réinscriptions\t\nLes réinscriptions se font par courrier avant la date
-  limite fixée au 31 Juillet 2021. Merci d'envoyer votre dossier complet à Christine
+  limite fixée au 31 Juillet 2022. Merci d'envoyer votre dossier complet à Christine
   50 Grande Rue, 78910 Tacoignieres)\n\nLes inscriptions se font chaque année lors
   du forum des sport de Montigny-le-Bretonneux.\n\t\nToutefois, il arrive que nous
   puissions inscrire de nouveaux joueurs en cours d'année si des places se libèrent.\n\n##
@@ -72,6 +72,7 @@ text: "## Réinscriptions\t\nLes réinscriptions se font par courrier avant la d
   de licence en cas de réponse positive à une ou plusieurs questions du questionnaire
   de santé dans l’intervalle des 3 ans.\n\n## Recommandations\nSeules les personnes
   possédant une licence ou dont la demande de licence est effective pourront jouer
-  pendant les créneaux."
+  pendant les créneaux.\n\n## Documents pour inscriptions\nLes documents nécessaires
+  à inscriptions sont disponibles ici"
 
 ---
