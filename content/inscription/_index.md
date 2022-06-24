@@ -76,7 +76,7 @@ text: "## Réinscriptions\t\nLes réinscriptions se font par courrier avant la d
   à inscriptions sont disponibles ici"
 
 ---
-\## Réinscriptions	
+## Réinscriptions	
 
 Les réinscriptions se font par courrier avant la date limite fixée au 31 Juillet 2022. Merci d'envoyer votre dossier complet à Christine 50 Grande Rue, 78910 Tacoignieres)
 
@@ -86,7 +86,7 @@ Les inscriptions se font chaque année lors du forum des sport de Montigny-le-Br
 
 Toutefois, il arrive que nous puissions inscrire de nouveaux joueurs en cours d'année si des places se libèrent.
 
-\## Rappel sur le certificat médical
+## Rappel sur le certificat médical
 
 Il doit obligatoirement être fourni pour une première inscription au BCMB.
 
@@ -98,10 +98,10 @@ Il est exigé tous les trois ans, la date de votre dernier certificat.
 
 Il doit de nouveau être fourni lors d’un renouvellement de licence en cas de réponse positive à une ou plusieurs questions du questionnaire de santé dans l’intervalle des 3 ans.
 
-\## Recommandations
+## Recommandations
 
 Seules les personnes possédant une licence ou dont la demande de licence est effective pourront jouer pendant les créneaux.
 
-\## Documents pour inscriptions
+## Documents pour inscriptions
 
 Les documents nécessaires à inscriptions sont disponibles [ici](https://bad-montigny.fr/documents_liens/)
