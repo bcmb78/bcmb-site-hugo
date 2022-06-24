@@ -18,7 +18,7 @@ Vous trouverez le compte-rendu de l'AG [ici.](https://bad-montigny.fr/documents_
 
 La saison officielle est terminée. Mais on a le droit à quelques créneaux supplémentaires lundi 27 juin, mercredi 29 juin et vendredi 1 juillet de 19h à 22h au gymnase Jean Maréchal.
 
-Ces créneaux sont ouverts les adultes adhérents au club.
+Ces créneaux sont ouverts aux adhérents des créneaux C1, C2 et loisirs.
 
 #### Réinscription
 
