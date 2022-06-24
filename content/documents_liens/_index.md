@@ -19,9 +19,6 @@ lien:
 - lienUrl: https://www.lardesports.com/badminton.html
   nom: Larde Sports
 docs:
-- nom: Compte-rendu AG 2022
-  fichier: img/pv-ag-bcmb_2021-2022_v2.pdf
-  lien_externe: ''
 - nom: Règlement Intérieur
   fichier: https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf
   lien_externe: ''
@@ -37,41 +34,36 @@ docs:
 - nom: Fiche d'inscription 2022-2023 (ADULTE)
   fichier: img/bcmb_inscriptions_adulte_22_23.pdf
   lien_externe: ''
-- nom: Convocation AG
-  fichier: https://bad-montigny.fr/img/convocation-ag-bcmb-16-juin-2022.pdf
-  lien_externe: ''
-- nom: Compte rendu AG 2021
-  fichier: https://bad-montigny.fr/docs/PV_AG_BCMB_2020_2021_définitif.pdf
-  lien_externe: ''
-- nom: Fiche d'inscription adulte
-  fichier: https://bad-montigny.fr/docs/bcmb_inscriptions_Adulte_21_22.pdf
+- nom: Fiche d'inscription 2022-2023 (JEUNE)
+  fichier: img/bcmb_inscriptions_jeune_22_23.pdf
   icon: ''
   description: ''
   lien_externe: ''
-- fichier: ''
-  icon: ''
-  description: ''
-  nom: Questionnaire santé ADULTES
-  lien_externe: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
 - nom: Certificat médical
   fichier: ''
   icon: ''
   description: ''
   lien_externe: https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer
-- nom: Fiche d'inscription jeune
-  fichier: https://bad-montigny.fr/docs/bcmb_inscriptions_Jeune_21_22.pdf
+- fichier: ''
   icon: ''
   description: ''
-  lien_externe: ''
+  nom: Questionnaire santé ADULTES
+  lien_externe: https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer
 - fichier: ''
   icon: ''
   description: ''
   nom: Questionnaire santé MINEURS
   lien_externe: https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer
-- nom: Fiche sanitaire de liaision (jeune)
-  fichier: https://bad-montigny.fr/docs/bcmb_fiche_sanitaire_21_22.pdf
+- nom: Fiche sanitaire de liaision (JEUNE)
+  fichier: img/bcmb_fiche_sanitaire_22_23.pdf
   icon: ''
   description: ''
+  lien_externe: ''
+- nom: Compte rendu AG 2021
+  fichier: https://bad-montigny.fr/docs/PV_AG_BCMB_2020_2021_définitif.pdf
+  lien_externe: ''
+- nom: Compte-rendu AG 2022
+  fichier: img/pv-ag-bcmb_2021-2022_v2.pdf
   lien_externe: ''
 - nom: Notice assurance FFBad
   fichier: ''
