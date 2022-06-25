@@ -3,7 +3,7 @@ date = 2022-06-23T22:00:00Z
 formule = "Sportivement,"
 image = "img/summer-wallpapers-3.webp"
 signature = "Thomas pour le BCMB"
-title = "Informartion fin de saison"
+title = "Informations fin de saison"
 
 +++
 Bonjour à tous,
