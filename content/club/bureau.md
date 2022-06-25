@@ -20,6 +20,10 @@ membre:
   fonction: Responsable Jeunes
   image: img/bureau/celine.jpg
   mail: bcmb.jeunes@gmail.com
+- nom: Alain
+  fonction: Responsable Loisirs
+  image: img/bureau/alain.jpg
+  mail: bcmb.loisir@gmail.com
 - nom: Marta
   fonction: Responsable Volants
   image: "/img/bureau/marta.png"
