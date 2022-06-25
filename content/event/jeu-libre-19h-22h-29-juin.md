@@ -1,12 +1,11 @@
 +++
 categorie = []
 convocation = ""
-date = 2022-06-27T17:00:00Z
+date = 2022-06-29T17:00:00Z
 date_inscription = ""
 date_tirage = ""
 description = "Jeu libre adultes"
-draft = true
-end_date = 2022-06-27T08:00:00Z
+end_date = 2022-06-29T08:00:00Z
 event_type = "creneau"
 fiche_inscription = ""
 image = ""
