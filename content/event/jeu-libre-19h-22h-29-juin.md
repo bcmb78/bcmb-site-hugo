@@ -12,6 +12,6 @@ image = ""
 lieu = "Gymnase Jean Maréchal"
 poster = ""
 reglement = ""
-title = "Jeu libre 19h-22h (29 juin)"
+title = "Jeu libre 19h-22h"
 
 +++
