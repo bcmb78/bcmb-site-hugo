@@ -16,9 +16,9 @@ membre:
   fonction: Inscriptions/ Tournois
   image: "/img/bureau/christine.png"
   mail: bcmb.inscriptions@gmail.com
-- nom: Nzambé
+- nom: Céline
   fonction: Responsable Jeunes
-  image: "/img/bureau/nz.jpg"
+  image: img/bureau/celine.jpg
   mail: bcmb.jeunes@gmail.com
 - nom: Marta
   fonction: Responsable Volants
