@@ -1,10 +1,10 @@
 ---
 title: Le bureau
 membre:
-- nom: Colette
-  fonction: Présidente
-  image: "/img/bureau/colette.png"
-  mail: bcmb.presidente@gmail.com
+- nom: Loic
+  fonction: Président
+  image: "/img/bureau/loic.jpg"
+  mail: bcmb.loisir@gmail.com
 - nom: Cathy
   fonction: Secrétaire
   image: "/img/bureau/cathy.jpg"
@@ -16,14 +16,14 @@ membre:
   fonction: Inscriptions/ Tournois
   image: "/img/bureau/christine.png"
   mail: bcmb.inscriptions@gmail.com
-- nom: Loic
-  fonction: Responsable Loisirs
-  image: "/img/bureau/loic.jpg"
-  mail: bcmb.loisir@gmail.com
-- nom: Nzambé
+- nom: Céline
   fonction: Responsable Jeunes
-  image: "/img/bureau/nz.jpg"
+  image: img/bureau/celine.jpg
   mail: bcmb.jeunes@gmail.com
+- nom: Alain
+  fonction: Responsable Loisirs
+  image: img/bureau/alain.jpg
+  mail: bcmb.loisir@gmail.com
 - nom: Marta
   fonction: Responsable Volants
   image: "/img/bureau/marta.png"
