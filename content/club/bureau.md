@@ -4,7 +4,7 @@ membre:
 - nom: Loic
   fonction: Président
   image: "/img/bureau/loic.jpg"
-  mail: bcmb.president@gmail.com
+  mail: president.bcmb@gmail.com
 - nom: Cathy
   fonction: Secrétaire
   image: "/img/bureau/cathy.jpg"
