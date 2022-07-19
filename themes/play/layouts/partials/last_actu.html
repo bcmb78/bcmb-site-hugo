@@ -113,10 +113,7 @@
     <section class="pb-4">
       <div class="container">
       
-      
-      
-      
-      
+
       
       
         <div class="flex flex-wrap -mx-4">
@@ -124,7 +121,7 @@
             <h2
               class="
                 font-semibold
-                text-white text-2xl
+                text-2xl
                 sm:text-[28px]
                 pb-5
                 relative
@@ -173,7 +170,7 @@
                     text-xs
                     leading-loose
                     font-semibold
-                    text-white
+                    
                     mb-5
                   "
                 >
@@ -197,8 +194,10 @@
                     {{.Title }}
                   </a>
                 </h3>
-               <div class="text-base text-white">
-                <p >{{ .Description | markdownify}}</p>
+               <div class="text-base h-8 max-h-8">
+                   <span class="truncate text-ellipsis block">
+                    <p>{{ .Description | markdownify}}</p>
+                    </span>
                 </div>
               </div>
             </div>

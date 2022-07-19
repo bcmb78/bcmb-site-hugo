@@ -1132,7 +1132,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary{
   --tw-bg-opacity: 1;
-  background-color: rgb(190 60 62 / var(--tw-bg-opacity));
+  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#f5f8ff\]{
@@ -1536,11 +1536,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-dark{
   --tw-text-opacity: 1;
   color: rgb(9 14 52 / var(--tw-text-opacity));
-}
-
-.text-light{
-  --tw-text-opacity: 1;
-  color: rgb(213 66 64 / var(--tw-text-opacity));
 }
 
 .text-body-color{
