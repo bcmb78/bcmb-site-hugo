@@ -28,8 +28,15 @@
 														|  {{.Params.categorie}}
 						
 													</div>
+                                                    
+                                                        
+                                                        {{if gt (len .Content) 2}}
+                                                           <p>{{.Content | markdownify}}</p>
+                                                           
+                                                        {{else}}
                                                         <p>{{.Description | markdownify}}</p>
                                                         
+                                                        {{end}}
                                                     </div>
                                                 </div>
                                             </div>
