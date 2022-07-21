@@ -2,6 +2,11 @@
 label: Evenement
 hide_body: false
 fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
 - name: event_type
   type: select
   default: []
