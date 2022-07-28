@@ -1,7 +1,7 @@
 +++
 date = 2022-07-17T22:00:00Z
 formule = "Merci,"
-image = ""
+image = "img/danny-nee-rgvxggauzk8-unsplash.jpg"
 signature = "Thomas pour le BCMB"
 title = "Réinscription jeunes"
 
