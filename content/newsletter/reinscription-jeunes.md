@@ -12,4 +12,4 @@ Il semblerait que j'ai oublié d'envoyer le dossier d'inscription pour les jeune
 
 Vous trouverez les documents nécessaires en pièces jointe.
 
-Merci d'envoyer les dossiers complets à Christine (50 Grande Rue, 78910 Tacoignieres)
+Merci d'envoyer les dossiers complets à Christine (50 Grande Rue, 78910 Tacoignieres) avant le 10 août.
