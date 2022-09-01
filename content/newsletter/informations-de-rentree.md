@@ -1,7 +1,7 @@
 +++
 date = 2022-08-31T22:00:00Z
 formule = "Sportivement,"
-image = ""
+image = "img/jeu_libre_2022_2023.PNG"
 signature = "Thomas pour le BCMB"
 title = "Informations de rentrée"
 
@@ -21,8 +21,6 @@ Attention, nous vous rappelons que les créneaux du mardi et du jeudi ont été 
 #### Créneaux week-end
 
 Des créneaux jeu libre sont ouvert certains week-end au gymnase Jean Maréchal aux dates suivantes 
-
-![](img/jeu_libre_2022_2023.PNG)
 
 Les dates sont affichées sur le calendrier du site. Vous pouvez également [télécharger les créneaux au format ICS](bad-montigny.fr/docs/creneaux_jeu_libre_weekend_2022_2023.ics) pour les ajouter à votre agenda.
 
