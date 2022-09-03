@@ -4,7 +4,7 @@ layout: "section/jeunes.html"
 text: |-
   #### Responsable
 
-  Nzambe VANHOUTTE - bcmb.jeunes@gmail.com
+  Céline PIERRE - bcmb.jeunes@gmail.com
   
   #### Labélisation EFB
   
