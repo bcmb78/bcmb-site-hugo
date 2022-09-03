@@ -1,44 +1,13 @@
 ---
 title: Groupes
 joueurs_D1:
-- nom: "Hélène BALANDREAU"
-  image: "/img/avatar_f.png"
-- nom: "Guillaume BOUDIER"
-  image: "/img/avatar_m.png"
-- nom: "Louis GUILLAUME"
-  image: "/img/avatar_m.png"
-- nom: "Marie LOHIER"
-  image: "/img/avatar_f.png"
-- nom: "Louis GUILLAUME"
-  image: "/img/avatar_m.png"
-- nom: "Corentin PAYA"
-  image: "/img/avatar_m.png"
-- nom: "Méloé PIERRE"
-  image: "/img/avatar_f.png"
-- nom: "Nicolas PIQUET"
-  image: "/img/avatar_m.png" 
-- nom: "Liam SIMPSON"
-  image: "/img/avatar_m.png" 
-- nom: "Anatole TABARIE"
-  image: "/img/avatar_m.png"
-- nom: "Cyrus TABARIE"
-  image: "/img/avatar_m.png"
+
+
 joueurs_D2:
 - nom: "Une fille"
   image: "/img/avatar_f.png"
-- nom: "Une autre  fille"
-  image: "/img/avatar_f.png"
-- nom: "Un mec"
-  image: "/img/avatar_m.png"
-- nom: "Un autre mec"
-  image: "/img/avatar_m.png"
 joueurs_D3:
 - nom: "Une autre autre fille"
   image: "/img/avatar_f.png"
-- nom: "Une autre  fille"
-  image: "/img/avatar_f.png"
-- nom: "Un mec"
-  image: "/img/avatar_m.png"
-- nom: "Un autre mec"
-  image: "/img/avatar_m.png"
+
 ---
