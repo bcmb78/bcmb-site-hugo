@@ -1,7 +1,7 @@
 +++
 date = 2022-09-04T22:00:00Z
 formule = "A très vite sur les terrains,"
-image = ""
+image = "img/reprise_du_badminton-1.jpg"
 signature = "Thomas pour le BCMB"
 title = "Infos supplémentaires"
 
