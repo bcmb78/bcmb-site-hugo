@@ -2,7 +2,6 @@
 
 	<link rel="stylesheet" href={{"fullcalendar/main.css" |relURL}} rel="stylesheet" />
 	<script src={{"fullcalendar/main.js" |relURL}}></script>
-    <script type='text/javascript' src={{"fullcalendar/gcal.js" |relURL}}></script>
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -14,30 +13,7 @@
 	  displayEventTime: false, 
 	  locale: 'fr',
 	  height: 'auto',
-      googleCalendarApiKey: 'AIzaSyAIa6yjpcDvcg61ROfRaijI8yzJ75wylNg',
-      eventSources: [
-      
-      {
-      // Jeu libre
-        googleCalendarId: 'emu2l6elf7an03fa92iccuf72g@group.calendar.google.com',
-
-        backgroundColor: '#2b1899',
-
-      },
-      {
-      // Evènement
-        googleCalendarId: 'kj6ejiubb5a901ui8h0dgguvfg@group.calendar.google.com',
-        backgroundColor: "#28b463",
-
-      },
-      {
-      // Interclubs régionaux
-        googleCalendarId: 'j9i4pamc7768h0a9gndf2ib62o@group.calendar.google.com',
-        backgroundColor: '#cb4335',
-
-      },
-    ],
-
+      events: {{"event/index.json"| relURL}},	  
 	  headerToolbar: {
 		  start: 'title', // will normally be on the left. if RTL, will be on the right
 		  center: '',
