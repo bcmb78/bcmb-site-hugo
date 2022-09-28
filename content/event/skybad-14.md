@@ -13,6 +13,7 @@ lieu = "Gymnase Pierre de Coubertin"
 poster = ""
 reglement = ""
 title = "SkyBad 14"
+poster = "img/image2.png"
 
 +++
 Le BCMB organise la 13ème édition de son tournoi du Sky'Bad les 26 et 27 novembre 2021.
