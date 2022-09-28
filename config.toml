@@ -123,10 +123,10 @@ paginate= 6
     url = "/developpement_durable"
     weight = 62
   [[menu.main]]
-    identifier = "covid"
-    name = "Mesures Sanitaires"
+    identifier = "newsletter"
+    name = "Newsletter"
 	parent = "infos"
-    url = "/covid"
+    url = "/newsletter"
     weight = 63		
 
 
