@@ -32,7 +32,7 @@ paginate= 6
   [[menu.main]]
     identifier = "club"
     name = "Le club"
-    url = "/club/"
+    url = "#"
     weight = 10
 	
   [[menu.main]]
