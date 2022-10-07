@@ -1,6 +1,5 @@
 +++
 date = 2022-10-08T22:00:00Z
-draft = true
 formule = "Sportivement,"
 image = "img/vacances-toussaint.jpg"
 signature = "Thomas pour le BCMB"
