@@ -107,7 +107,7 @@ paginate= 6
   [[menu.main]]
     identifier = "infos"
     name = "Infos"
-    url = ""
+    url = "#"
     weight = 60
   [[menu.main]]
     identifier = "doc"
