@@ -80,7 +80,7 @@ paginate= 6
   [[menu.main]]
     identifier = "adultes"
     name = "Adultes"
-    url = ""
+    url = "#"
     weight = 40
   [[menu.main]]
     identifier = "interclubs"
