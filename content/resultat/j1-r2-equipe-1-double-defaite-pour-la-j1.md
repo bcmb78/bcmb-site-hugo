@@ -4,7 +4,7 @@ date = 2022-10-08T22:00:00Z
 description = "Dure première journée pour l'équipe 1 ce week end à Issy les Moulineaux. 2 défaites pour les 2 rencontres du jour, une blessure pour Sophie ( on espère que ça n'est pas trop grave !) et une suspicion pour Nzambé au niveau du genou. Quelques points positifs quand même avec le fait d'avoir pris..."
 photos = ["img/image_67196161.JPG"]
 res_type = "tournoi"
-title = "J1 - R2 - Equipe 1 - Double défaite pour la J1"
+title = "J1 - R2 - Equipe 1 - Double défaite ce week end à Issy"
 
 +++
 Dure première journée pour l'équipe 1 ce week end à Issy les Moulineaux. 2 défaites pour les 2 rencontres du jour, une blessure pour Sophie ( on espère que ça n'est pas trop grave !) et une suspicion pour Nzambé au niveau du genou. Quelques points positifs quand même avec le fait d'avoir pris un point défensif et se dire que l'équipe affrontait les 2 meilleures équipes de la poule.
