@@ -1,7 +1,7 @@
 +++
 categorie = "adulte"
 date = 2022-10-07T22:00:00Z
-description = "Double défaite pour l'équipe 1 lors de la J1"
+description = "J1- Double défaite pour l'équipe 1"
 draft = true
 photos = ["img/image_67196161.JPG"]
 res_type = "tournoi"
