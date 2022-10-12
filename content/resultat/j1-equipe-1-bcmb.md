@@ -2,7 +2,6 @@
 categorie = "adulte"
 date = 2022-10-07T22:00:00Z
 description = "J1- Double défaite pour l'équipe 1"
-draft = true
 photos = ["img/image_67196161.JPG"]
 res_type = "tournoi"
 title = "J1 - Equipe 1 BCMB"
