@@ -1,7 +1,7 @@
 ---
 title: Equipe 1
 saison: 20202021
-image: img/img-20211121-wa0008.jpg
+image: img/image_67196161.JPG
 division: Régional 3 - Poule A
 iframe: https://www.badnet.org/Src/index.php?ic_a=656388&ic_t=bp_ic_body&eventId=12620&teamId=310998
 joueurs:
@@ -53,4 +53,4 @@ joueurs:
   photo: ''
 
 ---
-L'Equipe 1 joue en Régional 3
+L'Equipe 1 joue en Régional 2
