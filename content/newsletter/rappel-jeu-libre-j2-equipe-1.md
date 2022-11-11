@@ -24,6 +24,4 @@ Vous êtes aussi les bienvenus pour venir les supporter !
 
 #### Changement de community manager
 
-Comme vous le savez peut être, notre très cher Thomas est parti à Biarritz. On lui souhaite le meilleur dans son nouveau club! Je reprend donc les commandes de la communication.
-
- 
+Comme vous le savez peut être, notre très cher Thomas est parti dans le sud de la France. On lui souhaite le meilleur dans son nouveau club ! Je reprends donc les commandes de la communication.
