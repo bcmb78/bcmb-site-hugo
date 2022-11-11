@@ -18,3 +18,5 @@ fields:
   - type: file
     name: image
     label: image
+pages:
+- content/club/bureau.md

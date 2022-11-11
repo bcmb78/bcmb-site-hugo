@@ -30,7 +30,7 @@ membre:
   mail: bcmb.volants@gmail.com
 - nom: Timothee
   fonction: Communication
-  image: img/automne-ilustration-aa9eb7-0-1x.jpeg
+  image: img/timselfie.jpg
   mail: bcmb.communication@gmail.com
 
 ---
