@@ -10,12 +10,13 @@ event_type = "tournoi"
 fiche_inscription = ""
 image = ""
 lieu = "Gymnase Pierre de Coubertin"
+name = ""
+poster = "img/image2.png"
 reglement = ""
 title = "SkyBad 14"
-poster = "img/image2.png"
 
 +++
-Le BCMB organise la 13ème édition de son tournoi du Sky'Bad les 26 et 27 novembre 2021.
+Le BCMB organise la 14ème édition de son tournoi du Sky'Bad les 26 et 27 novembre 2022.
 
 Les doubles dames et doubles hommes se dérouleront en intégralité le samedi. Les mixtes le dimanche.
 
