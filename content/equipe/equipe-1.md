@@ -2,8 +2,8 @@
 title: Equipe 1
 saison: 20202021
 image: img/image_67196161.JPG
-division: Régional 3 - Poule A
-iframe: https://www.badnet.org/Src/index.php?ic_a=656388&ic_t=bp_ic_body&eventId=12620&teamId=310998
+division: Régional 2 - Poule A
+iframe: https://icbad.ffbad.org/competition/2200505
 joueurs:
 - nom: Juliette GODART
   rankD: ''
@@ -53,4 +53,20 @@ joueurs:
   photo: ''
 
 ---
-L'Equipe 1 joue en Régional 2
+Compositions :
+
+Juliette GODART ( Capitaine)
+
+Dorine ABRAHAMME
+
+Sophie MAs
+
+Virginy OULES PILLOUD
+
+Frédéric BELLATO
+
+Emmanuel DIJOUX
+
+Mathieu LAMOLIE
+
+Nzambé VANHOUTTE
