@@ -53,20 +53,13 @@ joueurs:
   photo: ''
 
 ---
-Compositions :
+### Compositions
 
-Juliette GODART ( Capitaine)
-
-Dorine ABRAHAMME
-
-Sophie MAs
-
-Virginy OULES PILLOUD
-
-Frédéric BELLATO
-
-Emmanuel DIJOUX
-
-Mathieu LAMOLIE
-
-Nzambé VANHOUTTE
+* Juliette GODART ( Capitaine)
+* Dorine ABRAHAMME
+* Sophie MAs
+* Virginy OULES PILLOUD
+* Frédéric BELLATO
+* Emmanuel DIJOUX
+* Mathieu LAMOLIE
+* Nzambé VANHOUTTE

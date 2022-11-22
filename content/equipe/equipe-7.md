@@ -6,7 +6,7 @@ division: D4-A
 iframe: https://icbad.ffbad.org/competition/2101306/tableau/581
 
 ---
-### Compositions :
+### Compositions
 
 * Colette VAUCHEL (Capitaine)
 * Thi Thu Trang TRAN
