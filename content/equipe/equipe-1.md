@@ -57,7 +57,7 @@ joueurs:
 
 * Juliette GODART ( Capitaine)
 * Dorine ABRAHAMME
-* Sophie MAs
+* Sophie MAS
 * Virginy OULES PILLOUD
 * Frédéric BELLATO
 * Emmanuel DIJOUX
