@@ -1,6 +1,6 @@
 +++
 categorie = "tournoi_adulte"
-convocation = "img/16_11-convocation-skybad.pdf"
+convocation = "img/25_11-convocation-skybad.pdf"
 date = 2022-11-26T07:00:00Z
 date_inscription = ""
 date_tirage = ""
