@@ -1,9 +1,9 @@
 ---
 title: Equipe 2
 saison: 20202021
-image: img/img-20211121-wa0005.jpg
-division: Régional 3 - Poule B
-iframe: https://www.badnet.org/Src/index.php?ic_a=656389&ic_t=bp_ic_body&eventId=12620&roundId=537609
+image: img/image2.png
+division: D1B
+iframe: https://icbad.ffbad.org/competition/2201888/tableau/3793
 joueurs:
 - nom: Gurvan LECHANTOUX
   rankD: ''
@@ -43,4 +43,22 @@ joueurs:
   photo: ''
 
 ---
-Description possible
+* Gurvan LECHANTOUX ( Capitaine)
+
+
+* Sylvian CORDIEZ
+
+
+* Timothée DELAURIERE
+
+
+* Damien SOUDET
+
+
+* Marine LE COQ
+
+
+* Chloé LEGROS
+
+
+* Marion THOUVIER
