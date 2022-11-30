@@ -25,6 +25,9 @@ link = "https://photos.app.goo.gl/QeVZVozJ4mE9pypR2"
 thumbnail = "img/img-20170416-wa0015.jpg"
 title = "Skybad 8"
 [[palmares]]
+link = "https://badnet.fr/tournoi/public/tableaux?eventid=15547&drawid=448819&phaseid=240724"
+title = "Sky'BAD 14"
+[[palmares]]
 link = "https://myffbad.fr/tournoi/resultats/1700081690"
 title = "Skybad 11"
 [[palmares]]
