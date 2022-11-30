@@ -1,9 +1,9 @@
 ---
 title: Equipe 3
 saison: 20202021
-image: img/group-young-sport-team-hands-together-team-partners-giving-f-group-young-sport-team-hands-together-team-partners-giving-fist-129604322.jpg
-division: D2A
-iframe: https://icbad.ffbad.org/competition/2101305/tableau/580
+image: img/image_50449409.JPG
+division: D1A
+iframe: https://icbad.ffbad.org/competition/2201888/tableau/3792
 joueurs:
 - nom: Nicolas MARTEL
   rankD: ''
@@ -43,4 +43,22 @@ joueurs:
   photo: ''
 
 ---
-Description possible
+* Cédric AUBERT ( Capitaine)
+
+
+* Maxence DUMAINE
+
+
+* Guillaume GEYER
+
+
+* Clément PIOCHE
+
+
+* Marta AZCARATE RODRIGUEZ
+
+
+* Cathy BOGNON
+
+
+* Dalila CARON
