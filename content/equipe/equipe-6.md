@@ -1,7 +1,7 @@
 ---
 title: Equipe 6
 saison: 20202021
-image: img/bcmb_equipe6.jpg
+image: img/badminton.jpeg
 division: D3C
 iframe: https://icbad.ffbad.org/competition/2101306/tableau/583
 joueurs:
@@ -43,4 +43,25 @@ joueurs:
   photo: ''
 
 ---
-Description possible
+* Rémi BOUTEMY
+
+
+* Pascal LENORMAND
+
+
+* Gaël PESCHET
+
+
+* Guillaume SURMONT
+
+
+* Emmanuelle BROUDER
+
+
+* Angélique MEIGNAT (Capitaine)
+
+
+* Fleur REUTTER
+
+
+* Huong TAMBOSCO
