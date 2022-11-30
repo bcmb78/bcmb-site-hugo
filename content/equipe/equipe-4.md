@@ -2,8 +2,8 @@
 title: Equipe 4
 saison: 20202021
 image: img/image_50730241.JPG
-division: D2B
-iframe: https://icbad.ffbad.org/competition/2101305/tableau/579
+division: D2A
+iframe: https://icbad.ffbad.org/competition/2201891
 joueurs:
 - nom: Christophe DEHILOTTE
   rankD: ''
@@ -43,4 +43,22 @@ joueurs:
   photo: ''
 
 ---
-Description possible
+* Stephane LE COQ ( Capitaine)
+
+
+* Emeric LARDET
+
+
+* François DUCHATEL
+
+
+* Christophe DEHILLOTTE
+
+
+* Stéphanie BOUILLET
+
+
+* Virginie CHAILLOT
+
+
+* Céline PIERRE
