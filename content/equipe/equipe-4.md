@@ -3,7 +3,7 @@ title: Equipe 4
 saison: 20202021
 image: img/image_50730241.JPG
 division: D2A
-iframe: https://icbad.ffbad.org/competition/2201891
+iframe: https://icbad.ffbad.org/competition/2201891/tableau/3794
 joueurs:
 - nom: Christophe DEHILOTTE
   rankD: ''
