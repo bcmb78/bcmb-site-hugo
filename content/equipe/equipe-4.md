@@ -1,7 +1,7 @@
 ---
 title: Equipe 4
 saison: 20202021
-image: img/ad8abfc9fc8779c786cc0646098cb57c.jpeg
+image: img/image_50730241.JPG
 division: D2B
 iframe: https://icbad.ffbad.org/competition/2101305/tableau/579
 joueurs:
