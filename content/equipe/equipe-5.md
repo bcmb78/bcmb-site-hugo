@@ -2,8 +2,8 @@
 title: Equipe 5
 saison: 20202021
 image: img/img-20211207-wa0000.jpg
-division: D3B
-iframe: https://icbad.ffbad.org/competition/2101306/tableau/582
+division: D3C
+iframe: https://icbad.ffbad.org/competition/2201892/tableau/3798
 joueurs:
 - nom: Frédéric ZAUGG
   rankD: ''
@@ -43,18 +43,22 @@ joueurs:
   photo: ''
 
 ---
-### Titulaires:
+* Sébastien BUCZYNSKI
 
-Emmanuelle BROUDER
 
-Thomas MARTIN
+* Clément CHAUVEL
 
-Camille LE GAL
 
-Stéphane LE COQ
+* David JEDAT
 
-Céline PIERRE
 
-David JEDAT
+* Frédéric ZAUGG
 
-François DUCHATEL
+
+* Florence GURNOT (Capitaine)
+
+
+* Camille LE GAL
+
+
+* Elodie LEFEVRE
