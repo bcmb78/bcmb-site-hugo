@@ -3,7 +3,7 @@ title: Equipe 1
 saison: 20202021
 image: img/image_67196161.JPG
 division: Régional 2 - Poule A
-iframe: https://icbad.ffbad.org/competition/2200505
+iframe: https://icbad.ffbad.org/competition/2200505/tableau/3240
 joueurs:
 - nom: Juliette GODART
   rankD: ''
@@ -53,9 +53,9 @@ joueurs:
   photo: ''
 
 ---
-### Compositions
-
 * Juliette GODART ( Capitaine)
+
+
 * Dorine ABRAHAMME
 * Sophie MAS
 * Virginy OULES PILLOUD
