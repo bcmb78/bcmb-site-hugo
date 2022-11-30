@@ -1,6 +1,10 @@
 +++
 title = "Sky'Bad"
 [[albums]]
+link = "https://photos.google.com/u/1/album/AF1QipPY64aoBmbvJZU8RGVjsbtvJNHwLOkPyBRqcvjp"
+thumbnail = "img/whatsapp-image-2022-11-27-at-18-25-49-1.jpeg"
+title = "SkyBad 14"
+[[albums]]
 link = "https://photos.app.goo.gl/oPLDP8W81AMmqEY47"
 thumbnail = "img/skybad13.JPG"
 title = "Skybad 13"
