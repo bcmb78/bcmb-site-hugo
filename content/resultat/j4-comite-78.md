@@ -1,85 +1,76 @@
 +++
 categorie = "adulte"
 date = 2022-11-27T23:00:00Z
-description = "Toutes les équipes de départementales jouaient la semaine dernière pour la J3.\n\n𝗗𝟭\n\n𝘉𝘊𝘔𝘉 2 - 𝘔𝘢𝘶𝘳𝘦𝘱𝘢𝘴\n\nTimothée DELAURIERE s'impose en 2 sets dans un match assez piège, 21-13 21-19 . Damien SOUDET en fait de même, 21-12 21-9. C'est plus dur pour Gurvan LECHANTOUX qui perd en 2 sets très serrés, 20-22 19-21. Chloé LEGROS s'accroche..."
-draft = true
+description = "Toutes les équipes de départementales jouaient la semaine dernière pour la J4.\n\nc'est le moment du résumé !\n\n𝗗𝟭\n\n𝘊𝘉𝘚 - 𝘉𝘊𝘔𝘉 2\n\nVictoire 4-3 pour l'équipe 2 !\n\nMathieu LAMOLIE commence bien la rencontre en s'imposant 21-12 21-18. Le capitaine Gurvan LECHANTOUX suit ses traces pour gagner 22-20 21-19. Malheureusement, Sylvain CORDIEZ, toujours en manque de rythme, s'incline 12-21 11-21. Superbe performance de Chloé LEGROS qui remporte..."
 photos = ["img/317589773_609687654492126_5032956825701956006_n.jpeg"]
 res_type = "tournoi"
 title = "J4 - Comité 78"
 
 +++
-Toutes les équipes de départementales jouaient la semaine dernière pour la J3.
+Toutes les équipes de départementales jouaient la semaine dernière pour la J4.
+
+c'est le moment du résumé !
 
 𝗗𝟭
 
-𝘉𝘊𝘔𝘉 2 - 𝘔𝘢𝘶𝘳𝘦𝘱𝘢𝘴
+𝘊𝘉𝘚 - 𝘉𝘊𝘔𝘉 2
 
-Timothée DELAURIERE s'impose en 2 sets dans un match assez piège, 21-13 21-19 . Damien SOUDET en fait de même, 21-12 21-9. C'est plus dur pour Gurvan LECHANTOUX qui perd en 2 sets très serrés, 20-22 19-21. Chloé LEGROS s'accroche mais perd elle aussi après une belle bataille en 2 sets, 14-21 19-21.
+Victoire 4-3 pour l'équipe 2 !
 
-Victoire facile de Gurvan et Timothée en double en 2 sets, 21-10 21-15.
+Mathieu LAMOLIE commence bien la rencontre en s'imposant 21-12 21-18. Le capitaine Gurvan LECHANTOUX suit ses traces pour gagner 22-20 21-19. Malheureusement, Sylvain CORDIEZ, toujours en manque de rythme, s'incline 12-21 11-21. Superbe performance de Chloé LEGROS qui remporte son simple 22-20 21-16. contre une N3! Damien SOUDET et Mathieu réalisent une contre-performance en s'inclinant 16-21 22-20 18-21. Défaite logique de Marine LE COQ et Chloé 21-12 22/20. Le mixte est déterminant pour la victoire et c'est finalement le BCMB qui s'impose 22-20 22-24 21-6.
 
-Marine LE COQ et Chloé perdent en 2 sets sans démériter, 17-21 15-21.
+Une victoire qui fait du bien et qui permet à l'équipe de conserver sa 1ère place au classement.
 
-3-3 ! Le match de Damien SOUDET associé à Marine permet de remporter cette précieuse rencontre
+𝘔𝘦́𝘳𝘦́ - 𝘉𝘊𝘔𝘉 3
 
-𝘉𝘊𝘔𝘉 3 - 𝘝𝘰𝘪𝘴𝘪𝘯𝘴 𝘓𝘦 𝘉𝘳𝘦𝘵𝘰𝘯𝘯𝘦𝘶𝘹
+Une nouvelle lourde défaite 6-1 pour l'équipe 3. Bonne performance de Maxence DUMAINE qui gagne en 2 sets 21-10 21-12.
 
-Défaite 4-3 pour l'équipe 3. Il y avait la place de gagner mais le point bonus est pris.
+Clément PIOCHE perd en 2 sets 10-21 12-21. Pareil pour Guillaume GEYER mais en 3 sets 10-21 21-19 16-21. Ce dernier associé à Maxence perd le double 15-21 18-21. Marta AZCARATE RODRIGUEZ s'incline également en 2 sets 7-21 4-21.
 
-Maxence DUMAINE s'impose dans un match à rallonges en 3 sets, 16-21 21-19 21-10.
+Cathy BOGNON et Marta n'ont rien pu faire en double, elles perdent 10-21 15-21. Grosse résistance pour Cédric AUBERT et Sylvie AZEMAR CATHELIN qui finalement perdent au 3ème 21-14 19-21 18-21.
 
-Cédric AUBERT, le capitaine, perd malheureusement en 2 sets, 14-21 16-21. Guillaume GEYER en fait de même avec un match beaucoup plus accroché, 17-21 20-22. Défaite pour Dalila CARON qui se sacrifie en simple, 11-21 9-21.
+L'équipe devra s'accrocher. Actuellement 6ème sur 8, ils devront se battre pour éviter la relégation.
 
-Maxence et Clement PIOCHE jouent un magnifique match mais s'inclinent au bout du suspense, 19-21 21-19 19-21.
+𝗗𝟮
 
-Le double dame est remporté assez facilement par Cathy BOGNON et Marta AZCARATE RODRIGUEZ, 21-19 21-12.
+𝘔𝘦́𝘳𝘦́ - 𝘉𝘊𝘔𝘉 4
 
-Cette dernière récidive associée à Cédric en double mixte pour s'imposer avec beaucoup de maîtrise, 21-10 21-18.
+Défaite 4-3 pour notre seule équipe en D2 ! Défaite en 2 sets pour le capitaine Stéphane LE COQ 21-17 21-13. Emeric LARDET s'incline 21-19 21-15 21-12. Match similaire pour François DUCHATEL qui perd 21-19 21-15 21-18. Il se rattrape dans son match de double associé à Christophe DEHILLOTTE en gagnant 21-17 21-17.
 
-𝐃𝟐
-
-𝐵𝐶𝑀𝐵 4 - 𝘔𝘢𝘶𝘳𝘦𝘱𝘢𝘴
-
-Victoire facile 6-1 de l'équipe de Stéphane LE COQ.
-
-Cependant, il n'a pas montré la voie à son équipe en s'inclinant en 2 sets, 11-21 14-21. Il se rattrape néanmoins avec Celine PIERRE en mixte, 21-16 21-12. Victoire d'Emeric LARDET en 2 sets, 21-18 21-17. François DUCHATEL en fait de même, 21-13 21-16. C'est un peu plus serré pour Virginie CHAILLOT qui s'impose en 3 sets, 17-21 21-12 21-15. François et Emeric, associés en double, jouent un match très accrochés et gagnent finalement 21-12 12-21 21-19. C'est très serré aussi pour Virginie et Stéphanie BOUILLET, elles remportent le match 21-18 18-21 21-17.
+Le double dame est aussi de très bonnes factures , remporté 21-18 21-16 par Celine PIERRE et Stéphanie BOUILLET. Associé à son capitaine Stephane , Celine remporte le mixte au bout du suspense 23-21 18-21 22-20. Pour finir, Stéphanie s'incline très logiquement en simple 14-21 4-21
 
 𝗗𝟯
 
-𝘛𝘳𝘪𝘦𝘭 - 𝘉𝘊𝘔𝘉 5
+𝘉𝘊𝘔𝘉 5 - 𝘚𝘢𝘳𝘵𝘳𝘰𝘶𝘷𝘪𝘭𝘭𝘦
 
-Victoire 6-1 à l'extérieur !
+Une victoire convaincante 5-2 à domicile. Victoire de Clément CHAUVEL 21-12 22-20. David JEDAT en fait de même en remportant son match 21-18 21-13. Cédric Thia NAM conclut les simples hommes par une victoire 21-9 21-11. Cédric et David s'imposent en 3 sets dans le double homme 21-8 20-22 21-12. Clément et Camille LE GAL donne une victoire supplémentaire à leur équipe 21-14 19-21 21-14. Défaite en 2 sets de Camille et Elodie LEFEVRE. 14-21 21-23 Cette dernière s'inclinera plus tard en simple 13-21 14-21.
 
-La capitaine, Florence GURNOT, s'impose avec Camille LE GAL 21-16 21-9. Camille fait le travail en simple et gagne son match 14-21 21-18 21-10.
+Une victoire qui leur permet de conserver leur 2ème place de la poule.
 
-Victoire "à l'arrache complet" de David JEDAT 12-21 21-17 23-21 !!! Toujours très très serré David et Clement CHAUVEL s'imposent 21-13 10-21 21-19 !
+𝘉𝘊𝘔𝘉 6 - 𝘝𝘰𝘪𝘴𝘪𝘯𝘴 𝘓𝘦 𝘉𝘳𝘦𝘵𝘰𝘯𝘯𝘦𝘶𝘹
 
-Simple assuré pour Frederic ZAUGG 21-12 21-16.
+Victoire 4-3 !! Guillaume SURMONT met ses partenaires sur orbite en remportant son match 21-15 21-15. Gaël PESCHET n'en profite pas et s'incline 11-21 21-17 15-21. Rémi BOUTEMY perd aussi son match 22-20 20-22 10-21. Ce dernier associé à Pascal LENORMAND doit laisser le point du double homme: 10-21 23-21 15-21.
 
-Elodie LEFEVRE et Sébastien BUCZYNSKI remportent leur mixte après un petit retard à l'allumage 10-21 21-14 21-9.
+Belle victoire de Fleur REUTTER toujours aussi intraitable en simple, 21-9 21-10.
 
-Seule ombre au tableau , la défaite de Clement qui perd sèchement 7-21 15-21 et ne permet pas à l'équipe de prendre le point offensif.
+La capitaine Angélique MEIGNAT et Fleur s'impose facilement 21-12 21-8. Le match décisif est remporté 21-7 16-21 21-12 par le BCMB représenté par Guillaume et Emmanuelle BROUDER.
 
-𝘗𝘰𝘪𝘴𝘴𝘺 - 𝘉𝘊𝘔𝘉 6
+Une victoire qui leur permet de reste second à l'instar de l'équipe 5.
 
-Victoire 4-3 pour l'équipe 6 !
+𝗗𝟰
 
-Gaël PESCHET perd son simple 10-21 16-21. Pas mieux en double où il doit s'incliner avec Angélique MEIGNAT 23-25 18-21.
+𝘉𝘊𝘔𝘉 7 - 𝘓𝘦 𝘗𝘦𝘤𝘲
 
-Cette dernière se rattrape en mixte avec Fleur REUTTER pour remporter le match 21-18 21-16. Pascal LENORMAND associé à Guillaume SURMONT gagnent leur double 21-18 21-18. Guillaume continue sur sa lancée en remportant son simple en 3 sets 13-21 21-14 21-9. Ce qui n'est pas le cas de Pascal qui s'incline sèchement 7-21 12-21. Pour finir, Fleur remporte son simple dame 21-19 21-15 pour assurer définitivement la victoire de l'équipe.
+Une victoire 5-2 qui replace l'équipe dans la poule A.
 
- 𝗗𝟰
+Corentin PAYA s'impose dans un jour sans 21-17 21-19. Son compère Adrien KISS lui emboîte le pas et remporte son match 21-18 21-19. Nouvelle défaite pour Patrice VAN LOOY 13-21 21-12 9-21. Diane BESSEAU perd également 13-21 9-21.
 
-𝘚𝘢𝘪𝘯𝘵 𝘈𝘳𝘯𝘰𝘶𝘭𝘵 - 𝘉𝘊𝘔𝘉 7
+Patric se rattrape, associé à Adrien, pour s'imposer 21-15 21-16. Diane en fait de même avec Pauline DUPUIS 21-16 21-8. Albert GARDOLL finit le travail 21-9 21-14 en mixte avec Thi thu trang TRAN.
 
-Une nouvelle défaite 4-3 pour l'équipe 7 !
+𝗗𝟱- 𝗠𝗮𝘀𝗰𝘂𝗹𝗶𝗻
 
-Corentin PAYA gagne encore dans un match très serré 22-20 18-21 21-13 . Adrien KISS suit les pas de son coéquipier et s'impose plus facilement en 2 sets 21-13 21-14. Les 2 compères s'inclinent néanmoins en double 15-21 21-15 21-16. Défaite de Patrice VAN LOOY en simple en 2 sets 21-15 21-9. Défaite de la nouvelle recrue en interclubs Marie-Claire ZAGLIO 21-15 8-21 15-21. Elle s'impose en double avec Pauline DUPUIS 21-14 21-13. Pour finir cette rencontre, Patrice et Colette VAUCHEL perdent leur match 21-19 21-19.
+𝘉𝘊𝘔𝘉 - 𝘓𝘦 𝘊𝘩𝘦𝘴𝘯𝘢𝘺-𝘙𝘰𝘤𝘲𝘶𝘦𝘯𝘤𝘰𝘶𝘳𝘵
 
-𝗗𝟱 - 𝗠𝗔𝗦𝗖𝗨𝗟𝗜𝗡
+Une 3ème nulle pour l'équipe masculine !
 
-𝘔𝘦́𝘳𝘦́ - 𝘉𝘊𝘔𝘉 8
-
-Un match nul 3-3 à l'extérieur cette fois-ci ! Victoire de Loïc LE GAL et Jean-Charles ROUSSEL en 3 sets 21-18 15-21 21-14. Une victoire plus facile pour Mayeul POTIGNON et Jeremy PRUDENT 22-20 21-7. Mayeul gagne aussi son simple 21-8 21-14. Défaite pour Jéremy en 2 sets 15-21 19-21. Jean-Charles s'incline 5-21 6-21 ainsi que Loïc 12-21 4-21.
-
-Bravo à tous pour les résultats et on se retrouvera la semaine prochaine pour le résumé de la J4 !
+Jérémy PRUDENT s'incline 16-21 17-21. Mayeul POTIGNON suit ses traces et perd 21-19 18-21 19-21. Laurent Dupuis ne fait pas mieux et doit laisser la victoire 16-21 18-21. Seul Vincent GERMAIN gagne son match 21-11 21-18 ! Les 2 doubles sont remportés par le BCMB. Jeremy et Jean-Charles ROUSSEL s'imposent 21-18 21-12. Laurent et Vincent gagnent également en 2 sets 21-12 21-16.
