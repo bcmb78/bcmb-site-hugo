@@ -1,6 +1,6 @@
 +++
 categorie = "adulte"
-date = 2022-11-27T23:00:00Z
+date = 2022-12-04T23:00:00Z
 description = "Toutes les équipes de départementales jouaient la semaine dernière pour la J4.\n\nc'est le moment du résumé !\n\n𝗗𝟭\n\n𝘊𝘉𝘚 - 𝘉𝘊𝘔𝘉 2\n\nVictoire 4-3 pour l'équipe 2 !\n\nMathieu LAMOLIE commence bien la rencontre en s'imposant 21-12 21-18. Le capitaine Gurvan LECHANTOUX suit ses traces pour gagner 22-20 21-19. Malheureusement, Sylvain CORDIEZ, toujours en manque de rythme, s'incline 12-21 11-21. Superbe performance de Chloé LEGROS qui remporte..."
 photos = ["img/317589773_609687654492126_5032956825701956006_n.jpeg"]
 res_type = "tournoi"
