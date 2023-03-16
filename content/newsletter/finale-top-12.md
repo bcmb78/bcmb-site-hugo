@@ -1,20 +1,28 @@
 +++
-date = 2023-01-26T23:00:00Z
-draft = true
+date = 2023-03-15T23:00:00Z
 formule = "Sportivement,"
-image = "img/screenshot-2023-01-16-at-16-54-36.png"
+image = "img/top12_flyers.jpeg"
 signature = "Timothée pour le BCMB"
 title = "Finale Top 12"
 
 +++
-Un week end badminton est organisé à BOIS D'ARCY du 28 Janvier 17h au Dimanche janvier 18H dans le cadre de la lutte contre le cancer. Toutes les recettes sont reversées intégralement au cancer campus Gustave Roussy.  
-  
-Au programme :  
-  
-Samedi de 17 à 23h : Nuit du bad - Volant, raquette, filet, limites du terrain et tennue en fluo !
+> Bonjour à tous,
+>
+> Nous sommes à 50 jours de l’ouverture de la finale du championnat de France Interclubs TOP12-2023 qui aura lieu à Elancourt les 5 et 6 mai 2023. La billetterie est désormais ouverte à l’adresse suivante : [https://top12finale.ffbad.org/fr/billetterie](https://top12finale.ffbad.org/fr/billetterie "https://top12finale.ffbad.org/fr/billetterie")
+>
+> Ces tarifs sont valables en prévente en ligne et seront légèrement différent sur place :
+>
+> * Adulte 1j : 6€ | 2j : 10€
+> * Jeune (-18ans) 1j : 4€ | 2j : 6€
+>
+> Le code promo PROMOLICEN permet aux licenciés FFBaD de bénéficier d'1€ de réduction par billet.
+>
+> Les ½ finales auront lieu le vendredi à partir de 14h avec une présentation des équipes vers 13h30. La petite finale débutera à 11h le samedi et la finale vers 15h/15h30 à la suite de la petite finale.
 
-Dimanche de 9h à 14h : Jeu Libre pour tous.
-
-Dimanche de 14h à 18h : Tournoi en équipes.
-
-Pour participer , il suffit d'envoyer un mail à : evenementsbadaba@hotmail.com 
+> Si vous voulez garder un souvenir de l’évènement, IZBAC a ouvert une boutique en ligne en proposant le maillot :
+>
+> Modèle femme : [https://shop.izbac.fr/collections/clubs/products/femme-bleu-event-finale-top12-badminton-2023-elancourt](https://shop.izbac.fr/collections/clubs/products/femme-bleu-event-finale-top12-badminton-2023-elancourt "https://shop.izbac.fr/collections/clubs/products/femme-bleu-event-finale-top12-badminton-2023-elancourt")
+>
+> Modèle homme : [https://shop.izbac.fr/collections/clubs/products/homme-bleu-event-finale-top12-badminton-2023-elancourt](https://shop.izbac.fr/collections/clubs/products/homme-bleu-event-finale-top12-badminton-2023-elancourt "https://shop.izbac.fr/collections/clubs/products/homme-bleu-event-finale-top12-badminton-2023-elancourt")
+>
+> Les finales du TOP 12 sont ce qu'il se fait de mieux en badminton en France. C'est une vrai occasion de voir évoluer des joueurs de très haut niveau !
