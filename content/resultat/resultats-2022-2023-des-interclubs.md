@@ -21,7 +21,7 @@ L'équipe 5 est en tête de sa poule avant la dernière journée ! Florence GURN
 
 L'équipe 6 était bien partie pour monter en D2 mais il ne peut y avoir + de 2 équipes du même club dans en D2. L'équipe d'Angélique MEIGNAT possède de très bon élément et fera figure de favori l'année prochaine !
 
-L'équipe 7 est un peu courte pour la montée en D3 ! 2ème actuellement, Saint Arnoult a déjà fait le nécessaire pour assurer la montée. Colette VAUCHEL et les siens seront en D4 l'année prochaine !
+L'équipe 7 va, à l'instar de l'équipe 5, jouer la montée ! 2ème actuellement, l'équipe de Colette VAUCHEL et les siens bénéficie de 2 montées de la D3 à la D4. Elle jouera l'avant-dernier pour valider l'objectif !
 
 Pour finir, l'équipe masculine sera sur le podium ! 3ème actuellement, l'équipe de Laurent DUPUIS a fini sa saison !
 
