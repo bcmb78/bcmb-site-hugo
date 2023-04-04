@@ -58,6 +58,7 @@ fields:
       path: 
   label: categorie
 pages:
+- content/post/resultats-des-differents-tournois.md
 - content/resultat/coupe-des-yvelines-jeunes.md
 - content/resultat/coupe-des-yvelines.md
 - content/resultat/departementaux-de-doubles.md
