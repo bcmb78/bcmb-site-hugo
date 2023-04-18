@@ -1,7 +1,8 @@
 +++
-categorie = "tournoi_jeune"
+categorie = "tournoi_adulte"
 convocation = ""
-date = 2021-02-05T23:00:00.000Z
+date = 2020-12-11T23:00:00.000Z
+end_date = 2020-12-11T23:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
@@ -12,7 +13,7 @@ image = ""
 lieu = ""
 poster = ""
 reglement = ""
-title = "CRJ n°3"
+title = "Championnat Régional Vétéran"
 _template = "evenement"
 +++
 

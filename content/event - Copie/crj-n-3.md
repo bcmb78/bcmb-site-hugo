@@ -1,19 +1,19 @@
 +++
-categorie = [ ]
+categorie = "tournoi_jeune"
 convocation = ""
-date = 2020-09-01T23:00:00.000Z
-end_date = 2020-09-01T23:00:00.000Z
+date = 2021-02-05T23:00:00.000Z
+end_date = 2021-02-05T23:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
 draft = true
-event_type = "creneau"
+event_type = "tournoi"
 fiche_inscription = ""
 image = ""
-lieu = "Gymnase Ladoumègue"
+lieu = ""
 poster = ""
 reglement = ""
-title = "Créneau supplémentaire"
+title = "CRJ n°3"
 _template = "evenement"
 +++
 

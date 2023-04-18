@@ -15,9 +15,9 @@ import { skybadFields } from "./templates";
 
 
 export default defineConfig({
-  branch: "main",
+  branch: "master",
   clientId: "276dd2ef-f115-4a6e-811b-b9532ee5fc25", // Get this from tina.io
-  token: "1429d5eb991b27bf866bb514ed4e0f18274c0630", // Get this from tina.io
+  token: "3359371d72c2f388988e94a63301c8df5f6cd887", // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",

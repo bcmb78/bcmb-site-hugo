@@ -1,18 +1,19 @@
 +++
-categorie = "tournoi_adulte"
+categorie = [ ]
 convocation = ""
-date = 2021-05-28T22:00:00.000Z
+date = 2020-09-01T23:00:00.000Z
+end_date = 2020-09-01T23:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
 draft = true
-event_type = "tournoi"
+event_type = "creneau"
 fiche_inscription = ""
 image = ""
-lieu = ""
+lieu = "Gymnase Ladoumègue"
 poster = ""
 reglement = ""
-title = "Championnat Régional Séniors"
+title = "Créneau supplémentaire"
 _template = "evenement"
 +++
 
