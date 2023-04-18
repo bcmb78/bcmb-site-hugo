@@ -1,11 +1,12 @@
 +++
 categorie = "Vie du club"
-date = 2020-09-07T06:43:16Z
+date = 2020-09-07T06:43:16.000Z
 description = "C'est parti pour une nouvelle saison !"
 image = "img/banner_raquette.jpg"
 title = "Reprise officielle"
-
+_template = "post"
 +++
+
 C'est parti pour une nouvelle saison !
 
 Les créneaux adultes reprennent la semaine du 07 septembre.

@@ -1,3 +1,7 @@
++++
+_template = "post"
++++
+
 ---
 title: Présentation
 image: "/img/about-shade-grown.jpg"

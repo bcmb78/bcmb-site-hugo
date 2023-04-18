@@ -1,11 +1,15 @@
 +++
 categorie = "General"
-date = 2021-09-04T08:56:48Z
-description = "Les créneaux adultes reprennent normalement à partir du 6 septembre.\n\nLes créneaux jeunes ne reprenant que la semaine prochaine, certains créneaux adultes sont étendus la première semaine."
+date = 2021-09-04T08:56:48.000Z
+description = """
+Les créneaux adultes reprennent normalement à partir du 6 septembre.
+
+Les créneaux jeunes ne reprenant que la semaine prochaine, certains créneaux adultes sont étendus la première semaine."""
 image = "img/salman-hossain-saif-24zmnigma5a-unsplash.jpg"
 title = "Reprise créneaux adultes"
-
+_template = "post"
 +++
+
 Les créneaux adultes reprennent normalement à partir du 6 septembre.
 
 Les créneaux jeunes ne reprenant que la semaine prochaine, certains créneaux adultes sont étendus cette semaine: 

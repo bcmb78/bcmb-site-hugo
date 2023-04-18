@@ -1,11 +1,12 @@
 +++
-date = 2022-06-12T22:00:00Z
+date = 2022-06-12T22:00:00.000Z
 formule = "Sportivement,"
 image = ""
 signature = "Thomas pour le BCMB"
 title = "Rappel AG"
-
+_template = "newsletter"
 +++
+
 Nous vous rappelons que l'assemblée générale du BCMB se tiendra
 
 **Jeudi 16 juin à 20h15  

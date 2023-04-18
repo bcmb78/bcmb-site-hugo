@@ -1,7 +1,7 @@
 +++
-categorie = []
+categorie = [ ]
 convocation = ""
-date = 2020-09-05T19:00:00Z
+date = 2020-09-05T19:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
@@ -13,5 +13,6 @@ lieu = "Gymnase Pierre de Coubertin"
 poster = ""
 reglement = ""
 title = "Forum des associations"
-
+_template = "evenement"
 +++
+

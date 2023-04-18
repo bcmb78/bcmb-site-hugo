@@ -1,11 +1,12 @@
 +++
 categorie = "General"
-date = 2021-06-07T07:54:36Z
+date = 2021-06-07T07:54:36.000Z
 description = "Bonne nouvelle ! Les créneaux adultes reprennent à partir du 9 juin."
 image = "img/sports_badminton_creditwww-aspc-badminton-com_.jpg"
 title = "Reprise"
-
+_template = "post"
 +++
+
 Bonne nouvelle ! Les créneaux adultes reprennent à partir du 9 juin avec la répartition habituelle. Si vous les avez oublié ils sont disponible [ici.](https://bad-montigny.fr/club/#creneaux)
 
 Petite exception: le créneau du vendredi 11 juin sera réservé au Compétiteurs 1. Les vendredis suivants seront ouvert à tous les adultes (en parallèle de l'entrainement).

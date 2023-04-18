@@ -1,11 +1,12 @@
 +++
-date = 2022-10-08T22:00:00Z
+date = 2022-10-08T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/photo-1551698618-1dfe5d97d256.png"
 signature = "Timothée pour le BCMB"
 title = "Vacance Hiver"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Vacances de la Toussaint

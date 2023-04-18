@@ -1,11 +1,12 @@
 +++
 categorie = "Vie du club"
-date = 2021-05-12T08:47:33Z
+date = 2021-05-12T08:47:33.000Z
 description = "Bonne nouvelle! Les jeunes pourront reprendre, avec les précautions sanitaires d'usage, à partir du 19 mai."
 image = "img/pexels-photo-2202685.jpeg"
 title = "Reprise jeunes le 19 mai"
-
+_template = "post"
 +++
+
 Bonne nouvelle!
 
 Les jeunes pourront reprendre, avec les précautions sanitaires d'usage, à partir du 19 mai. Le couvre-feu sera porté à 21 heures à cette date. Voici la liste les créneaux  jusqu'au 9 juin, date à laquelle les créneaux reprendront normalement si tout va bien.

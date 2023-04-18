@@ -1,11 +1,12 @@
 +++
-date = 2022-04-16T23:00:00Z
+date = 2022-04-16T23:00:00.000Z
 formule = "Sportivement,"
 image = "img/img-20211121-wa0008.jpg"
 signature = "Thomas pour le BCMB"
 title = "Vacances de printemps"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Vacances de printemps

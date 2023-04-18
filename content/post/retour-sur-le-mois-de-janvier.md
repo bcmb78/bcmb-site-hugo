@@ -1,11 +1,12 @@
 +++
 categorie = "General"
-date = 2021-01-29T15:46:08Z
+date = 2021-01-29T15:46:08.000Z
 description = "Notre petit monde est à l'arrêt et il n' y a pas de grande nouvelle à annoncer. En attendant voici un résumé de ce qui ne s'est pas passé en janvier."
 image = "img/la-meteo-du-mercredi-4-janvier-arrivee-de-la-neige-dans-l-est.jpg"
 title = "Retour sur le mois de Janvier"
-
+_template = "post"
 +++
+
 Notre petit monde est à l'arrêt et il n' y a pas de grande nouvelle à annoncer. En attendant voici un résumé de ce qui ne s'est pas passé en janvier.
 
 La FFBAD a relayé le 19/01/21 l'annonce du gouvernement sur la suspension jusqu'à nouvel ordre des activités sportives en intérieur dont le badminton.

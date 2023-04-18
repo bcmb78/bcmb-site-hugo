@@ -1,11 +1,12 @@
 +++
 categorie = "Vie du club"
-date = 2021-01-04T09:14:22Z
+date = 2021-01-04T09:14:22.000Z
 description = "Les créneaux pour les jeunes reprennent ce lundi."
 image = "img/group-hands-nice-france-1024x682.jpg"
 title = "2021, reprise créneaux jeunes"
-
+_template = "post"
 +++
+
 Les créneaux pour les jeunes reprennent ce lundi. Compte tenu du couvre feu instauré à 20h, les cours débutent à **18h et se terminent à 19h30**.
 
 * Le lundi au gymnase Jean Maréchal

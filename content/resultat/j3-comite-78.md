@@ -1,12 +1,20 @@
 +++
 categorie = "adulte"
-date = 2022-11-27T23:00:00Z
-description = "Toutes les équipes de départementales jouaient la semaine dernière pour la J3.\n\n𝗗𝟭\n\n𝘉𝘊𝘔𝘉 2 - 𝘔𝘢𝘶𝘳𝘦𝘱𝘢𝘴\n\nTimothée DELAURIERE s'impose en 2 sets dans un match assez piège, 21-13 21-19 . Damien SOUDET en fait de même, 21-12 21-9. C'est plus dur pour Gurvan LECHANTOUX qui perd en 2 sets très serrés, 20-22 19-21. Chloé LEGROS s'accroche..."
-photos = ["img/317589773_609687654492126_5032956825701956006_n.jpeg"]
+date = 2022-11-27T23:00:00.000Z
+description = """
+Toutes les équipes de départementales jouaient la semaine dernière pour la J3.
+
+𝗗𝟭
+
+𝘉𝘊𝘔𝘉 2 - 𝘔𝘢𝘶𝘳𝘦𝘱𝘢𝘴
+
+Timothée DELAURIERE s'impose en 2 sets dans un match assez piège, 21-13 21-19 . Damien SOUDET en fait de même, 21-12 21-9. C'est plus dur pour Gurvan LECHANTOUX qui perd en 2 sets très serrés, 20-22 19-21. Chloé LEGROS s'accroche..."""
+photos = [ "img/317589773_609687654492126_5032956825701956006_n.jpeg" ]
 res_type = "tournoi"
 title = "J3 - Comité 78"
-
+_template = "resultat"
 +++
+
 Toutes les équipes de départementales jouaient la semaine dernière pour la J3.
 
 𝗗𝟭

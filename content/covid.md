@@ -1,3 +1,7 @@
++++
+_template = "post"
++++
+
 ---
 title: Mesures Sanitaires
 banner: img/mesures_sanitaires.jpg

@@ -1,7 +1,7 @@
 +++
-categorie = []
+categorie = [ ]
 convocation = ""
-date = 2020-09-01T23:00:00Z
+date = 2020-09-01T23:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
@@ -14,5 +14,6 @@ lieu = "Gymnase Ladoumègue"
 poster = ""
 reglement = ""
 title = "Créneau supplémentaire"
-
+_template = "evenement"
 +++
+

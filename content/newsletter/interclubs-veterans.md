@@ -1,9 +1,10 @@
 +++
-date = 2022-04-02T23:00:00Z
+date = 2022-04-02T23:00:00.000Z
 image = "img/2volants.png"
 title = "Interclubs vétérans"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 Les interclubs séniors se sont achevés la semaine dernière et laissent place aux interclubs vétérans (3 équipes engagées) à partir la semaine prochaine.

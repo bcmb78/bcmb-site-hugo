@@ -1,11 +1,11 @@
 +++
 categorie = ""
 convocation = "docs/convoc_skybad13.pdf"
-date = 2021-11-06T00:00:00Z
-date_inscription = 2021-10-06T22:00:00Z
-date_tirage = 2021-10-22T22:00:00Z
+date = 2021-11-06T00:00:00.000Z
+date_inscription = 2021-10-06T22:00:00.000Z
+date_tirage = 2021-10-22T22:00:00.000Z
 description = ""
-end_date = 2021-11-07T00:00:00Z
+end_date = 2021-11-07T00:00:00.000Z
 event_type = "tournoi"
 fiche_inscription = "docs/SkyBad13 - Feuille d'inscription V1.xlsx"
 image = "img/image2.png"
@@ -13,8 +13,9 @@ lieu = "Centre Sportif Pierre de Coubertin"
 poster = "img/image2.png"
 reglement = "docs/SkyBad13_Reglement_particulierV1.pdf"
 title = "Sky'Bad 13"
-
+_template = "evenement"
 +++
+
 Le BCMB organise la 13ème édition de son tournoi du Sky'Bad les 6 et 7 novembre 2021.
 
 Les doubles dames et doubles hommes se dérouleront en intégralité le samedi. Les mixtes le dimanche.

@@ -1,3 +1,7 @@
++++
+_template = "equipe"
++++
+
 ---
 title: Equipe 3
 saison: 20202021

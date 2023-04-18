@@ -1,3 +1,7 @@
++++
+_template = "resultat"
++++
+
 ---
 title: Tournoi de Bar-le-Duc
 image: img/74417319_2347356592151729_8988974574632697856_o.jpg

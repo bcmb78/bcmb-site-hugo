@@ -1,12 +1,18 @@
 +++
 categorie = "adulte"
-date = 2023-02-10T23:00:00Z
-description = "Ce week-end, c'était la J4 pour l'équipe 1 à Eaubonne !\n\nLes joueurs du BCMB affrontaient les locaux de l'étape et Issy les moulineaux pour leur second match. RDV à 12H45 aux gymnases pour débuter les rencontres à 14H.\n\nÇa se prépare , Fred passe en mode kiné et strap tout le monde. Juliette a une douleur au pied qui remonte dans le mollet : les chaussettes...."
-photos = ["img/331245528_1221584748489169_4178569095440444642_n.jpg"]
+date = 2023-02-10T23:00:00.000Z
+description = """
+Ce week-end, c'était la J4 pour l'équipe 1 à Eaubonne !
+
+Les joueurs du BCMB affrontaient les locaux de l'étape et Issy les moulineaux pour leur second match. RDV à 12H45 aux gymnases pour débuter les rencontres à 14H.
+
+Ça se prépare , Fred passe en mode kiné et strap tout le monde. Juliette a une douleur au pied qui remonte dans le mollet : les chaussettes...."""
+photos = [ "img/331245528_1221584748489169_4178569095440444642_n.jpg" ]
 res_type = "tournoi"
 title = "J4 - R2 - Equipe 1"
-
+_template = "resultat"
 +++
+
 Ce week-end, c'était la J4 pour l'équipe 1 à Eaubonne !
 
 Les joueurs du BCMB affrontaient les locaux de l'étape et Issy les moulineaux pour leur second match. RDV à 12H45 aux gymnases pour débuter les rencontres à 14H.

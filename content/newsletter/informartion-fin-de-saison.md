@@ -1,11 +1,12 @@
 +++
-date = 2022-06-23T22:00:00Z
+date = 2022-06-23T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/summer-wallpapers-3.webp"
 signature = "Thomas pour le BCMB"
 title = "Informations fin de saison"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Compte-rendu de l'AG

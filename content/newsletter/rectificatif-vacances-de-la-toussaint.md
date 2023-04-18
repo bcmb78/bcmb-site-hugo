@@ -1,11 +1,12 @@
 +++
-date = 2022-10-08T22:00:00Z
+date = 2022-10-08T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/automne-ilustration-aa9eb7-0-1x.jpeg"
 signature = "Thomas pour le BCMB"
 title = "Vacances de la Toussaint "
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 Les créneaux jeu libre des vacances de la Toussaint auront lieu de 19h à 22h aux dates et lieu ci-dessous :

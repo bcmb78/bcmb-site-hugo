@@ -1,11 +1,12 @@
 +++
 categorie = "General"
-date = 2020-12-14T11:16:23Z
+date = 2020-12-14T11:16:23.000Z
 description = "Les créneaux jeunes vont pouvoir reprendre à compter du 15 décembre. "
 image = "img/5c6fd91f25451_badminton2108344.jpg"
 title = "Reprise créneau jeunes"
-
+_template = "post"
 +++
+
 Les bonnes nouvelles ne sont pas nombreuses alors on en profite. Conformément au annonces du gouvernement et en accord avec la mairie de Montigny, les créneaux jeunes vont pouvoir reprendre à compter du 15 décembre. Compte tenu du couvre-feu, les créneaux devront se terminer à 19h30.
 
 Trois créneaux sont ouverts cette semaine au gymnase Ladoumègue de 18h à 19h30:

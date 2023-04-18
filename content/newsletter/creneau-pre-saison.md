@@ -1,11 +1,12 @@
 +++
-date = 2022-08-07T22:00:00Z
+date = 2022-08-07T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/reprise_du_badminton-1.jpg"
 signature = "Thomas pour le BCMB"
 title = "Créneau pré-saison"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 **Créneau pré-saison**

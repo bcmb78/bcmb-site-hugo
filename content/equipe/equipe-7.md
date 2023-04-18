@@ -1,3 +1,7 @@
++++
+_template = "equipe"
++++
+
 ---
 title: Equipe 7
 saison: 20202021

@@ -1,11 +1,12 @@
 +++
-date = 2022-09-19T22:00:00Z
+date = 2022-09-19T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/img-20211019-wa0003.jpg"
 signature = "Thomas pour le BCMB"
 title = "Recyclage des volants"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Interclub régionaux

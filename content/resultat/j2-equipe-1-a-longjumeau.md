@@ -1,12 +1,16 @@
 +++
 categorie = "adulte"
-date = 2022-11-12T23:00:00Z
-description = "Ce dimanche se déroulait la J2 de l'équipe 1 du BCMB à Longjumeau. Deux rencontres au programme, la première face à Issy les Moulineaux 3 et la seconde à l'Hay les roses 1.\nAprès être arrivés dans le gymnase \"froid où la lumière est aussi vieille que le gymnase\" d'après certains membres de l'équipe, Fred, Manu et Sophie enfilent leurs chaussettes \"BOOSTER\", comme à leur habitude, pour préparer ces 2 rencontres ! D'après eux, meilleures sensations, meilleure récupération, meilleur maintien du mollet : tout pour gagner !\nCompo faite par la capitaine Juliette GODART, ce sont les mixtes qui vont débuter..."
-photos = ["img/330857b9-b884-4962-aee8-1f4889f334d7.jpg"]
+date = 2022-11-12T23:00:00.000Z
+description = """
+Ce dimanche se déroulait la J2 de l'équipe 1 du BCMB à Longjumeau. Deux rencontres au programme, la première face à Issy les Moulineaux 3 et la seconde à l'Hay les roses 1.
+Après être arrivés dans le gymnase "froid où la lumière est aussi vieille que le gymnase" d'après certains membres de l'équipe, Fred, Manu et Sophie enfilent leurs chaussettes "BOOSTER", comme à leur habitude, pour préparer ces 2 rencontres ! D'après eux, meilleures sensations, meilleure récupération, meilleur maintien du mollet : tout pour gagner !
+Compo faite par la capitaine Juliette GODART, ce sont les mixtes qui vont débuter..."""
+photos = [ "img/330857b9-b884-4962-aee8-1f4889f334d7.jpg" ]
 res_type = "tournoi"
 title = "J2 - Equipe 1 à Longjumeau"
-
+_template = "resultat"
 +++
+
 Ce dimanche se déroulait la J2 de l'équipe 1 du BCMB à Longjumeau. Deux rencontres au programme, la première face à Issy les Moulineaux 3 et la seconde à l'Hay les roses 1.
 
 Après être arrivés dans le gymnase "froid où la lumière est aussi vieille que le gymnase" d'après certains membres de l'équipe, Fred, Manu et Sophie enfilent leurs chaussettes "BOOSTER", comme à leur habitude, pour préparer ces 2 rencontres ! D'après eux, meilleures sensations, meilleure récupération, meilleur maintien du mollet : tout pour gagner !

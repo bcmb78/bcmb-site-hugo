@@ -1,3 +1,7 @@
++++
+_template = "docs_et_liens"
++++
+
 ---
 title: Documents et Liens
 banner: img/documents_bg.jpg

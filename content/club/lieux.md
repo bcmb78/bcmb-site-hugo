@@ -1,3 +1,7 @@
++++
+_template = "lieu"
++++
+
 ---
 title: Lieux
 lieu:

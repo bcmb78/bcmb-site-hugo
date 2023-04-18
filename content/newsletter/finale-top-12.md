@@ -1,11 +1,12 @@
 +++
-date = 2023-03-15T23:00:00Z
+date = 2023-03-15T23:00:00.000Z
 formule = "Sportivement,"
 image = "img/top12_flyers.jpeg"
 signature = "Timothée pour le BCMB"
 title = "Finale Top 12"
-
+_template = "newsletter"
 +++
+
 > Bonjour à tous,
 >
 > Nous sommes à 50 jours de l’ouverture de la finale du championnat de France Interclubs TOP12-2023 qui aura lieu à Elancourt les 5 et 6 mai 2023. La billetterie est désormais ouverte à l’adresse suivante : [https://top12finale.ffbad.org/fr/billetterie](https://top12finale.ffbad.org/fr/billetterie "https://top12finale.ffbad.org/fr/billetterie")

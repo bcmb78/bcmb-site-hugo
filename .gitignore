@@ -5,3 +5,5 @@
 # macOS
 .DS_Store
 themes/casper3
+
+node_modules

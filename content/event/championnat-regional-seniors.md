@@ -1,7 +1,7 @@
 +++
 categorie = "tournoi_adulte"
 convocation = ""
-date = 2021-05-28T22:00:00Z
+date = 2021-05-28T22:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
@@ -13,5 +13,6 @@ lieu = ""
 poster = ""
 reglement = ""
 title = "Championnat Régional Séniors"
-
+_template = "evenement"
 +++
+

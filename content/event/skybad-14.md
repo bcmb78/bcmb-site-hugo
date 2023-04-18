@@ -1,11 +1,11 @@
 +++
 categorie = "tournoi_adulte"
 convocation = "img/25_11-convocation-skybad.pdf"
-date = 2022-11-26T07:00:00Z
+date = 2022-11-26T07:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
-end_date = 2022-11-27T16:00:00Z
+end_date = 2022-11-27T16:00:00.000Z
 event_type = "tournoi"
 fiche_inscription = ""
 image = ""
@@ -14,8 +14,9 @@ name = ""
 poster = "img/image2.png"
 reglement = ""
 title = "SkyBad 14"
-
+_template = "evenement"
 +++
+
 Le BCMB organise la 14ème édition de son tournoi du Sky'Bad les 26 et 27 novembre 2022.
 
 Les doubles dames et doubles hommes se dérouleront en intégralité le samedi. Les mixtes le dimanche.

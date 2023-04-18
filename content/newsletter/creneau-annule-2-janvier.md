@@ -1,12 +1,13 @@
 +++
-date = 2022-11-10T23:00:00Z
+date = 2022-11-10T23:00:00.000Z
 draft = true
 formule = "Sportivement,"
 image = "img/badminton.jpeg"
 signature = "Timothée pour le BCMB"
 title = "Creneau annulé 2 janvier"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Créneau week-end

@@ -1,11 +1,12 @@
 +++
 categorie = "Vie du club"
-date = 2021-01-15T07:53:19Z
+date = 2021-01-15T07:53:19.000Z
 description = "Un message de la présidente."
 image = "img/2021_bonneannee-1.jpg"
 title = "2021 : Meilleure que 2020 ?"
-
+_template = "post"
 +++
+
 Chers badistes,
 
 J’espère que ce message vous trouvera en bonne santé ainsi que vos proches.

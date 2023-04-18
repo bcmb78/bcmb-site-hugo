@@ -1,11 +1,12 @@
 +++
-date = 2022-09-27T22:00:00Z
+date = 2022-09-27T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/galette.jpg"
 signature = "Thomas pour le BCMB"
 title = "Tournoi de la galette"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Rappel créneau week-end

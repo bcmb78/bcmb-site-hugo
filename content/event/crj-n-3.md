@@ -1,7 +1,7 @@
 +++
 categorie = "tournoi_jeune"
 convocation = ""
-date = 2021-02-05T23:00:00Z
+date = 2021-02-05T23:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
@@ -13,5 +13,6 @@ lieu = ""
 poster = ""
 reglement = ""
 title = "CRJ n°3"
-
+_template = "evenement"
 +++
+

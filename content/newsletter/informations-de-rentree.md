@@ -1,11 +1,12 @@
 +++
-date = 2022-08-31T22:00:00Z
+date = 2022-08-31T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/jeu_libre_2022_2023.PNG"
 signature = "Thomas pour le BCMB"
 title = "Informations de rentrée"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 Quelques dates à retenir en ce début de saison.

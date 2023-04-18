@@ -1,3 +1,7 @@
++++
+_template = "inscription"
++++
+
 ---
 title: Inscription
 image: ''

@@ -1,11 +1,12 @@
 +++
-date = 2022-11-10T23:00:00Z
+date = 2022-11-10T23:00:00.000Z
 formule = "Sportivement,"
 image = "img/2volants.png"
 signature = "Timothée pour le BCMB"
 title = "Rappel Jeu Libre + J2 équipe 1"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Créneau week-end

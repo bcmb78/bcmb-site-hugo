@@ -1,11 +1,12 @@
 +++
-date = 2022-07-17T22:00:00Z
+date = 2022-07-17T22:00:00.000Z
 formule = "Merci,"
 image = "img/danny-nee-rgvxggauzk8-unsplash.jpg"
 signature = "Thomas pour le BCMB"
 title = "Réinscription jeunes"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 Il semblerait que j'ai oublié d'envoyer le dossier d'inscription pour les jeunes et je m'en excuse.

@@ -1,11 +1,12 @@
 +++
-date = 2023-03-21T23:00:00Z
+date = 2023-03-21T23:00:00.000Z
 formule = "Sportivement,"
 image = "img/badminton.jpeg"
 signature = "Timothée pour le BCMB"
 title = "Résulats saison 2022-2023"
-
+_template = "newsletter"
 +++
+
 Résultats des équipes d'interclubs !
 
 Ce week-end, l'équipe 1 n'a pas réussi à se maintenir à la 3ème place de sa poule malgré de bons matchs ! Match nul 4-4 contre l'Hay les Roses et défaite 6-2 contre l'ASPAP. Cela place l'équipe de Juliette GODART à la 4ème position. Ils joueront une demi-finale contre un 3ème de poule de R2 !

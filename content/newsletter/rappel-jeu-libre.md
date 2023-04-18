@@ -1,11 +1,12 @@
 +++
-date = 2022-09-16T22:00:00Z
+date = 2022-09-16T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/salman-hossain-saif-24zmnigma5a-unsplash.jpg"
 signature = "Thomas pour le BCMB"
 title = "Rappel Jeu libre"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 #### Créneau week-end

@@ -1,11 +1,12 @@
 +++
 categorie = "Vie du club"
-date = 2020-09-01T12:26:03Z
+date = 2020-09-01T12:26:03.000Z
 description = "La FFBAD et la mairie de Montigny le Bretonneux nous imposent un protocole sanitaire afin de pouvoir pratiquer sereinement notre activité sportive ..."
 image = "img/covid-19.jpg"
 title = "Mesures CoVid-19"
-
+_template = "post"
 +++
+
 La FFBAD et la mairie de Montigny le Bretonneux nous imposent un protocole sanitaire afin de pouvoir pratiquer sereinement notre activité sportive :
 
 1. Respecter les mesures barrières

@@ -1,11 +1,12 @@
 +++
 categorie = "General"
-date = 2021-06-26T09:47:09Z
+date = 2021-06-26T09:47:09.000Z
 description = "Bonne nouvelle. La saison se prolonge pour deux semaines supplémentaires. "
 image = "img/etes-vous-heureux-se.jpg"
 title = "Prolongation !"
-
+_template = "post"
 +++
+
 La saison se prolonge pour deux semaines supplémentaires. Par contre attention, on réorganise un peu les créneaux.
 
 **Semaine du 28 juin au 4 juillet**  

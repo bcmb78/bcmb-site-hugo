@@ -1,11 +1,12 @@
 +++
-date = 2022-06-16T22:00:00Z
+date = 2022-06-16T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/summer-wallpapers-3.webp"
 signature = "Thomas pour le BCMB"
 title = "Fin de saison"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 Pour information la fin de la saison est fixée au dimanche 26 juin. Les derniers créneaux officiels auront donc lieu le semaine prochaine. Une demande de créneau exceptionnels pour début juillet a été effectué auprès de la mairie. Nous reviendrons vers vous quand ceux-ci auront été validé

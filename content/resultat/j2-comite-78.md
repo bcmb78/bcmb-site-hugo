@@ -1,12 +1,18 @@
 +++
 categorie = "adulte"
-date = 2022-11-14T23:00:00Z
-description = "Toutes les équipes de départementales jouaient la semaine dernière pour la J2.\n𝗗𝟭\n𝑀𝑒𝑠𝑛𝑖𝑙 𝐿𝑒 𝑅𝑜𝑖 - 𝐵𝐶𝑀𝐵 2\nBelle victoire 5-2 de l'équipe 2 à l'extérieur!\nSylvain CORDIEZ perd son SH1 en 2 sets très serrés , un peu court physiquement. Solide match de Gurvan LECHANTOUX gagné en 2 sets. On note aussi les 2 matchs gagnés de Damien SOUDET en simple en 2 sets et en double mixte avec Marion THOUVIER. Sans être inquiétés..."
-photos = ["img/whatsapp-image-2022-11-22-at-00-14-47.jpeg"]
+date = 2022-11-14T23:00:00.000Z
+description = """
+Toutes les équipes de départementales jouaient la semaine dernière pour la J2.
+𝗗𝟭
+𝑀𝑒𝑠𝑛𝑖𝑙 𝐿𝑒 𝑅𝑜𝑖 - 𝐵𝐶𝑀𝐵 2
+Belle victoire 5-2 de l'équipe 2 à l'extérieur!
+Sylvain CORDIEZ perd son SH1 en 2 sets très serrés , un peu court physiquement. Solide match de Gurvan LECHANTOUX gagné en 2 sets. On note aussi les 2 matchs gagnés de Damien SOUDET en simple en 2 sets et en double mixte avec Marion THOUVIER. Sans être inquiétés..."""
+photos = [ "img/whatsapp-image-2022-11-22-at-00-14-47.jpeg" ]
 res_type = "tournoi"
 title = "J2 - Comité 78"
-
+_template = "resultat"
 +++
+
 𝗝𝟮 - 𝗖𝗼𝗺𝗶𝘁𝗲́ 𝟳𝟴
 
 Toutes les équipes de départementales jouaient la semaine dernière pour la J2.

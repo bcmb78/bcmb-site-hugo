@@ -1,7 +1,7 @@
 +++
 categorie = "tournoi_adulte"
 convocation = ""
-date = 2020-12-11T23:00:00Z
+date = 2020-12-11T23:00:00.000Z
 date_inscription = ""
 date_tirage = ""
 description = ""
@@ -13,5 +13,6 @@ lieu = ""
 poster = ""
 reglement = ""
 title = "Championnat Régional Vétéran"
-
+_template = "evenement"
 +++
+

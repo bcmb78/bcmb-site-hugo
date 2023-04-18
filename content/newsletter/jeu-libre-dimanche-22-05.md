@@ -1,11 +1,12 @@
 +++
-date = 2022-05-12T22:00:00Z
+date = 2022-05-12T22:00:00.000Z
 formule = "Sportivement,"
 image = "img/bad.png"
 signature = "Thomas pour le BCMB"
 title = "Jeu libre et pont de l'ascension"
-
+_template = "newsletter"
 +++
+
 Bonjour à tous,
 
 ##### Jeu libre
