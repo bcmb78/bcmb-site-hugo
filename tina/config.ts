@@ -12,13 +12,12 @@ import { resultatFields } from "./templates";
 import { r_sum__interclubsFields } from "./templates";
 import { skybadFields } from "./templates";
 
-// Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
+
 
 export default defineConfig({
-  branch,
+  branch: "main",
   clientId: "276dd2ef-f115-4a6e-811b-b9532ee5fc25", // Get this from tina.io
-  token: "", // Get this from tina.io
+  token: "1429d5eb991b27bf866bb514ed4e0f18274c0630", // Get this from tina.io
   client: { skip: true },
   build: {
     outputFolder: "admin",
