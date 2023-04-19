@@ -25,7 +25,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "static/img",
+      mediaRoot: "../img",
       publicFolder: "static",
     },
   },
