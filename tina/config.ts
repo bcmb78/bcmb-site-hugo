@@ -42,6 +42,8 @@ export default defineConfig({
           include: "**/*",
         },
         fields: [
+
+          ...postFields(),
           {
             type: "rich-text",
             name: "body",
@@ -49,7 +51,6 @@ export default defineConfig({
             description: "This is the markdown body",
             isBody: true,
           },
-          ...postFields(),
         ],
       },
       {
