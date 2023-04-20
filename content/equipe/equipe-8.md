@@ -1,6 +1,9 @@
 +++
-_template = "equipe"
+title = "Equipe 8"
+division = "D5"
+image = "/img/img/ad8abfc9fc8779c786cc0646098cb57c.jpeg"
 +++
+
 
 ---
 title: Equipe 8
