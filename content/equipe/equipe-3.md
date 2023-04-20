@@ -1,68 +1,60 @@
 +++
-_template = "equipe"
+title = "Equipe 3"
+division = "D1"
 +++
 
----
+***
+
 title: Equipe 3
 saison: 20202021
-image: img/image_50449409.JPG
+image: img/image\_50449409.JPG
 division: D1A
 iframe: https://icbad.ffbad.org/competition/2201888/tableau/3792
 joueurs:
-- nom: Nicolas MARTEL
+
+* nom: Nicolas MARTEL
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
-- nom: Guillaume GEYER
+* nom: Guillaume GEYER
   rankD: ''
   rankMx: ''
   rankS: ''
-  is_captain: true
+  is\_captain: true
   photo: ''
-- nom: Cédric AUBERT
-  rankD: ''
-  rankMx: ''
-  rankS: ''
-  photo: ''
-- nom: Nicolas PIQUET
+* nom: Cédric AUBERT
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
-- nom: Harmony PERENNES
+* nom: Nicolas PIQUET
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
-- nom: Patricia JEANNEAU
+* nom: Harmony PERENNES
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
-- nom: Eva DESCHAMPS
+* nom: Patricia JEANNEAU
+  rankD: ''
+  rankMx: ''
+  rankS: ''
+  photo: ''
+* nom: Eva DESCHAMPS
   rankD: ''
   rankMx: ''
   rankS: ''
   photo: ''
 
----
+***
+
 * Cédric AUBERT ( Capitaine)
-
-
 * Maxence DUMAINE
-
-
 * Guillaume GEYER
-
-
 * Clément PIOCHE
-
-
 * Marta AZCARATE RODRIGUEZ
-
-
 * Cathy BOGNON
-
-
 * Dalila CARON
