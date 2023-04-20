@@ -266,6 +266,13 @@ export default defineConfig({
         },
         fields: [
           ...equipeFields(),
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body of Document",
+            description: "This is the markdown body",
+            isBody: true,
+          },
         ],
       },
       {
