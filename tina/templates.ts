@@ -121,20 +121,21 @@ export function equipeFields() {
       label: "title",
     },
     {
+      type: "string",
+      name: "division",
+      label: "division",
+    },
+    {
       type: "image",
       name: "image",
       label: "image",
     },
     {
       type: "string",
-      name: "division",
-      label: "division",
-    },
-    {
-      type: "string",
       name: "iframe",
       label: "iframe",
     },
+
   ] as TinaField[];
 }
 export function evenementFields() {
