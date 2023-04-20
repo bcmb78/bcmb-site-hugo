@@ -1,5 +1,6 @@
 +++
-_template = "equipe"
+title = "Equipe 3"
+division = "D1"
 +++
 
 ---
