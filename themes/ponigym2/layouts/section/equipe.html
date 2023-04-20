@@ -9,7 +9,7 @@
 					
 						{{ range (where $.Site.RegularPages "Section" "equipe").ByPublishDate}}
 						
-						{{if eq .Params.saison 2020_2021}}
+				
 						<div class="col-lg-3 single-price">
 							<div class="top-part" >
 								<h2 class="package-no set-bg" data-setbg={{ .Params.image | relURL}}></h2>
@@ -32,7 +32,7 @@
 								<a class="price-btn text-uppercase" href={{ .Permalink }}>Details</a>
 							</div>
 						</div>
-						{{end}}
+				
 						{{end}}
 						
 
