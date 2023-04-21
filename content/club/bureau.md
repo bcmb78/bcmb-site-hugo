@@ -1,7 +1,3 @@
-+++
-_template = "bureau"
-+++
-
 ---
 title: Le bureau
 membre:
