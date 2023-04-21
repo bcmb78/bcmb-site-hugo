@@ -29,7 +29,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-5">
                                                     <div class="image_container">
-                                                        <img src="/{{.Params.image}}" alt="" style=" height: 100%;  object-fit: cover;"> 
+                                                        <img src={{.Params.image | relURL}} alt="" style=" height: 100%;  object-fit: cover;"> 
                                                     </div>
                                                     </div>
                                                     <div class="col-lg-7">
