@@ -7,8 +7,6 @@ iframe = "https://icbad.ffbad.org/competition/2200505/tableau/3240"
 
 
 
-***
-
 * Juliette GODART ( Capitaine)
 * Dorine ABRAHAMME
 * Sophie MAS
