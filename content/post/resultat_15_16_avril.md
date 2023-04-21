@@ -1,6 +1,6 @@
 +++
 title = "Resultat du week-end 15/16 Avril"
-image = "img/336684331_157103927011668_1221743306313885302_n.jpg"
+image = "/img/336684331_157103927011668_1221743306313885302_n.jpg"
 categorie = "Tournoi"
 date = 2023-04-20T22:00:00.000Z
 description = """
