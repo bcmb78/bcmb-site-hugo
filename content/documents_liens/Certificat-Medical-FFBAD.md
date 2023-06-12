@@ -1,5 +1,5 @@
 +++
-title = "test"
+title = "Certificat Medical FFBAD"
 
 [[lien]]
 nom = "Certificat Medical FFBAD"
