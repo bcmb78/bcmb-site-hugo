@@ -10,8 +10,8 @@ price = 170
   [[tarif.avantage]]
 
 [[tarif]]
-name = "Inscriptions Adulte"
-price = 180
+name = "Réinscriptions Adulte ( Nouvelle Inscription : 180 eur)"
+price = 170
 
   [[tarif.avantage]]
   name = "Volants en plume fournis pendant les créneaux"
