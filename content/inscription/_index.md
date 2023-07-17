@@ -7,60 +7,60 @@ image: ''
 layout: inscription
 document:
 
-  name: Fiche d'inscription adulte
+  -name: Fiche d'inscription adulte
   file: docs/bcmb\_inscriptions\_Adulte\_21\_22.pdf
   icon: ''
   description: ''
-  name: Fiche d'inscription jeune
+  -name: Fiche d'inscription jeune
   file: docs/bcmb\_inscriptions\_Jeune\_21\_22.pdf
   icon: ''
   description: ''
-* name: Certificat médical
+-name: Certificat médical
   file: docs/ffbad\_certificatmedical.pdf
   icon: ''
   description: ''
-* file: docs/ffbad\_questionnaire\_sante.pdf
+-file: docs/ffbad\_questionnaire\_sante.pdf
   icon: ''
   description: ''
   name: Questionnaire santé
-* name: Fiche sanitaire de liaision (jeune)
+-name: Fiche sanitaire de liaision (jeune)
   file: docs/bcmb\_fiche\_sanitaire\_21\_22.pdf
   icon: ''
   description: ''
-  tarif:
-* name: Réinscription - Adulte Loisir
+tarif:
+-name: Réinscription - Adulte Loisir
   sub: ''
   price: 125
   size: '4'
   avantage:
-  * name: Licence pour compétition individuelle et/ou loisir
-  * name: Accès créneaux loisir
-  * name: Volants plastique
-  * name: 3 tournois offerts
-* name: Réinscription - Adulte Compétiteur
+  -name: Licence pour compétition individuelle et/ou loisir
+  -name: Accès créneaux loisir
+  -name: Volants plastique
+  -name: 3 tournois offerts
+-name: Réinscription - Adulte Compétiteur
   sub: ''
   price: 170
   size: '4'
   avantage:
-  * name: Licence pour championnat et compétitions individuelles
-  * name: Accès créneaux compétiteur
-  * name: Volants plumes
-  * name: 6 tournois offerts
-  * name: Entrainement Mardi (+50€) ou Vendredi (+20€)
-* name: Réinscription - Jeune
+  -name: Licence pour championnat et compétitions individuelles
+  -name: Accès créneaux compétiteur
+  -name: Volants plumes
+  -name: 6 tournois offerts
+  -name: Entrainement Mardi (+50€) ou Vendredi (+20€)
+-name: Réinscription - Jeune
   sub: "  -  "
   price: 120
   size: '4'
   avantage:
-  * name: Licence pour compétition individuelle et/ou loisir
-  * name: Accès créneaux jeunes
-  * name: Volants plumes
-* name: Nouvel adhérent - Adulte
+  -name: Licence pour compétition individuelle et/ou loisir
+  -name: Accès créneaux jeunes
+  -name: Volants plumes
+-name: Nouvel adhérent - Adulte
   sub: Loisir ou Compétiteur
   price: 180
   size: '6'
   avantage: \[]
-* name: Nouvel adhérent - Jeune
+	-name: Nouvel adhérent - Jeune
   sub: ''
   price: 140
   size: '6'
