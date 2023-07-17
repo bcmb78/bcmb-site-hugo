@@ -84,7 +84,7 @@ document:
 
 ## Réinscriptions
 
-Les réinscriptions se font par courrier avant la date limite fixée au 31 Juillet 2022. Merci d'envoyer votre dossier complet à Christine 50 Grande Rue, 78910 Tacoignieres)
+Les réinscriptions se font par courrier avant la date limite fixée au 31 Juillet 2023. Merci d'envoyer votre dossier complet à Christine 50 Grande Rue, 78910 Tacoignieres)
 
 Les inscriptions se font chaque année lors du forum des sport de Montigny-le-Bretonneux.
 
