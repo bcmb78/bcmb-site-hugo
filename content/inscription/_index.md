@@ -7,6 +7,7 @@ price = 125
   name = "Volants en plastique fournis"
 
   [[tarif.avantage]]
+  name = "3 tournois offerts (hors Sky'Bad)"
 
   [[tarif.avantage]]
 
