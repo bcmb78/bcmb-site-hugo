@@ -17,7 +17,7 @@ name = "Compétiteur ( Réinscription : 170 eur)"
 price = 180
 
   [[tarif.avantage]]
-  name = "Volants en plume fournis pendant les créneaux"
+  name = "Volants en plume fournis"
 
   [[tarif.avantage]]
   name = "6 tournois offerts (Hors Sky'Bad)"
