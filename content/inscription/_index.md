@@ -30,6 +30,8 @@ name = "Jeune ( Réinscription : 120)"
 price = 140
 
   [[tarif.avantage]]
+
+  [[tarif.avantage]]
   name = "Volant en plume fournis"
 +++
 
