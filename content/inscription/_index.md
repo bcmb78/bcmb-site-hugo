@@ -24,6 +24,13 @@ price = 180
 
   [[tarif.avantage]]
   name = "3 tubes de volant offerts"
+
+[[tarif]]
+name = "Jeune ( Réinscription : 120)"
+price = 140
+
+  [[tarif.avantage]]
+  name = "Volant en plume fournis"
 +++
 
 ## Réinscriptions
