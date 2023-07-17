@@ -10,6 +10,7 @@ price = 125
   name = "3 tournois offerts (hors Sky'Bad)"
 
   [[tarif.avantage]]
+  name = "1 boite de volant offerte pour un tournoi"
 
 [[tarif]]
 name = "Réinscriptions Adulte ( Nouvelle Inscription : 180 eur)"
