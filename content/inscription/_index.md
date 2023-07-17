@@ -29,7 +29,7 @@ price = 180
   name = ""
 
 [[tarif]]
-name = "Jeune ( Réinscription : 120)"
+name = "Jeune ( Réinscription : 120 eur)"
 price = 140
 
   [[tarif.avantage]]
