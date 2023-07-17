@@ -1,5 +1,13 @@
 +++
 [[tarif]]
+name = "Réinscriptions Adulte"
+price = 170
+
+  [[tarif.avantage]]
+
+  [[tarif.avantage]]
+
+  [[tarif.avantage]]
 
 [[tarif]]
 name = "Inscriptions Adulte"
