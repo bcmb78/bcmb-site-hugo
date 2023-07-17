@@ -6,7 +6,9 @@ price = 170
   [[tarif.avantage]]
 
   [[tarif.avantage]]
-  name = "6 tournois offerts ( Hors Sky'Bad)"
+
+  [[tarif.avantage]]
+  name = "3 tubes de volant offerts sur la saison pour les tournois (Max 1 par tournoi)"
 +++
 
 ## Réinscriptions
