@@ -4,6 +4,7 @@ name = "Réinscriptions Adulte"
 price = 170
 
   [[tarif.avantage]]
+  name = "Volants en plume fournis pendant les créneaux"
 
   [[tarif.avantage]]
 
