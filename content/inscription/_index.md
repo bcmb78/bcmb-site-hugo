@@ -1,7 +1,7 @@
 +++
 [[tarif]]
-name = "Loisirs"
-price = 125
+name = "Loisirs ( Réinscription : 125 eur)"
+price = 180
 
   [[tarif.avantage]]
   name = "Volants en plastique fournis"
