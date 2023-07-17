@@ -1,9 +1,10 @@
 +++
 [[tarif]]
-name = "Réinscriptions Adulte"
-price = 170
+name = "Loisirs"
+price = 125
 
   [[tarif.avantage]]
+  name = "Volants en plastique fournis"
 
   [[tarif.avantage]]
 
