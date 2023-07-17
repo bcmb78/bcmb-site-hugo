@@ -32,7 +32,7 @@ price = 140
   [[tarif.avantage]]
 
   [[tarif.avantage]]
-  name = "Volant en plume fournis"
+  name = "Volants en plume fournis"
 +++
 
 ## Réinscriptions
