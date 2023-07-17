@@ -1,19 +1,17 @@
 +++
 
-+++
 
-***
 
 title: Inscription
 image: ''
 layout: inscription
 document:
 
-* name: Fiche d'inscription adulte
+  name: Fiche d'inscription adulte
   file: docs/bcmb\_inscriptions\_Adulte\_21\_22.pdf
   icon: ''
   description: ''
-* name: Fiche d'inscription jeune
+  name: Fiche d'inscription jeune
   file: docs/bcmb\_inscriptions\_Jeune\_21\_22.pdf
   icon: ''
   description: ''
@@ -80,7 +78,8 @@ document:
   pendant les créneaux.\n\n## Documents pour inscriptions\nLes documents nécessaires
   à inscriptions sont disponibles ici"
 
-***
++++
+
 
 ## Réinscriptions
 
