@@ -4,7 +4,9 @@ name = "Réinscriptions Adulte"
 price = 170
 
   [[tarif.avantage]]
-  name = "Volants en plume fournis à tous les créneaux"
+
+  [[tarif.avantage]]
+  name = "6 tournois offerts ( Hors Sky'Bad)"
 +++
 
 ## Réinscriptions
