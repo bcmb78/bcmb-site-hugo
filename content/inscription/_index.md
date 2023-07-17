@@ -1,7 +1,9 @@
 +++
 [[tarif]]
-name = "Réinscriptions Adulte"
-price = 170
+
+[[tarif]]
+name = "Inscriptions Adulte"
+price = 180
 
   [[tarif.avantage]]
   name = "Volants en plume fournis pendant les créneaux"
