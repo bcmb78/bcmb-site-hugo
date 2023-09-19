@@ -6,8 +6,9 @@ date = 2023-11-04T23:00:00.000Z
 end_date = 2023-11-05T23:00:00.000Z
 lieu = "Gymnase Pierre de Coubertin"
 categorie = "tournoi_adulte"
-poster = "/img/bcmbskybad.jpg"
+poster = ""
 reglement = "/img/SkyBad15_Reglement_particulierV2.pdf"
+image = "/img/bcmbskybad.jpg"
 +++
 
 Le BCMB organise la 15ème édition de son tournoi du Sky'Bad les 4 et 5 Novembre 2023.
