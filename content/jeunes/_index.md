@@ -8,9 +8,9 @@ text: |-
   
   #### Labélisation EFB
   
-  Pour la saison 2021-2022, le BCMB a obtenu une nouvelle fois la labellisation Deuxieme etoile de son Ecole de Badminton.
+  Pour la saison 2023-2024, le BCMB a obtenu la labellisation une étoile de son Ecole de Badminton.
   
-  ![EFB 2 etoiles](/static/img/EFB_2Etoiles_2021.png)
+  ![EFB 2 etoiles](/static/img/efb_1_etoile.png)
   
 
 ---
