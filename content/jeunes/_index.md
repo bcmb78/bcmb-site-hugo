@@ -10,7 +10,6 @@ text: |-
   
   Pour la saison 2023-2024, le BCMB a obtenu la labellisation une étoile de son Ecole de Badminton.
   
-  ![EFB 2 etoiles](/static/img/efb_1_etoile.png)
   
 
 ---
