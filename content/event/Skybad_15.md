@@ -7,6 +7,7 @@ end_date = 2023-11-05T23:00:00.000Z
 lieu = "Gymnase Pierre de Coubertin"
 categorie = "tournoi_adulte"
 poster = ""
+fiche_inscription = "https://badnet.fr/tournoi/public?eventid=20290"
 reglement = "/img/SkyBad15_Reglement_particulierV2.pdf"
 image = "/img/bcmbskybad.jpg"
 +++
