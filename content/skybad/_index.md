@@ -8,8 +8,8 @@ thumbnail = "/img/IMG_1060.JPG"
 
 [[albums]]
 title = "SkyBad 14"
-link = "https://photos.google.com/u/1/album/AF1QipPY64aoBmbvJZU8RGVjsbtvJNHwLOkPyBRqcvjp"
-thumbnail = "/imgimg/whatsapp-image-2022-11-27-at-18-25-49-1.jpeg"
+link = "https://photos.google.com/u/1/share/AF1QipMslkoEb33snlLyLy3qsGs9Nab4B6I95V66SPoCGatwvZ_z_olRSfoLHlk2Vh0ajQ?key=U3FwZ0lXbGM1RFRQM0NlX1dCWWplMUJiaVVHTmlR"
+thumbnail = "/img/20211106_161248.jpg"
 
 [[albums]]
 title = "Skybad 13"
