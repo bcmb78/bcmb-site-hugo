@@ -1,7 +1,7 @@
 ---
 horaire:
-- description: 'Jeunes compétiteurs: Benjamins / Minimes test'
-  heure: 18h30 - 20h00
+- description: 'Jeunes compétiteurs: Benjamins / Minimes test hugi'
+  heure: 18h30 - 20h00 testhugo
   jour: Lundi
   lieu: Jean Maréchal
 - description: Adultes Compétiteurs 1 - Jeu libre
