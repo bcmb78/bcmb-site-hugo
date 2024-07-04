@@ -2,7 +2,7 @@
 _template = "post"
 +++
 
-Le Badminton test 7 Club de Montigny le Bretonneux (BCMB) a été créé en 1983 et comptait alors 40 adhérents ainsi qu'une équipe en championnat interclubs. Au fil des ans les effectifs ont grimpé et atteignent désormais les 260 joueurs. Tous les pratiquants sont les bienvenus et les créneaux adaptés selon le profil des joueurs, jeunes, adultes loisirs ou compétiteurs.
+Le Badminton Club de Montigny le Bretonneux (BCMB) a été créé en 1983 et comptait alors 40 adhérents ainsi qu'une équipe en championnat interclubs. Au fil des ans les effectifs ont grimpé et atteignent désormais les 260 joueurs. Tous les pratiquants sont les bienvenus et les créneaux adaptés selon le profil des joueurs, jeunes, adultes loisirs ou compétiteurs.
 
 A force de progression dans le championnat interclub compte maintenant 8 équipes évoluant en interclubs en championnat Régional et championnat Départemental.
 
