@@ -1,6 +1,6 @@
 ---
 horaire:
-- description: 'Jeunes compétiteurs: Benjamins / Minimes test hugo'
+- description: 'Jeunes compétiteurs: Benjamins / Minimes test hugo outain'
   heure: 18h30 - 20h00
   jour: Lundi
   lieu: Jean Maréchal
