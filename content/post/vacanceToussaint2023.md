@@ -12,7 +12,7 @@ Vendredi 27 Octobre
 Lundi 30 Octobre"""
 +++
 
-Les vacances de la Toussaint approchent et j’ai le plaisir de vous annoncer qu’il y aura des créneaux jeu libre à Maréchal de 19h à 22H pour les adultes (loisirs et compétiteurs) les :
+-Les vacances de la Toussaint approchent et j’ai le plaisir de vous annoncer qu’il y aura des créneaux jeu libre à Maréchal de 19h à 22H pour les adultes (loisirs et compétiteurs) les :
 
 * Lundi 23 Octobre
 * Mercredi 25 Octobre
