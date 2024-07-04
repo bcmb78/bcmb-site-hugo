@@ -1,8 +1,8 @@
 ---
 horaire:
 - description: 'Jeunes compétiteurs: Benjamins / Minimes test'
-  heure: 18h30 - 20h00
-  jour: Lundi
+  heure: 18h30 - 20h00 test
+  jour: Lundi tet
   lieu: Jean Maréchal
 - description: Adultes Compétiteurs 1 - Jeu libre
   heure: 20h00 - 22h30
