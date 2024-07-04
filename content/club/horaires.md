@@ -1,6 +1,6 @@
 ---
 horaire:
-- description: 'Jeunes: Benjamins / Minimes'
+- description: 'Jeunes compétiteurs: Benjamins / Minimes'
   heure: 18h30 - 20h00
   jour: Lundi
   lieu: Jean Maréchal
