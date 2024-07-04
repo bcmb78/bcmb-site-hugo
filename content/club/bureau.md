@@ -34,7 +34,7 @@ membre:
   fonction: Responsable Volants
   image: "/img/bureau/marta.png"
   mail: [bcmb.volants@gmail.com](mailto:bcmb.volants@gmail.com)
-* nom: Timothee test
+* nom: Timothee
   fonction: Communication
   image: img/timselfie.jpg
   mail: [bcmb.communication@gmail.com](mailto:bcmb.communication@gmail.com)
