@@ -62,10 +62,10 @@ lien:
   icon: ''
   description: ''
   nom: Fiche sanitaire de liaision (JEUNE)
-  fichier: img/bcmb\_fiche\_sanitaire\_22\_23.pdf
+  fichier: "
   icon: ''
   description: ''
-  lien\_externe: ''
+  lien\_externe: '[https://www.ffbad.org/pratiquer-se-licencier-licence](https://www.ffbad.org/pratiquer-se-licencier-licence)
 * nom: Compte rendu AG 2021
   fichier: [https://bad-montigny.fr/docs/PV\_AG\_BCMB\_2020\_2021\_définitif.pdf](https://bad-montigny.fr/docs/PV_AG_BCMB_2020_2021_d%C3%A9finitif.pdf)
   lien\_externe: ''
