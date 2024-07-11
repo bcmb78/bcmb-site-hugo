@@ -56,14 +56,12 @@ lien:
 * fichier: ''
   icon: ''
   description: ''
-  nom: Questionnaire santé ADULTES
-  lien\_externe: [https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer](https://echange.ffbad.org/index.php/s/gwxR3oAB8JMWQnc#pdfviewer)
+  nom: Questionnaire santé 
+  lien\_externe: [https://www.ffbad.org/pratiquer-se-licencier-licence](https://www.ffbad.org/pratiquer-se-licencier-licence)
 * fichier: ''
   icon: ''
   description: ''
-  nom: Questionnaire santé MINEURS
-  lien\_externe: [https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer](https://echange.ffbad.org/index.php/s/fLDrPAzzi3pmNbw#pdfviewer)
-* nom: Fiche sanitaire de liaision (JEUNE)
+  nom: Fiche sanitaire de liaision (JEUNE)
   fichier: img/bcmb\_fiche\_sanitaire\_22\_23.pdf
   icon: ''
   description: ''
