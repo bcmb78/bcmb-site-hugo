@@ -23,7 +23,7 @@ price = 190
   name = "Volants en plume fournis"
 
   [[tarif.avantage]]
-  name = "6 tournois offerts (Hors Sky'Bad)"
+  name = "compétitions officielles offertes"
 
   [[tarif.avantage]]
   name = ""
