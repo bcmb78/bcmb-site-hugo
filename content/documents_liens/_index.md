@@ -29,8 +29,8 @@ lien:
   fichier: img/pv-ag-bcmb\_2021-2022\_v2.pdf
   lien\_externe: ''
 * nom: Règlement Intérieur
-  fichier: [https://assets.tina.io/276dd2ef-f115-4a6e-811b-b9532ee5fc25/BCMB - Règlement Intérieur\_2024-2025.pdf](https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf)
-  lien\_externe: ''
+  fichier: "
+  lien\_externe: [https://assets.tina.io/276dd2ef-f115-4a6e-811b-b9532ee5fc25/BCMB - Règlement Intérieur\_2024-2025.pdf](https://bad-montigny.fr/docs/bcmb_reglementinterieur_21_22.pdf)
 * nom: Règlement Tournois
   fichier: [https://bad-montigny.fr/docs/reglement\_tournois\_21\_22.pdf](https://bad-montigny.fr/docs/reglement_tournois_21_22.pdf)
   lien\_externe: ''
