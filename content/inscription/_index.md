@@ -1,13 +1,13 @@
 +++
 [[tarif]]
-name = "Loisirs ( Réinscription : 125 eur)"
-price = 180
+name = "Loisirs ( Réinscription : 135 eur)"
+price = 190
 
   [[tarif.avantage]]
   name = "Volants en plastique fournis"
 
   [[tarif.avantage]]
-  name = "3 tournois offerts (hors Sky'Bad)"
+  name = "compétitions officielles offertes"
 
   [[tarif.avantage]]
   name = "1 boite de volant offerte pour un tournoi"
