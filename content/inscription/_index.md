@@ -10,7 +10,7 @@ price = 190
   name = "compétitions officielles offertes"
 
   [[tarif.avantage]]
-  name = "1 boite de volants offerte pour un tournoi"
+  name = "1 boite de volants offerte pour les tournois"
 
 [[tarif]]
 name = "Compétiteur ( Réinscription : 180 eur)"
