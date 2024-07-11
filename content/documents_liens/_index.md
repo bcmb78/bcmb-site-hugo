@@ -52,17 +52,17 @@ lien:
   fichier: ''
   icon: ''
   description: ''
-  lien\_externe: [https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer](https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer)
+  lien\_externe: [https://assets.tina.io/276dd2ef-f115-4a6e-811b-b9532ee5fc25/BCMB - Règlement Intérieur\_2024-2025.pdf](https://echange.ffbad.org/index.php/s/nMxERAsff788dm6#pdfviewer)
 * fichier: ''
   icon: ''
   description: ''
   nom: Questionnaire santé ADULTES
-  lien\_externe: [https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer](https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer)
+  lien\_externe: [https://echange.ffbad.org/index.php/s/ZyzDYME9ZN646qF#pdfviewer](https://echange.ffbad.org/index.php/s/gwxR3oAB8JMWQnc#pdfviewer)
 * fichier: ''
   icon: ''
   description: ''
   nom: Questionnaire santé MINEURS
-  lien\_externe: [https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer](https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer)
+  lien\_externe: [https://echange.ffbad.org/index.php/s/CweJfDCycwDjWZt#pdfviewer](https://echange.ffbad.org/index.php/s/fLDrPAzzi3pmNbw#pdfviewer)
 * nom: Fiche sanitaire de liaision (JEUNE)
   fichier: img/bcmb\_fiche\_sanitaire\_22\_23.pdf
   icon: ''
