@@ -13,11 +13,11 @@ price = 190
   name = "1 boite de volant offerte pour un tournoi"
 
 [[tarif]]
-name = "Compétiteur ( Réinscription : 170 eur)"
-price = 180
+name = "Compétiteur ( Réinscription : 180 eur)"
+price = 190
 
   [[tarif.avantage]]
-  name = "Créneau Entrainement ( + 60eur)"
+  name = "Créneau Entrainement ( + 100eur)"
 
   [[tarif.avantage]]
   name = "Volants en plume fournis"
