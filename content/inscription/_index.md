@@ -29,8 +29,8 @@ price = 190
   name = "2 boites de volants offertes pour un tournoi"
 
 [[tarif]]
-name = "Jeune ( Réinscription : 120 eur)"
-price = 140
+name = "Jeune ( Réinscription : 130 eur)"
+price = 150
 
   [[tarif.avantage]]
   name = "Créneau entrainement ( +30 eur)"
