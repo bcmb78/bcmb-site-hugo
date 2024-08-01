@@ -3,7 +3,7 @@ title = "Créneaux pré-saison 2024"
 image = "/img/reprise_du_badminton-1.jpg"
 categorie = "Vie du club"
 date = 2024-07-31T22:00:00.000Z
-description = "Des créneaux de jeu libre aout 2024"
+description = "Des créneaux de jeu libre seront ouverts sur le mois d'aout 2024"
 +++
 
 Bonjour à tous,
