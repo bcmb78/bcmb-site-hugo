@@ -7,7 +7,7 @@ signature = "Stéphane, pour le BCMB"
 
 Bonjour à tous,
 
-Des créneaux de jeu libre seront ouverts sur le mois d'aout au dates suivantes:
+Des créneaux de jeu libre seront ouverts sur le mois d'aout au dates suivantes (gymnase Jean Maréchal) :
 
 * lundi 19 20h-22h
 * mercredi 21 20h-22h
