@@ -1,6 +1,7 @@
 +++
 title = "Créneaux pré-saison 2024"
 date = 2024-07-31T22:00:00.000Z
+image = "/img/reprise_du_badminton-1.jpg"
 formule = "Sportivement,"
 signature = "Stéphane, pour le BCMB"
 +++
