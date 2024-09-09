@@ -30,7 +30,7 @@ membre:
   mail: bcmb.volants@gmail.com
 - nom: Stéphane
   fonction: Communication
-  image: img/timselfie.jpg
+  image: img/stephane.jpg
   mail: bcmb.communication@gmail.com
 
 ---
