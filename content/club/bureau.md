@@ -28,7 +28,7 @@ membre:
   fonction: Responsable Volants
   image: "/img/bureau/marta.png"
   mail: bcmb.volants@gmail.com
-- nom: Timothee1
+- nom: Stéphane
   fonction: Communication
   image: img/timselfie.jpg
   mail: bcmb.communication@gmail.com
