@@ -12,7 +12,7 @@ reglement = "/img/SkyBad15_Reglement_particulierV2.pdf"
 image = "/img/bcmbskybad.jpg"
 +++
 
-Le BCMB organise la 15ème édition de son tournoi du Sky'Bad les 4 et 5 Novembre 2023.
+Le BCMB organise la 15ème édition de son tournoi du Sky'Bad les 4 et 5 Novembre 2024.
 
 \* 4 séries : S1-S2-S3-S4 - Classement N3 au maximum.
 
