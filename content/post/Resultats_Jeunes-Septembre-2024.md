@@ -15,6 +15,5 @@ Belle 2ème place pour Titouan et Nathan (Poule A Cadets)"""
 
 Résultats du tournoi DUO les 28 & 29 septembre 2024:
 
-Belle victoire de Laure et Claire (1ère de la poule C en minimes)
-
-Belle 2ème place pour Titouan et Nathan (Poule A Cadets)
+* Belle victoire de Laure et Claire (1ère de la poule C en minimes)
+* Belle 2ème place pour Titouan et Nathan (Poule A Cadets)
