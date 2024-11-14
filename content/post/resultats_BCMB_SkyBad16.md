@@ -1,5 +1,6 @@
 +++
 title = "Résultats BCMB SkyBad16"
+image = "/img/Affiche - Sky'Bad 16.png"
 categorie = "Tournoi"
 date = 2024-11-07T23:00:00.000Z
 description = """
