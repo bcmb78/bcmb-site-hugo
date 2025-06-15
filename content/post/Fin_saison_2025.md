@@ -1,5 +1,6 @@
 +++
 title = "Fin de saison 2024/2025"
+image = "/img/404.jpg"
 categorie = "Vie du club"
 date = 2025-06-14T22:00:00.000Z
 description = """
