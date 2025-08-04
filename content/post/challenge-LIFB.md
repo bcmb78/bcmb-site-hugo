@@ -1,5 +1,6 @@
 +++
 title = "Challenge licence LIFB 2025"
+image = "/img/comite78.svg"
 categorie = "Vie du club"
 date = 2025-08-03T22:00:00.000Z
 description = """
