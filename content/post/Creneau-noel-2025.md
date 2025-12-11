@@ -1,6 +1,7 @@
 +++
 title = "Créneaux BCMB fin d'année 2025"
 image = "/img/005528i2bb.jpg"
+categorie = "Vie du club"
 date = 2025-12-10T23:00:00.000Z
 description = """
 Voici l'organisation des créneaux pour cette fin d'année 2025:
