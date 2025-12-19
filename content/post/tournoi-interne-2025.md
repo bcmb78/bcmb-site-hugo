@@ -16,4 +16,4 @@ Enfin, nous vous proposons de nous réunir le samedi soir dès 20h pour une soi
 
 Vous devez amener vos écocups pour le tournoi ET la soirée.
 
-Pour participer, c'est simple ... il suffit de vous inscrire avant le 5 Janvier, [ici ](https://docs.google.com/forms/d/e/1FAIpQLScRHsp2Er-79IcJsp2Gn5mHErGqS06xt3NaCZODet-QnZrvQw/viewform?usp=dialog "https://docs.google.com/forms/d/e/1FAIpQLScRHsp2Er-79IcJsp2Gn5mHErGqS06xt3NaCZODet-QnZrvQw/viewform?usp=dialog"): [https://docs.google.com/forms/d/e/1FAIpQLScRHsp2Er-79IcJsp2Gn5mHErGqS06xt3NaCZODet-QnZrvQw/viewform?usp=dialog](https://docs.google.com/forms/d/e/1FAIpQLScRHsp2Er-79IcJsp2Gn5mHErGqS06xt3NaCZODet-QnZrvQw/viewform?usp=dialog)
+Pour participer, c'est simple ... il suffit de vous inscrire avant le 5 Janvier, [ici ](https://docs.google.com/forms/d/e/1FAIpQLScRHsp2Er-79IcJsp2Gn5mHErGqS06xt3NaCZODet-QnZrvQw/viewform?usp=dialog "https://docs.google.com/forms/d/e/1FAIpQLScRHsp2Er-79IcJsp2Gn5mHErGqS06xt3NaCZODet-QnZrvQw/viewform?usp=dialog")
