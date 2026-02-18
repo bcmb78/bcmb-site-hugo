@@ -10,7 +10,7 @@ Les vacances d'hiver arrivent à grands pas et voici les créneaux jeu libre qui
 - Vendredi 27/02 : adultes Loisirs + compétiteurs C1 + compétiteur C1.5
 - Lundi 2/03 : compétiteurs
 - Mercredi 4/03 :  adultes Loisirs + compétiteurs C2 + compétiteur C1.5
-- Vendredi 6/03 : 4 terrains pour adulte Loisirs + compétiteurs / 3 terrains pour une rencontre amicale équipe BCMB1 contre Elancourt
+- Vendredi 6/03 : 4 terrains pour adulte Loisirs + compétiteurs C1 & 3 terrains pour une rencontre amicale équipe BCMB1 contre Elancourt
 
 Tous ces créneaux sont au gymnase Jean Maréchal de 19h à 22h."""
 +++
@@ -27,7 +27,7 @@ Les vacances d'hiver arrivent à grands pas et voici les créneaux jeu libre qui
 
 \- Mercredi 4/03 :  adultes Loisirs + compétiteurs C2 + compétiteur C1.5
 
-\- Vendredi 6/03 : 4 terrains pour adulte Loisirs + compétiteurs / 3 terrains pour une rencontre amicale équipe BCMB1 contre Elancourt
+\- Vendredi 6/03 : 4 terrains pour adulte Loisirs + compétiteurs C1 &  3 terrains pour une rencontre amicale équipe BCMB1 contre Elancourt
 
 Tous ces créneaux sont au gymnase Jean Maréchal de 19h à 22h.
 
