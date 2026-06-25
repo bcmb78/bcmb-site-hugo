@@ -41,7 +41,7 @@ price = 150
 
 ## Réinscriptions
 
-Les réinscriptions se font via Hello Asso avant la date limite fixée au 10 aout 2024.
+Les réinscriptions se font via Hello Asso avant la date limite fixée au 10 aout 2026.
 
 Les inscriptions se font chaque année lors du forum des sport de Montigny-le-Bretonneux.
 
