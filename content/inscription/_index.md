@@ -13,8 +13,8 @@ price = 195
   name = ""
 
 [[tarif]]
-name = "Compétiteur ( Réinscription : 180 eur)"
-price = 190
+name = "Compétiteur ( Réinscription : 195 eur)"
+price = 235
 
   [[tarif.avantage]]
   name = "Créneau Entrainement (+100eur)"
@@ -26,7 +26,7 @@ price = 190
   name = "compétitions officielles offertes"
 
   [[tarif.avantage]]
-  name = "2 boites de volants offertes pour les tournois"
+  name = ""
 
 [[tarif]]
 name = "Jeune ( Réinscription : 130 eur)"
