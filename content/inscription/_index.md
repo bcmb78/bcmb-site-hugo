@@ -29,11 +29,11 @@ price = 235
   name = ""
 
 [[tarif]]
-name = "Jeune ( Réinscription : 130 eur)"
-price = 150
+name = "Jeune ( Réinscription : 140 eur)"
+price = 160
 
   [[tarif.avantage]]
-  name = "Créneau entrainement ( +30 eur)"
+  name = "Créneau entrainement ( +50 eur)"
 
   [[tarif.avantage]]
   name = "Volants en plume fournis"
