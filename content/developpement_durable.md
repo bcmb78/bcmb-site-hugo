@@ -10,7 +10,7 @@ text: "\n"
 date: 2020-09-01T14:08:15.000+02:00
 description: |-
 
-## Recyclage des volants !
+## Recyclage des volants !!
 
 Chaque année nous consommons beaucoup de volants qui finissent la plupart du temps à la poubelle. Dans une démarche eco-responsable nous avons décidé de mettre en place le recyclage des volants en participant à l'opération Ramasse ton Volant lancée par Alionax.
 
